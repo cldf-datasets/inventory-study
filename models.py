@@ -1,4 +1,5 @@
 import attr
+from tqdm import tqdm
 
 
 @attr.s
@@ -20,6 +21,11 @@ class Language:
 
     def __len__(self):
         return len(self.forms)
+
+def progressbar(function, desc=''):
+
+    return tqdm(function, desc=desc)
+
 
 
 @attr.s

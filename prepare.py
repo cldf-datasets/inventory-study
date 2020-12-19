@@ -9,18 +9,25 @@ from pathlib import Path
 from collections import defaultdict
 from models import Language, wals_3a
 from tqdm import tqdm
+from pyclts.util import nfd
+from pyclts.transcriptionsystem import is_valid_sound
 
 def progressbar(function, desc=''):
 
     return tqdm(function, desc=desc)
 
-# load basic data
-clts = CLTS()
-bipa = clts.transcriptionsystem_dict['bipa']
+def normalize(grapheme):
+    for s, t in [
+            ('\u2019', '\u02bc')
+            ]:
+        grapheme = grapheme.replace(s, t)
+    return grapheme
+
 
 
 def get_cldf_varieties(dataset):
     
+    bipa = CLTS().bipa
     dset = get_dataset(dataset).cldf_reader()
     languages = {row['ID']: row for row in dset.iter_rows('LanguageTable')}
     params = {row['Name']: row for row in dset.iter_rows('ParameterTable')}
@@ -28,7 +35,7 @@ def get_cldf_varieties(dataset):
     varieties = defaultdict(list)
     for row in progressbar(dset.iter_rows('ValueTable'), desc='load values'):
         lid = row['Language_ID']
-        varieties[lid] += [row['Value']]
+        varieties[lid] += [nfd(row['Value'])]
     return languages, params, varieties
 
 
@@ -37,7 +44,7 @@ def get_phoible_varieties(
         path=Path.home().joinpath('data', 'datasets', 'cldf', 'cldf-datasets',
             'phoible', 'cldf'),
         ):
-
+    bipa = CLTS().bipa
     # load phoible data
     phoible = pycldf.Dataset.from_metadata(
             path.joinpath('StructureDataset-metadata.json'))
@@ -46,32 +53,43 @@ def get_phoible_varieties(
     params = {row['Name']: row for row in phoible.iter_rows('ParameterTable')}
     contributions = {row['ID']: row['Contributor_ID'] for row in
             phoible.iter_rows('contributions.csv')}
-    
-    td = clts.transcriptiondata_dict['phoible']
-    bipa = clts.transcriptionsystem_dict['bipa']
-    
+        
     languages = {}
     varieties = defaultdict(list)
     for row in progressbar(phoible.iter_rows('ValueTable'), desc='load values'):
         if contributions[row['Contribution_ID']] in subsets:
             lid = row['Language_ID']+'-'+row['Contribution_ID']
-            varieties[lid] += [row['Value']]
+            varieties[lid] += [nfd(row['Value'])]
             languages[lid] = gcodes[row['Language_ID']]
     return languages, params, varieties
 
 
 
-def load_dataset(dataset):
+def load_dataset(dataset, td=None, clts=None):
+    clts = clts or CLTS()
+
+    if not td:
+        td = dataset
     
     if dataset in ['UZ-PH-GM', 'UPSID']:
         dset_td = clts.transcriptiondata_dict['phoible']
         languages, params, varieties = get_phoible_varieties(dataset)
     else:
-        dset_td = clts.transcriptiondata_dict[dataset]
+        dset_td = clts.transcriptiondata_dict[td]
         languages, params, varieties = get_cldf_varieties(dataset)
     
+    for sound in list(dset_td.grapheme_map):
+        dset_td.grapheme_map[normalize(sound)] = dset_td.grapheme_map[sound]
+    
     inventories = {}
+    count = 0
+    soundsD = defaultdict(int)
     for var, vals in progressbar(varieties.items(), desc='identify inventories'):
+        for sound in vals:
+            if sound not in dset_td.grapheme_map:
+                bsound = bipa[sound]
+                if bsound.type != 'unknownsound' and is_valid_sound(bsound, bipa):
+                    dset_td.grapheme_map[sound] = bipa[sound].s
         if len(vals) == len(
                 [v for v in vals if dset_td.grapheme_map.get(v, '<NA>') != '<NA>']
                 ):
@@ -105,6 +123,16 @@ def load_dataset(dataset):
                         language=lang,
                         ts=bipa)
                 inventories[var] = inv
+        else:
+            for sound in vals:
+                if sound not in dset_td.grapheme_map or dset_td.grapheme_map[sound] == '<NA>':
+                    soundsD[sound] += 1
+            count += 1
+    print('[i] excluded {0} inventories for {1}'.format(count, dataset))
+    print('Problematic sounds: {0}'.format(len(soundsD)))
+    for s, count in sorted(soundsD.items(), key=lambda x: x[1]):
+        print('{0:8} \t| {1}'.format(s, count))
+    input()
     
     count = 0
     with open(dataset+'-data.tsv', 'w') as f:
@@ -137,9 +165,14 @@ def load_dataset(dataset):
 
 
 
+# load basic data
+clts = CLTS()
+bipa = clts.transcriptionsystem_dict['bipa']
 
 
-
-
+print('eurasianinventories')
+load_dataset('eurasianinventories', td='eurasian')
 for ds in ['UPSID', 'lapsyd', 'jipa', 'UZ-PH-GM']:
+    print(ds)
     load_dataset(ds)
+

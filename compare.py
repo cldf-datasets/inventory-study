@@ -3,8 +3,11 @@ from scipy.stats import pearsonr, spearmanr
 from collections import defaultdict
 from matplotlib import pyplot as plt
 from tabulate import tabulate
-from statistics import median
-from itertools import combinations
+from statistics import median, mean
+from itertools import combinations, product
+from pyclts.inventories import Inventory
+from pyclts import CLTS
+from models import progressbar
 
 
 def to_dict(path, parameters):
@@ -27,6 +30,42 @@ def to_dict(path, parameters):
     return data, gcodes, values
 
 
+def inventories(path, ts):
+    with UnicodeDictReader(path+'-data.tsv', delimiter='\t') as reader:
+        data = {row['ID']: row for row in reader}
+    gcodes = defaultdict(list)
+    for row in data.values():
+        gcodes[row['Glottocode']] += [Inventory.from_list(
+            *row['Phonemes'].split(' '),
+            language=row['ID'],
+            ts=ts)]
+    return gcodes
+
+
+def deltas(lstA, lstB):
+    score = 0
+    for a, b in zip(lstA, lstB):
+        score += abs(a - b)
+    return score / len(lstA)
+
+
+def compare_inventories(dctA, dctB, aspects, similarity='strict'):
+    scores = []
+    for code in dctB:
+        if code in dctA:
+            invsA, invsB = dctA[code], dctB[code]
+            score = []
+            for invA, invB in product(invsA, invsB):
+                if similarity == 'strict':
+                    score += [invA.strict_similarity(invB, aspects=aspects)]
+                else:
+                    score += [invA.approximate_similarity(invB, aspects=aspects)]
+            score = mean(score)
+            scores += [score]
+    return mean(scores)
+
+bipa = CLTS().bipa
+
 parameters = ['Sounds', 'Consonants', 'Vowels', 'Consonantal', 'Vocalic', 'Ratio']
 
 (
@@ -36,6 +75,13 @@ parameters = ['Sounds', 'Consonants', 'Vowels', 'Consonantal', 'Vocalic', 'Ratio
         (stm_data, stm_codes, stm)
         ) = [to_dict(ds, parameters) for ds in [
             'jipa', 'lapsyd', 'UPSID', 'UZ-PH-GM']]
+
+
+jpaD, lpsD, upsD, stmD = (
+        inventories('jipa', bipa),
+        inventories('lapsyd', bipa),
+        inventories('UPSID', bipa),
+        inventories('UZ-PH-GM', bipa))
 
 idxs = {
         0: [0, 0],
@@ -55,8 +101,11 @@ idxs = {
         14: [4, 2],
         }
 
-for (nameA, dataA), (nameB, dataB) in combinations(
-        [('Phoible', stm), ('JIPA', jpa), ('LAPSYD', lps), ('UPSID', ups)], r=2):
+
+
+for (nameA, dataA, dictA), (nameB, dataB, dictB) in progressbar(combinations(
+        [('Phoible', stm, stmD), ('JIPA', jpa, jpaD), ('LAPSYD', lps, lpsD),
+            ('UPSID', ups, upsD)], r=2)):
 
     fig, axs = plt.subplots(2, 3)
     table = []
@@ -71,10 +120,18 @@ for (nameA, dataA), (nameB, dataB) in combinations(
                 values += [gcode]
         if values:
             p, r = spearmanr(lstA, lstB)
+            d = deltas(lstA, lstB)
+            if param in ['Sounds', 'Consonants', 'Vowels']:
+                strict = compare_inventories(dictA, dictB, aspects=[param.lower()])
+                approx = compare_inventories(dictA, dictB,
+                        aspects=[param.lower()], similarity='approximate')
+            else:
+                strict = 0
+                approx = 0
             this_ax = axs[idxs[i][0], idxs[i][1]]
             this_ax.plot(lstA, lstB, '.')
             this_ax.set(title=param)
-            table += [[param, p, r, len(values)]]
+            table += [[param, p, r, d, strict, approx, len(values)]]
     for ax in axs.flat:
         ax.set(xlabel=nameA)
         ax.set(ylabel=nameB)
@@ -82,6 +139,7 @@ for (nameA, dataA), (nameB, dataB) in combinations(
     print('\n# {0} / {1}'.format(nameA, nameB))
     print(tabulate(
         table, floatfmt='.4f', 
-        headers=['Correlation', 'P-Value', 'Sample']
+        headers=['Correlation', 'P-Value', 'Deltas', 'StrictSim', 'ApproxSim', 'Sample']
         ))
+
 
