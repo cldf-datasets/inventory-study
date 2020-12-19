@@ -2,6 +2,7 @@ ID	Name	Glottocode	Family	Macroarea	Latitude	Longitude	Sounds	Consonants	Vowels	
 nuuchahnulth	Nuuchahnulth	nuuc1236	Wakashan	North America	49.67	-126.67	42	34	8	0	0	34	8	4.25	p t k kʷ q qʷ ʔ m n s ʃ x xʷ χ χʷ ħ h ts tʃ ɬ tɬ j w pʼ tʼ kʼ kʼʷ tsʼ tʃʼ tɬʼ ˀm ˀn ʔʲ ʔʷ iː i uː u aː a ɛː ɔː
 cypriotgreek	Cypriot Greek	cypr1249	Indo-European	Eurasia	34.924591	32.978113	23	18	5	0	0	18	5	3.6	p t k f v θ ð s z ʃ ʒ x ɣ tʃ m n ɾ l i ɛ ɐ ɔ u
 hungarian	Hungarian	hung1274	Uralic	Eurasia	46.9068585714	19.6555271429	68	50	18	0	0	50	18	2.7777777777777777	p b t d k g ts dz tʃ dʒ cç ɟʝ m n ɲ f v s z ʃ ʒ h r j l pː bː tː dː kː gː tsː dzː tʃː dʒː cçː ɟʝː mː nː ɲː fː vː sː zː ʃː ʒː hː rː jː lː iː i yː y øː ø eː eˑ ɛ uː u oː oˑ o ɑ aː ɑː ɛː
+jicarillaapache	Jicarilla Apache	jica1244	Athabaskan-Eyak-Tlingit	North America	36.8079	-107.007	52	34	18	0	0	34	18	1.8888888888888888	tʰ kʰ kʷʰ p t d k kʷ ʔ tsʰ tʃʰ ts tʃ tɬʰ tɬ m n j l s z ʃ ʒ x ɣ xʷ ɣʷ ɬ h tʼ kʼ tsʼ tʃʼ tɬʼ iː i ɛː ɛ aː a oː o ɪ ʊ ĩ ɛ̃ ã õ ĩː ɛ̃ː ãː õː
 dariafghanpersianinformal	Dari Afghan Persian Informal	dari1249	Indo-European	Eurasia	31.0405	67.3593	35	23	8	0	4	23	12	2.875	p b t d k g q m n f s z ʃ ʒ x ɣ h tʃ dʒ ɾ w j l i e ɛ ɐ ʌ ʊ o u ɐi ɐu ʌi ui
 irish	Irish	iris1253	Indo-European	Eurasia	53.2186	-7.61509	50	35	12	0	3	35	15	2.9166666666666665	pˠ bˠ pʲ bʲ t̪ˠ d̪ˠ tʲ dʲ c ɟ k g fˠ w fʲ vʲ sˠ ɕ ç j x ɣ h mˠ mʲ n̪ˠ n nʲ ɲ ŋ ɾˠ ɾʲ l̪ˠ l lʲ i e ɛ æ a ɔ ʌ ə ɤ ɪ u o ia ua au
 chinesehongkongcantonese	Chinese (Hong Kong Cantonese)	yuec1235	Sino-Tibetan	Eurasia	23.0	113.0	54	20	19	0	15	20	34	1.0526315789473684	p pʰ t tʰ k kʰ kʷ kʷʰ m n ŋ r f s h w j l ts tsʰ i iː y yː ɪ ɛ ɛː œ œː ɵ ɵː a aː ɐ ɔ ɔː u uː ʊ ai aːi ɐi au aːu ɐu ei ɵy ɔi ɔːi ui uːi iu iːu ou
@@ -14,6 +15,7 @@ standardaustriangerman	Standard Austrian German	bava1246	Indo-European	Eurasia	4
 southeasternpashayi	Southeastern Pashayi	sout2672	Indo-European	Eurasia	34.66597	70.592042	40	29	11	0	0	29	11	2.6363636363636362	p b t d ʈ ɖ k g q m n ɳ f s z ʃ ʒ ʂ x ɣ h ɬ tʃ dʒ r ɽ w j l i iː e eː a ɑ ɑː o oː ʊ uː
 gayo	Gayo	gayo1244	Austronesian	Papunesia	4.3733	97.3456	27	19	8	0	0	19	8	2.375	p b t d k g ʔ s h tʃ dʒ j w m n ɲ ŋ r l i e ɛ ə u o ɔ a
 kabiye	Kabiye	kabi1261	Atlantic-Congo	Africa	8.96816	0.495023	51	26	25	0	0	26	25	1.04	p b t d ʈ ɖ k g kp gb tʃ dʒ m n ɲ ŋ r ɽ f v s z h j w l i ɪ u ʊ a e ɛ o ɔ iː ɪː uː ʊː aː eː ɛː oː ɔː iˠ ɪˠ aˠ eˠ ɛˠ eˠː ɛˠː
+amharic	Amharic	amha1245	Afro-Asiatic	Africa	11.708182	39.543456	73	66	7	0	0	66	7	9.428571428571429	p b t d k g tʃ dʒ bʷ kʷ gʷ m n ɲ ŋ mʷ f s z ʃ ʒ h fʷ r j w l pʼ tʼ kʼ tʃʼ p’ʷ kʼʷ t’ʷ hʷ sʼ bː tː dː tʃː dʒː kː gː bʷː kʷː gʷː mː nː ɲː ŋː mʷː fː sː zː ʃː ʒː fʷː rː wː jː lː p’ː t’ː tʃʼː k’ʷː sʷː i e ə a u o ɨ
 shiwilujebero	Shiwilu (Jebero)	jebe1250	Cahuapanan	South America	-5.40317	-76.4103	21	17	4	0	0	17	4	4.25	p t k ʔ tʃ m n ɲ s ʃ r ˀr l ʎ w ɹ̪ j i ɘ a u
 shipibo	Shipibo	ship1254	Pano-Tacanan	South America	-7.17105	-74.8219	24	16	8	0	0	16	8	2.0	p t k ʔ ts tʃ m n β s ʃ ʂ h w r j i a o ɯ ĩ ã õ ɯ̃
 britishenglishreceivedpronunciation	British English: Received Pronunciation	stan1293	Indo-European	Eurasia	53.0	-1.0	46	24	14	0	8	24	22	1.7142857142857142	p b t d k g tʃ dʒ m n ŋ f v θ ð s z ʃ ʒ h w r j l ɪ e æ ʌ ɒ ʊ ə iː ɑː ɔː uː ɛː eɪ aɪ ɔi əʊ aʊ ɪə eə ʊə i u
@@ -80,6 +82,7 @@ khowar	Khowar	khow1242	Indo-European	Eurasia	36.0	72.0	44	39	5	0	0	39	5	7.8	p b 
 sindhi	Sindhi	sind1272	Indo-European	Eurasia	26.0	69.0	66	46	20	0	0	46	20	2.3	p b pʰ bʱ t d tʰ dʱ ʈ ɖ ʈʰ ɖʱ k g kʰ gʱ ɓ ɗ ʄ ɠ c ɟ cʰ ɟʱ m mʱ n nʱ ɳ ɳʱ ɲ ŋ f s z ʂ x ɣ h r ɽ ɽʱ ʋ j l lʱ i ɪ e ɛ ə u ʊ o ɔ a ĩ ɪ̃ ẽ ɛ̃ ə̃ ũ ʊ̃ õ ɔ̃ ã
 standardyiddish	Standard Yiddish	east2295	Indo-European	Eurasia	51.75	19.42	44	35	6	0	3	35	9	5.833333333333333	p b t d tʲ dʲ k g m n nʲ ŋ r f v s z ʃ ʒ sʲ zʲ χ ɣ h j l ʎ ts tʃ tsʲ tʃʲ dz dʒ dzʲ dʒʲ ɪ ɛ a ɜ ʊ ɔ ɛɪ aɛ ɔɜ
 nivacleschichaamlhavos	Nivacle Schichaam Lhavos	niva1238	Matacoan	South America	-22.8557	-61.7606	33	21	12	0	0	21	12	1.75	p t k pʼ tʼ kʼ ʔ kˡ ts tʃ tsʼ tʃʼ f s ʃ ɬ x m n w j i e a ɑ o u ḭ ḛ a̰ ɑ̰ o̰ ṵ
+standardgeorgian	Standard Georgian	nucl1302	Kartvelian	Eurasia	41.850397	43.78613	33	28	5	0	0	28	5	5.6	pʰ pʼ b tʰ tʼ d kʰ kʼ g qʼ ts tsʼ dz tʃ tʃʼ dʒ m n ɾ v s z ʃ ʒ x ɣ h l i ɛ ɑ ɔ u
 chicahuaxtlatriqui	Chicahuaxtla Triqui	chic1273	Otomanguean	North America	17.1628	-97.8547	42	31	11	0	0	31	11	2.8181818181818183	p b t̪ d̪ k g kʷ gʷ ʔ ⁿd ⁿg ts tɕ ʈʂ s z ʃ ʒ ʐ h m n mː nː j w jː wː j̃ l lː i e ə a ɯ u o ĩ ɯ̃ ũ ã
 malayalamnamboodiridialect	Malayalam Namboodiri Dialect	mala1464	Dravidian	Eurasia	9.59208	76.7651	78	64	10	0	4	64	14	6.4	p pʰ b bʱ t̪ t̪ʰ d̪ d̪ʱ t ʈ ʈʰ ɖ ɖʰ k kʰ g gʱ tɕ tɕʰ dʑ dʑʱ m n̪ n ɳ ɲ ŋ ŋʲ r ɾ f s̪ ɕ ʂ h ʋ ɻ j l ɭ pː pʰː bː t̪ː d̪ʱː tː ʈː ɖː ɖʱ tɕː dʑː kː gː mː n̪ː nː ɳː ɲː ŋː sː ɕː jː lː ɭː a i e o u aː eː iː oː uː ai ei oi au
 yine	Yine	yine1238	Arawakan	South America	-11.1086	-73.3087	26	16	10	0	0	16	10	1.6	p t k ts tʃ cç s ʃ ç h̃ m n ɾ j w l i e a ɯ o iː eː aː ɯː oː
@@ -104,9 +107,11 @@ dariafghanpersianformal	Dari Afghan Persian Formal	dari1249	Indo-European	Eurasi
 bardi	Bardi	bard1255	Nyulnyulan	Australia	-16.6274	122.906	24	17	7	0	0	17	7	2.4285714285714284	p t ʈ c k m n ɳ ɲ ŋ l ɭ ʎ r ɻ j w i iː a aː o u uː
 bemba	Bemba	bemb1257	Atlantic-Congo	Africa	-10.6122	29.2993	36	26	10	0	0	26	10	2.6	p t k β f s ʃ tʃ ⁿp ⁿb ⁿt ⁿd ⁿk ⁿg ⁿf ⁿs ⁿʃ ⁿtʃ ⁿdʒ m n ɲ ŋ j w l i e a o u iː eː aː oː uː
 ukrainian	Ukrainian	ukra1253	Indo-European	Eurasia	49.796	29.945	38	32	6	0	0	32	6	5.333333333333333	p b t tʲ d dʲ k g m n nʲ f s sʲ z zʲ ʃ ʒ x ɦ ts tsʲ dz dzʲ tʃ dʒ r rʲ ʋ j l lʲ i ɪ ɛ a ɔ u
+northwestsahaptin	Northwest Sahaptin	yaki1237	Sahaptian	North America	46.2655	-120.756	40	33	7	0	0	33	7	4.714285714285714	p t k kʷ q qʷ ʔ ts tʃ tɬ pʼ tʼ kʼ kʼʷ qʼ qʼʷ tsʼ tʃʼ tɬʼ m n s ʃ x xʷ χ χʷ h ɬ w j ʁ l a i u ɨ aː iː uː
 ikaigbo	Ika Igbo	ikaa1238	Atlantic-Congo	Africa	6.36423	6.31058	47	29	18	0	0	29	18	1.6111111111111112	p b t d k g kp gb kʷ gʷ m n ɲ ŋ ŋʷ tʃ dʒ f v s z ʃ ʒ ɣ ɦ ɻ j w l i ĩ ɪ ɪ̃ e ẽ ɛ ɛ̃ a ã u ũ ʊ ʊ̃ o õ ɔ ɔ̃
 russian	Russian	russ1263	Indo-European	Eurasia	59.0	50.0	42	36	6	0	0	36	6	6.0	p b pʲ bʲ t d tʲ dʲ k g kʲ gʲ ts tʃʲ m mʲ n nʲ r rʲ f v fʲ vʲ s z sʲ zʲ ʃ ʒ ʃʲː x xʲ j l lʲ i ɨ u e o a
 cocosmalay	Cocos Malay	coco1260	Austronesian	Papunesia	-12.193342	96.833679	25	19	6	0	0	19	6	3.1666666666666665	p b t̪ d tʃ dʒ k g ʔ m n ɲ ŋ s ʁ h w j l i e ə a o u
+hausa	Hausa	haus1257	Afro-Asiatic	Africa	11.1513	8.7804	42	32	10	0	0	32	10	3.2	b t d tʃ dʒ kʲ gʲ k g kʷ gʷ ʔ ɓ tsʼ ɗ tʃʼ ʔʲ k’ʲ kʼ kʼʷ m n ɸ s z ʃ h r ɽ w j l i e a o u iː eː aː oː uː
 chikasaw	Chikasaw	chic1270	Muskogean	North America	34.0	-88.0	43	31	12	0	0	31	12	2.5833333333333335	p b t k ʔ tʃ f s ɬ ʃ h m n l j w pː bː tː kː tʃː fː sː ɬː ʃː hː mː nː lː jː wː i iˑ iː a aˑ aː o oˑ oː ĩː ãː õː
 niuean	Niuean	niue1239	Austronesian	Papunesia	-19.06	-169.86	20	10	10	0	0	10	10	1.0	p t k f v h m n ŋ l i iː e eː a aː o oː u uː
 seri	Seri	seri1257		North America	28.9877	-112.384	26	18	8	0	0	18	8	2.25	p t k kʷ ʔ m n ɸ s ɬ ʃ x xʷ χ χʷ ɾ j l i ɛ ɑ o iː ɛː ɑː oː
