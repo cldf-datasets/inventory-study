@@ -1,5 +1,5 @@
 ID	Name	Glottocode	Family	Macroarea	Latitude	Longitude	Sounds	Consonants	Vowels	Clusters	Diphthongs	Consonantal	Vocalic	Ratio	Phonemes
-afad1236-198	Afade	afad1236	Afro-Asiatic	Africa	12.0551	14.6343	36	27	9	0	0	27	9	3.0	a̟ ɑ b ɓ cʼ d ɗ e ɛ ɤ f g gb h i j ɟ k kp kʼ l ɬ m n o ɔ p pfʼ r s ʃ t tθ’ u w ʔ
+afad1236-198	Afade	afad1236	Afro-Asiatic	Africa	12.0551	14.6343	36	27	9	0	0	27	9	3.0	a̟ ɑ b ɓ cʼ d ɗ e ɛ ɤ f g gb h i j ɟ k kp kʼ l ɬ m n o ɔ p pfʼ r s ʃ t tθʼ u w ʔ
 achu1247-199	Achumawi	achu1247	Palaihnihan	North America	41.0979	-121.191	23	17	6	0	0	17	6	2.8333333333333335	a dʒ e̞ ə h i j k l m n o̞ p q r s ʃ t u w x ʔ χ
 adze1240-200	Adzera	adze1240	Austronesian	Papunesia	-6.39394	146.294	25	18	7	0	0	18	7	2.5714285714285716	a aː b d dz f g h i iː j kʰ m n ŋ o̞ o̞ː pʰ r s tʰ tsʰ ɯ ɰ ʔ
 east2379-201	Eastern Arrernte	east2379	Pama-Nyungan	Australia	-23.3583	135.046	30	27	3	0	0	27	3	9.0	a bⁿ dⁿ d̠ⁿ d̪ⁿ ɖⁿ gⁿ i j k l l̠ l̪ ɭ m n n̠ n̪ ɳ ŋ p ɻ ɾ t t̠ t̪ ʈ u ɰ w
@@ -29,12 +29,12 @@ ando1256-224	Andoque	ando1256		South America	-0.53751	-72.0869	26	11	15	0	0	11	1
 anta1253-225	Antakarinya	anta1253	Pama-Nyungan	Australia	-27.1152	134.838	20	17	3	0	0	17	3	5.666666666666667	a i j k l l̠ ɭ m n n̠ ɳ ŋ p ɻ ɾ t t̠ ʈ u w
 apin1244-226	Apinayé	apin1244	Nuclear-Macro-Je	South America	-6.10774	-47.6315	30	13	17	0	0	13	17	0.7647058823529411	a ã e ɛ ɛ̃ ɤ i ĩ k ⁿb ⁿd ⁿɟ ⁿg o õ ɔ p ɽ s t tʃ u ũ ɯ ɯ̃ v ʌ ʌ̃ ʒ ʔ
 apuc1241-227	A-Pucikwar	apuc1241	Great Andamanese	Eurasia	12.241	92.7965	24	16	8	0	0	16	8	2.0	a æ b d dʒ e̞ ɛ g i j k l m n ɲ ŋ o̞ ɔ p ɹ t tʃ u w
-arch1244-228	Archi	arch1244	Nakh-Daghestanian	Eurasia	42.3239	46.8267	91	81	10	0	0	81	10	8.1	a aˤ b d dʷ e̞ e̞ˤ g gʷ h ħ i iˤ j kː kʰ kʷː kʷʰ kʼʷ kʼ l ɬ ɬː ɬʷ ɬʷː ɮ m n o̞ o̞ˤ pː pʰ pʼ qχ qχʷ qχ’ʷ qχʷˤ qχ’ʷˤ qχ’ qχ’ː qχˤ qχˤː qχ’ˤ r ʁ ʁʷ ʁʷˤ ʁˤ s sː sʷ sʷː ʃ ʃː ʃʷ ʃʷː tː tʰ tɬʰ tɬʷʰ tɬ’ʷ tɬʼ tsʰ tsʷʰ ts’ʷ tsʼ ts’ː tʃʰ tʃʷʰ tʃ’ʷ tʃʼ tʃʼː tʷʰ tʼ u uˤ w z zʷ ʒ ʒʷ ʔ ʕ χ χː χʷ χʷː χʷˤ χʷˤː χˤ χˤː
+arch1244-228	Archi	arch1244	Nakh-Daghestanian	Eurasia	42.3239	46.8267	91	81	10	0	0	81	10	8.1	a aˤ b d dʷ e̞ e̞ˤ g gʷ h ħ i iˤ j kː kʰ kʷː kʷʰ kʼʷ kʼ l ɬ ɬː ɬʷ ɬʷː ɮ m n o̞ o̞ˤ pː pʰ pʼ qχ qχʷ qχʼʷ qχʷˤ qχʼʷˤ qχʼ qχʼː qχˤ qχˤː qχʼˤ r ʁ ʁʷ ʁʷˤ ʁˤ s sː sʷ sʷː ʃ ʃː ʃʷ ʃʷː tː tʰ tɬʰ tɬʷʰ tɬʼʷ tɬʼ tsʰ tsʷʰ tsʼʷ tsʼ tsʼː tʃʰ tʃʷʰ tʃʼʷ tʃʼ tʃʼː tʷʰ tʼ u uˤ w z zʷ ʒ ʒʷ ʔ ʕ χ χː χʷ χʷː χʷˤ χʷˤː χˤ χˤː
 arab1268-229	Arabela	arab1268	Zaparoan	South America	-1.96126	-75.0612	18	11	5	0	2	11	7	2.2	a ai au e̞ h i j k m n o̞ p r s ʃ t u w
 mapu1245-230	Mapudungun	mapu1245	Araucanian	South America	-38.7392	-71.277	26	20	6	0	0	20	6	3.3333333333333335	a ɛ i j k l l̪ ʎ m n n̪ ɲ ŋ ɔ p ɸ s t t̪ tʃ ʈɻ̝̊ u ɯ w ɻ̝ θ
 egyp1253-231	Egyptian Arabic	egyp1253	Afro-Asiatic	Africa	31.0	31.0	35	27	8	0	0	27	8	3.375	a æː b d̪ dʒ d̪ˤ eː f g h ħ iː ɪ j k l̪ m n̪ oː q r ʁ s̪ s̪ˤ ʃ t̪ t̪ˤ uː ʊ w z̪ z̪ˤ ʔ ʕ χ
 waor1240-232	Waorani	waor1240		South America	-1.12312	-76.683	21	11	10	0	0	11	10	1.1	a ã æ æ̃ b d e̞ ẽ̞ g i ĩ k m n ɲ ŋ o̞ õ̞ p t w
-avar1256-233	Avar	avar1256	Nakh-Daghestanian	Eurasia	41.7047	46.558	49	44	5	0	0	44	5	8.8	a b d e̞ f g h ħ i j kʰ kxː kx’ː kʼ l ɬ ɬː m n o̞ pʰ pʼ qχː qχ’ː r s sː ʃ ʃː tʰ tɬː tɬ’ː tsː tsʰ tsʼ ts’ː tʃː tʃʰ tʃʼ tʃʼː tʼ u w xː z ʒ ʕ̝ χ χː
+avar1256-233	Avar	avar1256	Nakh-Daghestanian	Eurasia	41.7047	46.558	49	44	5	0	0	44	5	8.8	a b d e̞ f g h ħ i j kʰ kxː kxʼː kʼ l ɬ ɬː m n o̞ pʰ pʼ qχː qχʼː r s sː ʃ ʃː tʰ tɬː tɬʼː tsː tsʰ tsʼ tsʼː tʃː tʃʰ tʃʼ tʃʼː tʼ u w xː z ʒ ʕ̝ χ χː
 awng1244-234	Awngi	awng1244	Afro-Asiatic	Africa	10.9819	36.6916	35	28	7	0	0	28	7	4.0	a æ b dz dʒ ɖ e̞ f g gʷ ɢ ɢʷ i ɨ j k kʷ l m n ŋ ŋʷ o̞ p q qʷ ɾ s ʃ t ts tʃ u w z
 abip1241-235	Abipon	abip1241	Guaicuruan	South America	-29.0	-61.0	20	15	5	0	0	15	5	3.0	a e̞ ɣ h i ɨ j k l m n ɲ o̞ p q r ʁ t tʃ w
 nort2697-236	North Azerbaijani	nort2697	Turkic	Eurasia	40.9777	46.4737	33	24	9	0	0	24	9	2.6666666666666665	a̟ ɑ b c d̪ dʒ ɛ ɤ̟ f g ɣ h ɪ j ɟ k l m n̪ o ø p ɾ s ʃ t̪ tʃ ʊ v x ʏ z ʒ
@@ -78,7 +78,7 @@ nyah1250-274	Nyahkur	nyah1250	Austroasiatic	Eurasia	15.8909	101.515	50	26	18	0	6
 cacu1241-275	Kakua	cacu1241	Kakua-Nukak	South America	0.88778	-69.5659	22	12	10	0	0	12	10	1.2	a ã ɛ ɛ̃ ɘ̃ h i ĩ ɨ k l m n ŋ o õ p t tʃ w ʍ ʔ
 mind1253-276	Min Dong Chinese	mind1253	Sino-Tibetan	Eurasia	26.0	119.5	21	14	7	0	0	14	7	2.0	a ɛ i k kʰ l m n ŋ œ ɔ p pʰ s t tʰ ts tsʰ u x y
 cham1312-277	Chamorro	cham1312	Austronesian	Papunesia	13.438011	144.74474	26	20	6	0	0	20	6	3.3333333333333335	æ ɑ b d dz e̞ f g h i j k l m n ɲ ŋ o̞ p ɻ s t ts u w ʔ
-chip1261-278	Chipewyan	chip1261	Athabaskan-Eyak-Tlingit	North America	58.3637	-110.832	52	38	14	0	0	38	14	2.7142857142857144	a ã aː ãː ð e ɣ ɣʷ h i ĩ iː ĩː j k kʷ kʼʷ kxʰ kxʷʰ kʼ l l̥ n o p r s ʃ t tˠʰ tɬ tɬʰ tɬʼ ts tsʰ tsʼ tʃ tʃʰ tʃʼ tʼ tθ tθʰ tθ’ u ũ uː ũː x xʷ z ʔ θ
+chip1261-278	Chipewyan	chip1261	Athabaskan-Eyak-Tlingit	North America	58.3637	-110.832	52	38	14	0	0	38	14	2.7142857142857144	a ã aː ãː ð e ɣ ɣʷ h i ĩ iː ĩː j k kʷ kʼʷ kxʰ kxʷʰ kʼ l l̥ n o p r s ʃ t tˠʰ tɬ tɬʰ tɬʼ ts tsʰ tsʼ tʃ tʃʰ tʃʼ tʼ tθ tθʰ tθʼ u ũ uː ũː x xʷ z ʔ θ
 quio1240-279	Quiotepec Chinantec	quio1240	Otomanguean	North America	17.5621	-96.602	41	26	15	0	0	26	15	1.7333333333333334	a ã æ̃ ç dz ɛ ɣ i ĩ j k kʷ l l̥ m m̥ n̠ n̠̥ n n̥ ŋ ŋ̊ o̞ œ ɔ̃ p ɸ ʂ t̠ t ts u ũ ɯ ɯ̃ w y ỹ ð̠ ʐ ʔ
 cher1273-280	Cherokee	cher1273	Iroquoian	North America	35.4664	-83.163	17	11	6	0	0	11	6	1.8333333333333333	a d dz e̞ ə̃ g h i j l m n o̞ ʃ u w ʔ
 chuv1255-281	Chuvash	chuv1255	Turkic	Eurasia	55.487	47.163	30	21	9	0	0	21	9	2.3333333333333335	ɑ b ɕ d e̞ f g i j k l m n ø̆ o̞ ɔ̆ p r s ʃ t ts tʃ u ɯ w x y z ʒ
@@ -87,7 +87,7 @@ uppe1439-283	Upper Chehalis	uppe1439	Salishan	North America	46.7981	-123.169	34	
 chua1250-284	Chuave	chua1250	Nuclear Trans New Guinea	Papunesia	-6.17824	145.139	17	12	5	0	0	12	5	2.4	a b d e̞ f g i j k m n o̞ ɾ s t u w
 chuk1273-285	Chukchi	chuk1273	Chukotko-Kamchatkan	Eurasia	68.6436	170.045	22	15	7	0	0	15	7	2.142857142857143	a e ə̆ ɛ ɣ ɪ j k ɬ m n ŋ o̞ p q sʲ t ts u w ɻ̝ ʔ
 mand1415-286	Mandarin Chinese	mand1415	Sino-Tibetan	Eurasia	40.0209	116.228	32	25	7	0	0	25	7	3.5714285714285716	a a˞ ç cç cçʰ ə˞ ɤ̟ f i j k kʰ l m n ŋ p pʰ s ʂ t tʰ ts tsʰ ʈʂ ʈʂʰ u ɥ w y ʐ χ
-haka1240-287	Haka Chin	haka1240	Sino-Tibetan	Eurasia	22.8735	92.8208	52	45	7	0	0	45	7	6.428571428571429	a aː ɕ e̞ ə f ɣ h i j̊ j̰ k kʰ kʲ kʷ kʷʰ l lʲ ɬ ɬʲ m ⁿb ⁿbʲ mʲ n ⁿd ⁿdʲ ɲ ŋ o̞ p pʰ pʲ pʰʲ q qʰ s sʲ t tɕ tɕʰ tʰ tʲ tʲʰ u v vʲ w̰ ʍ x ʑ ʔ
+haka1240-287	Haka Chin	haka1240	Sino-Tibetan	Eurasia	22.8735	92.8208	52	45	7	0	0	45	7	6.428571428571429	a aː ɕ e̞ ə f ɣ h i j̊ j̰ k kʰ kʲ kʷ kʷʰ l lʲ ɬ ɬʲ m ⁿb ⁿbʲ mʲ n ⁿd ⁿdʲ ɲ ŋ o̞ p pʰ pʲ pʲʰ q qʰ s sʲ t tɕ tɕʰ tʰ tʲ tʲʰ u v vʲ w̰ ʍ x ʑ ʔ
 asha1243-288	Asháninka	asha1243	Arawakan	South America	-11.9311	-73.9073	19	15	4	0	0	15	4	3.75	a e h i j k m n n̠ o p ɾ s ʃ t t̠ ts tʃ β
 cofa1242-289	Cofán	cofa1242		South America	0.276675	-77.0643	35	30	5	0	0	30	5	6.0	a b c cʰ d dʒ ɛ f g ɣ h i ɨ j ɟ k kʰ m n ɲ o̞ p pʰ r s ʃ t tʰ tʃ tʃʰ ɰ w ʑ ʔ β
 wame1240-290	Wamey	wame1240	Atlantic-Congo	Africa	12.5421	-13.177	46	39	7	0	0	39	7	5.571428571428571	a æ b ɓ c d ɗ ə ɛ g gʷ i j j̃ ɟ ʄ k kʷ l l̃ m ⁿb ⁿp n ⁿd ⁿt ɲ ⁿc ⁿɟ ŋ ⁿk ⁿkʷ ŋʷ ɔ p ɸ r r̠̙ s t u w w̃ x xʷ β
@@ -142,7 +142,7 @@ gbay1287-338	Gbaya-Bossangoa	gbay1287	Atlantic-Congo	Africa	6.61896	17.645	43	30
 gbag1258-339	Gbagyi	gbag1258	Atlantic-Congo	Africa	9.29842	6.90495	26	20	6	0	0	20	6	3.3333333333333335	a b ɓ d e̞ f g gb h i ĩ j k kp l m n o̞ p ɾ s t u v w z
 qaua1234-340	Central Gelao-Qau	qaua1234	Tai-Kadai	Eurasia	26.155438	106.16455	43	31	7	0	5	31	12	4.428571428571429	a ai au ɒ ɕ e̞ e̞i ə˞ əu əɯ f h i k kʰ l m ⁿp n ⁿt ⁿtɕ ⁿts ɲ ŋ ⁿk o̞ p pʰ q qʰ s t tɕ tɕʰ tʰ ts tsʰ u v w x z ʑ
 nana1257-341	Nanai	nana1257	Tungusic	Eurasia	48.4343	134.797	24	18	6	0	0	18	6	3.0	a b d dʒ ɘ g i ɪ ʝ k l m n ɲ ŋ o p r s t tʃ u x β
-iris1253-342	Irish	iris1253	Indo-European	Eurasia	53.2186	-7.61509	69	45	20	0	4	45	24	2.25	a ã ɑː ɑ̃ː bʲ bʷˠ ç d d̪ dʒ e̞ ẽ̞ eː ẽː əi əu g gʲ ɣ h iː ĩː iə ɪ ɪ̃ j kʰ kʲʰ l̠ lˠ l̪ˠ l̥ˠ lʲ l̥ʲ mʲ mʷˠ n̠ n̪ nˠ n̥ˠ nʲ n̥ʲ ŋ ŋʲ o̞ õ̞ oː õː pʰʲ pʷˠʰ ɸʲ ɸʷˠ ɾˠ ɾ̥ˠ ɾʲ ɾ̥ʲ s ʃ tʰ t̪ʰ tʃ uː ũː uə ʊ ʊ̃ w x βʲ
+iris1253-342	Irish	iris1253	Indo-European	Eurasia	53.2186	-7.61509	69	45	20	0	4	45	24	2.25	a ã ɑː ɑ̃ː bʲ bʷˠ ç d d̪ dʒ e̞ ẽ̞ eː ẽː əi əu g gʲ ɣ h iː ĩː iə ɪ ɪ̃ j kʰ kʲʰ l̠ lˠ l̪ˠ l̥ˠ lʲ l̥ʲ mʲ mʷˠ n̠ n̪ nˠ n̥ˠ nʲ n̥ʲ ŋ ŋʲ o̞ õ̞ oː õː pʲʰ pʷˠʰ ɸʲ ɸʷˠ ɾˠ ɾ̥ˠ ɾʲ ɾ̥ʲ s ʃ tʰ t̪ʰ tʃ uː ũː uə ʊ ʊ̃ w x βʲ
 dawr1236-343	Dawro	dawr1236	Ta-Ne-Omotic	Africa	6.95	37.0	29	24	5	0	0	24	5	4.8	a b d dʒ ɗ e̞ f g h i j k kʼ l m n o̞ r s ʃ t ts tsʼ tʃ tʼ u w z ʔ
 wayu1243-344	Wayuu	wayu1243	Arawakan	South America	11.395566	-72.199791	26	14	12	0	0	14	12	1.1666666666666667	a ã e ẽ ɛ ɛ̃ h i ĩ j k m n ɔ ɔ̃ p r ɺ s ʃ t tʃ u ũ w ʔ
 para1311-345	Paraguayan Guaraní	para1311	Tupian	South America	-25.60551	-57.08816	36	24	12	0	0	24	12	2.0	a ã ð e ẽ f ɣ ɣʷ i ĩ ɨ ɨ̃ k kʷ l̪ ʎ m n̪ ɲ ŋ ŋʷ o õ p r͓ ɾ s s̪ t̪ tʃ u ũ v x xʷ ʔ
@@ -151,7 +151,7 @@ guam1248-347	Guambiano	guam1248	Barbacoan	South America	2.55849	-76.582	24	18	6	
 ache1246-348	Aché	ache1246	Tupian	South America	-25.5865	-56.4697	21	11	10	0	0	11	10	1.1	a ã dʒ e̞ ẽ̞ i ĩ k m ⁿb ⁿd ⁿg o̞ õ̞ p ɺ t tʃ u ũ β
 kuku1273-349	Kuku-Yalanji	kuku1273	Pama-Nyungan	Australia	-16.0036	145.188	16	13	3	0	0	13	3	4.333333333333333	a c i j k l m n ɲ ŋ p r ɻ t u w
 hakk1236-350	Hakka Chinese	hakk1236	Sino-Tibetan	Eurasia	25.0	116.0	22	16	6	0	0	16	6	2.6666666666666665	a æ ɛ f h i k kʰ l ⁿb ⁿd ⁿg ɔ p pʰ s t tʰ ts tsʰ u w
-haus1257-351	Hausa	haus1257	Afro-Asiatic	Africa	11.1513	8.7804	38	31	5	0	2	31	7	6.2	a ai au b ɓ d dʒ ɗ e̞ g gʲ gʷ h i j j̰ k kʲ k’ʲ kʷ kʼʷ kʼ l m n o̞ ɸ r ɽ s sˀ ʃ t tʃ u w z ʔ
+haus1257-351	Hausa	haus1257	Afro-Asiatic	Africa	11.1513	8.7804	38	31	5	0	2	31	7	6.2	a ai au b ɓ d dʒ ɗ e̞ g gʲ gʷ h i j j̰ k kʲ kʼʲ kʷ kʼʷ kʼ l m n o̞ ɸ r ɽ s sˀ ʃ t tʃ u w z ʔ
 hawa1245-352	Hawaiian	hawa1245	Austronesian	Papunesia	19.6297	-155.43	13	8	5	0	0	8	5	1.6	a ɛ h i k l m n o̞ p u w ʔ
 nort2938-353	Northern Haida	nort2938	Haida	North America	54.004532	-132.079257	49	46	3	0	0	46	3	15.333333333333334	a c ç cʰ cʼ dɮ h i j j̰ k kʰ kʷ kʷʰ kʼʷ kʼ l l̰ ɬ m m̰ n n̰ ŋ ŋ̰ p pʰ q qʰ qʷ qʷʰ qʼʷ qʼ t tʰ tɬ tɬʼ tʃ tʃʰ tʃʼ tʼ ʊ w w̰ x xʷ ʔ χ χʷ
 hind1269-354	Hindi	hind1269	Indo-European	Eurasia	25.0	77.0	61	40	21	0	0	40	21	1.9047619047619047	aː ãː æː b bʱ d̪ d̪ʱ dʒ dʒʱ ɖ ɖʱ eː ẽː ɛ ɛ̃ ɜ ɜ̃ f g gʱ ɦ iː ĩː ɪ ɪ̃ j k kʰ l lʱ m mʱ n̪ n̪ʱ oː õː ɔ ɔ̃ p pʰ q r ɽ̃ ʁ s ʃ t̪ t̪ʰ tʃ tʃʰ ʈ ʈʰ uː ũː ʊ ʊ̃ z ʒ ʔ β̞ χ
@@ -165,7 +165,7 @@ sanm1287-361	San Mateo del Mar Huave	sanm1287	Huavean	North America	16.2129	-95.
 nucl1235-362	Eastern Armenian	nucl1235	Indo-European	Eurasia	40.0	45.0	36	30	5	0	1	30	6	6.0	a e̞ f h i ie̞ j k kʰ kʼ l̪ m n̪ o̞ p pʰ pʼ r ʁ̞ s̪ ʃ t̪ t̪ʰ ts̪ ts̪ʰ ts̪ʼ tʃ tʃʰ tʃʼ t̪ʼ u v z̪ ɻ̝ ʒ χ
 iaai1238-363	Iaai	iaai1238	Austronesian	Papunesia	-20.6301	166.59	52	36	16	0	0	36	16	2.25	æ æː b ð d dʒ ɖ e eː ɛ ɛː f g gb h i iː k ɭ ɭ̊ m m̥ n ɲ ɲ̊ ɳ ɳ̊ ŋ ŋ̊ ŋm ŋ̥m̥ o oː œ ɔ ɔː p ɸ ɹ s ʃ t tʃ ʈ u uː w ʍ x y β θ
 iban1264-364	Iban	iban1264	Austronesian	Papunesia	2.09041	112.934	25	19	6	0	0	19	6	3.1666666666666665	a b d dʒ e̞ ə g h i j k l m n ɲ ŋ o̞ p r s t tʃ u w ʔ
-nucl1417-365	Igbo	nucl1417	Atlantic-Congo	Africa	4.62705	7.23441	59	43	16	0	0	43	16	2.6875	a ã b bʱ bʲ bʲʱ ɓ ɓ̥ d dʱ dʒ dʒʱ ɗ̥ e ẽ ɛ ɛ̃ f g gʱ gʷ gʷʱ ɣ h hʷ i ĩ j k kʰ kʷ kʷʰ l m n ɲ ŋ ŋm o õ ɔ ɔ̃ p pʰ pʲ pʰʲ ɾ ɾʲ s t tʰ tʃʰ u ũ ʊ ʊ̃ v w z
+nucl1417-365	Igbo	nucl1417	Atlantic-Congo	Africa	4.62705	7.23441	59	43	16	0	0	43	16	2.6875	a ã b bʱ bʲ bʲʱ ɓ ɓ̥ d dʱ dʒ dʒʱ ɗ̥ e ẽ ɛ ɛ̃ f g gʱ gʷ gʷʱ ɣ h hʷ i ĩ j k kʰ kʷ kʷʰ l m n ɲ ŋ ŋm o õ ɔ ɔ̃ p pʰ pʲ pʲʰ ɾ ɾʲ s t tʰ tʃʰ u ũ ʊ ʊ̃ v w z
 igna1246-366	Ignaciano	igna1246	Arawakan	South America	-15.1188	-65.3993	25	21	4	0	0	21	4	5.25	a b d ɛ f h i j k l m n n̠ ŋ p ɾ s ʃ t ts tʃ u w ʔ β
 izon1238-367	Izon	izon1238	Ijoid	Africa	5.17986	5.51702	37	19	18	0	0	19	18	1.0555555555555556	a ã b d e ẽ ɛ ɛ̃ f g gbʷ i ĩ ɪ ɪ̃ j k kpʷ l m n ŋ o õ ɔ ɔ̃ p ɾ s t u ũ ʊ ʊ̃ v w z
 ikkk1242-368	Ik	ikkk1242	Kuliak	Africa	3.61407	34.2507	44	31	13	0	0	31	13	2.3846153846153846	a ḁ b ɓ d̪ dz dʒ ɗ e e̞̥ ɛ f g ɠ h i i̥ ɪ j ʄ k kʼ l ɬ ɮ m n̪ ɲ ŋ o o̞̥ ɔ p r s t̪ tɬʼ ts tsʼ tʃ u u̥ w z
@@ -178,14 +178,14 @@ iton1250-374	Itonama	iton1250		South America	-12.80431	-64.35748	25	19	6	0	0	19	
 iumi1238-375	Iu Mien	iumi1238	Hmong-Mien	Eurasia	20.83	101.17	41	33	8	0	0	33	8	4.125	a aː æ b c cʰ d̪ dz e f g h i j j̊ ɟ k kʰ l l̥ m m̥ n̪ n̪̥ ɲ ɲ̊ ŋ ŋ̊ o ɔ p pʰ s t̪ t̪ʰ ts tsʰ u w ʍ ʔ
 ivat1242-376	Itbayat	ivat1242	Austronesian	Papunesia	20.3848	121.975	23	19	4	0	0	19	4	4.75	a b d dʒ ə g h i j k l m n n̠ ŋ p r s t̪ tʃ u v w
 iwam1256-377	Iwam	iwam1256	Sepik	Papunesia	-4.27346	141.817	17	11	6	0	0	11	6	1.8333333333333333	a e̞ ə h i j k m n ŋ o̞ p r s t u w
-popt1235-378	Popti'	popt1235	Mayan	North America	15.6609	-91.6633	32	27	5	0	0	27	5	5.4	a ɓ ɛ ʛ̥ h i j kʰ kʼ l m n ŋ o pʰ ɸ ɾ s ʂ ʃ tʰ tsʰ tsʼ tʃʰ tʃʼ tʼ ʈʂʰ ʈʂ’ u w ʔ χ
+popt1235-378	Popti'	popt1235	Mayan	North America	15.6609	-91.6633	32	27	5	0	0	27	5	5.4	a ɓ ɛ ʛ̥ h i j kʰ kʼ l m n ŋ o pʰ ɸ ɾ s ʂ ʃ tʰ tsʰ tsʼ tʃʰ tʃʼ tʼ ʈʂʰ ʈʂʼ u w ʔ χ
 yany1243-379	Yanyuwa	yany1243	Pama-Nyungan	Australia	-15.7621	136.055	32	29	3	0	0	29	3	9.666666666666666	a ɪ j k kʲ l l̠ l̪ ɭ m ⁿp n n̠ n̪ ⁿt ⁿt̠ ⁿt̪ ɳ ⁿʈ ŋ ŋʲ ⁿk ⁿkʲ p r ɽ t t̠ t̪ ʈ ʊ w
 java1254-380	Javanese	java1254	Austronesian	Papunesia	-0.572307	110.885	29	21	8	0	0	21	8	2.625	a e ə ɛ h i j k kʱ l m n ɲ ŋ o ɔ p pʱ r s̪ t t̪ tʱ t̪ʱ ts tsʱ u w ʔ
 jebe1250-381	Jebero	jebe1250	Cahuapanan	South America	-5.40317	-76.4103	23	19	4	0	0	19	4	4.75	a cç ɘ i j k kˀ l ʎ m n̪ ɲ ŋ p ɹ ɾ ɾ̰ s ʃ t̪ u w ʔ
 toll1241-382	Tol	toll1241	Jicaquean	North America	14.6686	-87.0372	28	22	6	0	0	22	6	3.6666666666666665	a e̞ h i ɨ j k kʰ kˀ l m n ŋ o̞ p pʰ pˀ s t tʰ ts tsʰ tsˀ tˀ u w ʔ β
 shua1257-383	Shuar	shua1257	Chicham	South America	-3.45136	-78.1892	23	15	8	0	0	15	8	1.875	a ã i ĩ j k m n̠ n p ɾ s ʃ t ts tʃ u ũ ɯ ɯ̃ w x ʔ
 nucl1643-384	Japanese	nucl1643	Japonic	Eurasia	35.0	135.0	20	15	5	0	0	15	5	3.0	a b d̪ ɛ g h i j k m n̪ ɴ ɔ p ɾ s̪ t̪ ɯ w z̪
-jaqa1244-385	Jaqaru	jaqa1244	Aymaran	South America	-12.8823	-75.8958	39	36	3	0	0	36	3	12.0	a c cʰ cʼ i j k kʰ kʼ l ʎ m n ɲ ŋ p pʰ pʼ q qʰ qʼ ɾ s ʃ t tʰ ts tsʰ tsʼ tʃ tʃʰ tʃʼ tʼ ʈʂ ʈʂʰ ʈʂ’ ɯ w x
+jaqa1244-385	Jaqaru	jaqa1244	Aymaran	South America	-12.8823	-75.8958	39	36	3	0	0	36	3	12.0	a c cʰ cʼ i j k kʰ kʼ l ʎ m n ɲ ŋ p pʰ pʼ q qʰ qʼ ɾ s ʃ t tʰ ts tsʰ tsʼ tʃ tʃʰ tʃʼ tʼ ʈʂ ʈʂʰ ʈʂʼ ɯ w x
 japr1238-386	Japrería	japr1238	Cariban	South America	10.5523	-72.7101	24	12	12	0	0	12	12	1.0	a ã b e̞ ẽ̞ h i ĩ ɨ ɨ̃ j k m n o̞ õ̞ p ɺ ʃ t tʃ u ũ ʔ
 kach1280-387	Southern Jinghpaw	kach1280	Sino-Tibetan	Eurasia	25.4634	97.3278	30	25	5	0	0	25	5	5.0	a b d dz dʒ e̞ g h i j k kʰ l m n ŋ o̞ p pʰ r s ʃ t tʰ ts tʃ tʃʰ u w ʔ
 kala1399-388	Kalaallisut	kala1399	Eskimo-Aleut	Eurasia	69.3761	-52.864	22	19	3	0	0	19	3	6.333333333333333	a fː ɣ i ʝ k l̪ ɬ̪ː m n̪ ŋ p q ʁ s ʃ t̪ ts u xː β χː
@@ -212,7 +212,7 @@ kiow1266-409	Kiowa	kiow1266	Kiowa-Tanoan	North America	34.9403	-98.9042	42	22	12
 kirg1245-410	Kirghiz	kirg1245	Turkic	Eurasia	42.0	74.0	30	22	8	0	0	22	8	2.75	ɑ b d̪ ɛ f g ɢ ɪ ɨ̞ j k l m n ŋ o ø p q r s ʃ t̪ ts tʃ ʊ x y z β
 sout2949-411	Southern Kiwai	sout2949	Kiwaian	Papunesia	-8.64889	143.244	19	12	5	0	2	12	7	2.4	a au b d e̞ g i k m n o̞ o̞u p r s t u w ʔ
 khmu1256-412	Khmu	khmu1256	Austroasiatic	Eurasia	20.2463	101.671	41	23	15	0	3	23	18	1.5333333333333334	a aː ɓ c cʰ ɗ e eː ɛː ɘː ɜː h i iː ia ɨː ɨa j j̰ k kʰ l m n ɲ ŋ o oː ɔː p pʰ r s t tʰ u uː ua w w̰ ʔ
-west2632-413	Western Keres	west2632	Keresan	North America	34.9733	-107.517	51	39	5	0	7	39	12	7.8	a̟ ai au b cʰ cʼ ɕ’ d̪ dz̪ dʒ ɾ̪ ɾ̪̰ ɖʐ e̞i e̞o̞ ɛ g h i iu ɨ ɨi j j̰ ɟ kʰ kʼ m m̰ n̪ n̪̰ pʰ pʼ s̪ s̪ʼ ʂ ʂ’ ʃ t̪ʰ ts̪ʰ ts̪ʼ tʃʰ tʃʼ t̪ʼ ʈʂʰ ʈʂ’ u ui w w̰ ʔ
+west2632-413	Western Keres	west2632	Keresan	North America	34.9733	-107.517	51	39	5	0	7	39	12	7.8	a̟ ai au b cʰ cʼ ɕʼ d̪ dz̪ dʒ ɾ̪ ɾ̪̰ ɖʐ e̞i e̞o̞ ɛ g h i iu ɨ ɨi j j̰ ɟ kʰ kʼ m m̰ n̪ n̪̰ pʰ pʼ s̪ s̪ʼ ʂ ʂʼ ʃ t̪ʰ ts̪ʰ ts̪ʼ tʃʰ tʃʼ t̪ʼ ʈʂʰ ʈʂʼ u ui w w̰ ʔ
 east2516-414	East Kewa	east2516	Nuclear Trans New Guinea	Papunesia	-6.32989	143.931	20	15	5	0	0	15	5	3.0	a c e̞ g i j m ⁿb n ⁿd ɲ o̞ ɸ ɺ ɾ s t u w x
 teke1280-415	Teke-Kukuya	teke1280	Atlantic-Congo	Africa	-2.27122	14.4407	28	21	7	0	0	21	7	3.0	a b bv d dʒ e̞ f g h i ɪ j k l m ɱ n ɲ ŋ o̞ p pf s t tʃ u ʊ w
 klam1254-416	Klamath-Modoc	klam1254		North America	42.5861	-121.704	37	33	4	0	0	33	4	8.25	a b cʰ cʼ d e̞ g ɢ h i j j̊ j̰ ɟ kʰ kʼ l l̥ l̰ m m̥ m̰ n n̥ n̰ o̞ pʰ pʼ qʰ qʼ s tʰ tʼ w w̰ ʍ ʔ
@@ -231,7 +231,7 @@ kups1238-428	Kupsabiny	kups1238	Nilotic	Africa	1.33197	34.5991	26	14	12	0	0	14	1
 kuru1302-429	Kurukh	kuru1302	Dravidian	Eurasia	24.4644	86.4657	32	21	11	0	0	21	11	1.9090909090909092	a ã b c d ɖ e̞ ẽ̞ ə g h i ĩ j ɟ k l m n o̞ õ̞ p r̠ r s t ʈ u ũ w ʔ χ
 sgaw1245-430	S'gaw Karen	sgaw1245	Sino-Tibetan	Eurasia	17.9872	97.7126	36	27	9	0	0	27	9	3.0	a ɓ c cʰ ɗ e e̠ ɛ ɣ ɦ i ɨ̞ j k kʰ l m n ɲ ŋ o ɔ p pʰ s sʰ ʃ t tʰ u w x ð̠ z ʔ θ
 kalk1246-431	Kalkutung	kalk1246	Pama-Nyungan	Australia	-21.0	139.5	23	20	3	0	0	20	3	6.666666666666667	a c i j k l l̪ ɭ ʎ m n n̪ ɲ ɳ ŋ p ɻ ɾ t t̪ ʈ u w
-juho1239-432	South-Eastern Ju	juho1239	Kxa	Africa	-19.688	20.7673	135	82	24	7	22	89	46	3.4166666666666665	a ã aː ãː ae̞ ae̞ˤ ãẽ̞ˤ ao̞ ao̞ˤ ãõ̞ˤ aˤ ãˤ aˤː ãˤː b b’ d dˠ dzʱ dzˠ dz’ dʒʱ dʒˠ dʒ’ d’ e̞ e̞ː e̞i ẽ̞ĩ e̞u ẽ̞ũ g gʱ g’ gǀ͓ ǀ gǀ͓x gǂ gǂʱ gǂˡ͓ ǂˡ gǂˡ͓x gǂx gǃ gǃʱ gǃx ɦ i ĩ iː ia j k kʰ kʼ ǀ͓ ǀʰ͓ ǂ ǂʰ ǂˡ͓ ǂˡʰ͓ ǂˡ͓x ǂx ǃ ǃʰ ǃx m mʱ m̰ mː n ŋ ŋˤ ŋǀ͓ ⁿǀ͓ ⁿǀʰ͓ ⁿǀˀ ⁿǀˀ͓ ŋǂ ŋǂʱ ŋǂʰ ŋǂˡ͓ ⁿǂˡ͓ ⁿǂˡʰ͓ ⁿǂˡˀ ⁿǂˡˀ͓ ⁿǂˀ ŋǂˀ ŋǃ ŋǃʱ ŋǃˠˀ ŋǃˀ o̞ õ̞ o̞ː o̞a õ̞ã o̞aˤ õ̞ãˤ o̞e̞ o̞i õ̞ĩ o̞iˤ õ̞ĩˤ o̞ˤ õ̞ˤ o̞ˤː ɔ̃ˤː p pʰ ɾ s ʃ t tˠ tʰ ts tsˠ tsʰ tsʼ tʃ tʃˠ tʃʰ tʃʼ tʼ u ũ uː ũː ui ũĩ w x z ʒ
+juho1239-432	South-Eastern Ju	juho1239	Kxa	Africa	-19.688	20.7673	135	82	24	7	22	89	46	3.4166666666666665	a ã aː ãː ae̞ ae̞ˤ ãẽ̞ˤ ao̞ ao̞ˤ ãõ̞ˤ aˤ ãˤ aˤː ãˤː b bʼ d dˠ dzʱ dzˠ dzʼ dʒʱ dʒˠ dʒʼ dʼ e̞ e̞ː e̞i ẽ̞ĩ e̞u ẽ̞ũ g gʱ gʼ gǀ͓ ǀ gǀ͓x gǂ gǂʱ gǂˡ͓ ǂˡ gǂˡ͓x gǂx gǃ gǃʱ gǃx ɦ i ĩ iː ia j k kʰ kʼ ǀ͓ ǀʰ͓ ǂ ǂʰ ǂˡ͓ ǂˡʰ͓ ǂˡ͓x ǂx ǃ ǃʰ ǃx m mʱ m̰ mː n ŋ ŋˤ ŋǀ͓ ⁿǀ͓ ⁿǀʰ͓ ⁿǀˀ ⁿǀˀ͓ ŋǂ ŋǂʱ ŋǂʰ ŋǂˡ͓ ⁿǂˡ͓ ⁿǂˡʰ͓ ⁿǂˡˀ ⁿǂˡˀ͓ ⁿǂˀ ŋǂˀ ŋǃ ŋǃʱ ŋǃˠˀ ŋǃˀ o̞ õ̞ o̞ː o̞a õ̞ã o̞aˤ õ̞ãˤ o̞e̞ o̞i õ̞ĩ o̞iˤ õ̞ĩˤ o̞ˤ õ̞ˤ o̞ˤː ɔ̃ˤː p pʰ ɾ s ʃ t tˠ tʰ ts tsˠ tsʰ tsʼ tʃ tʃˠ tʃʰ tʃʼ tʼ u ũ uː ũː ui ũĩ w x z ʒ
 kuna1268-433	Kunama	kuna1268		Africa	14.5879	37.5292	26	19	7	0	0	19	7	2.7142857142857144	a b d̪ dʒ e̞ f g h i ɪ j k l m n ɲ ŋ o̞ r s ʃ t̪ tʃ u ʊ w
 kuni1267-434	Kunimaipa	kuni1267	Goilalan	Papunesia	-8.09371	146.908	20	15	5	0	0	15	5	3.0	a b d̪ e g ɢ i k l m n ŋ p ɽ s t u ʊ z β̞
 bord1248-435	Border Kuna	bord1248	Chibchan	South America	7.92993	-77.1664	21	16	5	0	0	16	5	3.2	a b d e̞ g gʷ i j k kʷ l m n o̞ p ɾ s t tʃ u w
@@ -239,7 +239,7 @@ kwai1243-436	Kwaio	kwai1243	Austronesian	Papunesia	-8.93744	160.965	21	16	5	0	0	
 kwak1269-437	Kwak'wala	kwak1269	Wakashan	North America	50.9269	-127.308	48	42	6	0	0	42	6	7.0	a b ç cʰ cʼ d dɮ dz ə ɛ gʷ ɢ ɢʷ h i j j̰ ɟ kʷʰ kʼʷ l l̰ ɬ m m̰ n n̰ ɔ pʰ pʼ qʰ qʷʰ qʼʷ qʼ s tʰ tɬʰ tɬʼ tsʰ tsʼ tʼ u w w̰ xʷ ʔ χ χʷ
 karo1304-438	Karok	karo1304		North America	41.8228	-123.315	27	16	11	0	0	16	11	1.4545454545454546	a ã aː eː ɛ f h i ĩ iː j k m n oː p ɾ s s̪ ʃ t tʃ ʊ ʊː x ʔ β̞
 lakk1238-439	Lakkia	lakk1238	Tai-Kadai	Eurasia	24.1169	110.106	55	33	19	0	3	33	22	1.736842105263158	a ã aː ãː b̰ e ɛ ɛ̃ ɛː ɛ̃ː f h i iː ĩː ie̞ ĩẽ̞ j j̊ k kʰ kʲ kʲʰ kʷ kʷʰ l l̥ m m̥ n n̥ ŋ ŋʲ ŋ̥ʲ ŋʷ õ ɔː ɔ̃ː p pʰ t tʰ ts tsʰ u ũ uː ũː uo ɥ w ʍ ʔ β̞ θ
-lakk1252-440	Lak	lakk1252	Nakh-Daghestanian	Eurasia	42.1328	47.0809	69	60	9	0	0	60	9	6.666666666666667	a aː æˤ b d e̞ˤ g ɢ ɢʷ h ħ i iː j kː kʰ kʷː kʷʰ kʼʷ kʼ l m n ø̞ˤ pː pʰ pʼ qː qʰ qʷː qʷʰ qʼʷ qʼ r s sː ʃ ʃː ʃʷ ʃʷː tː tʰ tsː tsʰ tsʷː tsʷʰ ts’ʷ tsʼ tʃː tʃʰ tʃʷː tʃʷʰ tʃ’ʷ tʃʼ tʼ u uː w x xː xʷ xʷː z ʒ ʔ χ χː χʷ χʷː
+lakk1252-440	Lak	lakk1252	Nakh-Daghestanian	Eurasia	42.1328	47.0809	69	60	9	0	0	60	9	6.666666666666667	a aː æˤ b d e̞ˤ g ɢ ɢʷ h ħ i iː j kː kʰ kʷː kʷʰ kʼʷ kʼ l m n ø̞ˤ pː pʰ pʼ qː qʰ qʷː qʷʰ qʼʷ qʼ r s sː ʃ ʃː ʃʷ ʃʷː tː tʰ tsː tsʰ tsʷː tsʷʰ tsʼʷ tsʼ tʃː tʃʰ tʃʷː tʃʷʰ tʃʼʷ tʃʼ tʼ u uː w x xː xʷ xʷː z ʒ ʔ χ χː χʷ χʷː
 lele1264-441	Lelemi	lele1264	Atlantic-Congo	Africa	7.34549	0.50746	34	22	12	0	0	22	12	1.8333333333333333	a ã b d dz ɖ e ɛ ɛ̃ f g gb h i ĩ j k kp l m n ɲ ŋ o ɔ ɔ̃ p s t ts u ũ v w
 lugb1240-442	Lugbara	lugb1240	Central Sudanic	Africa	3.02245	30.8642	36	26	10	0	0	26	10	2.6	a b b̰ d̪ d̪̰ dz e ɛ ɜ f g gb h i ɪ j j̰ k kp m n o ɔ p r ɺ s t̪ ts u ʊ v w w̰ z ʔ
 lahu1253-443	Lahu	lahu1253	Sino-Tibetan	Eurasia	21.2701	100.214	35	26	9	0	0	26	9	2.888888888888889	a b d dʒ e e̞ ɘ f g ɣ h i ɨ j k kʰ l m n ŋ o ɔ p pʰ q qʰ ʃ t tʰ tʃ tʃʰ u v w ʔ
@@ -330,7 +330,7 @@ roma1327-527	Romanian	roma1327	Indo-European	Eurasia	46.3913	24.2256	32	22	7	0	3
 roto1249-528	Rotokas	roto1249	North Bougainville	Papunesia	-5.94339	155.154	11	6	5	0	0	6	5	1.2	a ɾ e̞ g i k o̞ p t u β
 waim1251-529	Waima	waim1251	Austronesian	Papunesia	-8.67145	146.544	14	9	5	0	0	9	5	1.8	a b e̞ h i k m n̪ o̞ p ɾ̪ t̪ u ʔ
 russ1263-530	Russian	russ1263	Indo-European	Eurasia	59.0	50.0	38	33	5	0	0	33	5	6.6	a b bʲ d̪ d̪ʲ ɛ f fʲ g i j k kʲ l̪ˠ l̪ʲ m mʲ n̪ n̪ʲ ɔ p pʲ r̪ r̪ʲ s̪ s̪ʲ ʃˠ t̪ t̪ʲ ts tʃ u v vʲ x z̪ z̪ʲ ʒˠ
-rutu1240-531	Rutul	rutu1240	Nakh-Daghestanian	Eurasia	41.6187	47.3244	64	59	5	0	0	59	5	11.8	a b d dz dʒ dʒʷ e̞ g gʷ ɢ ɢʷ ɢʷˤ ɢˤ ɣ h ħ i ɨ j kʰ kʷʰ kʼʷ kʼ l m n pʰ pʼ qʰ qʷʰ qʼʷ qʷˤʰ q’ʷˤ qʼ qˤʰ q’ˤ r ʁ ʁʷ ʁʷˤ ʁˤ s sʷ ʃ tʰ tsʰ tsʷʰ ts’ʷ tsʼ tʃʰ tʃ’ʷ tʃʼ tʼ u x xʷ z ʔ ʔˤ β̞ χ χʷ χʷˤ χˤ
+rutu1240-531	Rutul	rutu1240	Nakh-Daghestanian	Eurasia	41.6187	47.3244	64	59	5	0	0	59	5	11.8	a b d dz dʒ dʒʷ e̞ g gʷ ɢ ɢʷ ɢʷˤ ɢˤ ɣ h ħ i ɨ j kʰ kʷʰ kʼʷ kʼ l m n pʰ pʼ qʰ qʷʰ qʼʷ qʷˤʰ qʼʷˤ qʼ qˤʰ qʼˤ r ʁ ʁʷ ʁʷˤ ʁˤ s sʷ ʃ tʰ tsʰ tsʷʰ tsʼʷ tsʼ tʃʰ tʃʼʷ tʃʼ tʼ u x xʷ z ʔ ʔˤ β̞ χ χʷ χʷˤ χˤ
 sand1273-532	Sandawe	sand1273		Africa	-5.26918	35.4808	54	47	7	0	0	47	7	6.714285714285714	a b d dɮ dz e̞ f g gǀ͓ gǁ͓ gǃ̠ h i i̥ j k kʰ kʼ ǀ͓ ǀʰ͓ ǀˀ͓ ǁ͓ ǁʰ͓ ǁˀ͓ ǃ̠ ǃ̠ʰ ǃ̠ˀ l ɬ m n ŋ ŋǀ͓ ŋǁ͓ ŋǃ̠ o̞ p pʰ pʼ ɾ s t tʰ tɬ tɬʼ ts tsʰ tsʼ tʼ u u̥ w x ʔ
 sang1328-533	Sango	sang1328	Atlantic-Congo	Africa	6.78584	20.1702	37	25	11	1	0	26	11	2.272727272727273	a ã b ɓ d e ɛ ɛ̃ f g gb h i j k kp l m ⁿb ⁿv n ⁿd ⁿʒ ⁿg ⁿgb o ɔ ɔ̃ p ɺ̠ ʃ t u ũ v w ʒ
 yaku1245-534	Sakha	yaku1245	Turkic	Eurasia	61.6974	133.98	34	22	8	0	4	22	12	2.75	a b d dʒ ɛ f g i ie̞ j j̃ k lˠ m n̪ ɲ ŋ œ ɔ p r s̪ ʃ t tʃ u uo ɯ ɯa v y yø̞ z̪ ʒ
@@ -366,7 +366,7 @@ aika1237-563	Aikanã	aika1237		South America	-12.6695	-60.5353	32	22	10	0	0	22	1
 gaam1241-564	Gaam	gaam1241	Eastern Jebel	Africa	11.4674	33.9797	33	24	9	0	0	24	9	2.6666666666666665	a b c d̪ ð e ə ɛ f g h i ɪ j ɟ k l m n ɲ ŋ o ɔ p r s ʃ t̪ u w z ʔ θ
 ticu1245-565	Ticuna	ticu1245	Ticuna-Yuri	South America	-3.66289	-69.8723	29	18	11	0	0	18	11	1.6363636363636365	a ã b d dʒ e̞ f g i ĩ ɨ ɨ̃ k kʷ m n ɲ ŋ o̞ õ̞ p ɾ s t tʃ u ũ w ʔ
 tulu1258-566	Tulu	tulu1258	Dravidian	Eurasia	12.8114	75.2651	37	24	13	0	0	24	13	1.8461538461538463	aː ɐ b d̪ dʒ ɖ e eː ɛ ɛː g i iː j k l̪ ɭ m n̪ ɲ ɳ ŋ o oː p r s ʂ ʃ t̪ tʃ ʈ u uː ɯ ʋ x
-tehu1242-567	Tehuelche	tehu1242	Chonan	South America	-47.5796	-68.3235	35	28	7	0	0	28	7	4.0	a b ɕ d̪ e̞ ə h i ɨ j k kʼ l̪ l̪̥ m n̪ o̞ p pʼ q r̪ s̪ ʃ t̪ tɕ tɕ’ ts̪ ts̪ʼ tʃ tʃʼ t̪ʼ u w x ʔ
+tehu1242-567	Tehuelche	tehu1242	Chonan	South America	-47.5796	-68.3235	35	28	7	0	0	28	7	4.0	a b ɕ d̪ e̞ ə h i ɨ j k kʼ l̪ l̪̥ m n̪ o̞ p pʼ q r̪ s̪ ʃ t̪ tɕ tɕʼ ts̪ ts̪ʼ tʃ tʃʼ t̪ʼ u w x ʔ
 telu1262-568	Telugu	telu1262	Dravidian	Eurasia	16.4529	78.7024	43	32	11	0	0	32	11	2.909090909090909	aː æː b bʱ ɕ d̪ dʱ dz ɖ ɖʱ e eː ɜ f g gʱ ɦ i iː j k kʰ l ɭ m n ɳ o oː p pʰ ɾ s ʂ t̪ tɕ ts ʈ ʈʰ u uː β̞ β̞ː
 timn1235-569	Timne	timn1235	Atlantic-Congo	Africa	8.90294	-12.3331	25	17	8	0	0	17	8	2.125	a ɑ b d e ɛ f gb h i j k l m n o ɔ p r s t t̪ u w ʔ
 nucl1339-570	Temein	nucl1339	Temeinic	Africa	11.8275	29.3898	25	18	7	0	0	18	7	2.5714285714285716	a b d d̪ e ɛ g i j ɟ k l m n̪ ɲ ŋ o ɔ p r s t t̪ u w
@@ -378,7 +378,7 @@ taha1241-575	Tahaggart Tamahaq	taha1241	Afro-Asiatic	Africa	22.5908	8.73169	37	2
 tigr1270-576	Tigre	tigr1270	Afro-Asiatic	Africa	17.3494	38.2233	33	26	7	0	0	26	7	3.7142857142857144	a̟ː b d̪ dʒ e̞ː ə ɜ f g h ħ iː j k kʼ l m n̪ o̞ː r s ʃ t̪ tsʼ tʃ tʃʼ t̪ʼ uː w z ʒ ʔ ʕ
 tiwi1244-577	Tiwi	tiwi1244		Australia	-11.6308	130.949	26	22	4	0	0	22	4	5.5	a ɣ i j k l ɭ m ⁿp n n̪ ⁿt ⁿt̪ ɳ ⁿʈ ŋ ⁿk ɔ p ɻ ɾ t t̪ ʈ u w
 tiru1241-578	Tiruray	tiru1241	Austronesian	Papunesia	6.77321	124.127	22	16	6	0	0	16	6	2.6666666666666665	a b d ɛ g h i ɨ j k l m n ŋ ɔ ɸ r s t u w ʔ
-tlin1245-579	Tlingit	tlin1245	Athabaskan-Eyak-Tlingit	North America	59.4447	-135.29	48	43	5	0	0	43	5	8.6	a b d dɮ dz dʒ e̞ g gʷ ɢ ɢʷ i j k kʷ kʼʷ kʼ ɬ ɬʼ n o̞ p pʼ q qʷ qʼʷ qʼ s sʼ t tɬ tɬʼ ts tsʼ tʃ tʃʼ tʼ u w x xʷ x’ʷ xʼ ʔ χ χʷ χ’ʷ χʼ
+tlin1245-579	Tlingit	tlin1245	Athabaskan-Eyak-Tlingit	North America	59.4447	-135.29	48	43	5	0	0	43	5	8.6	a b d dɮ dz dʒ e̞ g gʷ ɢ ɢʷ i j k kʷ kʼʷ kʼ ɬ ɬʼ n o̞ p pʼ q qʷ qʼʷ qʼ s sʼ t tɬ tɬʼ ts tsʼ tʃ tʃʼ tʼ u w x xʷ xʼʷ xʼ ʔ χ χʷ χʼʷ χʼ
 talo1250-580	Tasomi-Tata	talo1250	Narrow Talodi	Africa	10.6453	30.4815	21	14	7	0	0	14	7	2.0	a b d d̪ ɛ g i ɪ j ɟ l m n ɲ ŋ ɔ r s u ʊ w
 tama1331-581	Tama (Chad)	tama1331	Tamaic	Africa	14.332	21.9951	30	21	9	0	0	21	9	2.3333333333333335	a b ɓ d̪ ɗ e ɛ f g h ħ i ɪ j ɟ k l m n ɲ ŋ o ɔ r ɾ s t̪ u ʊ w
 tamn1235-582	Tamnim Citak	tamn1235	Nuclear Trans New Guinea	Papunesia	-5.57962	139.233	17	11	6	0	0	11	6	1.8333333333333333	a e ə f i ʝ k m n ɔ p ɾ s t tʃ u w
@@ -391,7 +391,7 @@ trum1247-588	Trumai	trum1247		South America	-11.8119	-53.5717	24	18	6	0	0	18	6	3
 toar1246-589	Toaripi	toar1246	Eleman	Papunesia	-8.07231	146.206	14	8	6	0	0	8	6	1.3333333333333333	a e̞ f h i k l m o̞ ɔ p s t u
 tonk1249-590	Tonkawa	tonk1249		North America	30.25	-96.75	25	15	10	0	0	15	10	1.5	a aː eː ɛ h i iː j k kʷ l̪ m n̪ oː ɔ p s t ts u uː w x xʷ ʔ
 lish1246-591	Lishán Didán	lish1246	Afro-Asiatic	Eurasia	38.0	47.0	40	24	16	0	0	24	16	1.5	a aː aˤ aˤː b d̪ dʒ e̞ e̞ˤ f g h i iː iˤ iˤː j k l m n̪ o̞ o̞ˤ p q ɾ ʁ s ʃ t̪ tʃ u uː uˤ uˤː z ʒ ʔ β χ
-nucl1649-592	Southern-Coastal Tsimshian	nucl1649	Tsimshian	North America	52.59103	-128.544545	41	38	3	0	0	38	3	12.666666666666666	a b d dz g gʲ gʷ ɢ h i j j̰ k kʲ k’ʲ kʷ kʼʷ kʼ l l̰ ɬ m m̰ n n̰ p pʼ q qʼ s t ts tsʼ tʼ u ɰ ɰ̰ w w̰ ʔ χ
+nucl1649-592	Southern-Coastal Tsimshian	nucl1649	Tsimshian	North America	52.59103	-128.544545	41	38	3	0	0	38	3	12.666666666666666	a b d dz g gʲ gʷ ɢ h i j j̰ k kʲ kʼʲ kʷ kʼʷ kʼ l l̰ ɬ m m̰ n n̰ p pʼ q qʼ s t ts tsʼ tʼ u ɰ ɰ̰ w w̰ ʔ χ
 tsou1248-593	Tsou	tsou1248	Austronesian	Papunesia	23.216	120.787	21	15	6	0	0	15	6	2.5	a b̰ e̞ f h i k l̰ m n ŋ o̞ p ʂ t ʈʂ u ʉ v ʐ ʔ
 pure1242-594	Purepecha	pure1242	Tarascan	North America	19.2467	-101.631	39	33	6	0	0	33	6	5.5	a b d ɛ f g h i ɨ˞ j k kʰ kʷ kʷʰ l ɭ m n ɲ ŋ o p pʰ ɸ r ɹ s ʂ ʃ t tʰ ts tsʰ tʃ tʃʰ u w x ʔ
 tera1251-595	Tera	tera1251	Afro-Asiatic	Africa	11.0376	11.80953	48	42	6	0	0	42	6	7.0	a b ɓ ɓʲ cç ɕ d ɗ e̞ f g gʷ ɠ ɣ ɣʷ i ɨ j ɟʝ ʄ k kʷ l ɬ ɮ m ⁿb n ⁿd ɲ ⁿɟʝ ŋ ⁿg ⁿgʷ o̞ p pʲ r s t u v vʲ w x xʷ z ʑ
@@ -440,7 +440,7 @@ yare1248-637	Yareba	yare1248	Yareban	Papunesia	-9.50651	148.605	18	13	5	0	0	13	5
 nene1249-638	Tundra Nenets	nene1249	Uralic	Eurasia	66.1775	71.0234	35	27	8	0	0	27	8	3.375	a ă b bʲ ð ðʲ e̞ i ĭ j k l lʲ m mʲ n nʲ ŋ o̞ p pʲ r rʲ s sʲ t tʲ ts tsʲ u ŭ x ʔ ʔ̬ β
 yess1239-639	Yessan-Mayo	yess1239	Sepik	Papunesia	-4.15721	142.574	20	16	4	0	0	16	4	4.0	a ɒ ɜ h ɨ j kʰ kʷ l m ⁿb n ⁿd ⁿg ⁿgʷ ɸ r s tʰ w
 yuca1254-640	Yucatec Maya	yuca1254	Mayan	North America	18.7757	-88.9567	30	20	10	0	0	20	10	2.0	a a̰ b̰ e̞ ɛ̰ h i ḭ j k kʼ l m n o̞ ɔ̰ p pʼ s ʃ t ts tsʼ tʃ tʃʼ tʼ u ṵ w ʔ
-yuch1247-641	Yuchi	yuch1247		North America	35.96146	-95.03933	46	38	8	0	0	38	8	4.75	a æ b d dz dʒ e ẽ̞ g h i j j̰ k kʰ kʼ l l̰ ɬ ɬʼ n n̰ o õ̞ p pʰ pʼ ɸ ɸ’ s sʼ ʃ ʃʼ t tʰ ts tsʰ tsʼ tʃ tʃʰ tʃʼ tʼ u w w̰ ʔ
+yuch1247-641	Yuchi	yuch1247		North America	35.96146	-95.03933	46	38	8	0	0	38	8	4.75	a æ b d dz dʒ e ẽ̞ g h i j j̰ k kʰ kʼ l l̰ ɬ ɬʼ n n̰ o õ̞ p pʰ pʼ ɸ ɸʼ s sʼ ʃ ʃʼ t tʰ ts tsʰ tsʼ tʃ tʃʰ tʃʼ tʼ u w w̰ ʔ
 yuec1235-642	Yue Chinese	yuec1235	Sino-Tibetan	Eurasia	23.0	113.0	25	20	5	0	0	20	5	4.0	a æ f h i j k kʰ kʷ kʷʰ l l̥ m n ŋ ɔ p pʰ ʃ t tʰ tʃ tʃʰ u w
 yulu1243-643	Yulu	yulu1243	Central Sudanic	Africa	8.04124	23.6166	42	34	7	1	0	35	7	4.857142857142857	a b ɓ c d̪ dz̪ ɗ e ɛ f g gb h i j ɟ ʄ k kp l̪ m ⁿb ⁿv n̪ ⁿd̪ ⁿz̪ ɲ ⁿɟ ŋ ⁿg ⁿgb o ɔ p r̪ s̪ t̪ u v w z̪ ʔ
 nucl1454-644	Yawa	nucl1454	Yawa-Saweru	Papunesia	-1.77196	136.263	19	14	5	0	0	14	5	2.8	a b d dʒ e̞ i j k m n nʲ o̞ p ɾ s sʲ t u w

@@ -84,6 +84,8 @@ def load_dataset(dataset, td=None, clts=None):
     inventories = {}
     count = 0
     soundsD = defaultdict(int)
+    exc_file = open('output/excluded.md', 'a')
+    exc_file.write('## Dataset {0}\n\n'.format(dataset))
     for var, vals in progressbar(varieties.items(), desc='identify inventories'):
         for sound in vals:
             if sound not in dset_td.grapheme_map:
@@ -100,7 +102,7 @@ def load_dataset(dataset, td=None, clts=None):
                     glottocode=gcode['Glottocode'],
                     latitude=gcode['Latitude'],
                     longitude=gcode['Longitude'],
-                    family=gcode['Family_Name'],
+                    family=gcode.get('Family_Name', gcode.get('Family')),
                     macroarea=gcode['Macroarea'],
                     attributes=gcode
                     )
@@ -127,7 +129,16 @@ def load_dataset(dataset, td=None, clts=None):
             for sound in vals:
                 if sound not in dset_td.grapheme_map or dset_td.grapheme_map[sound] == '<NA>':
                     soundsD[sound] += 1
+            exc_file.write('### Variety {0} ({1})\n\n'.format(
+                var, gcode['Glottocode']))
+            exc_file.write('Sound in Source | BIPA \n')
+            exc_file.write('--- | --- \n')
+            for sound in vals:
+                exc_file.write(sound + ' | ' + dset_td.grapheme_map.get(
+                    sound, '<NA>') +' \n')
             count += 1
+    exc_file.write('\n\n')
+    exc_file.close()
     print('[i] excluded {0} inventories for {1}'.format(count, dataset))
     print('Problematic sounds: {0}'.format(len(soundsD)))
     for s, count in sorted(soundsD.items(), key=lambda x: x[1]):
@@ -169,6 +180,9 @@ def load_dataset(dataset, td=None, clts=None):
 clts = CLTS()
 bipa = clts.transcriptionsystem_dict['bipa']
 
+
+with open('output/excluded.md', 'w') as f:
+    f.write('# Excluded Varieties\n\n')
 
 print('eurasianinventories')
 load_dataset('eurasianinventories', td='eurasian')
