@@ -11,6 +11,10 @@ from models import Language, wals_3a
 from tqdm import tqdm
 from pyclts.util import nfd
 from pyclts.transcriptionsystem import is_valid_sound
+import json
+import pybtex
+from pycldf.sources import Source
+from pylatexenc.latex2text import LatexNodes2Text
 
 def progressbar(function, desc=''):
 
@@ -26,17 +30,27 @@ def normalize(grapheme):
 
 
 def get_cldf_varieties(dataset):
-    
+    """
+    Load a generic CLDF dataset.
+    """
     bipa = CLTS().bipa
+    dset_ = get_dataset(dataset)
+    dset = dset_.cldf_reader()
+    try:
+        bib = {source.id: source for source in dset_.cldf_dir.read_bib()}
+    except:
+        bib = {}
     dset = get_dataset(dataset).cldf_reader()
     languages = {row['ID']: row for row in dset.iter_rows('LanguageTable')}
     params = {row['Name']: row for row in dset.iter_rows('ParameterTable')}
-    
     varieties = defaultdict(list)
+    sources = defaultdict(set)
     for row in progressbar(dset.iter_rows('ValueTable'), desc='load values'):
         lid = row['Language_ID']
+        source = row['Source'][0] if row['Source'] else ''
         varieties[lid] += [nfd(row['Value'])]
-    return languages, params, varieties
+        sources[lid].add(source)
+    return languages, params, varieties, sources, bib
 
 
 def get_phoible_varieties(
@@ -44,43 +58,67 @@ def get_phoible_varieties(
         path=Path.home().joinpath('data', 'datasets', 'cldf', 'cldf-datasets',
             'phoible', 'cldf'),
         ):
+    """
+    Load phoible data (currently not in generic CLDF).
+    """
     bipa = CLTS().bipa
-    # load phoible data
     phoible = pycldf.Dataset.from_metadata(
             path.joinpath('StructureDataset-metadata.json'))
-    
+    bib = pybtex.database.parse_string(
+            open(path.joinpath('sources.bib').as_posix()).read(), bib_format='bibtex')
+    bib_ = [Source.from_entry(k, e) for k, e in bib.entries.items()]
+    bib = {source.id: source for source in bib_}
     gcodes = {row['ID']: row for row in phoible.iter_rows('LanguageTable')}
     params = {row['Name']: row for row in phoible.iter_rows('ParameterTable')}
     contributions = {row['ID']: row['Contributor_ID'] for row in
             phoible.iter_rows('contributions.csv')}
-        
     languages = {}
     varieties = defaultdict(list)
+    sources = defaultdict(set)
     for row in progressbar(phoible.iter_rows('ValueTable'), desc='load values'):
         if contributions[row['Contribution_ID']] in subsets:
             lid = row['Language_ID']+'-'+row['Contribution_ID']
             varieties[lid] += [nfd(row['Value'])]
             languages[lid] = gcodes[row['Language_ID']]
-    return languages, params, varieties
+            source = row['Source'][0] if row['Source'] else ''
+            sources[lid].add(source)
+    return languages, params, varieties, sources, bib
+
+
+def style_source(sources, bib):
+    source = sources.pop()
+    if source in bib:
+        tmp = {}
+        for k, v in bib[source].items():
+            tmp[k.lower()] = LatexNodes2Text().latex_to_text(v)
+        return '{0} ({1}): {2} [{3}]'.format(
+                tmp.get('author', '?'),
+                tmp.get('year', '?'),
+                tmp.get('title', '?'),
+                source)
+    elif source:
+        print('Missing source {0}'.format(source))
+        return source
+    return ''
 
 
 
-def load_dataset(dataset, td=None, clts=None):
+def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
     clts = clts or CLTS()
 
     if not td:
         td = dataset
-    
+
     if dataset in ['UZ-PH-GM', 'UPSID']:
         dset_td = clts.transcriptiondata_dict['phoible']
-        languages, params, varieties = get_phoible_varieties(dataset)
+        languages, params, varieties, sources, bib = get_phoible_varieties(dataset)
     else:
         dset_td = clts.transcriptiondata_dict[td]
-        languages, params, varieties = get_cldf_varieties(dataset)
-    
+        languages, params, varieties, sources, bib = get_cldf_varieties(dataset)
+
     for sound in list(dset_td.grapheme_map):
         dset_td.grapheme_map[normalize(sound)] = dset_td.grapheme_map[sound]
-    
+
     inventories = {}
     count = 0
     soundsD = defaultdict(int)
@@ -92,10 +130,11 @@ def load_dataset(dataset, td=None, clts=None):
                 bsound = bipa[sound]
                 if bsound.type != 'unknownsound' and is_valid_sound(bsound, bipa):
                     dset_td.grapheme_map[sound] = bipa[sound].s
+        gcode = languages[var]
+
         if len(vals) == len(
                 [v for v in vals if dset_td.grapheme_map.get(v, '<NA>') != '<NA>']
                 ):
-            gcode = languages[var]
             lang = Language(
                     var,
                     gcode['Name'],
@@ -106,6 +145,7 @@ def load_dataset(dataset, td=None, clts=None):
                     macroarea=gcode['Macroarea'],
                     attributes=gcode
                     )
+
             sounds = {}
             for v in vals:
                 s = dset_td.grapheme_map[v]
@@ -118,6 +158,8 @@ def load_dataset(dataset, td=None, clts=None):
                     occs=0,
                     sound=b
                     )
+                dump['bipa-'+s] = b.name
+
             if lang.latitude:
                 inv = Inventory(
                         id=var,
@@ -125,17 +167,26 @@ def load_dataset(dataset, td=None, clts=None):
                         language=lang,
                         ts=bipa)
                 inventories[var] = inv
+                dump[gcode['Glottocode']] += [
+                        {
+                            'ID': var,
+                            'Dataset': dataset,
+                            'Name': gcode['Name'],
+                            'Source': style_source(sources[var], bib),
+                            'CLTS': {
+                                sound.grapheme: sound.grapheme_in_source for sound in sounds.values()},
+                            'Sounds': vals}]
         else:
             for sound in vals:
                 if sound not in dset_td.grapheme_map or dset_td.grapheme_map[sound] == '<NA>':
                     soundsD[sound] += 1
-            exc_file.write('### Variety {0} ({1})\n\n'.format(
-                var, gcode['Glottocode']))
+            exc_file.write('### Variety {0} ({1}, {2})\n\n'.format(
+                var, gcode['Glottocode'], ' '.join(sources[var])))
             exc_file.write('Sound in Source | BIPA \n')
             exc_file.write('--- | --- \n')
             for sound in vals:
                 exc_file.write(sound + ' | ' + dset_td.grapheme_map.get(
-                    sound, '<NA>') +' \n')
+                    sound, '?') +' \n')
             count += 1
     exc_file.write('\n\n')
     exc_file.close()
@@ -143,7 +194,6 @@ def load_dataset(dataset, td=None, clts=None):
     print('Problematic sounds: {0}'.format(len(soundsD)))
     for s, count in sorted(soundsD.items(), key=lambda x: x[1]):
         print('{0:8} \t| {1}'.format(s, count))
-    input()
     
     count = 0
     with open(dataset+'-data.tsv', 'w') as f:
@@ -173,8 +223,7 @@ def load_dataset(dataset, td=None, clts=None):
                     +'\n')
             count += 1
     print('loaded {0} language varieties for {0}'.format(count, dataset))
-
-
+    return dump
 
 # load basic data
 clts = CLTS()
@@ -185,8 +234,9 @@ with open('output/excluded.md', 'w') as f:
     f.write('# Excluded Varieties\n\n')
 
 print('eurasianinventories')
-load_dataset('eurasianinventories', td='eurasian')
+dump = load_dataset('eurasianinventories', td='eurasian')
 for ds in ['UPSID', 'lapsyd', 'jipa', 'UZ-PH-GM']:
     print(ds)
-    load_dataset(ds)
-
+    dump = load_dataset(ds, dump=dump)
+with open('app/data.js', 'w') as f:
+    f.write('var DATA = '+json.dumps(dump, indent=2)+';\n')

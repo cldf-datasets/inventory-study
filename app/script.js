@@ -120,7 +120,7 @@ function compare() {
           else {
             text += '<td></td>';
           }
-          text += '</tr>';
+          text += '</tr></table>';
 
           textsB.push(text);
         }
