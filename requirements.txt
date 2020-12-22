@@ -1,0 +1,9 @@
+https://github.com/cldf-datasets/lapsyd
+https://github.com/cldf-datasets/jipa
+https://github.com/cldf-datasets/eurasianinventories
+scipy
+matplotlib
+tqdm
+unidecode
+pyglottolog
+pylatexenc

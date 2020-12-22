@@ -1,0 +1,38 @@
+.sound {
+  display: table-inline;
+  background-color: lightgray;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+  //margin: 5px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.grapheme {
+  display: table-inline;
+  background-color: gray;
+  border: 1px solid black;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  //margin: 5px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.empty {
+  display: table-inline;
+}
+
+.comparetable table {
+  border: 2px solid gray;
+  padding: 5px;
+  margin: 5px;
+}
+.comparetable td {
+  border: 2px solid gray;
+  padding: 5px;
+  margin: 5px;
+}

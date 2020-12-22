@@ -2,7 +2,7 @@
 
 ## Dataset eurasianinventories
 
-### Variety hakkachinese (japh1234)
+### Variety hakkachinese (hakk1236, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -45,7 +45,7 @@ iɔ | iɔ
 iu | iu 
 ie | ie 
 iau | <NA> 
-### Variety hmongnjuagreenhmong (avar1256)
+### Variety hmongnjuagreenhmong (hmon1264, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -110,7 +110,7 @@ aj | ai̯
 aw | au̯ 
 aɰ | <NA> 
 ua | ua 
-### Variety shixing (besi1244)
+### Variety shixing (shix1238, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -202,7 +202,7 @@ ua | ua
 uɛ̃ | uɛ̃ 
 uã | uã 
 uɑ̃ | uɑ̃ 
-### Variety akha (besi1244)
+### Variety akha (akha1245, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -263,7 +263,7 @@ o̰ | o̰
 ɔ̰ | ɔ̰ 
 a̰ | a̰ 
 m̩ | m̩ 
-### Variety tamangeastern (narr1258)
+### Variety tamangeastern (east2347, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -314,7 +314,7 @@ juaː | <NA>
 jui | <NA> 
 joi | <NA> 
 jai | <NA> 
-### Variety sui (narr1258)
+### Variety sui (suii1243, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -379,7 +379,7 @@ au | au
 aːu | aːu 
 eu | eu 
 iu | iu 
-### Variety mindongchinesefuzhou (narr1258)
+### Variety mindongchinesefuzhou (mind1253, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -418,7 +418,7 @@ ui | ui
 y | y 
 yo | yo 
 øy | øy 
-### Variety standardchinesebeijing (xian1255)
+### Variety standardchinesebeijing (beij1234, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -468,7 +468,7 @@ iau | <NA>
 uai | <NA> 
 iou | <NA> 
 uei | <NA> 
-### Variety achanglianghe (temi1246)
+### Variety achanglianghe (acha1249, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -531,7 +531,7 @@ uɛ | uɛ
 iɑ | iɑ 
 uɑ | uɑ 
 uɑ̃ | uɑ̃ 
-### Variety malto (None)
+### Variety malto (malt1248, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -569,7 +569,7 @@ e | e
 eː | eː 
 o | o 
 oː | oː 
-### Variety northernqiangyadu (None)
+### Variety northernqiangyadu (None, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -646,7 +646,7 @@ i˞ | i˞
 e˞ | e˞ 
 ə˞ | ə˞ 
 a˞ | a˞ 
-### Variety southernpumixinyingpan (None)
+### Variety southernpumixinyingpan (None, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -710,7 +710,7 @@ õ | õ
 ɑ̃ | ɑ̃ 
 ɜj | ɜi̯ 
 ɑw | ɑu̯ 
-### Variety nangchenpatibetan (None)
+### Variety nangchenpatibetan (None, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -811,7 +811,7 @@ a | a
 a̤ | a̤ 
 aː | aː 
 a̤ː | a̤ː 
-### Variety ersu (None)
+### Variety ersu (ersu1241, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -875,7 +875,7 @@ o | o
 a˞ | a˞ 
 ɿ | ɿ 
 ɿ̹ | ɿ̹ 
-### Variety spanishmurcian (russ1263)
+### Variety spanishmurcian (murc1238, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -924,7 +924,7 @@ jæi | <NA>
 jɛi | <NA> 
 wæi | <NA> 
 wɛi | <NA> 
-### Variety easternminchinesefuzhou (daai1236)
+### Variety easternminchinesefuzhou (None, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -964,7 +964,7 @@ uai | <NA>
 y | y 
 yo | yo 
 øy | øy 
-### Variety xong (None)
+### Variety xong (None, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -1045,10 +1045,10 @@ u | u
 o | o 
 a | a 
 ɑ | ɑ 
-ɛɰ | <NA> 
-ɤj | <NA> 
+ɛɰ | ? 
+ɤj | ? 
 aw | au̯ 
-### Variety thebotibetangyiba (dakp1243)
+### Variety thebotibetangyiba (None, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -1109,7 +1109,7 @@ iː | iː
 ʊː | ʊː 
 uː | uː 
 eː | eː 
-jɛː | <NA> 
+jɛː | ? 
 oː | oː 
 ɑː | ɑː 
 ĩː | ĩː 
@@ -1118,7 +1118,7 @@ ẽː | ẽː
 õː | õː 
 ɛ̃ː | ɛ̃ː 
 ɑ̃ː | ɑ̃ː 
-### Variety standardarabickuwait (esto1258)
+### Variety standardarabickuwait (None, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -1150,16 +1150,16 @@ dˤ | dˤ
 sˤ | sˤ 
 ðˤ | ðˤ 
 lˤ | lˤ 
-ʔ̙ | <NA> 
+ʔ̙ | ? 
 i | i 
 u | u 
 a | a 
 ij | i̯ː 
 aj | ai̯ 
 aw | au̯ 
-uw | <NA> 
+uw | ? 
 aː | aː 
-### Variety gasconbearnais (None)
+### Variety gasconbearnais (bear1240, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -1169,8 +1169,8 @@ t | t
 d | d 
 k | k 
 g | g 
-tç | <NA> 
-dʝ | <NA> 
+tç | ? 
+dʝ | ? 
 m | m 
 n | n 
 ɲ | ɲ 
@@ -1203,14 +1203,14 @@ ej | ei̯
 ɛj | ɛi̯ 
 aj | ai̯ 
 uj | ui̯ 
-ɔj | <NA> 
+ɔj | ? 
 je | i̯e 
 jɛ | i̯ɛ 
 ja | i̯a 
 ju | i̯u 
 jɔ | i̯ɔ 
-ji | <NA> 
-jy | <NA> 
+ji | ? 
+jy | ? 
 ew | eu̯ 
 ɛw | ɛu̯ 
 aw | au̯ 
@@ -1221,7 +1221,7 @@ wɛ | u̯ɛ
 wa | u̯a 
 wi | u̯i 
 wɔ | u̯ɔ 
-### Variety spanishcastilian (nucl1643)
+### Variety spanishcastilian (cast1244, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -1263,8 +1263,8 @@ wo | u̯o
 ew | eu̯ 
 aw | au̯ 
 ow | ou̯ 
-wei | <NA> 
-### Variety zuberoanbasque (None)
+wei | ? 
+### Variety zuberoanbasque (None, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -1311,7 +1311,7 @@ ũ | ũ
 ỹ | ỹ 
 i̯ | i̯ 
 u̯ | u̯ 
-### Variety elfdalian (voro1241)
+### Variety elfdalian (elfd1234, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -1402,7 +1402,7 @@ ỹœː | ỹœː
 ɔy̯ː | ɔy̯ː 
 i̯uo | <NA> 
 i̯ũo | <NA> 
-### Variety occitangascon (kuvi1243)
+### Variety occitangascon (gasc1240, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -1465,7 +1465,7 @@ jɛi̯ | <NA>
 jei̯ | <NA> 
 weu̯ | <NA> 
 wɛi̯ | <NA> 
-### Variety chukchi (sara1314)
+### Variety chukchi (chuk1273, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -1489,7 +1489,7 @@ o̞ | o̞
 a | a 
 u | u 
 ə̆ | ə̆ 
-### Variety daur (dark1243)
+### Variety daur (daur1238, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -1550,7 +1550,7 @@ uː | uː
 iː | iː 
 i̯ | i̯ 
 u̯ | u̯ 
-### Variety udmurtstandard (hunz1248)
+### Variety udmurtstandard (udmu1245, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -1590,7 +1590,7 @@ o̞ | o̞
 u | u 
 i | i 
 ɤ̟̹ | ɤ̹̟ 
-### Variety besermansamardan (hunz1248)
+### Variety besermansamardan (None, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -1627,7 +1627,7 @@ e | e
 u | u 
 i | i 
 ɨ̹ | ɨ̹ 
-### Variety yodzyakkomi (hunz1248)
+### Variety yodzyakkomi (None, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -1668,7 +1668,7 @@ e̠ | e̠
 o | o 
 a̠ | a̠ 
 u | u 
-### Variety komipermyak (hunz1248)
+### Variety komipermyak (komi1269, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -1709,7 +1709,7 @@ u | u
 ɨ̠ | ɨ̠ 
 e | e 
 i | i 
-### Variety komizyriansyktyvkar (hunz1248)
+### Variety komizyriansyktyvkar (komi1268, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -1750,7 +1750,7 @@ u | u
 ɨ̠ | ɨ̠ 
 e | e 
 i | i 
-### Variety mongoliankhalkha (ingu1240)
+### Variety mongoliankhalkha (None, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -1800,7 +1800,7 @@ e | e
 eː | eː 
 i | i 
 ɯ | ɯ 
-### Variety slovakstandard (poli1260)
+### Variety slovakstandard (slov1269, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -1849,7 +1849,7 @@ u̞ː | u̞ː
 ɪ̯ɔ | ɪ̯ɔ 
 ɪ̯u̞ | ɪ̯u̞ 
 ʊ̯ɔ | ʊ̯ɔ 
-### Variety serbianstandardekavian (None)
+### Variety serbianstandardekavian (serb1264, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -1887,7 +1887,7 @@ e̞ː | e̞ː
 aː | aː 
 o̞ː | o̞ː 
 uː | uː 
-### Variety tersaami (fore1265)
+### Variety tersaami (ters1235, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -1960,7 +1960,7 @@ ai̯ | ai̯
 ɛi̯ | ɛi̯ 
 oi̯ | oi̯ 
 iɛi̯ | <NA> 
-### Variety meadowmarimorkisernur (kama1378)
+### Variety meadowmarimorkisernur (gras1239, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -1991,7 +1991,7 @@ y̞ | y̞
 u | u 
 o | o 
 ɪ̈ | ɪ̈ 
-### Variety easternmari (kama1378)
+### Variety easternmari (None, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -2026,7 +2026,7 @@ y̞ | y̞
 u | u 
 o | o 
 ɪ̈ | ɪ̈ 
-### Variety hillmarikozmodemjansk (kama1378)
+### Variety hillmarikozmodemjansk (None, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -2064,7 +2064,7 @@ y̞ | y̞
 u | u 
 o | o 
 ɪ̈ | ɪ̈ 
-### Variety itelmen (ghod1238)
+### Variety itelmen (itel1242, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -2100,7 +2100,7 @@ i | i
 a | a 
 o̞̜ | o̞̜ 
 u̜ | u̜ 
-### Variety buriatstandard (dudh1239)
+### Variety buriatstandard (russ1264, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -2149,7 +2149,7 @@ iː | iː
 ui | ui 
 u | u 
 uː | uː 
-### Variety toskalbaniankorce (west2339)
+### Variety toskalbaniankorce (None, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -2191,7 +2191,7 @@ a | a
 y | y 
 i̯ | i̯ 
 u̯ | u̯ 
-### Variety chechenploskost (gjun1238)
+### Variety chechenploskost (plos1238, )
 
 Sound in Source | BIPA 
 --- | --- 
@@ -2269,7 +2269,7 @@ wõː | u̯õː
 
 ## Dataset UPSID
 
-### Variety niva1238-270 (cadd1256)
+### Variety niva1238-270 (niva1238, stell1972)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -2301,7 +2301,7 @@ u | u
 w | w 
 x | x 
 ʔ | ʔ 
-### Variety kaba1278-391 (nucl1302)
+### Variety kaba1278-391 (kaba1278, kuipers1960)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -2369,7 +2369,35 @@ z̪ | z̪
 
 ## Dataset jipa
 
-### Variety chistabinopyreneanaragonese (yuec1235)
+### Variety mavea (mafe1237, jipa_Guerin2019)
+
+Sound in Source | BIPA 
+--- | --- 
+p̼ | t̼ 
+p | p 
+t | t 
+ɖ | ɖ 
+k | k 
+m̼ | n̼ 
+m | m 
+n | n 
+ŋ | ŋ 
+r | r 
+v̼ | ? 
+v | v 
+s | s 
+l | l 
+w | w 
+nː | nː 
+lː | lː 
+mː | mː 
+rː | rː 
+i | i 
+e | e 
+u | u 
+o | o 
+a | a 
+### Variety chistabinopyreneanaragonese (arag1245, jipa_Mott2007)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -2418,7 +2446,99 @@ jau̯ | <NA>
 jeu̯ | <NA> 
 wei̯ | <NA> 
 wai̯ | <NA> 
-### Variety ersu (egaa1242)
+### Variety uppersaxonchemnitzdialect (uppe1400, jipa_Khan2013)
+
+Sound in Source | BIPA 
+--- | --- 
+p | p 
+t | t 
+k | k 
+kʰ | kʰ 
+m | m 
+n | n 
+ŋ | ŋ 
+f | f 
+s | s 
+ʃ | ʃ 
+χ | χ 
+h | h 
+ʋ | ʋ 
+j | j 
+ʁ̞ | ʁ̞ 
+l | l 
+iː | iː 
+eː | eː 
+ɛː | ɛː 
+ʉː | ʉː 
+ɵː | ɵː 
+ʌː | ʌː 
+ɪ | ɪ 
+ɛ | ɛ 
+ɵ | ɵ 
+ɞ | ɞ 
+ʌ | ʌ 
+ə | ə 
+aˤ: | aˤː 
+ʌˤː | ʌˤː 
+ʊˤː | ʊˤː 
+oˤː | oˤː 
+ɔˤː | ɔˤː 
+ɛːɒ̯ˤ | ɛːɒ̯ˤ 
+ɪːɒ̯ˤ | ɪːɒ̯ˤ 
+ʊːɒ̯ˤ | ʊːɒ̯ˤ 
+oːɒ̯ʔ | oːɒ̯ˤ 
+oˤ | oˤ 
+əʁ̞ | <NA> 
+ɞʏ̯ | ɞʏ̯ 
+ae̯ | ae̯ 
+aɵ̯ | aɵ̯ 
+### Variety hakkachinese (hakk1236, jipa_Lee2009)
+
+Sound in Source | BIPA 
+--- | --- 
+p | p 
+pʰ | pʰ 
+t | t 
+tʰ | tʰ 
+c | c 
+cʰ | cʰ 
+k | k 
+kʰ | kʰ 
+kʷ | kʷ 
+kʷʰ | kʷʰ 
+ts | ts 
+tsʰ | tsʰ 
+m | m 
+n | n 
+ɲ | ɲ 
+ŋ | ŋ 
+f | f 
+s | s 
+ç | ç 
+h | h 
+ʋ | ʋ 
+j | j 
+l | l 
+ɹ̩ | ɹ̩ 
+m̩ | m̩ 
+n̹ | n̩ 
+i | i 
+e | e 
+a | a 
+ə | ə 
+u | u 
+ɔ | ɔ 
+ie | ie 
+iɔ | iɔ 
+eu | eu 
+ɔi | ɔi 
+ai | ai 
+ia | ia 
+ui | ui 
+iu | iu 
+au | au 
+iau | <NA> 
+### Variety ersu (ersu1241, jipa_Chirkova2015)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -2482,55 +2602,7 @@ z̩ | z̩
 v̩ | v̩ 
 ɚ | ə˞ 
 a˞ | a˞ 
-### Variety friulian (stan1290)
-
-Sound in Source | BIPA 
---- | --- 
-m | m 
-n | n 
-ɲ | ɲ 
-p | p 
-b | b 
-t | t 
-d | d 
-c | c 
-ɟ | ɟ 
-k | k 
-g | g 
-t͜s | ts 
-d͜z | dz 
-tʃ | tʃ 
-dʒ | dʒ 
-f | f 
-v | v 
-s | s 
-z | z 
-ʃ | ʃ 
-ʒ | ʒ 
-j | j 
-w | w 
-r | r 
-l | l 
-i | i 
-iː | iː 
-e | e 
-eː | eː 
-ɛ | ɛ 
-ɛː | ɛː 
-a | a 
-aː | aː 
-u | u 
-uː | uː 
-o | o 
-oː | oː 
-ɔ | ɔ 
-ɔː | ɔː 
-ɪi | ɪi 
-eɪ | eɪ 
-e̞ɪ | e̞ɪ 
-oʊ̃ | oʊ̃ 
-ɔoũ | <NA> 
-### Variety hakkachinese (balk1252)
+### Variety standardchinesebeijing (mand1415, jipa_Lee2003)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -2538,73 +2610,86 @@ p | p
 pʰ | pʰ 
 t | t 
 tʰ | tʰ 
-c | c 
-cʰ | cʰ 
 k | k 
 kʰ | kʰ 
-kʷ | kʷ 
-kʷʰ | kʷʰ 
 ts | ts 
 tsʰ | tsʰ 
+tʃ̺ | tʃ̺ 
+tʃ̺ʰ | tʃ̺ʰ 
+tɕ | tɕ 
+tɕʰ | tɕʰ 
 m | m 
 n | n 
-ɲ | ɲ 
 ŋ | ŋ 
 f | f 
 s | s 
-ç | ç 
-h | h 
-ʋ | ʋ 
+ʃ̺ | ʃ̺ 
+ɕ | ɕ 
+x | x 
+w | w 
+ɹ̺ | ɹ̺ 
 j | j 
 l | l 
 ɹ̩ | ɹ̩ 
-m̩ | m̩ 
-n̹ | n̩ 
 i | i 
-e | e 
+y | y 
 a | a 
 ə | ə 
 u | u 
-ɔ | ɔ 
-ie | ie 
-iɔ | iɔ 
-eu | eu 
-ɔi | ɔi 
+ɤ | ɤ 
 ai | ai 
-ia | ia 
-ui | ui 
-iu | iu 
 au | au 
+ou | ou 
+uo | uo 
+ei | ei 
+ye | ye 
+ie | ie 
+ia | ia 
+ua | ua 
+uə | uə 
+iu | iu 
 iau | <NA> 
-### Variety mavea (mapu1245)
+uai | <NA> 
+iou | <NA> 
+uei | <NA> 
+### Variety tilquiapanzapotec (tilq1235, jipa_Merrill2008)
 
 Sound in Source | BIPA 
 --- | --- 
-p̼ | t̼ 
 p | p 
+b | b 
 t | t 
-ɖ | ɖ 
+d | d 
 k | k 
-m̼ | n̼ 
+g | g 
+kʷ | kʷ 
+gʷ | gʷ 
 m | m 
 n | n 
-ŋ | ŋ 
-r | r 
-v̼ | <NA> 
-v | v 
+n | n 
+ɾ | ɾ 
+tʃ | tʃ 
+dʒ | dʒ 
 s | s 
+z | z 
+ʃ | ʃ 
+ʒ | ʒ 
+j | j 
 l | l 
-w | w 
-nː | nː 
-lː | lː 
-mː | mː 
-rː | rː 
+ld | <NA> 
 i | i 
-e | e 
+ɨ | ɨ 
 u | u 
+e | e 
 o | o 
 a | a 
-### Variety mennoniteplaudietschcanadianoldcolony (mapu1245)
+iˤ | iˤ 
+ɨˤ | ɨˤ 
+uˤ | uˤ 
+eˤ | eˤ 
+oˤ | oˤ 
+aˤ | aˤ 
+### Variety mennoniteplaudietschcanadianoldcolony (plau1238, jipa_Cox2013)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -2663,144 +2748,59 @@ eəɪ | <NA>
 iəɪ | <NA> 
 aʊɪ | <NA> 
 oəɪ | <NA> 
-### Variety standardchinesebeijing (bava1246)
+### Variety friulian (friu1240, jipa_Miotti2002)
 
 Sound in Source | BIPA 
 --- | --- 
-p | p 
-pʰ | pʰ 
-t | t 
-tʰ | tʰ 
-k | k 
-kʰ | kʰ 
-ts | ts 
-tsʰ | tsʰ 
-tʃ̺ | tʃ̺ 
-tʃ̺ʰ | tʃ̺ʰ 
-tɕ | tɕ 
-tɕʰ | tɕʰ 
 m | m 
 n | n 
-ŋ | ŋ 
-f | f 
-s | s 
-ʃ̺ | ʃ̺ 
-ɕ | ɕ 
-x | x 
-w | w 
-ɹ̺ | ɹ̺ 
-j | j 
-l | l 
-ɹ̩ | ɹ̩ 
-i | i 
-y | y 
-a | a 
-ə | ə 
-u | u 
-ɤ | ɤ 
-ai | ai 
-au | au 
-ou | ou 
-uo | uo 
-ei | ei 
-ye | ye 
-ie | ie 
-ia | ia 
-ua | ua 
-uə | uə 
-iu | iu 
-iau | <NA> 
-uai | <NA> 
-iou | <NA> 
-uei | <NA> 
-### Variety tilquiapanzapotec (thai1261)
-
-Sound in Source | BIPA 
---- | --- 
+ɲ | ɲ 
 p | p 
 b | b 
 t | t 
 d | d 
+c | c 
+ɟ | ɟ 
 k | k 
 g | g 
-kʷ | kʷ 
-gʷ | gʷ 
-m | m 
-n | n 
-n | n 
-ɾ | ɾ 
+t͜s | ts 
+d͜z | dz 
 tʃ | tʃ 
 dʒ | dʒ 
+f | f 
+v | v 
 s | s 
 z | z 
 ʃ | ʃ 
 ʒ | ʒ 
 j | j 
+w | w 
+r | r 
 l | l 
-ld | <NA> 
 i | i 
-ɨ | ɨ 
-u | u 
-e | e 
-o | o 
-a | a 
-iˤ | iˤ 
-ɨˤ | ɨˤ 
-uˤ | uˤ 
-eˤ | eˤ 
-oˤ | oˤ 
-aˤ | aˤ 
-### Variety uppersaxonchemnitzdialect (ukra1253)
-
-Sound in Source | BIPA 
---- | --- 
-p | p 
-t | t 
-k | k 
-kʰ | kʰ 
-m | m 
-n | n 
-ŋ | ŋ 
-f | f 
-s | s 
-ʃ | ʃ 
-χ | χ 
-h | h 
-ʋ | ʋ 
-j | j 
-ʁ̞ | ʁ̞ 
-l | l 
 iː | iː 
+e | e 
 eː | eː 
-ɛː | ɛː 
-ʉː | ʉː 
-ɵː | ɵː 
-ʌː | ʌː 
-ɪ | ɪ 
 ɛ | ɛ 
-ɵ | ɵ 
-ɞ | ɞ 
-ʌ | ʌ 
-ə | ə 
-aˤ: | aˤː 
-ʌˤː | ʌˤː 
-ʊˤː | ʊˤː 
-oˤː | oˤː 
-ɔˤː | ɔˤː 
-ɛːɒ̯ˤ | ɛːɒ̯ˤ 
-ɪːɒ̯ˤ | ɪːɒ̯ˤ 
-ʊːɒ̯ˤ | ʊːɒ̯ˤ 
-oːɒ̯ʔ | oːɒ̯ˤ 
-oˤ | oˤ 
-əʁ̞ | <NA> 
-ɞʏ̯ | ɞʏ̯ 
-ae̯ | ae̯ 
-aɵ̯ | aɵ̯ 
+ɛː | ɛː 
+a | a 
+aː | aː 
+u | u 
+uː | uː 
+o | o 
+oː | oː 
+ɔ | ɔ 
+ɔː | ɔː 
+ɪi | ɪi 
+eɪ | eɪ 
+e̞ɪ | e̞ɪ 
+oʊ̃ | oʊ̃ 
+ɔoũ | <NA> 
 
 
 ## Dataset UZ-PH-GM
 
-### Variety ekpe1253-874 (eggo1239)
+### Variety ekpe1253-874 (ekpe1253, ekp_blench2006)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -2841,7 +2841,7 @@ u | u
 w | w 
 z | z 
 ʒ | ʒ 
-### Variety iban1261-891 (luya1241)
+### Variety iban1261-891 (iban1261, iby_blench2005)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -2883,7 +2883,7 @@ u | u
 v | v 
 w | w 
 z | z 
-### Variety siss1243-1017 (spok1245)
+### Variety siss1243-1017 (siss1243, sso_demuth1992)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -2933,7 +2933,7 @@ w | w
 x | x 
 z | z 
 ʒ | ʒ 
-### Variety nucl1290-1028 (sout2750)
+### Variety nucl1290-1028 (nucl1290, wbm_wattana1998)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -2986,7 +2986,7 @@ ui | ui
 ɯi | ɯi 
 v | v 
 ʔ | ʔ 
-### Variety poli1260-1046 (toba1269)
+### Variety poli1260-1046 (poli1260, pol_jassem2003)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -3027,7 +3027,7 @@ x | x
 z̪ | z̪ 
 z̻ | <NA> 
 ʑ | ʑ 
-### Variety mand1415-1047 (toba1269)
+### Variety mand1415-1047 (mand1415, cmn_lee2003_phon)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -3080,13 +3080,13 @@ w | w
 x | x 
 y | y 
 ye | ye 
-### Variety kala1381-1048 (toba1269)
+### Variety kala1381-1048 (kala1381, ijn_harry2003)
 
 Sound in Source | BIPA 
 --- | --- 
 ˦ | ⁴ 
 ˨ | ² 
-↓˦ | <NA> 
+↓˦ | ? 
 a | a 
 ã | ã 
 b | b 
@@ -3127,7 +3127,7 @@ ũ | ũ
 v | v 
 w | w 
 z | z 
-### Variety arag1245-1055 (mamb1294)
+### Variety arag1245-1055 (arag1245, arg_mott2007_phon)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -3176,7 +3176,7 @@ u̯i | u̯i
 u̯o | u̯o 
 x | x 
 θ | θ 
-### Variety tilq1235-1056 (mamb1294)
+### Variety tilq1235-1056 (tilq1235, zts_merrill2008_phon)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -3210,7 +3210,7 @@ u | u
 x | x 
 z | z 
 ʒ | ʒ 
-### Variety aheu1239-1216 (keoo1238)
+### Variety aheu1239-1216 (aheu1239, thm_nuchanart1998)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -3261,7 +3261,7 @@ v | v
 ʌː | ʌː 
 w | w 
 ʔ | ʔ 
-### Variety lega1249-1259 (bafi1243)
+### Variety lega1249-1259 (lega1249, 1259_lega)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -3270,7 +3270,7 @@ Sound in Source | BIPA
 ˧ | ³ 
 ˨ | ² 
 ˨˦ | ²⁴ 
-↓˦ | <NA> 
+↓˦ | ? 
 a | a 
 aː | aː 
 b | b 
@@ -3303,7 +3303,7 @@ uː | uː
 v | v 
 w | w 
 z | z 
-### Variety mamb1296-1289 (yala1263)
+### Variety mamb1296-1289 (mamb1296, 1289_mgr_bickmore)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -3312,7 +3312,7 @@ Sound in Source | BIPA
 ˦↓˦ | <NA> 
 ˨ | ² 
 ˨˦ | ²⁴ 
-↓˦ | <NA> 
+↓˦ | ? 
 ↓˦↓˦ | <NA> 
 a | a 
 aː | aː 
@@ -3343,13 +3343,13 @@ uː | uː
 v | v 
 w | w 
 z | z 
-### Variety abua1244-1297 (avat1244)
+### Variety abua1244-1297 (abua1244, 1297_abn)
 
 Sound in Source | BIPA 
 --- | --- 
 ˦ | ⁴ 
 ˨ | ² 
-↓˦ | <NA> 
+↓˦ | ? 
 a | a 
 b | b 
 ɓ | ɓ 
@@ -3387,7 +3387,7 @@ v | v
 w | w 
 z | z 
 β | β 
-### Variety xhos1239-1319 (copi1238)
+### Variety xhos1239-1319 (xhos1239, 1319_zone-s)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -3475,7 +3475,7 @@ v̤ | vʱ
 w | w 
 x | x 
 z̤ | zʱ 
-### Variety palo1243-1324 (cher1271)
+### Variety palo1243-1324 (palo1243, 1324_fap)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -3522,13 +3522,13 @@ uˑ | uˑ
 w | w 
 x | x 
 ʔ | ʔ 
-### Variety yans1239-1335 (lika1243)
+### Variety yans1239-1335 (yans1239, 1335_yns)
 
 Sound in Source | BIPA 
 --- | --- 
 ˦ | ⁴ 
 ˨ | ² 
-↓˦ | <NA> 
+↓˦ | ? 
 a | a 
 aː | aː 
 æ | æ 
@@ -3568,7 +3568,7 @@ w | w
 y | y 
 yː | yː 
 z | z 
-### Variety fali1285-1377 (nyam1285)
+### Variety fali1285-1377 (fali1285, 1377_fli)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -3622,7 +3622,7 @@ z | z
 ˀm | ˀm 
 ˀw | ˀw 
 ˀy | ˀj 
-### Variety kung1261-1383 (okoo1245)
+### Variety kung1261-1383 (kung1261, 1383_knw)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -3746,7 +3746,7 @@ x | x
 ʼn | ˀn 
 ʼŋǀ | ˀŋǀ 
 ʼŋǃ | ˀŋǃ 
-### Variety defa1248-1385 (ghom1247)
+### Variety defa1248-1385 (defa1248, 1385_afn)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -3754,7 +3754,7 @@ Sound in Source | BIPA
 ˦˨ | ⁴² 
 ˨ | ² 
 ˨˦ | ²⁴ 
-↓˦ | <NA> 
+↓˦ | ? 
 a | a 
 ã | ã 
 aː | aː 
@@ -3792,7 +3792,7 @@ ũ | ũ
 uː | uː 
 v | v 
 w | w 
-### Variety ikwe1242-1405 (lama1288)
+### Variety ikwe1242-1405 (ikwe1242, 1405_ikw)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -3800,7 +3800,7 @@ Sound in Source | BIPA
 ˦˨ | ⁴² 
 ˨ | ² 
 ˨˦ | ²⁴ 
-↓˦ | <NA> 
+↓˦ | ? 
 a | a 
 ã | ã 
 b | b 
@@ -3842,7 +3842,7 @@ v | v
 w | w 
 z | z 
 ˀb͉ | ˀb̚ 
-### Variety awng1244-1542 (logb1245)
+### Variety awng1244-1542 (awng1244, 1542_awngi_2010)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -3885,7 +3885,7 @@ ts | ts
 t̠ʃ | tʃ 
 u | u 
 w | w 
-### Variety lang1322-1579 (gude1246)
+### Variety lang1322-1579 (lang1322, 1579_lno)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -3894,7 +3894,7 @@ Sound in Source | BIPA
 ˦↓˦ | <NA> 
 ˨ | ² 
 ˨˦ | ²⁴ 
-↓˦ | <NA> 
+↓˦ | ? 
 a | a 
 b | b 
 d | d 
@@ -3921,7 +3921,7 @@ tɕ | tɕ
 u | u 
 ʊ | ʊ 
 w | w 
-### Variety nucl1310-2164 (bulg1262)
+### Variety nucl1310-2164 (nucl1310, mya_watkins2001)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -3981,7 +3981,7 @@ w | w
 ʍw | <NA> 
 z | z 
 ʔ | ʔ 
-### Variety hakk1236-2165 (bulg1262)
+### Variety hakk1236-2165 (hakk1236, hak_lee2009)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -4032,7 +4032,7 @@ tsʰ | tsʰ
 u | u 
 u̽i | u̽i 
 ʋ | ʋ 
-### Variety dutc1256-2171 (dutc1256)
+### Variety dutc1256-2171 (dutc1256, nld_gussenhoven1999)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -4087,7 +4087,7 @@ z | z
 ʒ | ʒ 
 ʔ | ʔ 
 β̞ | β̞ 
-### Variety dutc1256-2172 (dutc1256)
+### Variety dutc1256-2172 (dutc1256, nld_heijmans1998)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -4145,7 +4145,7 @@ z | z
 ʒ | ʒ 
 ʔ | ʔ 
 β̞ | β̞ 
-### Variety hung1274-2191 (hind1269)
+### Variety hung1274-2191 (hung1274, hun_szende1994)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -4213,13 +4213,13 @@ z̻ | <NA>
 z̻ː | z̻ː 
 ʒ | ʒ 
 ʒː | ʒː 
-### Variety nucl1417-2192 (hind1269)
+### Variety nucl1417-2192 (nucl1417, ibo_ikekeonwu1991)
 
 Sound in Source | BIPA 
 --- | --- 
 ˦ | ⁴ 
 ˨ | ² 
-↓˦ | <NA> 
+↓˦ | ? 
 a | a 
 b | b 
 d̪ | d̪ 
@@ -4252,7 +4252,7 @@ u | u
 u̠ | u̠ 
 w | w 
 z | z 
-### Variety ital1282-2195 (ladi1251)
+### Variety ital1282-2195 (ital1282, ita_bertinetto2005)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -4326,7 +4326,7 @@ w | w
 yia | <NA> 
 z̪ | z̪ 
 ʒ | ʒ 
-### Variety port1283-2207 (port1283)
+### Variety port1283-2207 (port1283, por_barbosa2004)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -4377,7 +4377,7 @@ uʊ̯ | uʊ̯
 v | v 
 z | z 
 ʒ | ʒ 
-### Variety stan1288-2210 (slov1269)
+### Variety stan1288-2210 (stan1288, spa_martinez-celdra2003)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -4419,7 +4419,7 @@ ui | ui
 u̯o | u̯o 
 x | x 
 θ | θ 
-### Variety plau1238-2224 (stan1306)
+### Variety plau1238-2224 (plau1238, pdt_cox2013)
 
 Sound in Source | BIPA 
 --- | --- 
@@ -4478,7 +4478,7 @@ ya | ya
 z | z 
 ʒ | ʒ 
 ʔ | ʔ 
-### Variety viet1252-2233 (uppe1400)
+### Variety viet1252-2233 (viet1252, vie_kirby2011)
 
 Sound in Source | BIPA 
 --- | --- 
