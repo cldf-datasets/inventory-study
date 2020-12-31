@@ -233,8 +233,9 @@ bipa = clts.transcriptionsystem_dict['bipa']
 with open('output/excluded.md', 'w') as f:
     f.write('# Excluded Varieties\n\n')
 
-print('eurasianinventories')
-dump = load_dataset('eurasianinventories', td='eurasian')
+#print('eurasianinventories')
+#dump = load_dataset('eurasianinventories', td='eurasian')
+dump = defaultdict(list)
 for ds in ['UPSID', 'lapsyd', 'jipa', 'UZ-PH-GM']:
     print(ds)
     dump = load_dataset(ds, dump=dump)

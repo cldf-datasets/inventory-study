@@ -1,7 +1,6 @@
 function compare() {
 
-  var gcode = document.getElementById('gcode').value;
-  var gname = document.getElementById('gname').value;
+  var gcode = document.getElementById('gcode').value.split(' // ')[1];
   var varieties, i, j, language, languageB;
   var textsA = [];
   var textsB = [];
@@ -10,7 +9,7 @@ function compare() {
   var common, inA, inB;
   var common2, inA2, inB2;
   var k;
-  if (gcode) {
+  if (gcode in DATA) {
     varieties = DATA[gcode];
     for (i=0; i<varieties.length; i++) {
       language = varieties[i];
@@ -66,7 +65,7 @@ function compare() {
 	  common.sort();
 	  common2.sort();
 
-          score = Math.round(100*common.length / (inA.length+inB.length+common.length));
+    score = Math.round(100*common.length / (inA.length+inB.length+common.length));
 	  score2 = Math.round(100*common2.length / (inA2.length+inB2.length+common2.length));
           text = '<h3>Compare '+language['Name']+' ('+language['ID']+', '+language['Dataset']+') vs. '+languageB['Name']+' ('+language['ID']+', '+languageB['Dataset']+'): '+score2+' / '+score+'</h3>';
 
@@ -128,10 +127,30 @@ function compare() {
     }
     var out = document.getElementById('results');
     out.innerHTML = '';
-    //out.innerHTML = textsA.join(' ');
+    out.innerHTML = textsA.join(' ');
     out.innerHTML += textsB.join(' ');
   }
   for (i=0; sound=document.getElementsByClassName('sound')[i]; i++){
     sound.title = DATA['bipa-'+sound.innerHTML];
   }
+}
+
+function prepare(){
+  var key;
+  var languages = [];
+  var i;
+  
+  for (key in DATA){
+    if (key.indexOf('bipa-') == -1){
+      for (i=0; i<DATA[key].length; i++){
+        if (languages.indexOf(DATA[key][i]['Name']+' ('+DATA[key].length+') // '+key) == -1){
+          languages.push(DATA[key][i]['Name']+' ('+DATA[key].length+') // '+key);
+        }
+      }
+    }
+  }
+  languages.sort();
+  var ipt = document.getElementById('gcode');
+  var asp = new Awesomplete(ipt);
+  asp.list = languages;
 }
