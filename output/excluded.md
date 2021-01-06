@@ -1,105 +1,5 @@
 # Excluded Varieties
 
-## Dataset UPSID
-
-### Variety niva1238-270 (niva1238, stell1972)
-
-Sound in Source | BIPA 
---- | --- 
-a | a 
-ɑ | ɑ 
-e̞ | e̞ 
-f | f 
-i | i 
-j | j 
-k | k 
-kɬ | kʟ̥ 
-kˀ | kˀ 
-l̪|l | l 
-ɬʟ͓̥ | <NA> 
-m | m 
-n̪|n | n 
-o̞ | o̞ 
-p | p 
-pˀ | pˀ 
-s̪|s | s 
-ʃ | ʃ 
-t̪|t | t 
-t̪s̪|ts | ts 
-t̪s̪ˀ|tsˀ | tsˀ 
-t̠ʃ | tʃ 
-t̠ʃˀ | tʃˀ 
-t̪ˀ|tˀ | tˀ 
-u | u 
-w | w 
-x | x 
-ʔ | ʔ 
-### Variety kaba1278-391 (kaba1278, kuipers1960)
-
-Sound in Source | BIPA 
---- | --- 
-a̟ː | a̟ː 
-b | b 
-d̪ | d̪ 
-d̪z̪ | dz̪ 
-e̞ː | e̞ː 
-ɜ | ɜ 
-f | f 
-fʼ | fʼ 
-ɡʲ | gʲ 
-ɡʷ | gʷ 
-ɣʲ | ɣʲ 
-ħ | ħ 
-ɦ | ɦ 
-iː | iː 
-ɨ | ɨ 
-j | j 
-kʲʰ | kʲʰ 
-kʲʼ | kʼʲ 
-kʷʰ | kʷʰ 
-kʷʼ | kʼʷ 
-ɬ̪ʲ | ɬ̪ʲ 
-ɬ̪ʲʼ | ɬ̪ʼʲ 
-ɮ̪ʲ | ɮ̪ʲ 
-m | m 
-n̪ | n̪ 
-o̞ː | o̞ː 
-pʰ | pʰ 
-pʼ | pʼ 
-qʷʼ | qʼʷ 
-qʼ | qʼ 
-qχ | qχ 
-qχʷ | qχʷ 
-r | r 
-ʁ | ʁ 
-ʁʷ | ʁʷ 
-s̪ | s̪ 
-ʃ | ʃ 
-ʃ͇ | <NA> 
-ʃʼ | ʃʼ 
-t̪ʰ | t̪ʰ 
-t̪s̪ | ts̪ 
-t̪s̪ʼ | ts̪ʼ 
-t̪ʼ | t̪ʼ 
-uː | uː 
-v | v 
-w | w 
-xʲ | xʲ 
-xʷ | xʷ 
-z̪ | z̪ 
-ʒ | ʒ 
-ʒ͇ | ɹ̠˔ 
-ʔ | ʔ 
-ʔʷ | ʔʷ 
-ʕ | ʕ 
-χ | χ 
-χʷ | χʷ 
-
-
-## Dataset lapsyd
-
-
-
 ## Dataset jipa
 
 ### Variety mavea (mafe1237, jipa_Guerin2019)
@@ -529,6 +429,106 @@ eɪ | eɪ
 e̞ɪ | e̞ɪ 
 oʊ̃ | oʊ̃ 
 ɔoũ | <NA> 
+
+
+## Dataset UPSID
+
+### Variety niva1238-270 (niva1238, stell1972)
+
+Sound in Source | BIPA 
+--- | --- 
+a | a 
+ɑ | ɑ 
+e̞ | e̞ 
+f | f 
+i | i 
+j | j 
+k | k 
+kɬ | kʟ̥ 
+kˀ | kˀ 
+l̪|l | l 
+ɬʟ͓̥ | <NA> 
+m | m 
+n̪|n | n 
+o̞ | o̞ 
+p | p 
+pˀ | pˀ 
+s̪|s | s 
+ʃ | ʃ 
+t̪|t | t 
+t̪s̪|ts | ts 
+t̪s̪ˀ|tsˀ | tsˀ 
+t̠ʃ | tʃ 
+t̠ʃˀ | tʃˀ 
+t̪ˀ|tˀ | tˀ 
+u | u 
+w | w 
+x | x 
+ʔ | ʔ 
+### Variety kaba1278-391 (kaba1278, kuipers1960)
+
+Sound in Source | BIPA 
+--- | --- 
+a̟ː | a̟ː 
+b | b 
+d̪ | d̪ 
+d̪z̪ | dz̪ 
+e̞ː | e̞ː 
+ɜ | ɜ 
+f | f 
+fʼ | fʼ 
+ɡʲ | gʲ 
+ɡʷ | gʷ 
+ɣʲ | ɣʲ 
+ħ | ħ 
+ɦ | ɦ 
+iː | iː 
+ɨ | ɨ 
+j | j 
+kʲʰ | kʲʰ 
+kʲʼ | kʼʲ 
+kʷʰ | kʷʰ 
+kʷʼ | kʼʷ 
+ɬ̪ʲ | ɬ̪ʲ 
+ɬ̪ʲʼ | ɬ̪ʼʲ 
+ɮ̪ʲ | ɮ̪ʲ 
+m | m 
+n̪ | n̪ 
+o̞ː | o̞ː 
+pʰ | pʰ 
+pʼ | pʼ 
+qʷʼ | qʼʷ 
+qʼ | qʼ 
+qχ | qχ 
+qχʷ | qχʷ 
+r | r 
+ʁ | ʁ 
+ʁʷ | ʁʷ 
+s̪ | s̪ 
+ʃ | ʃ 
+ʃ͇ | <NA> 
+ʃʼ | ʃʼ 
+t̪ʰ | t̪ʰ 
+t̪s̪ | ts̪ 
+t̪s̪ʼ | ts̪ʼ 
+t̪ʼ | t̪ʼ 
+uː | uː 
+v | v 
+w | w 
+xʲ | xʲ 
+xʷ | xʷ 
+z̪ | z̪ 
+ʒ | ʒ 
+ʒ͇ | ɹ̠˔ 
+ʔ | ʔ 
+ʔʷ | ʔʷ 
+ʕ | ʕ 
+χ | χ 
+χʷ | χʷ 
+
+
+## Dataset lapsyd
+
 
 
 ## Dataset UZ-PH-GM

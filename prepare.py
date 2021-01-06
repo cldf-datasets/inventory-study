@@ -120,6 +120,7 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
         dset_td.grapheme_map[normalize(sound)] = dset_td.grapheme_map[sound]
 
     inventories = {}
+    missing_gcodes = 0
     count = 0
     soundsD = defaultdict(int)
     exc_file = open('output/excluded.md', 'a')
@@ -150,17 +151,18 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
             for v in vals:
                 s = dset_td.grapheme_map[v]
                 b = bipa[s]
-                sounds[str(b)] = Phoneme(
-                    grapheme=str(b),
-                    grapheme_in_source=v,
-                    name=b.name,
-                    type=b.type,
-                    occs=0,
-                    sound=b
-                    )
-                dump['bipa-'+s] = b.name
+                if b.type in ['vowel', 'consonant', 'diphthong', 'cluster']:
+                    sounds[str(b)] = Phoneme(
+                        grapheme=str(b),
+                        grapheme_in_source=v,
+                        name=b.name,
+                        type=b.type,
+                        occs=0,
+                        sound=b
+                        )
+                    dump['bipa-'+s] = b.name
 
-            if lang.latitude:
+            if lang.glottocode:
                 inv = Inventory(
                         id=var,
                         sounds=sounds,
@@ -176,6 +178,9 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
                             'CLTS': {
                                 sound.grapheme: sound.grapheme_in_source for sound in sounds.values()},
                             'Sounds': vals}]
+            else:
+                missing_gcodes += 1
+            
         else:
             for sound in vals:
                 if sound not in dset_td.grapheme_map or dset_td.grapheme_map[sound] == '<NA>':
@@ -191,6 +196,7 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
     exc_file.write('\n\n')
     exc_file.close()
     print('[i] excluded {0} inventories for {1}'.format(count, dataset))
+    print('missing gcodes: {0}'.format(missing_gcodes))
     print('Problematic sounds: {0}'.format(len(soundsD)))
     for s, count in sorted(soundsD.items(), key=lambda x: x[1]):
         print('{0:8} \t| {1}'.format(s, count))
@@ -202,6 +208,7 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
             'Latitude', 'Longitude', 'Sounds', 'Consonants', 'Vowels',
             'Clusters', 'Diphthongs',
             'Consonantal', 'Vocalic', 'Ratio', 'Phonemes'])+'\n')
+
         for inv in inventories.values():
             f.write('\t'.join([
                     inv.id, 
@@ -209,7 +216,8 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
                     inv.language.glottocode,
                     inv.language.family or '', 
                     inv.language.macroarea or '',
-                    str(inv.language.latitude), str(inv.language.longitude),
+                    str(inv.language.latitude or ''),
+                    str(inv.language.longitude or ''),
                     str(len(inv)),
                     str(len(inv.consonants)), 
                     str(len(inv.vowels)),
@@ -236,8 +244,9 @@ with open('output/excluded.md', 'w') as f:
 #print('eurasianinventories')
 #dump = load_dataset('eurasianinventories', td='eurasian')
 dump = defaultdict(list)
-for ds in ['UPSID', 'lapsyd', 'jipa', 'UZ-PH-GM']:
+for ds in ['jipa', 'UPSID', 'lapsyd', 'UZ-PH-GM']:
     print(ds)
     dump = load_dataset(ds, dump=dump)
 with open('app/data.js', 'w') as f:
     f.write('var DATA = '+json.dumps(dump, indent=2)+';\n')
+

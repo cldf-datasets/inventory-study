@@ -101,15 +101,34 @@ idxs = {
         14: [4, 2],
         }
 
+# compute basic statistics from the data
+for name, inv in [
+        ('PHOIBLE', stmD), 
+        ('UPSID', upsD),
+        ('JIPA', jpaD),
+        ('LAPSYD', lpsD)]:
+    count = len(inv)
+    all_count = 0
+    for i in inv.values():
+        all_count += len(i)
+    print(name, count, all_count)
 
-
-for (nameA, dataA, dictA), (nameB, dataB, dictB) in progressbar(combinations(
-        [('Phoible', stm, stmD), ('JIPA', jpa, jpaD), ('LAPSYD', lps, lpsD),
-            ('UPSID', ups, upsD)], r=2)):
-
+# coverage for four datasets
+coverage = [[0 for x in range(4)] for y in range(4)]
+for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(combinations(
+        [
+            (0, 'Phoible', stm, stmD), 
+            (1, 'JIPA', jpa, jpaD), 
+            (2, 'LAPSYD', lps, lpsD),
+            (3, 'UPSID', ups, upsD)], 
+        r=2)):
     fig, axs = plt.subplots(2, 3)
     table = []
     matches = [k for k in dataA if k in dataB]
+    coverage[idx][idx] = len(dataA)
+    coverage[jdx][jdx] = len(dataB)
+    coverage[idx][jdx] = len(matches)
+    coverage[jdx][idx] = len(matches) / min([len(dataA), len(dataB)])
     for i, param in enumerate(parameters):
         lstA, lstB, values = [], [], []
         for gcode in matches:
@@ -125,6 +144,17 @@ for (nameA, dataA, dictA), (nameB, dataB, dictB) in progressbar(combinations(
                 strict = compare_inventories(dictA, dictB, aspects=[param.lower()])
                 approx = compare_inventories(dictA, dictB,
                         aspects=[param.lower()], similarity='approximate')
+            elif param == 'Consonantal':
+                strict = compare_inventories(dictA, dictB, aspects=['consonants', 'clusters'])
+                approx = compare_inventories(dictA, dictB,
+                        aspects=['consonants', 'clusters'],
+                        similarity='approximate')
+            elif param == 'Vocalic':
+                strict = compare_inventories(dictA, dictB, aspects=['vowels',
+                    'diphthongs'])
+                approx = compare_inventories(dictA, dictB,
+                        aspects=['vowels', 'diphthongs'],
+                        similarity='approximate')
             else:
                 strict = 0
                 approx = 0
@@ -141,5 +171,5 @@ for (nameA, dataA, dictA), (nameB, dataB, dictB) in progressbar(combinations(
         table, floatfmt='.4f', 
         headers=['Correlation', 'P-Value', 'Deltas', 'StrictSim', 'ApproxSim', 'Sample']
         ))
-
+print(tabulate(coverage))
 
