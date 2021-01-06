@@ -45,7 +45,7 @@ def inventories(path, ts):
 def deltas(lstA, lstB):
     score = 0
     for a, b in zip(lstA, lstB):
-        score += abs(a - b)
+        score += abs(a-b)
     return score / len(lstA)
 
 
@@ -115,6 +115,35 @@ for name, inv in [
 
 # coverage for four datasets
 coverage = [[0 for x in range(4)] for y in range(4)]
+
+# plot the deltas
+for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(combinations(
+        [
+            (0, 'Phoible', stm, stmD), 
+            (1, 'JIPA', jpa, jpaD), 
+            (2, 'LAPSYD', lps, lpsD),
+            (3, 'UPSID', ups, upsD)], 
+        r=2)):
+    matches = [k for k in dataA if k in dataB]
+
+    for i, param in enumerate(['Sounds', 'Consonants', 'Vowels']):
+        lstA, lstB, values = [], [], []
+
+        for gcode in matches:
+            vA, vB = dataA[gcode][param], dataB[gcode][param]
+            if isinstance(vA, (int, float)) and isinstance(vB, (int, float)):
+                lstA += [vA]
+                lstB += [vB]
+                values += [gcode]
+        if values:
+            fig = plt.Figure()
+            plt.hist([x-y for x, y in zip(lstA, lstB)])
+            plt.title(param)
+            plt.savefig('plots/delta-{0}-{1}-{2}.pdf'.format(nameA, nameB,
+                param))
+            plt.clf()
+            
+
 for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(combinations(
         [
             (0, 'Phoible', stm, stmD), 
@@ -162,6 +191,8 @@ for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(combin
             this_ax.plot(lstA, lstB, '.')
             this_ax.set(title=param)
             table += [[param, p, r, d, strict, approx, len(values)]]
+            
+                
     for ax in axs.flat:
         ax.set(xlabel=nameA)
         ax.set(ylabel=nameB)
