@@ -16,7 +16,7 @@ m | m
 n | n 
 ŋ | ŋ 
 r | r 
-v̼ | ? 
+v̼ | <NA> 
 v | v 
 s | s 
 l | l 
@@ -171,70 +171,6 @@ ui | ui
 iu | iu 
 au | au 
 iau | <NA> 
-### Variety ersu (ersu1241, jipa_Chirkova2015)
-
-Sound in Source | BIPA 
---- | --- 
-p | p 
-pʰ | pʰ 
-b | b 
-Npʰ | ⁿpʰ 
-Nb | ⁿb 
-t | t 
-tʰ | tʰ 
-d | d 
-Ntʰ | ⁿtʰ 
-Nd | ⁿd 
-k | k 
-kʰ | kʰ 
-g | g 
-Nkʰ | ⁿkʰ 
-Ng | ⁿg 
-t̪s̪ | ts̪ 
-t̪s̪ʰ | ts̪ʰ 
-d̪z̪ | dz̪ 
-Nt̪s̪ʰ | ⁿts̪ʰ 
-Nd̪z̪ | ⁿdz̪ 
-t̻s̻ | ts̻ 
-t̻s̻ʰ | ts̻ʰ 
-d̻z̻ | dz̻ 
-Nt̻s̻ʰ | ⁿts̻ʰ 
-Nd̻z̻ | ⁿdz̻ 
-tɕ | tɕ 
-tɕʰ | tɕʰ 
-dʑ | dʑ 
-Ntɕʰ | ⁿtɕʰ 
-Ndʑ | ⁿdʑ 
-ʈɽ | ʈʳ 
-ʈɽʰ | ʈʳʰ 
-ɖɽ | ɖʳ 
-Nʈɽʰ | ⁿʈʳʰ 
-Nɖɽ | ⁿɖʳ 
-ɽ | ɽ 
-m | m 
-n | n 
-ŋ | ŋ 
-f | f 
-v | v 
-s̪ | s̪ 
-z̪ | z̪ 
-s̻ | s̻ 
-z̻ | <NA> 
-ɕ | ɕ 
-ʑ | ʑ 
-x | x 
-w | w 
-j | j 
-l | l 
-ɬ | ɬ 
-i | i 
-ɛ | ɛ 
-a | a 
-o | o 
-z̩ | z̩ 
-v̩ | v̩ 
-ɚ | ə˞ 
-a˞ | a˞ 
 ### Variety standardchinesebeijing (mand1415, jipa_Lee2003)
 
 Sound in Source | BIPA 
