@@ -1,3 +1,11 @@
+.bordered {
+	max-width: 800px;
+	border: 2px solid black;
+}
+.unequal {
+	background-color: LightSalmon!important;
+	border: 2px dotted LightSalmon;
+}
 .sound {
   display: table-inline;
   background-color: lightgray;

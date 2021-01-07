@@ -8,6 +8,7 @@ function compare() {
   var score, score2;
   var common, inA, inB;
   var common2, inA2, inB2;
+  var cls;
   var k;
   if (gcode in DATA) {
     varieties = DATA[gcode];
@@ -15,13 +16,21 @@ function compare() {
       language = varieties[i];
       text = '<h3>'+language['Name']+' ('+language['Dataset']+', '+language['ID']+')</h3>';
       text += '<h4>CLTS vs. Graphemes</h4>';
+      text += '<div class="bordered">';
 
       for (sound in language['CLTS']) {
-        text += '<span class="sound">'+sound+'</span><span class="grapheme">'+language['CLTS'][sound]+'</span><span class="empty"> </span>';
+	cls = '';
+	if (sound != language['CLTS'][sound]){
+	  cls = ' unequal';
+	}
+        text += '<span class="sound'+cls+'">'+sound+'</span><span class="grapheme">'+language['CLTS'][sound]+'</span><span class="empty"> </span>';
       }
+      text += '</div>';
       text += '<h4>Graphemes</h4>';
-      text += '<span class="grapheme">'+language['Sounds'].join('</span> <span class="grapheme">')+'</span>';
+      text += '<div class="bordered">';
+      text += '<span class="grapheme">'+language['Sounds'].join('</span> <span class="grapheme">')+'</span></div>';
       textsA.push(text);
+
       text = '';
       for (j=0; j<varieties.length; j++) {
         if (i < j){
