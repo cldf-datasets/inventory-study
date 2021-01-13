@@ -151,7 +151,7 @@ for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(combin
             (2, 'LAPSYD', lps, lpsD),
             (3, 'UPSID', ups, upsD)], 
         r=2)):
-    fig, axs = plt.subplots(2, 3)
+    #fig, axs = plt.subplots(2, 3)
     table = []
     matches = [k for k in dataA if k in dataB]
     coverage[idx][idx] = len(dataA)
@@ -187,16 +187,24 @@ for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(combin
             else:
                 strict = 0
                 approx = 0
-            this_ax = axs[idxs[i][0], idxs[i][1]]
-            this_ax.plot(lstA, lstB, '.')
-            this_ax.set(title=param)
+            plt.plot(lstA, lstB, '.', color='crimson')
+            plt.title(param)
+            plt.xlabel(nameA)
+            plt.ylabel(nameB)
+            plt.xlim(0, max(lstA+lstB)+5)
+            plt.ylim(0, max(lstA+lstB)+5)
+            plt.savefig('plots/{0}-{1}-{2}.pdf'.format(nameA, nameB, param))
+            plt.clf()
+            #this_ax = axs[idxs[i][0], idxs[i][1]]
+            #this_ax.plot(lstA, lstB, '.')
+            #this_ax.set(title=param)
             table += [[param, p, r, d, strict, approx, len(values)]]
             
                 
-    for ax in axs.flat:
-        ax.set(xlabel=nameA)
-        ax.set(ylabel=nameB)
-    plt.savefig('plots/plots-{0}-{1}.pdf'.format(nameA, nameB))
+    #for ax in axs.flat:
+    #    ax.set(xlabel=nameA)
+    #    ax.set(ylabel=nameB)
+    #plt.savefig('plots/plots-{0}-{1}.pdf'.format(nameA, nameB))
     print('\n# {0} / {1}'.format(nameA, nameB))
     print(tabulate(
         table, floatfmt='.4f', 

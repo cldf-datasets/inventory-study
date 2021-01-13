@@ -7,18 +7,36 @@ from pyclts import CLTS
 from pyclts.inventories import Inventory, Phoneme
 from pathlib import Path
 from collections import defaultdict
-from models import Language, wals_3a
-from tqdm import tqdm
+from tqdm import tqdm as progressbar
 from pyclts.util import nfd
 from pyclts.transcriptionsystem import is_valid_sound
 import json
 import pybtex
 from pycldf.sources import Source
 from pylatexenc.latex2text import LatexNodes2Text
+import attr
 
-def progressbar(function, desc=''):
 
-    return tqdm(function, desc=desc)
+@attr.s
+class Language:
+    """
+    Class is part of pylexibank, but not yet finished, so we reuse it here.
+    """
+    id = attr.ib()
+    name = attr.ib()
+    glottolog_name = attr.ib(default=None, repr=False)
+    glottocode = attr.ib(default=None, repr=False)
+    macroarea = attr.ib(default=None, repr=False)
+    latitude = attr.ib(default=None, repr=False)
+    longitude = attr.ib(default=None, repr=False)
+    family = attr.ib(default=None, repr=False)
+    forms = attr.ib(default=None, repr=False)
+    attributes = attr.ib(default=None, repr=False)
+    dataset = attr.ib(default=None, repr=False)
+
+    def __len__(self):
+        return len(self.forms)
+
 
 def normalize(grapheme):
     for s, t in [
@@ -26,7 +44,6 @@ def normalize(grapheme):
             ]:
         grapheme = grapheme.replace(s, t)
     return grapheme
-
 
 
 def get_cldf_varieties(dataset):
@@ -102,7 +119,6 @@ def style_source(sources, bib):
     return ''
 
 
-
 def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
     clts = clts or CLTS()
 
@@ -152,14 +168,15 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
                 s = dset_td.grapheme_map[v]
                 b = bipa[s]
                 if b.type in ['vowel', 'consonant', 'diphthong', 'cluster']:
-                    sounds[str(b)] = Phoneme(
-                        grapheme=str(b),
-                        grapheme_in_source=v,
-                        name=b.name,
-                        type=b.type,
-                        occs=0,
-                        sound=b
-                        )
+                    try:
+                        sounds[str(b)].graphemes_in_source += [v]
+                    except KeyError:
+                        sounds[str(b)] = Phoneme(
+                            grapheme=str(b),
+                            graphemes_in_source=[v],
+                            occs=0,
+                            sound=b
+                            )
                     dump['bipa-'+s] = b.name
 
             if lang.glottocode:
@@ -176,7 +193,8 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
                             'Name': gcode['Name'],
                             'Source': style_source(sources[var], bib),
                             'CLTS': {
-                                sound.grapheme: sound.grapheme_in_source for sound in sounds.values()},
+                                sound.grapheme:
+                                '//'.join(sound.graphemes_in_source) for sound in sounds.values()},
                             'Sounds': vals}]
             else:
                 missing_gcodes += 1
@@ -201,7 +219,6 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
     for s, count in sorted(soundsD.items(), key=lambda x: x[1]):
         print('{0:8} \t| {1}'.format(s, count))
     
-    count = 0
     with open(dataset+'-data.tsv', 'w') as f:
         f.write('\t'.join([ 
             'ID', 'Name', 'Glottocode', 'Family', 'Macroarea',
@@ -223,30 +240,36 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
                     str(len(inv.vowels)),
                     str(len(inv.clusters)), 
                     str(len(inv.diphthongs)),
-                    str(len(inv.consonants) + len(inv.clusters)),
-                    str(len(inv.vowels) + len(inv.diphthongs)),
-                    str(wals_3a(inv)),
+                    str(len(inv.consonant_sounds)),
+                    str(len(inv.vowel_sounds)),
+                    str(len(inv.consonants)/len(inv.vowels)),
                     ' '.join(inv.sounds)
                     ])
                     +'\n')
-            count += 1
-    print('loaded {0} language varieties for {0}'.format(count, dataset))
-    return dump
+    
+    print('loaded {0} language varieties for {1}'.format(count, dataset))
+    stats = [len(varieties), len(varieties)-missing_gcodes,
+            len(inventories),
+            len(set([inv.language.glottocode for inv in inventories.values()]))]
+    return dump, stats
 
 # load basic data
 clts = CLTS()
 bipa = clts.transcriptionsystem_dict['bipa']
 
-
 with open('output/excluded.md', 'w') as f:
     f.write('# Excluded Varieties\n\n')
 
-#print('eurasianinventories')
-#dump = load_dataset('eurasianinventories', td='eurasian')
 dump = defaultdict(list)
 for ds in ['jipa', 'UPSID', 'lapsyd', 'UZ-PH-GM']:
-    print(ds)
-    dump = load_dataset(ds, dump=dump)
+    print('# Importing data for {0}'.format(ds))
+    dump, (varieties, vars_with_gcode, inventories, distinct_gcodes) = load_dataset(ds, dump=dump)
+    print('# Statistics on data in {0}'.format(ds))
+    print('- varieties:            {0}'.format(varieties))
+    print('- valid glottocodes:    {0}'.format(vars_with_gcode))
+    print('- inventories:          {0}'.format(inventories))
+    print('- distinct glottocodes: {0}'.format(distinct_gcodes))
+
 with open('app/data.js', 'w') as f:
     f.write('var DATA = '+json.dumps(dump, indent=2)+';\n')
 
