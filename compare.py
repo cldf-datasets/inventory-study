@@ -7,8 +7,7 @@ from statistics import median, mean
 from itertools import combinations, product
 from pyclts.inventories import Inventory
 from pyclts import CLTS
-from models import progressbar
-
+from tqdm import tqdm as progressbar
 
 def to_dict(path, parameters):
     with UnicodeDictReader(path+'-data.tsv', delimiter='\t') as reader:
