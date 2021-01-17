@@ -65,7 +65,7 @@ def compare_inventories(dctA, dctB, aspects, similarity='strict'):
 
 bipa = CLTS().bipa
 
-parameters = ['Sounds', 'Consonants', 'Vowels', 'Consonantal', 'Vocalic', 'Ratio']
+parameters = ['Sounds', 'Consonantal', 'Vocalic']
 
 (
         (jpa_data, jpa_codes, jpa),
@@ -125,7 +125,7 @@ for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(combin
         r=2)):
     matches = [k for k in dataA if k in dataB]
 
-    for i, param in enumerate(['Sounds', 'Consonants', 'Vowels']):
+    for i, param in enumerate(['Sounds', 'Consonantal', 'Vocalic']):
         lstA, lstB, values = [], [], []
 
         for gcode in matches:
