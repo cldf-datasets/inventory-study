@@ -1,4 +1,4 @@
-from csvw.dsv import UnicodeDictReader
+from csvw import UnicodeDictReader, UnicodeWriter
 from scipy.stats import pearsonr, spearmanr
 from collections import defaultdict
 from matplotlib import pyplot as plt
@@ -63,7 +63,7 @@ def compare_inventories(dctA, dctB, aspects, similarity='strict'):
             scores += [score]
     return mean(scores)
 
-bipa = CLTS().bipa
+bipa = CLTS('./clts').bipa
 
 parameters = ['Sounds', 'Consonantal', 'Vocalic']
 
@@ -141,7 +141,9 @@ for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(combin
             plt.savefig('plots/delta-{0}-{1}-{2}.pdf'.format(nameA, nameB,
                 param))
             plt.clf()
-            
+
+# store results for later
+storage = {'raw': [], 'summary': []}
 
 for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(combinations(
         [
@@ -186,6 +188,23 @@ for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(combin
             else:
                 strict = 0
                 approx = 0
+            
+            # save data for later
+            raw = [dict(zip(["SizeA", "SizeB", 'Glottocode'], z)) for z in zip(lstA, lstB, values)]
+            [raw[i].update({"Parameter": param, 'DataA': nameA, 'DataB': nameB}) for i, r in enumerate(raw)]
+            storage['raw'].extend(raw)
+
+            storage['summary'].append({
+                'Parameter': param,
+                'Dataset1': nameA,
+                'Dataset2': nameB,
+                'P': p,
+                'R': r,
+                'Delta': d,
+                'Strict': strict,
+                'Approx': approx
+            })
+
             plt.plot(lstA, lstB, '.', color='crimson')
             plt.title(param)
             plt.xlabel(nameA)
@@ -211,3 +230,17 @@ for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(combin
         ))
 print(tabulate(coverage))
 
+
+with UnicodeWriter("output/results.raw.csv") as writer:
+    header = storage['raw'][0].keys()
+    writer.writerow(header)
+    for row in storage['raw']:
+        writer.writerow([row[h] for h in header])
+
+
+with UnicodeWriter("output/results.summary.csv") as writer:
+    header = storage['summary'][0].keys()
+    writer.writerow(header)
+    for row in storage['summary']:
+        writer.writerow([row[h] for h in header])
+        
