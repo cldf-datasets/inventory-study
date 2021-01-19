@@ -39,6 +39,22 @@ class Language:
         return len(self.forms)
 
 
+def long_vowels(inventory):
+    long_vowels = 0
+    for sound in inventory.vowels.values():
+        if 'long' in sound.name or 'ultra-long' in sound.name:
+            long_vowels += 1
+    return long_vowels
+
+
+def long_consonants(inventory):
+    long_consonants = 0
+    for sound in inventory.consonants.values():
+        if 'long' in sound.name:
+            long_consonants += 1
+    return long_consonants
+
+
 def normalize(grapheme):
     for s, t in [("\u2019", "\u02bc")]:
         grapheme = grapheme.replace(s, t)
@@ -240,8 +256,8 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
                     "Vowels",
                     "Clusters",
                     "Diphthongs",
-                    "Consonantal",
-                    "Vocalic",
+                    "LongConsonants",
+                    "LongVowels",
                     "Ratio",
                     "Phonemes",
                 ]
@@ -261,13 +277,13 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
                         str(inv.language.latitude or ""),
                         str(inv.language.longitude or ""),
                         str(len(inv)),
-                        str(len(inv.consonants)),
-                        str(len(inv.vowels)),
-                        str(len(inv.clusters)),
-                        str(len(inv.diphthongs)),
                         str(len(inv.consonant_sounds)),
                         str(len(inv.vowel_sounds)),
-                        str(len(inv.consonants) / len(inv.vowels)),
+                        str(len(inv.clusters)),
+                        str(len(inv.diphthongs)),
+                        str(long_consonants(inv)),
+                        str(long_vowels(inv)),
+                        str(len(inv.consonant_sounds) / len(inv.vowel_sounds)),
                         " ".join(inv.sounds),
                     ]
                 )
