@@ -2,34 +2,6 @@
 
 ## Dataset jipa
 
-### Variety mavea (mafe1237, jipa_Guerin2019)
-
-Sound in Source | BIPA 
---- | --- 
-p̼ | t̼ 
-p | p 
-t | t 
-ɖ | ɖ 
-k | k 
-m̼ | n̼ 
-m | m 
-n | n 
-ŋ | ŋ 
-r | r 
-v̼ | <NA> 
-v | v 
-s | s 
-l | l 
-w | w 
-nː | nː 
-lː | lː 
-mː | mː 
-rː | rː 
-i | i 
-e | e 
-u | u 
-o | o 
-a | a 
 ### Variety chistabinopyreneanaragonese (arag1245, jipa_Mott2007)
 
 Sound in Source | BIPA 
@@ -79,52 +51,54 @@ jau̯ | <NA>
 jeu̯ | <NA> 
 wei̯ | <NA> 
 wai̯ | <NA> 
-### Variety uppersaxonchemnitzdialect (uppe1400, jipa_Khan2013)
+### Variety friulian (friu1240, jipa_Miotti2002)
 
 Sound in Source | BIPA 
 --- | --- 
-p | p 
-t | t 
-k | k 
-kʰ | kʰ 
 m | m 
 n | n 
-ŋ | ŋ 
+ɲ | ɲ 
+p | p 
+b | b 
+t | t 
+d | d 
+c | c 
+ɟ | ɟ 
+k | k 
+g | g 
+t͜s | ts 
+d͜z | dz 
+tʃ | tʃ 
+dʒ | dʒ 
 f | f 
+v | v 
 s | s 
+z | z 
 ʃ | ʃ 
-χ | χ 
-h | h 
-ʋ | ʋ 
+ʒ | ʒ 
 j | j 
-ʁ̞ | ʁ̞ 
+w | w 
+r | r 
 l | l 
+i | i 
 iː | iː 
+e | e 
 eː | eː 
-ɛː | ɛː 
-ʉː | ʉː 
-ɵː | ɵː 
-ʌː | ʌː 
-ɪ | ɪ 
 ɛ | ɛ 
-ɵ | ɵ 
-ɞ | ɞ 
-ʌ | ʌ 
-ə | ə 
-aˤ: | aˤː 
-ʌˤː | ʌˤː 
-ʊˤː | ʊˤː 
-oˤː | oˤː 
-ɔˤː | ɔˤː 
-ɛːɒ̯ˤ | ɛːɒ̯ˤ 
-ɪːɒ̯ˤ | ɪːɒ̯ˤ 
-ʊːɒ̯ˤ | ʊːɒ̯ˤ 
-oːɒ̯ʔ | oːɒ̯ˤ 
-oˤ | oˤ 
-əʁ̞ | <NA> 
-ɞʏ̯ | ɞʏ̯ 
-ae̯ | ae̯ 
-aɵ̯ | aɵ̯ 
+ɛː | ɛː 
+a | a 
+aː | aː 
+u | u 
+uː | uː 
+o | o 
+oː | oː 
+ɔ | ɔ 
+ɔː | ɔː 
+ɪi | ɪi 
+eɪ | eɪ 
+e̞ɪ | e̞ɪ 
+oʊ̃ | oʊ̃ 
+ɔoũ | <NA> 
 ### Variety hakkachinese (hakk1236, jipa_Lee2009)
 
 Sound in Source | BIPA 
@@ -171,6 +145,93 @@ ui | ui
 iu | iu 
 au | au 
 iau | <NA> 
+### Variety mavea (mafe1237, jipa_Guerin2019)
+
+Sound in Source | BIPA 
+--- | --- 
+p̼ | t̼ 
+p | p 
+t | t 
+ɖ | ɖ 
+k | k 
+m̼ | n̼ 
+m | m 
+n | n 
+ŋ | ŋ 
+r | r 
+v̼ | <NA> 
+v | v 
+s | s 
+l | l 
+w | w 
+nː | nː 
+lː | lː 
+mː | mː 
+rː | rː 
+i | i 
+e | e 
+u | u 
+o | o 
+a | a 
+### Variety mennoniteplaudietschcanadianoldcolony (plau1238, jipa_Cox2013)
+
+Sound in Source | BIPA 
+--- | --- 
+p | p 
+b | b 
+t | t 
+d | d 
+k | k 
+kʲ | kʲ 
+gʲ | gʲ 
+ʔ | ʔ 
+m | m 
+n | n 
+ɲ | ɲ 
+ŋ | ŋ 
+ts | ts 
+tʃ | tʃ 
+f | f 
+v | v 
+s | s 
+z | z 
+ʃ | ʃ 
+ʒ | ʒ 
+ç | ç 
+x | x 
+ɣ | ɣ 
+h | h 
+r | r 
+j | j 
+l | l 
+lʲ | lʲ 
+i | i 
+y | y 
+e | e 
+ə | ə 
+ɪ | ɪ 
+ɛ | ɛ 
+a | a 
+ɔ | ɔ 
+ʊ | ʊ 
+o | o 
+ia | ia 
+ya | ya 
+eɪ | eɪ 
+ea | ea 
+eɔ | eɔ 
+əɪ | əɪ 
+əʊ | əʊ 
+aʊ | aʊ 
+oa | oa 
+ua | ua 
+uɪ | uɪ 
+əɪa | <NA> 
+əʊɪ | <NA> 
+eəɪ | <NA> 
+iəɪ | <NA> 
+aʊɪ | <NA> 
+oəɪ | <NA> 
 ### Variety standardchinesebeijing (mand1415, jipa_Lee2003)
 
 Sound in Source | BIPA 
@@ -258,113 +319,52 @@ uˤ | uˤ
 eˤ | eˤ 
 oˤ | oˤ 
 aˤ | aˤ 
-### Variety mennoniteplaudietschcanadianoldcolony (plau1238, jipa_Cox2013)
+### Variety uppersaxonchemnitzdialect (uppe1400, jipa_Khan2013)
 
 Sound in Source | BIPA 
 --- | --- 
 p | p 
-b | b 
 t | t 
-d | d 
 k | k 
-kʲ | kʲ 
-gʲ | gʲ 
-ʔ | ʔ 
+kʰ | kʰ 
 m | m 
 n | n 
-ɲ | ɲ 
 ŋ | ŋ 
-ts | ts 
-tʃ | tʃ 
 f | f 
-v | v 
 s | s 
-z | z 
 ʃ | ʃ 
-ʒ | ʒ 
-ç | ç 
-x | x 
-ɣ | ɣ 
+χ | χ 
 h | h 
-r | r 
+ʋ | ʋ 
 j | j 
+ʁ̞ | ʁ̞ 
 l | l 
-lʲ | lʲ 
-i | i 
-y | y 
-e | e 
-ə | ə 
+iː | iː 
+eː | eː 
+ɛː | ɛː 
+ʉː | ʉː 
+ɵː | ɵː 
+ʌː | ʌː 
 ɪ | ɪ 
 ɛ | ɛ 
-a | a 
-ɔ | ɔ 
-ʊ | ʊ 
-o | o 
-ia | ia 
-ya | ya 
-eɪ | eɪ 
-ea | ea 
-eɔ | eɔ 
-əɪ | əɪ 
-əʊ | əʊ 
-aʊ | aʊ 
-oa | oa 
-ua | ua 
-uɪ | uɪ 
-əɪa | <NA> 
-əʊɪ | <NA> 
-eəɪ | <NA> 
-iəɪ | <NA> 
-aʊɪ | <NA> 
-oəɪ | <NA> 
-### Variety friulian (friu1240, jipa_Miotti2002)
-
-Sound in Source | BIPA 
---- | --- 
-m | m 
-n | n 
-ɲ | ɲ 
-p | p 
-b | b 
-t | t 
-d | d 
-c | c 
-ɟ | ɟ 
-k | k 
-g | g 
-t͜s | ts 
-d͜z | dz 
-tʃ | tʃ 
-dʒ | dʒ 
-f | f 
-v | v 
-s | s 
-z | z 
-ʃ | ʃ 
-ʒ | ʒ 
-j | j 
-w | w 
-r | r 
-l | l 
-i | i 
-iː | iː 
-e | e 
-eː | eː 
-ɛ | ɛ 
-ɛː | ɛː 
-a | a 
-aː | aː 
-u | u 
-uː | uː 
-o | o 
-oː | oː 
-ɔ | ɔ 
-ɔː | ɔː 
-ɪi | ɪi 
-eɪ | eɪ 
-e̞ɪ | e̞ɪ 
-oʊ̃ | oʊ̃ 
-ɔoũ | <NA> 
+ɵ | ɵ 
+ɞ | ɞ 
+ʌ | ʌ 
+ə | ə 
+aˤ: | aˤː 
+ʌˤː | ʌˤː 
+ʊˤː | ʊˤː 
+oˤː | oˤː 
+ɔˤː | ɔˤː 
+ɛːɒ̯ˤ | ɛːɒ̯ˤ 
+ɪːɒ̯ˤ | ɪːɒ̯ˤ 
+ʊːɒ̯ˤ | ʊːɒ̯ˤ 
+oːɒ̯ʔ | oːɒ̯ˤ 
+oˤ | oˤ 
+əʁ̞ | <NA> 
+ɞʏ̯ | ɞʏ̯ 
+ae̯ | ae̯ 
+aɵ̯ | aɵ̯ 
 
 
 ## Dataset UPSID
@@ -401,66 +401,6 @@ u | u
 w | w 
 x | x 
 ʔ | ʔ 
-### Variety kaba1278-391 (kaba1278, kuipers1960)
-
-Sound in Source | BIPA 
---- | --- 
-a̟ː | a̟ː 
-b | b 
-d̪ | d̪ 
-d̪z̪ | dz̪ 
-e̞ː | e̞ː 
-ɜ | ɜ 
-f | f 
-fʼ | fʼ 
-ɡʲ | gʲ 
-ɡʷ | gʷ 
-ɣʲ | ɣʲ 
-ħ | ħ 
-ɦ | ɦ 
-iː | iː 
-ɨ | ɨ 
-j | j 
-kʲʰ | kʲʰ 
-kʲʼ | kʼʲ 
-kʷʰ | kʷʰ 
-kʷʼ | kʼʷ 
-ɬ̪ʲ | ɬ̪ʲ 
-ɬ̪ʲʼ | ɬ̪ʼʲ 
-ɮ̪ʲ | ɮ̪ʲ 
-m | m 
-n̪ | n̪ 
-o̞ː | o̞ː 
-pʰ | pʰ 
-pʼ | pʼ 
-qʷʼ | qʼʷ 
-qʼ | qʼ 
-qχ | qχ 
-qχʷ | qχʷ 
-r | r 
-ʁ | ʁ 
-ʁʷ | ʁʷ 
-s̪ | s̪ 
-ʃ | ʃ 
-ʃ͇ | <NA> 
-ʃʼ | ʃʼ 
-t̪ʰ | t̪ʰ 
-t̪s̪ | ts̪ 
-t̪s̪ʼ | ts̪ʼ 
-t̪ʼ | t̪ʼ 
-uː | uː 
-v | v 
-w | w 
-xʲ | xʲ 
-xʷ | xʷ 
-z̪ | z̪ 
-ʒ | ʒ 
-ʒ͇ | ɹ̠˔ 
-ʔ | ʔ 
-ʔʷ | ʔʷ 
-ʕ | ʕ 
-χ | χ 
-χʷ | χʷ 
 
 
 ## Dataset lapsyd

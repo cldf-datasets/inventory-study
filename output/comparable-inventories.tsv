@@ -1,0 +1,469 @@
+Glottocode	LAPSyD	LAPSyD_Var	JIPA	JIPA_Var	UPSID	UPSID_Var	PH-UZ-GM_	PH-UZ-GM_Var
+amha1245	1	amharic	1	amharic_amha1245	1	amha1245-219	1	amha1245-2156
+stan1318	1	arabic	0		0		1	stan1318-2157
+assa1263	1	assamese	1	assamese_assa1263	0		1	assa1263-2159
+nort2697	1	azerbaijani	1	azerbaijaninorthern_nort2697	1	nort2697-236	0	
+bard1255	1	bardi	1	bardi_bard1255	1	bard1255-245	1	bard1255-2160
+bemb1257	1	bemba	0		0		1	bemb1257-1188
+beng1280	1	bengalibangladeshistandard	1	bengali_beng1280	1	beng1280-250	1	beng1280-2162
+stan1293	2	britishenglishreceivedpronunciation liverpoolenglish	1	englishstandardsouthernbritish_stan1293	0		6	stan1293-2175 stan1293-2176 stan1293-2177 stan1293-2178 stan1293-2179 stan1293-2180
+bulg1262	1	bulgarian	1	bulgarian_bulg1262	1	bulg1262-265	1	bulg1262-2163
+nucl1310	1	burmese	1	burmese_nucl1310	1	nucl1310-476	0	
+stan1289	1	catalan	1	catalaneastern_stan1289	0		1	stan1289-1138
+east2379	1	centralarrernte	0		1	east2379-201	1	east2379-2158
+cent2092	1	centralsama	0		0		1	cent2092-2208
+chic1270	1	chikasaw	0		0		1	chic1270-1230
+yuec1235	1	chinesehongkongcantonese	0		1	yuec1235-642	1	yuec1235-2166
+coco1260	1	cocosmalay	0		0		1	coco1260-2222
+croa1245	1	croatian	0		0		1	croa1245-1139
+czec1258	1	czech	1	czech_czec1258	0		1	czec1258-1140
+dani1285	1	danish	0		0		1	dani1285-2167
+dari1249	2	dariafghanpersianformal dariafghanpersianinformal	0		0		0	
+dutc1256	1	dutch	1	dutch_dutc1256	0		5	dutc1256-1050 dutc1256-2169 dutc1256-2170 dutc1256-2173 dutc1256-2174
+egaa1242	1	ega	0		0		1	egaa1242-1233
+ersu1241	1	ersu	0		0		1	ersu1241-2199
+esto1258	1	standardestonian	0		0		1	esto1258-2181
+port1283	1	europeanportuguese	0		0		1	port1283-2206
+stan1290	1	french	1	french_stan1290	1	stan1290-331	1	stan1290-2182
+gali1258	1	galician	0		0		1	gali1258-1141
+gayo1244	1	gayo	0		0		1	gayo1244-1052
+stan1295	1	northgerman	1	german_stan1295	1	stan1295-304	1	stan1295-2184
+viet1252	1	hanoivietnamese	1	vietnamese_viet1252	1	viet1252-605	0	
+haus1257	1	hausa	1	hausa_haus1257	1	haus1257-351	1	haus1257-2188
+hebr1245	1	hebrew	1	hebrewmodernashkenazic_hebr1245	0		1	hebr1245-2189
+hind1269	1	hindi	1	hindi_hind1269	1	hind1269-354	1	hind1269-2190
+hung1274	1	hungarian	1	hungarian_hung1274	1	hung1274-358	0	
+ibib1240	1	ibibio	0		0		1	ibib1240-1057
+nucl1417	1	igbo	1	igbo_nucl1417	1	nucl1417-365	0	
+indo1316	1	indonesian	1	indonesian_indo1316	0		2	indo1316-1144 indo1316-1690
+iris1253	1	irish	1	irishdonegaldialect_iris1253	1	iris1253-342	1	iris1253-2193
+ladi1251	1	istanbuljudeospanish	0		0		1	ladi1251-2194
+isth1244	1	isthmusjuchitanzapotec	0		0		1	isth1244-2218
+ital1282	1	italian	1	italian_ital1282	0		1	ital1282-1145
+lish1246	1	itunyosotrique	0		1	lish1246-591	0	
+jama1262	1	jamaicancreole	0		0		1	jama1262-1053
+nucl1643	1	japanese	1	japanese_nucl1643	1	nucl1643-384	1	nucl1643-2196
+jica1244	1	jicarillaapache	1	jicarillaapache_jica1244	0		1	jica1244-1232
+kabi1261	1	kabiye	0		0		1	kabi1261-1142
+keda1250	1	kedayan	0		0		1	keda1250-2225
+keoo1238	1	keo	0		0		1	keoo1238-1215
+kera1255	1	kera	1	kera_kera1255	1	kera1255-398	1	kera1255-2220
+kore1280	1	korean	1	korean_kore1280	1	kore1280-423	1	kore1280-2197
+kumz1235	1	kumzari	0		0		1	kumz1235-2221
+kuna1268	1	kunama	1	kunama_kuna1268	1	kuna1268-433	1	kuna1268-2198
+lisu1250	1	lizu	0		0		1	lisu1250-1121
+shix1238	2	lowerxumi upperxumi	0		0		2	shix1238-2230 shix1238-2231
+sout2832	1	luanyjangdinka	0		0		1	sout2832-2168
+luxe1241	1	luxembourgish	0		0		1	luxe1241-2200
+besi1244	1	mahmeri	0		0		1	besi1244-2201
+maka1311	1	makasar	1	makassarese_maka1311	0		1	maka1311-1677
+mamb1294	1	mambay	0		0		1	mamb1294-1054
+mapu1245	1	mapudungun	1	mapudungun_mapu1245	1	mapu1245-230	0	
+mono1270	1	mono	0		0		1	mono1270-1143
+nara1262	1	nara	1	nara_nara1262	1	nara1262-501	1	nara1262-2203
+nepa1254	1	nepali	1	nepalikathmandudialect_nepa1254	0		1	nepa1254-2204
+nuuc1236	1	nuuchahnulth	0		1	nuuc1236-500	1	nuuc1236-964
+phal1254	1	palula	0		0		1	phal1254-1036
+west2369	1	persianfarsi	1	farsiwestern_west2369	1	west2369-516	1	west2369-2205
+pitj1243	1	pitjantjatjara	1	pitjantjatjara_pitj1243	0		1	pitj1243-2226
+poli1260	1	polish	1	polish_poli1260	0		0	
+russ1263	1	russian	1	russian_russ1263	1	russ1263-530	0	
+sala1272	1	salasacaquichua	0		0		1	sala1272-1146
+sand1273	1	sandawe	1	sandawe_sand1273	1	sand1273-532	1	sand1273-1652
+seri1257	1	seri	1	seri_seri1257	0		1	seri1257-1147
+wuch1236	1	shanghaichinese	0		1	wuch1236-622	0	
+shil1265	1	shilluk	0		0		1	shil1265-1359
+ship1254	1	shipibo	1	shipibokonibo_ship1254	0		0	
+jebe1250	1	shiwilujebero	1	jebero_jebe1250	1	jebe1250-381	0	
+sind1272	1	sindhi	1	sindhi_sind1272	0		1	sind1272-1148
+slov1269	1	slovak	0		0		1	slov1269-2209
+slov1268	1	slovene	1	slovene_slov1268	0		1	slov1268-1149
+sout2672	1	southeasternpashayi	0		0		1	sout2672-2227
+spok1245	1	spokane	0		0		1	spok1245-1016
+nucl1302	1	standardgeorgian	1	georgian_nucl1302	1	nucl1302-390	1	nucl1302-2183
+stan1306	1	standardmalaybrunei	0		0		1	stan1306-2223
+mode1248	1	standardmoderngreek	1	greek_mode1248	1	mode1248-318	2	mode1248-2186 mode1248-2187
+east2295	1	standardyiddish	0		0		1	east2295-1049
+sumi1235	1	sumisema	0		0		1	sumi1235-2211
+swed1254	1	swedish	1	swedish_swed1254	0		1	swed1254-1150
+east2440	1	taba	1	tabawaikyondialect_east2440	0		3	east2440-1037 east2440-1151 east2440-1682
+malo1243	1	tamambo	1	tamambowestern_malo1243	0		1	malo1243-1051
+tami1289	1	tamil	1	tamil_tami1289	0		1	tami1289-1058
+tach1250	1	tashlhiytberber	1	tashlhiyt_tach1250	1	tach1250-542	2	tach1250-1648 tach1250-2229
+taus1251	1	tausugsuluk	1	tausug_taus1251	0		1	taus1251-2212
+timn1235	1	temne	1	themne_timn1235	1	timn1235-569	1	timn1235-2213
+tera1251	1	tera	1	tera_tera1251	1	tera1251-595	1	tera1251-2214
+thai1261	1	thai	1	thaistandard_thai1261	1	thai1261-574	1	thai1261-2215
+tuka1248	1	tukangbesi	1	tukangbesiwancinortherndialect_tuka1248	0		1	tuka1248-1152
+nucl1301	1	turkish	1	turkish_nucl1301	1	nucl1301-597	1	nucl1301-2217
+ukra1253	1	ukrainian	0		0		1	ukra1253-1035
+uppe1395	1	uppersorbian	1	sorbianupperdialect_uppe1395	0		0	
+yine1238	1	yine	1	yine_yine1238	0		1	yine1238-1153
+swis1247	1	zurichgerman	0		0		1	swis1247-2185
+bret1244	1	bretonoftheisleofgroix	0		1	bret1244-260	0	
+ngas1240	0		1	angas_ngas1240	1	ngas1240-223	0	
+alab1237	0		1	alabama_alab1237	1	alab1237-210	0	
+siwi1239	0		1	siwi_siwi1239	0		1	siwi1239-1610
+kabu1256	0		1	capeverdecreolesantiagodialect_kabu1256	0		1	kabu1256-1606
+pure1242	0		1	purepecha_pure1242	1	pure1242-594	0	
+seda1262	0		1	sedang_seda1262	1	seda1262-535	0	
+suen1241	0		1	suena_suen1241	1	suen1241-558	0	
+wara1290	0		1	warayaustralia_wara1290	1	wara1290-620	0	
+mand1415	0		1	mandarin_mand1415	1	mand1415-286	0	
+mani1292	0		1	meithei_mani1292	0		1	mani1292-1125
+paco1243	0		1	pacoh_paco1243	1	paco1243-511	0	
+nung1283	0		1	nung_nung1283	1	nung1283-502	0	
+basq1248	0		1	basquecentral_basq1248	1	basq1248-321	1	basq1248-2161
+cofa1242	0		1	cofan_cofa1242	1	cofa1242-289	0	
+bats1242	0		1	bats_bats1242	1	bats1242-242	0	
+hupa1239	0		1	hupa_hupa1239	1	hupa1239-359	0	
+gunw1252	0		1	kunwinjku_gunw1252	0		1	gunw1252-883
+toar1246	0		1	toaripi_toar1246	1	toar1246-589	0	
+ngit1239	0		1	ngiti_ngit1239	0		1	ngit1239-1470
+tuvi1240	0		1	tuva_tuvi1240	1	tuvi1240-599	1	tuvi1240-1225
+mbab1239	0		1	mbabaram_mbab1239	1	mbab1239-606	0	
+adio1239	0		1	adjukru_adio1239	0		1	adio1239-1527
+gumu1244	0		1	gumuzsouthern_gumu1244	0		1	gumu1244-1475
+kris1246	0		1	isaka_kris1246	0		1	kris1246-894
+awng1244	0		1	awngi_awng1244	1	awng1244-234	0	
+dyir1250	0		1	dyirbal_dyir1250	1	dyir1250-303	0	
+ndut1239	0		1	ndut_ndut1239	1	ndut1239-487	0	
+kalk1246	0		1	kalkatungu_kalk1246	1	kalk1246-431	0	
+achu1247	0		1	achumawi_achu1247	1	achu1247-199	0	
+bero1242	0		1	birom_bero1242	1	bero1242-257	0	
+sanu1240	0		1	sanuma_sanu1240	0		1	sanu1240-1236
+seme1247	0		1	semelai_seme1247	0		1	seme1247-1003
+yagu1244	0		1	yagua_yagu1244	1	yagu1244-628	0	
+koho1244	0		1	sre_koho1244	1	koho1244-425	0	
+katc1249	0		1	kadugli_katc1249	1	katc1249-627	3	katc1249-1421 katc1249-1422 katc1249-1423
+tulu1258	0		1	tulu_tulu1258	1	tulu1258-566	0	
+nyan1313	0		1	nyangi_nyan1313	1	nyan1313-505	0	
+nort2952	0		1	maidunortheastern_nort2952	1	nort2952-498	0	
+qaqe1238	0		1	baining_qaqe1238	1	qaqe1238-267	0	
+aona1235	0		1	aomongsendialect_aona1235	1	aona1235-497	0	
+wapi1253	0		1	wapishana_wapi1253	1	wapi1253-608	0	
+khas1269	0		1	khasi_khas1269	1	khas1269-403	0	
+newa1246	0		1	newarikathmandudialect_newa1246	1	newa1246-489	0	
+kash1277	0		1	kashmiri_kash1277	1	kash1277-389	0	
+nucl1240	0		1	mumuye_nucl1240	1	nucl1240-478	0	
+apin1244	0		1	apinaye_apin1244	1	apin1244-226	0	
+nezp1238	0		1	nezperce_nezp1238	1	nezp1238-490	0	
+kekc1242	0		1	kekchi_kekc1242	1	kekc1242-397	0	
+kwak1269	0		1	kwakwala_kwak1269	1	kwak1269-437	0	
+west2600	0		1	westmakian_west2600	1	west2600-469	0	
+iran1263	0		1	irantxe_iran1263	1	iran1263-371	0	
+nucl1235	0		1	armenianeastern_nucl1235	1	nucl1235-362	0	
+nort2957	0		1	nahuatlnorthpuebla_nort2957	1	nort2957-486	0	
+zand1248	0		1	azande_zand1248	1	zand1248-645	0	
+maba1277	0		1	maba_maba1277	1	maba1277-456	0	
+koyr1240	0		1	songhaykoyrachiinidialect_koyr1240	0		1	koyr1240-1257
+sout2985	0		1	sierramiwoksouthern_sout2985	1	sout2985-547	0	
+arab1268	0		1	arabela_arab1268	1	arab1268-229	0	
+yess1239	0		1	yessanmayo_yess1239	1	yess1239-639	0	
+ogbi1239	0		1	ogbia_ogbi1239	1	ogbi1239-507	0	
+halh1238	0		1	khalkha_halh1238	1	halh1238-405	0	
+cent2050	0		1	kanuri_cent2050	1	cent2050-421	0	
+yany1243	0		1	yanyuwa_yany1243	1	yany1243-379	0	
+sout2750	0		1	kolymayukaghir_sout2750	0		1	sout2750-1027
+arhu1242	0		1	ikacolombia_arhu1242	0		1	arhu1242-1096
+iaai1238	0		1	iaai_iaai1238	1	iaai1238-363	0	
+koas1236	0		1	koasati_koas1236	0		1	koas1236-1106
+sout2949	0		1	southernkiwaiislanddialect_sout2949	1	sout2949-411	0	
+maib1239	0		1	maybratmayhapehdialectofayawasivillage_maib1239	0		1	maib1239-938
+nand1266	0		1	nandi_nand1266	0		1	nand1266-954
+ingu1240	0		1	ingush_ingu1240	0		1	ingu1240-893
+iban1264	0		1	iban_iban1264	1	iban1264-364	0	
+pech1241	0		1	pechculmidialect_pech1241	1	pech1241-512	0	
+dier1241	0		1	diyari_dier1241	1	dier1241-305	0	
+ikkk1242	0		1	ik_ikkk1242	1	ikkk1242-368	0	
+kama1365	0		1	kamang_kama1365	1	kama1365-617	0	
+bamb1269	0		1	bambara_bamb1269	1	bamb1269-238	1	bamb1269-1496
+paez1247	0		1	paez_paez1247	1	paez1247-513	0	
+ache1246	0		1	ache_ache1246	1	ache1246-348	0	
+aghe1239	0		1	aghem_aghe1239	1	aghe1239-204	1	aghe1239-1524
+tamp1252	0		1	tampulma_tamp1252	1	tamp1252-586	0	
+karo1304	0		1	karuk_karo1304	1	karo1304-438	0	
+movi1243	0		1	movima_movi1243	1	movi1243-479	0	
+egyp1253	0		1	egyptianarabic_egyp1253	1	egyp1253-231	0	
+nung1290	0		1	nunggubuyu_nung1290	1	nung1290-503	0	
+sang1328	0		1	sango_sang1328	1	sang1328-533	0	
+brib1243	0		1	bribri_brib1243	1	brib1243-268	0	
+isok1239	0		1	isokouzeredialect_isok1239	1	isok1239-372	0	
+koko1269	0		1	kokota_koko1269	0		1	koko1269-913
+lako1247	0		1	lakotateton_lako1247	1	lako1247-445	0	
+muin1242	0		1	muinane_muin1242	1	muin1242-256	0	
+west2644	0		1	chatinowesternhighland_west2644	1	west2644-294	0	
+japr1238	0		1	japreria_japr1238	1	japr1238-386	0	
+bash1264	0		1	bashkir_bash1264	1	bash1264-237	0	
+silt1240	0		1	silti_silt1240	0		1	silt1240-1414
+selk1253	0		1	selkuptaznortherndialect_selk1253	1	selk1253-538	0	
+mbaa1245	0		1	mbane_mbaa1245	1	mbaa1245-458	0	
+bagi1246	0		1	bagirmi_bagi1246	0		1	bagi1246-1469
+coma1245	0		1	comanche_coma1245	0		1	coma1245-864
+amah1246	0		1	amahuaca_amah1246	1	amah1246-216	0	
+toll1241	0		1	tol_toll1241	1	toll1241-382	0	
+yoru1245	0		1	yoruba_yoru1245	1	yoru1245-636	0	
+efik1245	0		1	efik_efik1245	1	efik1245-316	0	
+ahte1237	0		1	ahtna_ahte1237	1	ahte1237-206	0	
+tigr1270	0		1	tigre_tigr1270	1	tigr1270-576	0	
+bell1243	0		1	nuxalk_bell1243	1	bell1243-255	0	
+seba1251	0		1	chaha_seba1251	0		3	seba1251-1459 seba1251-1463 seba1251-1464
+paiw1248	0		1	paiwansouthern_paiw1248	1	paiw1248-522	0	
+ngiz1242	0		1	ngizim_ngiz1242	1	ngiz1242-491	0	
+nucl1649	0		1	tsimshiancoast_nucl1649	1	nucl1649-592	0	
+darf1239	0		1	darfurdaju_darf1239	1	darf1239-300	0	
+lahu1253	0		1	lahu_lahu1253	1	lahu1253-443	0	
+tiru1241	0		1	teduray_tiru1241	1	tiru1241-578	0	
+cent2144	0		1	mazahuacentral_cent2144	1	cent2144-452	0	
+kirg1245	0		1	kyrgyz_kirg1245	1	kirg1245-410	0	
+east2652	0		1	oromoharar_east2652	0		1	east2652-1552
+nucl1632	0		1	sentani_nucl1632	1	nucl1632-540	0	
+bilu1245	0		1	bilua_bilu1245	0		1	bilu1245-1210
+tuni1252	0		1	tunica_tuni1252	1	tuni1252-596	0	
+yare1248	0		1	yareba_yare1248	1	yare1248-637	0	
+kron1241	0		1	krongo_kron1241	0		1	kron1241-1418
+sout2991	0		1	quechuacochabamba_sout2991	1	sout2991-524	0	
+tsou1248	0		1	tsou_tsou1248	1	tsou1248-593	0	
+libe1247	0		1	kpelle_libe1247	1	libe1247-626	0	
+mund1320	0		1	mundari_mund1320	1	mund1320-602	0	
+igna1246	0		1	moxo_igna1246	1	igna1246-366	0	
+murl1244	0		1	murle_murl1244	1	murl1244-473	0	
+ando1256	0		1	andoke_ando1256	1	ando1256-224	0	
+wikm1247	0		1	wikmunkan_wikm1247	1	wikm1247-612	0	
+ejag1239	0		1	ejagham_ejag1239	1	ejag1239-320	1	ejag1239-1654
+gads1258	0		1	gadsup_gads1258	1	gads1258-336	0	
+usan1239	0		1	usan_usan1239	1	usan1239-616	0	
+nucl1633	0		1	nimboran_nucl1633	1	nucl1633-495	0	
+noon1243	0		1	noni_noon1243	1	noon1243-492	0	
+hawa1245	0		1	hawaiian_hawa1245	1	hawa1245-352	0	
+lowe1415	0		1	danilowergrandvalley_lowe1415	1	lowe1415-308	0	
+tosk1239	0		1	albaniantoskdialect_tosk1239	1	tosk1239-215	0	
+pira1253	0		1	piraha_pira1253	1	pira1253-477	0	
+brah1256	0		1	brahui_brah1256	1	brah1256-261	0	
+kory1246	0		1	koryak_kory1246	1	kory1246-427	0	
+sinh1246	0		1	sinhala_sinh1246	1	sinh1246-545	0	
+popt1235	0		1	jacalteceastern_popt1235	1	popt1235-378	0	
+alaw1244	0		1	alawa_alaw1244	1	alaw1244-214	0	
+vani1248	0		1	dumo_vani1248	1	vani1248-604	0	
+eyak1241	0		1	eyak_eyak1241	1	eyak1241-325	0	
+toho1245	0		1	tohonooodham_toho1245	1	toho1245-509	0	
+nama1264	0		1	khoekhoe_nama1264	1	nama1264-482	0	
+baat1238	0		1	bariba_baat1238	1	baat1238-240	0	
+qaua1234	0		1	quagelao_qaua1234	1	qaua1234-340	0	
+hunz1247	0		1	hunzib_hunz1247	0		1	hunz1247-2237
+umbu1257	0		1	umbundu_umbu1257	0		1	umbu1257-1268
+tonk1249	0		1	tonkawa_tonk1249	1	tonk1249-590	0	
+imon1245	0		1	imonda_imon1245	0		1	imon1245-892
+tzut1248	0		1	tzutujileasternsanjuanlalagunadialect_tzut1248	0		1	tzut1248-1223
+epen1239	0		1	epena_epen1239	1	epen1239-546	0	
+finn1318	0		1	finnish_finn1318	1	finn1318-329	0	
+guam1248	0		1	guambiano_guam1248	1	guam1248-347	0	
+nucl1696	0		1	tangaleshongomdialect_nucl1696	0		1	nucl1696-1567
+nava1243	0		1	navajo_nava1243	1	nava1243-484	0	
+jama1261	0		1	madibrazilbanawadialect_jama1261	0		1	jama1261-897
+carn1240	0		1	carnicobarese_carn1240	1	carn1240-271	0	
+pwon1235	0		1	phlong_pwon1235	1	pwon1235-523	1	pwon1235-1224
+lada1244	0		1	ladakhidialectofleh_lada1244	0		1	lada1244-922
+mund1330	0		1	munduruku_mund1330	0		1	mund1330-1129
+aleu1260	0		1	aleuteastern_aleu1260	1	aleu1260-213	0	
+nucl1620	0		1	midwahgi_nucl1620	1	nucl1620-610	0	
+gily1242	0		1	nivkh_gily1242	1	gily1242-496	0	
+talo1250	0		1	jomang_talo1250	1	talo1250-580	0	
+mofu1248	0		1	mofugugur_mofu1248	0		1	mofu1248-1598
+konk1267	0		1	konkani_konk1267	1	konk1267-422	0	
+nucl1454	0		1	yawa_nucl1454	1	nucl1454-644	0	
+tzel1254	0		1	tzeltalaguacatenangodialect_tzel1254	1	tzel1254-600	0	
+sout2982	0		1	southeasternpomo_sout2982	1	sout2982-518	0	
+copa1236	0		1	zoquecopainala_copa1236	1	copa1236-646	0	
+wari1268	0		1	wari_wari1268	0		1	wari1268-1237
+gara1269	0		1	garrwa_gara1269	1	gara1269-337	0	
+yulu1243	0		1	yulu_yulu1243	1	yulu1243-643	0	
+ngar1284	0		1	ngarinyin_ngar1284	1	ngar1284-601	0	
+papa1238	0		1	totonacpapantladialect_papa1238	1	papa1238-585	0	
+amel1241	0		1	amele_amel1241	1	amel1241-202	0	
+even1259	0		1	evenki_even1259	0		1	even1259-2238
+yucu1253	0		1	yucuna_yucu1253	1	yucu1253-630	0	
+west2632	0		1	westernkeres_west2632	1	west2632-413	0	
+mbum1254	0		1	mbum_mbum1254	1	mbum1254-455	0	
+cayu1262	0		1	cayuvava_cayu1262	1	cayu1262-296	0	
+kwom1262	0		1	kwoma_kwom1262	1	kwom1262-418	0	
+tiwi1244	0		1	tiwi_tiwi1244	1	tiwi1244-577	1	tiwi1244-1218
+kala1377	0		1	kalalagauya_kala1377	1	kala1377-475	0	
+yaga1260	0		1	yagariamovedialect_yaga1260	1	yaga1260-632	0	
+boro1282	0		1	bororo_boro1282	1	boro1282-258	0	
+kawa1283	0		1	kawaiisu_kawa1283	1	kawa1283-624	0	
+yane1238	0		1	yanesha_yane1238	1	yane1238-217	0	
+gaam1241	0		1	gaahmg_gaam1241	1	gaam1241-564	1	gaam1241-1616
+ewon1239	0		1	ewondo_ewon1239	1	ewon1239-324	0	
+kwai1243	0		1	kwaio_kwai1243	1	kwai1243-436	0	
+nort2690	0		1	northernuzbektashkentdialect_nort2690	1	nort2690-603	0	
+sanm1295	0		1	mixtecchalcatongowesternalta_sanm1295	1	sanm1295-461	0	
+enap1235	0		1	panare_enap1235	1	enap1235-514	0	
+lele1264	0		1	lelemi_lele1264	1	lele1264-441	0	
+kuni1267	0		1	kunimaipa_kuni1267	1	kuni1267-434	0	
+wayu1243	0		1	wayuu_wayu1243	1	wayu1243-344	0	
+colo1256	0		1	tsafiki_colo1256	0		1	colo1256-1222
+dadi1250	0		1	dadibi_dadi1250	1	dadi1250-468	0	
+bata1293	0		1	batakkaro_bata1293	0		1	bata1293-1665
+ocai1244	0		1	ocaina_ocai1244	1	ocai1244-506	0	
+kota1263	0		1	kotaindia_kota1263	1	kota1263-400	0	
+dera1248	0		1	kanakuru_dera1248	1	dera1248-420	0	
+mogh1245	0		1	moghol_mogh1245	1	mogh1245-459	0	
+yidi1250	0		1	yidiny_yidi1250	1	yidi1250-633	0	
+wang1291	0		1	ngiyambaa_wang1291	1	wang1291-623	0	
+nort2745	0		1	tundrayukaghir_nort2745	1	nort2745-634	0	
+lele1276	0		1	lelechad_lele1276	0		1	lele1276-1275
+amas1236	0		1	ama_amas1236	1	amas1236-504	0	
+khar1287	0		1	khariadudh_khar1287	1	khar1287-408	1	khar1287-909
+kuku1273	0		1	kukuyalanji_kuku1273	1	kuku1273-349	0	
+cube1242	0		1	cubeo_cube1242	1	cube1242-295	0	
+apur1254	0		1	apurina_apur1254	0		1	apur1254-1092
+kohu1244	0		1	kohumono_kohu1244	1	kohu1244-246	0	
+dera1245	0		1	dlamenggwadialect_dera1245	1	dera1245-395	0	
+chua1250	0		1	chuave_chua1250	1	chua1250-284	0	
+zuni1245	0		1	zuni_zuni1245	1	zuni1245-648	0	
+dagb1246	0		1	dagbani_dagb1246	1	dagb1246-299	0	
+jeme1245	0		1	towa_jeme1245	0		1	jeme1245-898
+kafa1242	0		1	kafa_kafa1242	1	kafa1242-394	0	
+wari1266	0		1	waris_wari1266	1	wari1266-619	0	
+klam1254	0		1	klamath_klam1254	1	klam1254-416	0	
+hopi1249	0		1	hopi_hopi1249	1	hopi1249-356	0	
+hixk1239	0		1	hixkaryana_hixk1239	1	hixk1239-355	0	
+ticu1245	0		1	ticuna_ticu1245	1	ticu1245-565	0	
+tetu1245	0		1	tetunwesterndialect_tetu1245	1	tetu1245-571	1	tetu1245-1680
+rama1270	0		1	rama_rama1270	0		1	rama1270-987
+mull1237	0		1	malakmalak_mull1237	1	mull1237-466	0	
+chac1249	0		1	chachi_chac1249	1	chac1249-273	0	
+lith1251	0		1	lithuanian_lith1251	1	lith1251-444	0	
+lena1238	0		1	lenakel_lena1238	1	lena1238-584	0	
+sooo1256	0		1	so_sooo1256	0		1	sooo1256-1476
+sele1250	0		1	selepet_sele1250	1	sele1250-554	0	
+yuro1248	0		1	yurok_yuro1248	0		1	yuro1248-1025
+maxa1247	0		1	maxakali_maxa1247	1	maxa1247-453	0	
+beja1238	0		1	beja_beja1238	1	beja1238-249	0	
+minn1241	0		1	hainanese_minn1241	1	minn1241-481	0	
+nort1550	0		1	tiwanorthern_nort1550	1	nort1550-598	0	
+baka1277	0		1	bakairi_baka1277	1	baka1277-254	0	
+fasu1242	0		1	fasu_fasu1242	1	fasu1242-326	0	
+ekar1243	0		1	ekari_ekar1243	1	ekar1243-317	0	
+abip1241	0		1	abipon_abip1241	1	abip1241-235	0	
+sout2994	0		1	southernnambiquara_sout2994	1	sout2994-480	0	
+cham1318	0		1	chamicuro_cham1318	0		1	cham1318-855
+yana1271	0		1	yananortherndialect_yana1271	1	yana1271-635	0	
+sene1264	0		1	seneca_sene1264	1	sene1264-536	0	
+bura1267	0		1	burarra_bura1267	1	bura1267-266	0	
+khan1273	0		1	khantynorthern_khan1273	1	khan1273-396	1	khan1273-1137
+nyis1236	0		1	nyishi_nyis1236	1	nyis1236-302	0	
+jola1263	0		1	diolafogny_jola1263	1	jola1263-315	0	
+awac1239	0		1	awapit_awac1239	0		1	awac1239-1120
+para1311	0		1	guaraniparaguayan_para1311	1	para1311-345	0	
+kwaz1243	0		1	kwaza_kwaz1243	0		1	kwaz1243-921
+mada1293	0		1	madacameroun_mada1293	0		1	mada1293-931
+murr1258	0		1	murrinhpatha_murr1258	1	murr1258-474	0	
+adze1240	0		1	adzera_adze1240	1	adze1240-200	0	
+natu1246	0		1	natugu_natu1246	1	natu1246-557	0	
+yuch1247	0		1	yuchi_yuch1247	1	yuch1247-641	1	yuch1247-1074
+chuk1273	0		1	chukchi_chuk1273	1	chuk1273-285	0	
+koya1251	0		1	koya_koya1251	1	koya1251-401	0	
+iton1250	0		1	itonama_iton1250	1	iton1250-374	0	
+dawr1236	0		1	dawro_dawr1236	1	dawr1236-343	0	
+shas1239	0		1	shasta_shas1239	1	shas1239-544	0	
+luuu1242	0		1	ly_luuu1242	1	luuu1242-404	0	
+gali1262	0		1	kalihna_gali1262	1	gali1262-272	0	
+lugb1240	0		1	lugbarawestern_lugb1240	1	lugb1240-442	0	
+taga1270	0		1	tagalog_taga1270	1	taga1270-573	1	taga1270-1666
+teke1280	0		1	tekekukuyadialect_teke1280	1	teke1280-415	0	
+fiji1243	0		1	fijianboumaadialect_fiji1243	1	fiji1243-328	0	
+tlin1245	0		1	tlingit_tlin1245	1	tlin1245-579	0	
+kiow1266	0		1	kiowa_kiow1266	1	kiow1266-409	0	
+cham1312	0		1	chamorro_cham1312	1	cham1312-277	0	
+nana1257	0		1	nanai_nana1257	1	nana1257-341	0	
+samr1245	0		1	samre_samr1245	0		1	samr1245-994
+chuv1255	0		1	chuvash_chuv1255	1	chuv1255-281	0	
+tuuu1240	0		1	mangghuerminxedialect_tuuu1240	1	tuuu1240-462	0	
+tolo1259	0		1	tolowa_tolo1259	0		1	tolo1259-1069
+tsam1247	0		1	tsamakko_tsam1247	0		1	tsam1247-1608
+wara1303	0		1	warao_wara1303	1	wara1303-609	0	
+kuot1243	0		1	kuotsouth_kuot1243	0		1	kuot1243-918
+trum1247	0		1	trumai_trum1247	1	trum1247-588	0	
+nucl1347	0		1	wolof_nucl1347	1	nucl1347-618	0	
+dhuw1249	0		1	dhuwal_dhuw1249	1	dhuw1249-314	0	
+yaku1245	0		1	yakut_yaku1245	1	yaku1245-534	0	
+cent2194	0		1	tamazightcentralatlas_cent2194	0		1	cent2194-1609
+stan1288	0		1	spanishpeninsularcastilian_stan1288	1	stan1288-553	0	
+sali1298	0		1	salibacolombia_sali1298	1	sali1298-548	0	
+ruka1240	0		1	rukaitanandialect_ruka1240	1	ruka1240-311	0	
+kuru1302	0		1	kurukh_kuru1302	1	kuru1302-429	0	
+cavi1250	0		1	cavinena_cavi1250	0		1	cavi1250-854
+cacu1241	0		1	kakwacolombia_cacu1241	1	cacu1241-275	0	
+tada1238	0		1	tadaksahak_tada1238	0		1	tada1238-1372
+yuca1254	0		1	yucatec_yuca1254	1	yuca1254-640	0	
+bata1289	0		1	bataktoba_bata1289	1	bata1289-241	1	bata1289-1099
+furr1244	0		1	fur_furr1244	1	furr1244-333	0	
+gras1249	0		1	koiari_gras1249	1	gras1249-393	0	
+yaqu1251	0		1	yaqui_yaqu1251	1	yaqu1251-629	0	
+wich1260	0		1	wichita_wich1260	1	wich1260-611	0	
+alam1246	0		1	alamblak_alam1246	1	alam1246-221	0	
+lusi1240	0		1	kaliai_lusi1240	1	lusi1240-406	0	
+luis1253	0		1	luiseno_luis1253	1	luis1253-447	0	
+huas1242	0		1	huastec_huas1242	1	huas1242-360	1	huas1242-1116
+resi1247	0		1	resigaro_resi1247	1	resi1247-526	0	
+want1252	0		1	wantoat_want1252	1	want1252-615	0	
+ainu1240	0		1	ainuhokkaidodialect_ainu1240	1	ainu1240-207	0	
+waim1251	0		1	roro_waim1251	1	waim1251-529	0	
+nobi1240	0		1	nobiin_nobi1240	1	nobi1240-327	0	
+waim1255	0		1	barasanonorthern_waim1255	1	waim1255-239	0	
+fuln1247	0		1	yaathe_fuln1247	1	fuln1247-332	0	
+kpan1246	0		1	kpan_kpan1246	1	kpan1246-424	0	
+naas1242	0		1	naasioi_naas1242	1	naas1242-483	0	
+cadd1256	0		1	caddo_cadd1256	1	cadd1256-269	0	
+iwam1256	0		1	iwammayriver_iwam1256	1	iwam1256-377	0	
+kala1399	0		1	westgreenlandicinuktitut_kala1399	1	kala1399-388	0	
+tehu1242	0		1	tehuelche_tehu1242	1	tehu1242-567	0	
+sion1247	0		1	siona_sion1247	1	sion1247-550	0	
+maun1240	0		1	maung_maun1240	1	maun1240-467	0	
+ngan1291	0		1	nganasan_ngan1291	1	ngan1291-494	0	
+buol1237	0		1	buol_buol1237	0		1	buol1237-1676
+cams1241	0		1	camsa_cams1241	1	cams1241-392	0	
+savo1255	0		1	savosavo_savo1255	1	savo1255-559	0	
+qawa1238	0		1	qawasqar_qawa1238	1	qawa1238-211	0	
+anga1290	0		1	angaatiha_anga1290	1	anga1290-203	0	
+toba1269	0		1	toba_toba1269	0		1	toba1269-1045
+roto1249	0		1	rotokas_roto1249	1	roto1249-528	0	
+tiga1245	0		1	tigak_tiga1245	1	tiga1245-572	0	
+lavu1241	0		1	lavukaleve_lavu1241	0		1	lavu1241-925
+akan1250	0		0		1	akan1250-208	1	akan1250-1245
+alla1248	0		0		1	alla1248-212	1	alla1248-1529
+nort2819	0		0		1	nort2819-243	1	nort2819-1512
+dann1241	0		0		1	dann1241-298	1	dann1241-1393
+sanm1287	0		0		1	sanm1287-361	1	sanm1287-888
+java1254	0		0		1	java1254-380	1	java1254-1675
+came1252	0		0		1	came1252-454	1	came1252-1583
+east2328	0		0		1	east2328-460	1	east2328-858
+niel1243	0		0		1	niel1243-493	1	niel1243-1623
+ceba1235	0		0		1	ceba1235-537	2	ceba1235-1256 ceba1235-1650
+koyr1242	0		0		1	koyr1242-539	1	koyr1242-1274
+komo1258	0		0		1	komo1258-625	1	komo1258-1484
+barb1263	0		0		0		2	barb1263-862 barb1263-1239
+izer1241	0		0		0		2	izer1241-896 izer1241-1538
+gbay1281	0		0		0		2	gbay1281-939 gbay1281-1407
+moke1242	0		0		0		2	moke1242-943 moke1242-1673
+nuer1246	0		0		0		2	nuer1246-968 nuer1246-1534
+tsuv1239	0		0		0		2	tsuv1239-1063 tsuv1239-1653
+ilok1237	0		0		0		2	ilok1237-1117 ilok1237-1670
+biak1248	0		0		0		2	biak1248-1191 biak1248-1683
+adam1253	0		0		0		3	adam1253-1234 adam1253-1241 adam1253-1253
+anyi1245	0		0		0		3	anyi1245-1242 anyi1245-1243 anyi1245-1298
+nige1253	0		0		0		2	nige1253-1254 nige1253-1301
+bafi1243	0		0		0		2	bafi1243-1258 bafi1243-1444
+limb1268	0		0		0		3	limb1268-1260 limb1268-1261 limb1268-1262
+ntch1242	0		0		0		2	ntch1242-1264 ntch1242-1453
+ndon1254	0		0		0		4	ndon1254-1269 ndon1254-1505 ndon1254-1506 ndon1254-1507
+gwan1268	0		0		0		6	gwan1268-1352 gwan1268-1353 gwan1268-1354 gwan1268-1355 gwan1268-1356 gwan1268-1357
+kang1288	0		0		0		2	kang1288-1419 kang1288-1420
+inor1238	0		0		0		3	inor1238-1465 inor1238-1466 inor1238-1467
+benc1235	0		0		0		2	benc1235-1477 benc1235-1478
+baka1273	0		0		0		3	baka1273-1555 baka1273-1556 baka1273-1557
+mboc1235	0		0		0		2	mboc1235-1558 mboc1235-1560
+giry1241	0		0		0		4	giry1241-1589 giry1241-1590 giry1241-1593 giry1241-1594
+bare1279	0		0		0		4	bare1279-1612 bare1279-1613 bare1279-1614 bare1279-1615

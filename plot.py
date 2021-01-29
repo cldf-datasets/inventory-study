@@ -52,7 +52,7 @@ def inventories(path, ts):
 
 def transform(val, threshold=20):
     if val < 0:
-        return 0.5 - val / threshold
+        return 0.5 - abs(val) / threshold
     elif val > 0:
         return 0.5 + val / threshold
     else:
@@ -107,7 +107,7 @@ for (idx, nameA, dataA, dictA, coordsA), (jdx, nameB, dataB, dictB, coordsB) in 
             fig = plt.Figure(figsize=[20, 10])
             ax = plt.axes(projection=ccrs.PlateCarree())
             #fig.add_subplot(1, 1, 1, projection=ccrs.PlateCarree())
-            #ax.set_extent([-180, 180, -90, 90], crs=ccrs.PlateCarree())
+            ax.set_extent([-180, 180, -90, 90], crs=ccrs.PlateCarree())
             #stamen_terrain = cimgt.Stamen('terrain-background')
             #ax.add_image(stamen_terrain, 5)
             #ax.set_extent([-25, 50, 30, 70], crs=ccrs.PlateCarree())
@@ -121,6 +121,7 @@ for (idx, nameA, dataA, dictA, coordsA), (jdx, nameB, dataB, dictB, coordsB) in 
             ax.add_feature(cfeature.RIVERS)            
             for vA, vB, (g, lat, lon) in zip(lstA, lstB, values):
                 score = transform(vA-vB)
+                print(score, vA, vB, vA-vB)
                 color = cm.bwr(score)
                 try:
                     plt.plot(
@@ -138,7 +139,9 @@ for (idx, nameA, dataA, dictA, coordsA), (jdx, nameB, dataB, dictB, coordsB) in 
             
             plt.title('Comparing sound inventories for {0} vs. {1}'.format(nameA, nameB))
             plt.colorbar(cm.ScalarMappable(norm=None, cmap=cm.bwr), ax=ax,
-                    orientation="horizontal", shrink=0.4)
+                    orientation="horizontal", shrink=0.4,
+                    #ticks=[-20, -10, 0, 10, 20]
+                    )
             plt.savefig('plots/map-{0}-{1}.pdf'.format(nameA, nameB))
             plt.clf()
 

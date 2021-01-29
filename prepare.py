@@ -276,7 +276,7 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
                         inv.language.macroarea or "",
                         str(inv.language.latitude or ""),
                         str(inv.language.longitude or ""),
-                        str(len(inv)),
+                        str(len(inv.segments)),
                         str(len(inv.consonant_sounds)),
                         str(len(inv.vowel_sounds)),
                         str(len(inv.clusters)),

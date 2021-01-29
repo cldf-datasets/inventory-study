@@ -1,5 +1,5 @@
 from csvw import UnicodeDictReader, UnicodeWriter
-from scipy.stats import pearsonr, spearmanr
+from scipy.stats import spearmanr
 from collections import defaultdict
 from matplotlib import pyplot as plt
 from tabulate import tabulate
@@ -8,6 +8,7 @@ from itertools import combinations, product
 from pyclts.inventories import Inventory
 from pyclts import CLTS
 from tqdm import tqdm as progressbar
+from sys import argv
 
 
 def to_dict(path, parameters):
@@ -31,7 +32,7 @@ def to_dict(path, parameters):
 
 
 def inventories(path, ts):
-    with UnicodeDictReader(path + "-data.tsv", delimiter="\t") as reader:
+    with UnicodeDictReader(path+"-data.tsv", delimiter="\t") as reader:
         data = {row["ID"]: row for row in reader}
     gcodes = defaultdict(list)
     for row in data.values():
@@ -66,7 +67,7 @@ def compare_inventories(dctA, dctB, aspects, similarity="strict"):
 
 bipa = CLTS("./clts").bipa
 
-parameters = ["Sounds", "Consonantal", "Vocalic"]
+parameters = ["Sounds", "Consonants", "Vowels"]
 
 (
     (jpa_data, jpa_codes, jpa),
@@ -83,74 +84,56 @@ jpaD, lpsD, upsD, stmD = (
     inventories("UZ-PH-GM", bipa),
 )
 
-idxs = {
-    0: [0, 0],
-    1: [0, 1],
-    2: [0, 2],
-    3: [1, 0],
-    4: [1, 1],
-    5: [1, 2],
-    6: [2, 0],
-    7: [2, 1],
-    8: [2, 2],
-    9: [3, 0],
-    10: [3, 1],
-    11: [3, 2],
-    12: [4, 0],
-    13: [4, 1],
-    14: [4, 2],
-}
+all_gcodes = defaultdict(list)
+for ds, dct in [('jipa', jpaD), ('lapsyd', lpsD), ('upsid', upsD), ('phoible',
+    stmD)]:
+    for code, invs in dct.items():
+        all_gcodes[code] += [(ds, inv) for inv in invs]
+with open('output/comparable-inventories.tsv', 'w') as f:
+    f.write('Glottocode\tLAPSyD\tLAPSyD_Var\tJIPA\tJIPA_Var\tUPSID\tUPSID_Var\tPH-UZ-GM_\tPH-UZ-GM_Var\n')
+    for code, invs in all_gcodes.items():
+        if len(invs) > 1:
+            f.write(code)
+            dsets = [x[0] for x in invs]
+            for ds in ['jipa', 'lapsyd', 'upsid', 'phoible']:
+                f.write('\t'+str(dsets.count(ds))+'\t'+' '.join([
+                    inv.language for ds_, inv in invs if ds_ == ds]))
+            f.write('\n')
 
-# compute basic statistics from the data
-for name, inv in [("PHOIBLE", stmD), ("UPSID", upsD), ("JIPA", jpaD), ("LAPSYD", lpsD)]:
-    count = len(inv)
-    all_count = 0
-    for i in inv.values():
-        all_count += len(i)
-    print(name, count, all_count)
+with open('output/compared-inventories.tsv', 'w') as f:
+    f.write('Glottocode\tDatasetA\tVarietyA\tSoundsA\tConsonantsA\tVowelsA\tDatasetB\tVarietyB\tSoundsB\tConsonantsB\tVowelsB\tStrictSimilarity\tAverageSimilarity\tInventoryA\tInventoryB\n')
+    for code, invs in [(x, y) for x, y in all_gcodes.items() if len(y) > 1]:
+        for (dsA, invA), (dsB, invB) in combinations(invs, r=2):
+            f.write('\t'.join([
+                code,
+                dsA,
+                invA.language,
+                str(len(invA.sounds)),
+                str(len(invA.consonant_sounds)),
+                str(len(invA.vowel_sounds)),
+                dsB,
+                invB.language,
+                str(len(invB.sounds)),
+                str(len(invB.consonant_sounds)),
+                str(len(invB.vowel_sounds)),
+                '{0:.2f}'.format(invA.strict_similarity(invB, aspects=['sounds'])),
+                '{0:.2f}'.format(invA.approximate_similarity(invB, aspects=['sounds'])),
+                ' '.join(invA.sounds),
+                ' '.join(invB.sounds)
+                ])+'\n')
+print('[i] computed basic comparisons of all inventories')
 
 # coverage for four datasets
 coverage = [[0 for x in range(4)] for y in range(4)]
 
-# plot the deltas
-for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(
-    combinations(
-        [
-            (0, "Phoible", stm, stmD),
-            (1, "JIPA", jpa, jpaD),
-            (2, "LAPSYD", lps, lpsD),
-            (3, "UPSID", ups, upsD),
-        ],
-        r=2,
-    )
-):
-    matches = [k for k in dataA if k in dataB]
-
-    for i, param in enumerate(["Sounds", "Consonantal", "Vocalic"]):
-        lstA, lstB, values = [], [], []
-
-        for gcode in matches:
-            vA, vB = dataA[gcode][param], dataB[gcode][param]
-            if isinstance(vA, (int, float)) and isinstance(vB, (int, float)):
-                lstA += [vA]
-                lstB += [vB]
-                values += [gcode]
-        if values:
-            fig = plt.Figure()
-            plt.hist([x - y for x, y in zip(lstA, lstB)])
-            plt.title(param)
-            plt.savefig("plots/delta-{0}-{1}-{2}.pdf".format(nameA, nameB, param))
-            plt.clf()
-
 # store results for later
-storage = {"raw": [], "summary": []}
-
+storage = {"raw": [], "summary": [], "table": defaultdict(dict)}
 for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(
     combinations(
         [
-            (0, "Phoible", stm, stmD),
+            (0, "PH-UZ-GM", stm, stmD),
             (1, "JIPA", jpa, jpaD),
-            (2, "LAPSYD", lps, lpsD),
+            (2, "LAPSyD", lps, lpsD),
             (3, "UPSID", ups, upsD),
         ],
         r=2,
@@ -163,6 +146,8 @@ for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(
     coverage[jdx][jdx] = len(dataB)
     coverage[idx][jdx] = len(matches)
     coverage[jdx][idx] = len(matches) / min([len(dataA), len(dataB)])
+    compared = []
+
     for i, param in enumerate(parameters):
         lstA, lstB, values = [], [], []
         for gcode in matches:
@@ -174,29 +159,29 @@ for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(
         if values:
             p, r = spearmanr(lstA, lstB)
             d = deltas(lstA, lstB)
-            if param in ["Sounds", "Consonants", "Vowels"]:
+            if param in ["Sounds"]:
                 strict = compare_inventories(dictA, dictB, aspects=[param.lower()])
                 approx = compare_inventories(
                     dictA, dictB, aspects=[param.lower()], similarity="approximate"
                 )
-            elif param == "Consonantal":
+            elif param == "Consonants":
                 strict = compare_inventories(
-                    dictA, dictB, aspects=["consonants", "clusters"]
+                    dictA, dictB, aspects=["consonant_sounds"]
                 )
                 approx = compare_inventories(
                     dictA,
                     dictB,
-                    aspects=["consonants", "clusters"],
+                    aspects=["consonant_sounds"],
                     similarity="approximate",
                 )
-            elif param == "Vocalic":
+            elif param == "Vowels":
                 strict = compare_inventories(
-                    dictA, dictB, aspects=["vowels", "diphthongs"]
+                    dictA, dictB, aspects=["vowel_sounds"]
                 )
                 approx = compare_inventories(
                     dictA,
                     dictB,
-                    aspects=["vowels", "diphthongs"],
+                    aspects=["vowel_sounds"],
                     similarity="approximate",
                 )
             else:
@@ -227,23 +212,8 @@ for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(
                 }
             )
 
-            plt.plot(lstA, lstB, ".", color="crimson")
-            plt.title(param)
-            plt.xlabel(nameA)
-            plt.ylabel(nameB)
-            plt.xlim(0, max(lstA + lstB) + 5)
-            plt.ylim(0, max(lstA + lstB) + 5)
-            plt.savefig("plots/{0}-{1}-{2}.pdf".format(nameA, nameB, param))
-            plt.clf()
-            # this_ax = axs[idxs[i][0], idxs[i][1]]
-            # this_ax.plot(lstA, lstB, '.')
-            # this_ax.set(title=param)
             table += [[param, p, r, d, strict, approx, len(values)]]
 
-    # for ax in axs.flat:
-    #    ax.set(xlabel=nameA)
-    #    ax.set(ylabel=nameB)
-    # plt.savefig('plots/plots-{0}-{1}.pdf'.format(nameA, nameB))
     print("\n# {0} / {1}".format(nameA, nameB))
     print(
         tabulate(
@@ -259,8 +229,6 @@ for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(
             ],
         )
     )
-print(tabulate(coverage))
-
 
 with UnicodeWriter("output/results.raw.csv") as writer:
     header = storage["raw"][0].keys()
