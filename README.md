@@ -47,6 +47,6 @@ $ python prepare.py
 ```
 
 ### Data analysis (python only, preliminary)
-
-* scipy
-* matplotlib
+```
+$ python compare.py
+```
