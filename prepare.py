@@ -42,7 +42,7 @@ class Language:
 def long_vowels(inventory):
     long_vowels = 0
     for sound in inventory.vowels.values():
-        if 'long' in sound.name or 'ultra-long' in sound.name:
+        if "long" in sound.name or "ultra-long" in sound.name:
             long_vowels += 1
     return long_vowels
 
@@ -50,7 +50,7 @@ def long_vowels(inventory):
 def long_consonants(inventory):
     long_consonants = 0
     for sound in inventory.consonants.values():
-        if 'long' in sound.name:
+        if "long" in sound.name:
             long_consonants += 1
     return long_consonants
 
@@ -87,9 +87,7 @@ def get_cldf_varieties(dataset):
 
 def get_phoible_varieties(
     subsets,
-    path=Path.home().joinpath(
-        "data", "datasets", "cldf", "cldf-datasets", "phoible", "cldf"
-    ),
+    path=Path(__file__).parent / "phoible" / "cldf",
 ):
     """
     Load phoible data (currently not in generic CLDF).
@@ -106,15 +104,15 @@ def get_phoible_varieties(
     gcodes = {row["ID"]: row for row in phoible.iter_rows("LanguageTable")}
     params = {row["Name"]: row for row in phoible.iter_rows("ParameterTable")}
     contributions = {
-        row["ID"]: row["Contributor_ID"]
-        for row in phoible.iter_rows("contributions.csv")
+        row["ID"]: row["Inventory_source_ID"]
+        for row in phoible.iter_rows("inventories.csv")
     }
     languages = {}
     varieties = defaultdict(list)
     sources = defaultdict(set)
     for row in progressbar(phoible.iter_rows("ValueTable"), desc="load values"):
-        if contributions[row["Contribution_ID"]] in subsets:
-            lid = row["Language_ID"] + "-" + row["Contribution_ID"]
+        if contributions[row["Inventory_ID"]] in subsets:
+            lid = row["Language_ID"] + "-" + row["Inventory_ID"]
             varieties[lid] += [nfd(row["Value"])]
             languages[lid] = gcodes[row["Language_ID"]]
             source = row["Source"][0] if row["Source"] else ""
@@ -143,7 +141,7 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
     if not td:
         td = dataset
 
-    if dataset in ["UZ-PH-GM", "UPSID"]:
+    if dataset in ["UZ", "PH", "GM", "UPSID"]:
         dset_td = clts.transcriptiondata_dict["phoible"]
         languages, params, varieties, sources, bib = get_phoible_varieties(dataset)
     else:
@@ -308,7 +306,7 @@ with open("output/excluded.md", "w") as f:
     f.write("# Excluded Varieties\n\n")
 
 dump = defaultdict(list)
-for ds in ["jipa", "UPSID", "lapsyd", "UZ-PH-GM"]:
+for ds in ["jipa", "UPSID", "lapsyd", "UZ", "PH", "GM"]:
     print("# Importing data for {0}".format(ds))
     dump, (varieties, vars_with_gcode, inventories, distinct_gcodes) = load_dataset(
         ds, dump=dump

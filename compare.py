@@ -32,7 +32,7 @@ def to_dict(path, parameters):
 
 
 def inventories(path, ts):
-    with UnicodeDictReader(path+"-data.tsv", delimiter="\t") as reader:
+    with UnicodeDictReader(path + "-data.tsv", delimiter="\t") as reader:
         data = {row["ID"]: row for row in reader}
     gcodes = defaultdict(list)
     for row in data.values():
@@ -73,68 +73,97 @@ parameters = ["Sounds", "Consonants", "Vowels"]
     (jpa_data, jpa_codes, jpa),
     (lps_data, lps_codes, lps),
     (ups_data, ups_codes, ups),
-    (stm_data, stm_codes, stm),
-) = [to_dict(ds, parameters) for ds in ["jipa", "lapsyd", "UPSID", "UZ-PH-GM"]]
+    (uz_data, uz_codes, uz),
+    (ph_data, ph_codes, ph),
+    (gm_data, gm_codes, gm),
+) = [to_dict(ds, parameters) for ds in ["jipa", "lapsyd", "UPSID", "UZ", "PH", "GM"]]
 
 
-jpaD, lpsD, upsD, stmD = (
+jpaD, lpsD, upsD, uzD, phD, gmD = (
     inventories("jipa", bipa),
     inventories("lapsyd", bipa),
     inventories("UPSID", bipa),
-    inventories("UZ-PH-GM", bipa),
+    inventories("UZ", bipa),
+    inventories("PH", bipa),
+    inventories("GM", bipa),
 )
 
 all_gcodes = defaultdict(list)
-for ds, dct in [('jipa', jpaD), ('lapsyd', lpsD), ('upsid', upsD), ('phoible',
-    stmD)]:
+for ds, dct in [
+    ("jipa", jpaD),
+    ("lapsyd", lpsD),
+    ("upsid", upsD),
+    ("uz", uzD),
+    ("ph", phD),
+    ("gm", gmD),
+]:
     for code, invs in dct.items():
         all_gcodes[code] += [(ds, inv) for inv in invs]
-with open('output/comparable-inventories.tsv', 'w') as f:
-    f.write('Glottocode\tLAPSyD\tLAPSyD_Var\tJIPA\tJIPA_Var\tUPSID\tUPSID_Var\tPH-UZ-GM_\tPH-UZ-GM_Var\n')
+with open("output/comparable-inventories.tsv", "w") as f:
+    f.write(
+        "Glottocode\tLAPSyD\tLAPSyD_Var\tJIPA\tJIPA_Var\tUPSID\tUPSID_Var\tUZ\tUZ_Var\tPH\tPHVar\tGM\tGM_Var\n"
+    )
     for code, invs in all_gcodes.items():
         if len(invs) > 1:
             f.write(code)
             dsets = [x[0] for x in invs]
-            for ds in ['jipa', 'lapsyd', 'upsid', 'phoible']:
-                f.write('\t'+str(dsets.count(ds))+'\t'+' '.join([
-                    inv.language for ds_, inv in invs if ds_ == ds]))
-            f.write('\n')
+            for ds in ["jipa", "lapsyd", "upsid", "uz", "ph", "gm"]:
+                f.write(
+                    "\t"
+                    + str(dsets.count(ds))
+                    + "\t"
+                    + " ".join([inv.language for ds_, inv in invs if ds_ == ds])
+                )
+            f.write("\n")
 
-with open('output/compared-inventories.tsv', 'w') as f:
-    f.write('Glottocode\tDatasetA\tVarietyA\tSoundsA\tConsonantsA\tVowelsA\tDatasetB\tVarietyB\tSoundsB\tConsonantsB\tVowelsB\tStrictSimilarity\tAverageSimilarity\tInventoryA\tInventoryB\n')
+with open("output/compared-inventories.tsv", "w") as f:
+    f.write(
+        "Glottocode\tDatasetA\tVarietyA\tSoundsA\tConsonantsA\tVowelsA\tDatasetB\tVarietyB\tSoundsB\tConsonantsB\tVowelsB\tStrictSimilarity\tAverageSimilarity\tInventoryA\tInventoryB\n"
+    )
     for code, invs in [(x, y) for x, y in all_gcodes.items() if len(y) > 1]:
         for (dsA, invA), (dsB, invB) in combinations(invs, r=2):
-            f.write('\t'.join([
-                code,
-                dsA,
-                invA.language,
-                str(len(invA.sounds)),
-                str(len(invA.consonant_sounds)),
-                str(len(invA.vowel_sounds)),
-                dsB,
-                invB.language,
-                str(len(invB.sounds)),
-                str(len(invB.consonant_sounds)),
-                str(len(invB.vowel_sounds)),
-                '{0:.2f}'.format(invA.strict_similarity(invB, aspects=['sounds'])),
-                '{0:.2f}'.format(invA.approximate_similarity(invB, aspects=['sounds'])),
-                ' '.join(invA.sounds),
-                ' '.join(invB.sounds)
-                ])+'\n')
-print('[i] computed basic comparisons of all inventories')
+            f.write(
+                "\t".join(
+                    [
+                        code,
+                        dsA,
+                        invA.language,
+                        str(len(invA.sounds)),
+                        str(len(invA.consonant_sounds)),
+                        str(len(invA.vowel_sounds)),
+                        dsB,
+                        invB.language,
+                        str(len(invB.sounds)),
+                        str(len(invB.consonant_sounds)),
+                        str(len(invB.vowel_sounds)),
+                        "{0:.2f}".format(
+                            invA.strict_similarity(invB, aspects=["sounds"])
+                        ),
+                        "{0:.2f}".format(
+                            invA.approximate_similarity(invB, aspects=["sounds"])
+                        ),
+                        " ".join(invA.sounds),
+                        " ".join(invB.sounds),
+                    ]
+                )
+                + "\n"
+            )
+print("[i] computed basic comparisons of all inventories")
 
 # coverage for four datasets
-coverage = [[0 for x in range(4)] for y in range(4)]
+coverage = [[0 for x in range(6)] for y in range(6)]
 
 # store results for later
 storage = {"raw": [], "summary": [], "table": defaultdict(dict)}
 for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(
     combinations(
         [
-            (0, "PH-UZ-GM", stm, stmD),
-            (1, "JIPA", jpa, jpaD),
-            (2, "LAPSyD", lps, lpsD),
-            (3, "UPSID", ups, upsD),
+            (0, "JIPA", jpa, jpaD),
+            (1, "LAPSyD", lps, lpsD),
+            (2, "UPSID", ups, upsD),
+            (3, "PH", ph, phD),
+            (4, "UZ", uz, uzD),
+            (5, "GM", gm, gmD),
         ],
         r=2,
     )
@@ -165,9 +194,7 @@ for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(
                     dictA, dictB, aspects=[param.lower()], similarity="approximate"
                 )
             elif param == "Consonants":
-                strict = compare_inventories(
-                    dictA, dictB, aspects=["consonant_sounds"]
-                )
+                strict = compare_inventories(dictA, dictB, aspects=["consonant_sounds"])
                 approx = compare_inventories(
                     dictA,
                     dictB,
@@ -175,9 +202,7 @@ for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(
                     similarity="approximate",
                 )
             elif param == "Vowels":
-                strict = compare_inventories(
-                    dictA, dictB, aspects=["vowel_sounds"]
-                )
+                strict = compare_inventories(dictA, dictB, aspects=["vowel_sounds"])
                 approx = compare_inventories(
                     dictA,
                     dictB,

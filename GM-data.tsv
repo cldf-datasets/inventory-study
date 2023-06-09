@@ -1,0 +1,449 @@
+ID	Name	Glottocode	Family	Macroarea	Latitude	Longitude	Sounds	Consonants	Vowels	Clusters	Diphthongs	LongConsonants	LongVowels	Ratio	Phonemes
+adam1253-1241	Adamawa Fulfulde	adam1253	Atlantic-Congo	Africa	8.140326	13.077338	47	37	10	0	0	10	5	3.7	b bː d dː dʒ f h j k kː l lː m ⁿb mː n ⁿd nː ⁿdʒ q r s t tʃ tʃː w ŋ ⁿg ɓ ɓː ɗ ɗː g gː ɲ ʒ ʔʲ a aː e eː i iː o oː u uː
+anyi1245-1242	Anyin	anyi1245	Atlantic-Congo	Africa	6.31781	-3.30532	35	19	16	0	0	0	0	1.1875	b c d f h j k kp l m n p s t w ɟ g gb ɥ a ã e i ĩ o u ũ ɔ ɛ ɪ ɪ̃ ʊ ʊ̃ ʌ ʌ̃
+anyi1245-1243	Anyin	anyi1245	Atlantic-Congo	Africa	6.31781	-3.30532	31	17	14	0	0	0	0	1.2142857142857142	b c d f h j k m n p r s t w ɟ g ʃ a ã e i ĩ o u ũ ɔ ɛ ɪ ɪ̃ ʊ ʊ̃
+anyi1244-1244	Anyin Morofo	anyi1244	Atlantic-Congo	Africa	6.1627	-4.64232	45	31	14	0	0	3	0	2.2142857142857144	b c d f h j k kp m ⁿb mː n ⁿd ⁿz nː p s t v w z ⁿgb ⁿg ɟ g gb ɥ ⁿv ɲ ⁿɟ ɲː a ã e i ĩ o u ũ ɔ ɛ ɪ ɪ̃ ʊ ʊ̃
+akan1250-1245	Akan	akan1250	Atlantic-Congo	Africa	6.34756	-1.33254	58	28	30	0	0	0	10	0.9333333333333333	b d dz dʑ dʑᶣ f h kʷ l m n p r s sᶣ t ts tɕ tɕᶣ w ŋ ŋʷ ɕ ɕᶣ gʷ ɥ ɲ ɲᶣ a aː ã e eː ẽ i iː ĩ o oː õ u uː ũ æ æː æ̃ ɔ ɔː ɔ̃ ɛ ɛː ɛ̃ ɪ ɪː ɪ̃ ʊ ʊː ʊ̃
+anuf1239-1246	Anufo	anuf1239	Atlantic-Congo	Africa	10.2839	0.56021	57	45	12	0	0	0	0	3.75	b bʲ bʷ c cʲ d dʲ f fʲ fʷ h j k kp kpʲ kʷ l lᶣ m mʲ n p pʲ pʷ r s t tʲ w z ŋ ŋm ŋmʲ ɕᶣ ɟ ɟʲ g gb gbʲ gʷ ɥ ɥ̥ ɲ ʃ ʑᶣ a ã e i ĩ o u ũ ɔ ɔ̃ ɛ ɛ̃
+dibo1245-1247	Dibole	dibo1245	Atlantic-Congo	Africa	1.07773	17.2305	27	21	6	0	0	0	0	3.5	b dz h j k l m ⁿb ⁿp n ⁿdz ⁿs ⁿt ⁿts p s t ts w ⁿk ⁿg a e i u ɔ ɛ
+bana1305-1248	Bana	bana1305	Afro-Asiatic	Africa	10.3535	13.6131	40	37	3	0	0	0	0	12.333333333333334	b d dz f j k kʷ m ⁿb n ⁿd ⁿdz p s t ts v w z ŋ ⁿg ⁿgʷ ŋʷ ɓ ɗ g gʷ ɬ ɮ ɾ ʁ ʁʷ ʔ ʔʷ χ χʷ ⱱ ə ɛ ɨ
+baka1274-1249	Baka (Sudan)	baka1274	Central Sudanic	Africa	4.65943	29.59	46	36	10	0	0	0	0	3.6	b bʳ d dʑ f h j k kp l m n p r s t ts tɕ v w x ħ ŋ ɓ ɖ ɗ g gb ɣ ɲ ɾ ʃ ʒ ʕ θ ⱱ a e i o u ɐ ɔ ɛ ɪ ʊ
+ajas1235-1250	Aja (Sudan)	ajas1235	Kresh-Aja	Africa	8.58003	25.6122	48	38	10	0	0	0	0	3.8	b c d dʑ f h j k kp l m n p r s t ts tɕ v w x ħ ŋ ɓ ɖ ɗ ɟ g gb ɣ ɲ ɾ ʃ ʈ ʒ ʕ θ ⱱ a e i o u ɐ ɔ ɛ ɪ ʊ
+bila1255-1251	Bila	bila1255	Atlantic-Congo	Africa	1.16839	28.7626	28	19	9	0	0	0	0	2.111111111111111	h j k kp l ⁿb ⁿd ⁿdʒ p s t tʃ w ⁿgb ⁿg ɓ ɗ ɲ ɸ a e i o u ɔ ɛ ɪ ʊ
+busa1253-1252	Busa	busa1253	Mande	Africa	9.91074	4.39929	28	16	12	0	0	0	0	1.3333333333333333	b d f j k kp m n p s t v w z g gb a ã e i ĩ o u ũ ɔ ɔ̃ ɛ ɛ̃
+adam1253-1253	Adamawa Fulfulde	adam1253	Atlantic-Congo	Africa	8.140326	13.077338	39	29	10	0	0	0	5	2.9	b d dʒ f h j k l m ⁿb n ⁿd ⁿdʒ p q r s t tʃ v w ŋ ⁿg ɓ ɗ g ɲ ʔ ʔʲ a aː e eː i iː o oː u uː
+nige1253-1254	Hausa States Fulfulde	nige1253	Atlantic-Congo	Africa	10.9972	11.1188	57	47	10	0	0	20	5	4.7	b bː d dː dʒ dʒː f h j k kː l lː m ⁿb ⁿbː mː n ⁿd ⁿdː nː ⁿdʒ p pː r rː s t tː tʃ tʃː w ŋ ⁿg ⁿgː ŋː ɓ ɓː ɗ ɗː g gː ɲ ɲː ʔ ʔʲ ʔʲː a eː iː oː uː ɑː ɔ ɛ ɪ ʊ
+here1253-1255	Herero	here1253	Atlantic-Congo	Africa	-21.0231	20.5655	24	19	5	0	0	0	0	3.8	h j k ⁿb n ⁿdʑ ⁿd̪ n̪ p t t̪ v w ð ⁿg ɕ ɲ ɾ θ a e i o u
+ceba1235-1256	Senari	ceba1235	Atlantic-Congo	Africa	9.50768	-6.15264	35	22	13	0	0	0	5	1.6923076923076923	b d dʒ f k kp l m n p r s t tʃ v z ŋ g gb ʃ ʒ ʔ a aː ã ãː e o ɔ ɔː ɔ̃ ɔ̃ː ɛ ɛː ɛ̃
+koyr1240-1257	Koyra Chiini Songhay	koyr1240	Songhay	Africa	16.192	-3.73962	37	23	14	0	0	0	7	1.6428571428571428	b d f h j̃ k l m n p r s t tʃ w z ŋ ŋʷ g gᶣ ɲ ʃ ʔ a aː e eː i iː o oː u uː ɔ ɔː ɛ ɛː
+bafi1243-1258	Bafia	bafi1243	Atlantic-Congo	Africa	4.72603	11.0982	43	25	18	0	0	0	7	1.3888888888888888	b d dʒ f j k kp l m n p r s t tʃ v w z ŋ ɓ ɗ g gb ɣ ɲ a aː e eː i iː o oː u uː ɑ ɔ ɔː ə ɛ ɛː ɨ ʌ
+limb1268-1260	Limbum	limb1268	Atlantic-Congo	Africa	6.58608	10.9802	52	37	15	0	0	0	6	2.466666666666667	b d dz dʒ f h j k kʷ l m ⁿb n ⁿd ⁿl ⁿr ⁿt r s t ts tʃ v w z ŋ ⁿkʷ ⁿgʷ ŋʷ g gʷ ɣ ⁿf ɲ ʃ ʒ ʔ a aː i iː u uː ũ ɔ ɔː ɛ ɛː ɛ̃ ɨ ɨː ɨ̃
+limb1268-1261	Limbum	limb1268	Atlantic-Congo	Africa	6.58608	10.9802	41	23	18	0	0	0	7	1.2777777777777777	b d dʒ f h j k l m n r s t tʃ v w ŋ g ɣ ɲ ʃ ʒ ʔ a aː e eː iː o oː u uː ũ ɔ ɔː ɔ̃ ɛ ɛː ɛ̃ ɨ ɨ̃
+limb1268-1262	Limbum	limb1268	Atlantic-Congo	Africa	6.58608	10.9802	33	23	10	0	0	0	5	2.3	b d dʒ f h j k l m n r s t tʃ v w ŋ g ɣ ɲ ʃ ʒ ʔ a aː e eː i iː o oː u uː
+myen1241-1263	Myene	myen1241	Atlantic-Congo	Africa	-1.48741	9.50247	36	29	7	0	0	0	0	4.142857142857143	dʒ f j k l m ⁿb ⁿp n ⁿd ⁿt ⁿdʒ ⁿtʃ p r s t tʃ w z ŋ ⁿk ⁿg ɓ ɗ g ɲ ʙ β a e i o u ɔ ɛ
+ntch1242-1264	Ntcham	ntch1242	Atlantic-Congo	Africa	9.23971	0.599275	40	21	19	0	0	0	12	1.105263157894737	b c d f j k kp l m n p s t w ŋ ŋm ɟ g gb ɱ ɲ a aː ãː e eː ẽː i iː ĩ ĩː o oː õː u uː ũː ɔ ɔː ɔ̃ː
+tune1261-1265	Tunen	tune1261	Atlantic-Congo	Africa	4.75	10.67	24	17	7	0	0	0	0	2.4285714285714284	b f j k l m ⁿb n ⁿd ⁿdʒ s t w x ŋ ⁿg ɲ a i o u ɔ ə ɛ
+matu1259-1266	Matumbi	matu1259	Atlantic-Congo	Africa	-8.53734	39.0409	20	15	5	0	0	0	0	3.0	b d dʒ j l m n p s t tʃ w ŋ g ɲ a e i o u
+yaoo1241-1267	Yao	yaoo1241	Atlantic-Congo	Africa	-13.6119	35.2387	25	18	7	0	0	0	0	2.5714285714285716	b d dʒ f j k l m n p s t tʃ w ŋ g ɲ β a e i o u ɪ ʊ
+umbu1257-1268	Umbundu	umbu1257	Atlantic-Congo	Africa	-12.4763	14.4148	30	20	10	0	0	0	0	2.0	c f h h̃ j j̃ k l l̃ m n p s t v ṽ w w̃ ŋ ɲ a ã e ẽ i ĩ o õ u ũ
+ndon1254-1269	Ndonga	ndon1254	Atlantic-Congo	Africa	-17.22	17.35	30	25	5	0	0	0	0	5.0	b d f h j k l m n p s t ts v w x z ð g ɣ ɲ ʃ ʒ ʔ θ a e i o u
+mbuk1240-1270	Mbukushu	mbuk1240	Atlantic-Congo	Africa	-17.6827	22.5026	29	22	7	0	0	0	0	3.142857142857143	b d dʒ f h j k m n p r t tʃ t̪ v w ð ŋ ɣ ɲ ʃ θ a e i o u ɔ ɛ
+diri1252-1271	Diriku	diri1252	Atlantic-Congo	Africa	-18.1681	20.6678	28	23	5	0	0	0	0	4.6	b d dʒ f h j k l m n p r t tʃ t̪ v w ŋ g ɣ ɲ ʃ β a ɔ ɛ ɪ ʊ
+kwan1273-1272	Kwangali	kwan1273	Atlantic-Congo	Africa	-17.9026	19.256	27	22	5	0	0	0	0	4.4	b d dʒ f h j k l m n p r s t tʃ v w ŋ g ɲ ʃ β a ɔ ɛ ɪ ʊ
+soni1259-1273	Soninke	soni1259	Mande	Africa	13.1273	-11.7178	43	28	15	0	0	10	5	1.8666666666666667	b bː c d h j jː k kː l lː m mː n nː p q r s t tː x ŋ ŋː g gː ɲ ɲː a aː ã e eː ẽ i iː ĩ o oː õ u uː ũ
+koyr1242-1274	Koyraboro Senni Songhai	koyr1242	Songhay	Africa	16.9634	-0.55187	37	23	14	0	0	0	5	1.6428571428571428	b d dʒ f h j k l m n p r s t tʃ w z ŋ g ɲ ʃ ʒ ʔ a aː ã e eː ẽ i iː ĩ o oː õ u uː
+lele1276-1275	Lele (Chad)	lele1276	Afro-Asiatic	Africa	9.158	15.81149	33	23	10	0	0	0	5	2.3	b d h j k kp l m ⁿb n ⁿd p r s t w ŋ ⁿgb ɓ ɗ g gb ɲ a aː e eː i iː o oː u uː
+ikal1242-1276	Ikalanga	ikal1242	Atlantic-Congo	Africa	-21.2887	27.401	67	62	5	0	0	0	0	12.4	b bˢ bg bʱ d dz dzʷ dʷ dʒ dʒʱ dʱ dzʱ d̪ f j k kʰ kʷ kʷʰ l m ⁿb n ⁿd ⁿdʒ p pkʰ pˢ pʰ r s sʷ ts tsʰ tsʷʰ tʰ tʲ tʷʰ tʃ tʃʼ t̪ t̪ʰ v w wʱ z zʷ ŋ ⁿg ⁿgʷ ŋʷ g gʷ gʷʱ ɦ ɲ ʃ ʃʷ ʋ ʒ ʔ β a e i o u
+mong1338-1277	Mongo	mong1338	Atlantic-Congo	Africa	-1.54228	20.4259	52	45	7	0	0	0	0	6.428571428571429	b bʲ bʷ d dʒ dʒʷ f fʲ fʷ h j jʷ k kʲ kʷ l m ⁿb ⁿp mʲ mʷ ⁿd ⁿs ⁿt ⁿts nʷ ⁿdʒ p pʲ pʷ r s sʲ sʷ t ts tsʷ w ŋ ⁿk ⁿg g ɲ ɲʷ ʔ a e i o u ɔ ɛ
+long1387-1278	Longto	long1387	Atlantic-Congo	Africa	8.33313	13.0568	27	20	7	0	0	0	0	2.857142857142857	b c d j k kp m n t w ŋ ŋm ɕ ɟ g gb ɲ ɸ ɽ β a i u ɔ ɛ ɪ ʊ
+xwel1235-1279	Xwela Gbe	xwel1235	Atlantic-Congo	Africa	6.41342	2.02985	42	29	13	0	0	0	0	2.230769230769231	b d dʒ f j k kp l̃ m n r r̃ s t tʃ v w w̃ z ɖ g gb ɥ ɥ̃ ɲ ʁ ʁʷ χ χʷ a ã e i ĩ o u ũ ɔ ɔ̃ ə ɛ ɛ̃
+west2456-1280	Western Xwla Gbe	west2456	Atlantic-Congo	Africa	6.33455	2.03904	42	29	13	0	0	0	0	2.230769230769231	b d dʒ f j k kp l̃ m n r r̃ s t tʃ v w w̃ z ɖ g gb ɥ ɥ̃ ɲ ʁ ʁʷ χ χʷ a ã e i ĩ o u ũ ɔ ɔ̃ ə ɛ ɛ̃
+kota1272-1281	Kotafon Gbe	kota1272	Atlantic-Congo	Africa	6.64027	1.72346	42	29	13	0	0	0	0	2.230769230769231	b d dʒ f j k kp l̃ m n r r̃ s t tʃ v w w̃ z ɖ g gb ɥ ɥ̃ ɲ ʁ ʁʷ χ χʷ a ã e i ĩ o u ũ ɔ ɔ̃ ə ɛ ɛ̃
+gbes1238-1282	Gbesi Gbe	gbes1238	Atlantic-Congo	Africa	6.55911	2.0269	44	31	13	0	0	0	0	2.3846153846153846	b d f j k kp l̃ m n r r̃ s t v w w̃ z ɖ g gb ɥ ɥ̃ ɲ ɸ ʁ ʁʷ ʃ ʒ β χ χʷ a ã e i ĩ o u ũ ɔ ɔ̃ ə ɛ ɛ̃
+mach1266-1283	Machame	mach1266	Atlantic-Congo	Africa	-3.29385	37.0703	43	33	10	0	0	0	5	3.3	b d dʒ f j k l lʲ m ⁿb ⁿp n ⁿd ⁿs ⁿt ⁿz ⁿdʒ ⁿtʃ p s t tʃ w ŋ ⁿk ⁿg g ⁿv ɲ ɽ ɾ ʃ β a aː e eː i iː o oː u uː
+mada1282-1284	Mada (Nigeria)	mada1282	Atlantic-Congo	Africa	9.02294	8.34119	36	23	13	0	1	0	0	1.7692307692307692	b d dz f j kp kʰ l m n pʰ r s ts tʰ v w ŋ g gb ɽ ɾ ʍ a ã ei i ĩ o u ũ ɔ ɔ̃ ə ɛ ɛ̃
+mbee1249-1285	Mbe	mbee1249	Atlantic-Congo	Africa	6.57067	8.82998	33	26	7	0	0	0	0	3.7142857142857144	b d dz dʒ f h j k kp kʷ l m n p r s t ts tʃ w ŋ ŋʷ g gb ɲ ʃ a e i o u ɔ ɛ
+ngwe1238-1286	Ngwe	ngwe1238	Atlantic-Congo	Africa	5.49787	9.9028	38	24	14	0	0	0	0	1.7142857142857142	d dʒ f h k kp m n p r s t tʳ tʃ v w z ŋ g gb ɲ ʋ ʔ β a e i o u y æ ø œ ɔ ə ɛ ɤ ɯ
+jowu1238-1287	Jowulu	jowu1238	Mande	Africa	10.7691	-5.47873	41	20	21	0	0	0	7	0.9523809523809523	b c d f j k kp l m n p s t w ŋ ŋm ɟ gb ɲ ʃ a aː ã e eː ẽ i iː ĩ o oː õ u uː ũ ɔ ɔː ɔ̃ ɛ ɛː ɛ̃
+yala1263-1288	Yala	yala1263	Atlantic-Congo	Africa	6.73852	8.60748	35	28	7	0	0	0	0	4.0	b c d f j k kp kʷ l m ⁿb n p r s t w wʲ x ŋ ⁿgb ŋʷ ɟ g gb gʷ ɲ ʃ a e i o u ɔ ɛ
+kete1252-1290	Kete	kete1252	Atlantic-Congo	Africa	-7.15104	22.9027	21	16	5	0	0	0	0	3.2	b d f j k l m n p s t v w z g ɲ a e i o u
+kwes1244-1291	Kwese	kwes1244	Atlantic-Congo	Africa	-5.60445	18.5759	22	16	6	0	0	0	0	2.6666666666666665	b d dʒ f h kʰ l m n pʰ s tʰ v w z g a e i o u y
+sout2828-1292	Southern Ma'di	sout2828	Central Sudanic	Africa	2.8735	31.25	56	47	9	0	0	0	0	5.222222222222222	b d dʷ dʒ f h j k kp kʷ l lʷ m ⁿb n ⁿd ⁿdʷ ⁿdʒ p r rʷ s sʷ t tʷ tʃ tʃʷ v w z zʷ ŋ ŋm ⁿgb ⁿg ⁿgʷ ɓ ɗ ɠɓ g gb gʷ ⁿv ɲ ʄ ʔ ʔʷ a e i o u ɔ ɛ ɪ ʊ
+moru1253-1293	Moru	moru1253	Central Sudanic	Africa	5.1232	30.3287	35	26	9	0	0	0	0	2.888888888888889	b dz d̪ h j k kp l m n p r s ts t̪ w z ŋ ɓ ɖʳ ɗ g gb ɲ ʈʳ ʔ a e i o u ɔ ɛ ɪ ʊ
+logo1259-1294	Logo	logo1259	Central Sudanic	Africa	3.32608	29.8866	36	27	9	0	0	0	0	3.0	b dz d̪ h j k kp l m n p r s ts t̪ w z ŋ ɓ ɖʳ ɗ g gb ɲ ɺ ʈʳ ʔ a e i o u ɔ ɛ ɪ ʊ
+afit1238-1295	Afitti	afit1238	Nyimang	Africa	12.446	30.7611	23	17	6	0	0	0	0	2.8333333333333335	b c d f j k l m n r s t w ŋ ɟ g ɲ e i o u ɑ ə
+avat1244-1296	Avatime	avat1244	Atlantic-Congo	Africa	6.8688	0.41314	46	28	18	0	0	0	0	1.5555555555555556	b d dz f h hʷ j k kp l m n p s t ts v w z ŋ ŋʷ g gb ɦ ɦʷ ɲ ɸ β a ã e ẽ i ĩ o õ u ũ ɔ ɔ̃ ɛ ɛ̃ ɪ ɪ̃ ʊ ʊ̃
+anyi1245-1298	Anyin	anyi1245	Atlantic-Congo	Africa	6.31781	-3.30532	35	21	14	0	0	0	0	1.5	b d dʒ f h j k kp m n p s t tʃ w ŋ gb gʷ ɲ ʃ ʔ a ã e i ĩ o u ũ ɔ ɛ ɪ ɪ̃ ʊ ʊ̃
+dghw1239-1299	Dghwede	dghw1239	Afro-Asiatic	Africa	11.05751	13.77847	36	33	3	0	0	0	0	11.0	b c d f j k kʷ l m ⁿb n ⁿd p r s t v w x xʷ z ⁿg ⁿgʷ ɓ ɗ ɟ g gʷ ɣ ɣʷ ɬ ɮ ⁿɟ a i u
+eloy1241-1300	Eloyi	eloy1241	Atlantic-Congo	Africa	8.24696	7.97061	48	41	7	0	0	0	0	5.857142857142857	b bʲ bʷ d dʒ f fʲ j k kp kʷ m ⁿb ⁿbʷ mʲ mʷ n ⁿd ⁿz ⁿdʒ p pʲ pʷ r s t tɕ v vʲ w z ŋ ⁿgb ⁿg ⁿgʷ ŋʷ g gb gʷ ɲ ʃ a e i o u ɔ ɛ
+nige1253-1301	Hausa States Fulfulde	nige1253	Atlantic-Congo	Africa	10.9972	11.1188	38	28	10	0	0	0	5	2.8	b d dʒ f h j jˀ k l m ⁿb n ⁿd ⁿdʒ p r s t tʃ w ŋ ⁿg ɓ ɗ g ɲ ʃ ʔ a aː e eː i iː o oː u uː
+giky1238-1302	Gikyode	giky1238	Atlantic-Congo	Africa	8.39478	0.56975	51	29	22	0	0	0	0	1.3181818181818181	b bʷ c d f fʷ h hʷ j k kp kʷ l m n p pʷ r s sʷ sᶣ t w ŋ ŋm ɟ g gb ɲ a ã e ẽ i ĩ o õ u ũ ɔ ɔ̃ ə ə̃ ɛ ɛ̃ ɪ ɪ̃ ʊ ʊ̃ ʌ ʌ̃
+giny1241-1303	Ginyanga	giny1241	Atlantic-Congo	Africa	8.2327	0.98348	53	31	22	0	0	0	0	1.4090909090909092	b bʷ d dʒ f fʷ h j k kp kʷ l lʷ m n p pʷ r s sʷ sʲʷ t tʷ tʃ w wʲ ŋ ŋm g gb ɲ a ã e ẽ i ĩ o õ u ũ ɔ ɔ̃ ə ə̃ ɛ ɛ̃ ɪ ɪ̃ ʊ ʊ̃ ʌ ʌ̃
+huba1236-1304	Huba	huba1236	Afro-Asiatic	Africa	10.3544	13.139	29	24	5	0	0	0	0	4.8	b dz d̪ f j k l m n p r s ts t̪ v w x z ɓ ɗ g ɣ ɬ̪ ɮ̪ a i ə ɨ ɯ
+kofy1242-1305	Pan	kofy1242	Afro-Asiatic	Africa	8.79947	9.15279	33	23	10	0	0	0	5	2.3	b d dʒ f j k l m n p r s t tʃ v w z ŋ ɓ ɗ g ʃ ʒ a aː i iː u uː ɔ ɔː ɛ ɛː
+krac1238-1306	Krache	krac1238	Atlantic-Congo	Africa	7.93475	0.01925	41	17	24	0	0	0	0	0.7083333333333334	b d dʒ f j k kp l m n p s t tʃ w ŋ ɲ a ã e ẽ i ĩ o õ u ũ ɔ ɔ̃ ə ə̃ ɛ ɛ̃ ɜ ɜ̃ ɪ ɪ̃ ʊ ʊ̃ ʌ ʌ̃
+krim1238-1307	Krim	krim1238	Atlantic-Congo	Africa	7.24116	-11.8393	38	22	16	0	0	0	7	1.375	b d dʒ f h j k l m ⁿp n ⁿt ⁿt̪ p s t tʃ t̪ w ŋ gb ɲ a aː e eː e̝ i iː o oː o̝ u uː ɔ ɔː ɛ ɛː
+west2458-1308	West Central Banda	west2458	Atlantic-Congo	Africa	6.81435	24.1012	41	31	10	0	2	0	0	3.1	c f h j k kp l m ⁿb n ⁿd ⁿz p s t v w z ⁿgb ⁿg ɟ g gb ⁿv ɲ ⁿɟ ɾ ʃ ʒ ʔ ⱱ a e ea i o oa u ɔ ə ɨ
+sout2833-1309	South Central Dinka	sout2833	Nilotic	Africa	6.7307	30.3021	57	20	37	0	0	0	26	0.5405405405405406	b c d j k l m n p r t w ð ŋ ɟ g ɣ ɱ ɲ θ a̤ a̤ː a̤ˑ a̰ a̰ː a̰ˑ e̤ e̤ː e̤ˑ ḛ ḛː ḛˑ i̤ i̤ː i̤ˑ ḭ ḭː ḭˑ o̤ o̤ː o̤ˑ o̰ o̰ː o̰ˑ ṳ ṳː ṳˑ ɔ̤ ɔ̤ː ɔ̤ˑ ɔ̰ ɔ̰ː ɔ̰ˑ ɛ̤ː ɛ̤ˑ ɛ̰ː ɛ̰ˑ
+food1238-1310	Foodo	food1238	Atlantic-Congo	Africa	9.56489	1.40486	41	23	18	0	0	0	9	1.2777777777777777	b d dʒ f h j k kp l m n p r s t tʃ v w z ŋ ŋm g gb a aː e eː i iː o oː u uː ɔ ɔː ɛ ɛː ɪ ɪː ʊ ʊː
+jola1262-1311	Jola-Esulalu	jola1262	Atlantic-Congo	Africa	12.5089	-16.5539	51	31	20	0	0	12	10	1.55	b bː d dʒ f h j k kː l lː l̥ l̥ː m mː n nː s sː t tː w ŋ ŋː g gː ɲ ɲː ʃ ʃː ʔ a aː e eː i iː o oː u uː ɔ ɔː ə əː ɛ ɛː ɪ ɪː ʊ ʊː
+jumj1238-1312	Jumjum	jumj1238	Nilotic	Africa	10.4349	33.7494	36	20	16	0	0	0	8	1.25	b c d j k l m n p r t w ð ŋ ɟ g ɱ ɲ ʔ θ a aː i iː u uː ɔ ɔː ɛ ɛː ɪ ɪː ʊ ʊː ʌ ʌː
+buru1301-1313	Burun	buru1301	Nilotic	Africa	10.725	33.921	35	19	16	0	0	0	8	1.1875	b j k l m n p r t w z ð ŋ ɗ g ɲ ʃ ʔ θ a aː i iː u uː ɔ ɔː ɛ ɛː ɪ ɪː ʊ ʊː ʌ ʌː
+olub1238-1314	Olu'bo	olub1238	Central Sudanic	Africa	4.6242	31.9103	43	34	9	0	0	0	0	3.7777777777777777	b dʒ f j k kp l m ⁿb n ⁿdʒ p r s tʃ v w z ð ŋ ⁿgb ⁿg ɓ ɖ ɗ g gb ⁿd̟ ɲ ⁿɖ ʄ ʈ ʔ θ a e i o u ɔ ɛ ɪ ʊ
+maay1238-1315	Maay	maay1238	Afro-Asiatic	Africa	3.22288	43.6182	32	22	10	0	0	0	5	2.2	b d dʒ f h j k l m n p r s t w ɗ ɠ g ɲ ʃ ʄ ʔ a aː e eː i iː o oː u uː
+maba1273-1316	Mabaan	maba1273	Nilotic	Africa	9.81455	33.5404	41	19	22	0	8	0	7	0.8636363636363636	b c d j k l m n p r t w ð ŋ ɟ g ɲ ʔ θ a aː e eː i ie iɛ iː iːe iːɛ u ua uʌ uː uːa uːʌ ɔ ɔː ɛ ɛː ʌ ʌː
+suga1248-1317	Nizaa	suga1248	Atlantic-Congo	Africa	7.12906	12.3779	81	58	23	0	0	0	18	2.5217391304347827	b d dʷ dʒ dʒʷ f h j k kp kʷ l lʷ m ⁿb mʷ n ⁿd ⁿdʷ ⁿz ⁿzʷ nʷ ⁿdʒ ⁿdɹ̠˔ʷ p s sʷ t tʷ tʃ tʃʷ v w w̃ x z zʷ ⁿgb ⁿg ⁿgʷ ɓ ɓʷ ɗ ɗʷ g gb gʷ ɥ ɰ̃ ⁿv ɲ ɲʷ ɾ ɾʷ ʃ ʃʷ ʔ ʔʷ a aː ãː e eː iː ĩː o oː uː ũː ɔː ɔ̃ː ɛː ɛ̃ː ɤː ɤ̃ː ɪ ɯː ɯ̃ː ʊ ʌː ʌ̃ː
+copi1238-1318	Copi	copi1238	Atlantic-Congo	Africa	-24.8327	34.1097	66	61	5	0	0	0	0	12.2	bʱ bvʱ bˢʱ dʱ dzʱ dɮʱ dʒʱ f j k ǃ ǃʰ kʰ l m ⁿb ⁿbv ⁿbˢ mʱ ⁿbʱ n ⁿd ⁿdɮ ⁿz ⁿg ⁿdʒ nʱ ⁿdʱ ⁿdɮʱ ⁿgʱ p pf pfʰ pˢ pˢʰ pʰ rʱ s sʷ t tɬ tɬʰ ts tsʰ tʰ tʃ tʃʰ w ŋ ŋǃ ⁿŋǃʱ ɓ ɗ gʱ gǃʱ ɦʱ ɬ ɲ ʃ ʄ ʋ a e i o u
+siwu1238-1320	Siwu	siwu1238	Atlantic-Congo	Africa	7.23811	0.44362	34	20	14	0	0	0	0	1.4285714285714286	b dʒ f j k kp l m n p r s t tʃ w ɖ g gb ɲ ʕ a ã e ẽ i ĩ o õ u ũ ɔ ɔ̃ ɛ ɛ̃
+sher1258-1321	Sherbro	sher1258	Atlantic-Congo	Africa	7.77585	-12.7405	31	24	7	0	0	0	0	3.4285714285714284	b d dʒ f h j k l m n p s t tʃ t̪ v z ŋ g gb ɲ ɽ ʃ ʔ a i u ɔ ɛ ɪ ʊ
+mman1238-1322	Mmani	mman1238	Atlantic-Congo	Africa	9.0	-13.16	36	22	14	0	0	0	0	1.5714285714285714	b d dʒ f j k m n p s t ts tʃ v z ŋ g gbʷ ɲ ɽ ʃ ʔ a ã e ẽ i ĩ o õ u ũ ɔ ɔ̃ ɛ ɛ̃
+cher1271-1323	Cherepon	cher1271	Atlantic-Congo	Africa	6.05387	-0.10955	36	26	10	0	0	0	0	2.6	b dʷ d̪ f h hʷ kp kʰ kʲ kʷ l̪ l̪ʷ m n̪ s̪ tʷ t̪ʰ w ç ŋ ŋʷ g gʲ gʷ ɲ ɲʷ e ẽ i ĩ o õ u ũ æ æ̃
+fraf1238-1325	Frafra	fraf1238	Atlantic-Congo	Africa	11.0918	-0.81109	28	20	8	0	0	0	0	2.5	b d f h j kp l m n p r s t v w ŋ g gb ɲ ʔ a e i o u ɔ ɛ ɪ
+sekp1241-1326	Sekpele	sekp1241	Atlantic-Congo	Africa	7.16751	0.5886	30	21	9	0	0	0	0	2.3333333333333335	b d dʒ f j k kp l m n p s t tʃ w ŋ g gb ɲ ʃ ʔ ã e i ĩ õ ũ œ ɔ̃ ɛ
+mamp1244-1327	Mampruli	mamp1244	Atlantic-Congo	Africa	10.3884	-0.74675	34	24	10	0	0	0	5	2.4	b d dʒ f h j k kp l m n p r s t tʃ v w z ŋ ŋm g gb ɲ a aː e eː i iː o oː u uː
+tong1318-1328	Tonga (Zambia)	tong1318	Atlantic-Congo	Africa	-17.422325	27.103495	38	33	5	0	0	0	0	6.6	dʒ f h j k l m ⁿb ⁿp n ⁿd ⁿs ⁿt ⁿz ⁿdʒ ⁿtʃ ⁿʃ p s t tʃ v w z ŋ ⁿk ⁿg g ⁿf ⁿv ɲ ʃ β a e i o u
+bady1239-1329	Jaad-Badyara	bady1239	Atlantic-Congo	Africa	12.6425	-13.4759	43	25	18	0	0	0	6	1.3888888888888888	b d dʒ f h j k l m ⁿb ⁿp n ⁿd ⁿt p r s t tʃ w ç ŋ ⁿk ɲ β a ã ãː e ẽ ẽː i ĩ ĩː o õ õː u ũ ũː ə ə̃ ə̃ː
+sele1249-1330	Selee	sele1249	Atlantic-Congo	Africa	7.17462	0.42458	30	18	12	0	0	0	0	1.5	b f j k kp m n pʰ s t tʃ w ŋ ŋm ŋʷ ɖ ɱ ɲ a ã e i ĩ o u ũ ɔ ɔ̃ ɛ ɛ̃
+tivv1240-1331	Tiv	tivv1240	Atlantic-Congo	Africa	6.88039	9.26287	37	31	6	0	0	0	0	5.166666666666667	b d dz dʒ f h j k kp l m ⁿb n ⁿd ⁿdz ⁿdʒ p s t ts tʃ v w ŋ ⁿgb ⁿg g gb ɣ ɲ ʃ a e i o u ɔ
+bili1260-1332	Bilin	bili1260	Afro-Asiatic	Africa	15.7833	38.3917	38	31	7	0	0	0	0	4.428571428571429	b d dʒ f h j k kʷ kʼʷ kʼ l m n r s t tʼ tʃ tʃʼ w x xʷ z ħ ŋ ŋʷ g gʷ ʃ ʔ ʕ a e i o u ə ɨ
+xamt1239-1333	Xamtanga	xamt1239	Afro-Asiatic	Africa	12.4479	38.8352	30	23	7	0	0	0	0	3.2857142857142856	b d f h k kʷ kʼ q qʷ r s sʼ t tʼ tʃ tʃʼ w z g gʷ ʃ χ χʷ a e i o u ə ɨ
+lika1243-1334	Liko	lika1243	Atlantic-Congo	Africa	2.13777	27.6088	42	33	9	0	0	0	0	3.6666666666666665	b c d f h k kp l m ⁿb n ⁿd ⁿz p s t v w z ⁿgb ⁿg ɓ ɗ ɟ g gb ⁿv ɲ ⁿɟ ⁿʒ ʃ ʎ ʒ a e i o u ɔ ɛ ɪ ʊ
+budu1250-1336	Budu	budu1250	Atlantic-Congo	Africa	2.00501	27.951	40	31	9	0	0	0	0	3.4444444444444446	b d dʑ f h j k kp kʲ m ⁿb n ⁿd p s t tɕ v w ⁿgb ⁿg ⁿgʲ ɓ ɗ g gb gʲ ⁿv ɲ ⁿdʑ ʄ a e i o u ɔ ɛ ɪ ʊ
+kele1255-1337	Kele-Foma	kele1255	Atlantic-Congo	Africa	0.36906	24.3098	28	21	7	0	0	0	0	3.0	b d f j k kp l m ⁿb n ⁿd p s t w ŋ ⁿk ⁿg gb ɲ χ a e i o u ɔ ɛ
+leng1258-1338	Lengola	leng1258	Atlantic-Congo	Africa	-1.95874	25.3343	29	24	5	0	0	0	0	4.8	b d dʒ f j k kp l m n p s t tʃ v w ɓ ɗ g gb ɲ ʄ ⱱ ⱱ̟ a e i o u
+keli1248-1339	Keliko	keli1248	Central Sudanic	Africa	3.56039	30.556	42	36	6	0	0	0	0	6.0	b d dʒ f h j jˀ k kp l m ⁿb n ⁿd ⁿz p r s t tʃ v w z ŋ ⁿgb ⁿg ɓ ɖʳ ɗ g gb ⁿv ɲ ⁿɖʳ ʈʳ ʔ a e i o u ɛ
+wong1247-1340	Wongo	wong1247	Atlantic-Congo	Africa	-5.73837	20.5054	22	15	7	0	0	0	0	2.142857142857143	b d dz j k m n p s t ts w ŋ ɰ ɲ a e i o u ɔ ɛ
+mwal1237-1341	Mwali Comorian	mwal1237	Atlantic-Congo	Africa	-12.3164	43.741	24	19	5	0	0	0	0	3.8	b d dz dʒ f j k m n p tʳ ts v w ɓ ɗ g ɲ ʃ a e i o u
+afar1241-1342	Afar	afar1241	Afro-Asiatic	Africa	12.2281	41.8083	27	17	10	0	0	0	4	1.7	b d f h j k l m n r s t w ħ ɖ g ʕ a e eː i iː o oː u uː ʌ
+mund1325-1343	Mundang	mund1325	Atlantic-Congo	Africa	9.83195	14.4751	64	37	27	0	0	0	15	1.3703703703703705	b d dʒ f h j jˀ k kp l m ⁿb mˀ n ⁿd nˀ ⁿdʒ p r s t tʃ v w wˀ z ŋ ⁿgb ⁿg ɓ ɗ g gb ʃ ʒ ʔ ⱱ a aː ã ãː e eː i iː ĩ ĩː o oː u uː ũː ɔ ɔː ɔ̃ː ə ɛː ɪ ɪː ɪ̃ ɪ̃ː ʊ ʊː ʊ̃ː
+mono1269-1344	Mono (Cameroon)	mono1269	Atlantic-Congo	Africa	8.78372	14.2254	59	35	24	0	0	0	13	1.4583333333333333	b d dʒ f h j jˀ k kp l m ⁿb mˀ n ⁿd nˀ ⁿdʒ p r s t tʃ v w wˀ z ŋ ⁿgb ⁿg ɓ ɗ g gb ʔ ⱱ a aː ã ãː e eː ẽ ẽː i iː ĩ ĩː o oː õ u uː ũ ũː ɔ ɔː ɔ̃ː ɛː ɛ̃ː
+tupu1244-1345	Tupuri	tupu1244	Atlantic-Congo	Africa	10.0144	14.8697	52	28	24	0	0	0	13	1.1666666666666667	b d dʒ f h j k l m ⁿb n ⁿd ⁿdʒ p r s t tʃ v w z ŋ ⁿg ɓ ɗ g ʔ ⱱ a aː ã ãː e eː ẽ ẽː i iː ĩ ĩː o oː õ u uː ũ ũː ɔ ɔː ɔ̃ː ɛː ɛ̃ː
+kuoo1238-1346	Kuo	kuoo1238	Atlantic-Congo	Africa	7.97771	15.4843	53	29	24	0	0	0	13	1.2083333333333333	b d f h j jˀ k kp l m ⁿb n ⁿd ⁿdʒ p r s t v w z ŋ ⁿgb ⁿg ɓ ɗ g gb ⱱ a aː ã ãː e eː ẽ ẽː i iː ĩ ĩː o oː õ u uː ũ ũː ɔ ɔː ɔ̃ː ɛː ɛ̃ː
+kare1338-1347	Kare (Central African Republic)	kare1338	Atlantic-Congo	Africa	7.05641	15.2207	54	30	24	0	0	0	13	1.25	b d dʒ f h j k kp l m ⁿb n ⁿd ⁿdʒ p r s t v w z ŋ ⁿgb ⁿg ɓ ɗ g gb ʔ ⱱ a aː ã ãː e eː ẽ ẽː i iː ĩ ĩː o oː õ u uː ũ ũː ɔ ɔː ɔ̃ː ɛː ɛ̃ː
+ndai1238-1348	Ndai	ndai1238	Atlantic-Congo	Africa	8.09039	14.2888	54	32	22	0	0	0	11	1.4545454545454546	b d dʒ f h j k kp l m ⁿb n ⁿd ⁿdʒ p r s t tʃ v w z ŋ ⁿgb ⁿg ɓ ɗ g gb ʃ ʔ ⱱ a aː ã ãː e eː ẽ i iː ĩ ĩː o oː õ u uː ũ ũː ɔ ɔː ɔ̃ː ɛː
+bamb1262-1349	Bambassi	bamb1262	Blue Nile Mao	Africa	9.82554	34.6522	33	23	10	0	0	0	5	2.3	b d h j k kʼ l m n p pʼ r s t tsʼ tʼ tʃ w z ŋ g ʃ ʔ a aː e eː i iː o oː u uː
+tigr1271-1350	Tigrinya	tigr1271	Afro-Asiatic	Africa	15.3359	38.9266	39	32	7	0	0	0	0	4.571428571428571	b cʼ d dʒ f h j k l m n p pʼ q qʼ s sʼ t tʼ tʃ v w x z ħ g ɲ ɾ ʃ ʒ ʔ ʕ a e i o u ɨ ʌ
+kara1483-1351	Karamojong	kara1483	Nilotic	Africa	2.45157	34.2761	60	21	39	0	0	0	13	0.5384615384615384	b d dz j k l m n p r s t ts w z ð ŋ g ɣ ɲ ʔ a aː a̤ e eː e̤ i iː i̤ o oː o̤ u uː ṳ y yː y̤ œ œː œ̤ ɑ ɑː ɑ̤ ɔ ɔː ɔ̤ ɛ ɛː ɛ̤ ɪ ɪː ɪ̤ ɵ ɵː ɵ̤ ʊ ʊː ʊ̤
+gwan1268-1352	Gwandara	gwan1268	Afro-Asiatic	Africa	9.20464	7.49931	38	28	10	0	0	0	0	2.8	b bʷ d dʒ h hʷ j k kp kʲ kʷ l m n p pʲ s t tʃ tʃʷ w z g gb gʲ gʷ ɾ ʃ a ã e ẽ i ĩ o õ u ũ
+gwan1268-1353	Gwandara	gwan1268	Afro-Asiatic	Africa	9.20464	7.49931	44	32	12	0	0	0	0	2.6666666666666665	b bʷ d dʒ f h hʷ j k kp kʲ kʷ l m n p s t tʷ tʃ tʃʷ w z ç ŋ g gb gʲ gʷ ɾ ʃ ʔ a ã e ẽ i ĩ o õ u ũ ə ɨ
+gwan1268-1354	Gwandara	gwan1268	Afro-Asiatic	Africa	9.20464	7.49931	40	28	12	0	0	0	0	2.3333333333333335	b bʷ d f fʷ h j k kp kʲ kʷ l m mʷ n p s sʷ t w z g gb gʲ gʷ ɾ ʃ ʒ a ã e ẽ i ĩ o õ u ũ ə ə̃
+gwan1268-1355	Gwandara	gwan1268	Afro-Asiatic	Africa	9.20464	7.49931	56	35	21	0	0	0	10	1.6666666666666667	b bʲ bʷ d dʒ f fʷ h j k kp kʲ kʷ l m mʷ n p pʷ s t ts tsʷ tʃ w x xʷ z ŋ g gb gʲ gʷ ɾ ʃ a aː ã ãː e eː ẽː i iː ĩ ĩː o oː õ u uː ũ ə əː ə̃ː ɨ
+gwan1268-1356	Gwandara	gwan1268	Afro-Asiatic	Africa	9.20464	7.49931	40	28	12	0	0	0	0	2.3333333333333335	b d dʒ f h j k kp kʲ kʷ l m mʷ n p s t ts tsʷ tʃ w z g gb gʲ gʷ ɾ ʃ a ã e ẽ i ĩ o õ u ũ ə ə̃
+gwan1268-1357	Gwandara	gwan1268	Afro-Asiatic	Africa	9.20464	7.49931	57	43	14	0	0	0	0	3.0714285714285716	b bʲ bʷ d dʒ f fʲ fʷ j k kp kʲ kʷ kᶣ l m mʷ n p pʷ rᶣ s t ts tsʷ tʷ tʃ tʃʷ w x xʷ ç ŋ g gb gʲ gʷ gᶣ ɣ ɥ ɾ ʃ ʔ a ã e ẽ i ĩ o õ u ũ ə ə̃ ɨ ɨ̃
+avik1243-1358	Avikam	avik1243	Atlantic-Congo	Africa	5.15838	-5.2529	31	25	6	0	0	0	0	4.166666666666667	b d dʒ f kp l m n p r s t tʃ v w z ŋ ŋm ɓ g gb ɣ ɲ ʃ ʒ a e i o u ɔ
+shil1265-1359	Shilluk	shil1265	Nilotic	Africa	9.85472	31.7926	51	25	26	0	4	0	11	0.9615384615384616	b cç d d̪ f h j k l m n n̪ p t t̪ w x ð ŋ ɟʝ g ɣ ɲ ɹ θ a au aɪ aː e eɪ eː e̥ e̥ː i iː o oː u uː ɑ ɑː ɔ ɔɪ ɔː ɛ ɛː ɪ ɪː ʊ ʊː
+haio1238-1360	Hai//om-Akhoe	haio1238	Khoe-Kwadi	Africa	-19.7637	17.0299	29	24	5	0	0	0	0	4.8	b d dʒ h j k ǀ ǁ ǂ ǃ l m n p r s t tʃ w x z ħ g ʔ a e i o u
+pero1241-1361	Pero	pero1241	Afro-Asiatic	Africa	9.62092	11.044	28	18	10	0	0	0	5	1.8	b c d j k l m n p r t w ŋ ɓ ɗ ɟ g ʔ a aː e eː i iː o oː u uː
+bora1271-1362	Borana-Arsi-Guji Oromo	bora1271	Afro-Asiatic	Africa	1.05676	37.882	36	26	10	0	0	0	5	2.6	b c cʼ d f h j k kʼ l m n p pʼ r s t tʼ w z ɟ g ɲ ʃ ʔ ᶑʼ a aː e eː i iː o oː u uː
+hadi1240-1363	Hadiyya	hadi1240	Afro-Asiatic	Africa	7.57377	37.7577	56	46	10	0	0	23	5	4.6	b bː c cʼ cʼː cː d dː f fː h hː j jː k kʼ kʼː kː l lː m mː n nː pʼ pʼː r rː s sː t tʼ tʼː tː w wː ɟ ɟː g gː ʃ ʃː ʔ ʔː ᶑʼ ᶑʼː a aː e eː i iː o oː u uː
+wola1242-1364	Wolaytta	wola1242	Ta-Ne-Omotic	Africa	6.32668	37.7537	48	38	10	0	0	15	5	3.8	bʷ c cʼ cʼː cː d dː fʷ h hʷ hː k kʷ kʼʷ kʼ kʼː kː mʷ p pʼ pʼː pː s sː t tʼ tʼː tː z zː ɟ ɟː gʷ ʃ ʃː ʔ ʔː ᶑʼ a aː e eː i iː o oː u uː
+kuny1238-1365	Kunyi	kuny1238	Atlantic-Congo	Africa	-3.69702	12.5197	51	44	7	0	0	0	0	6.285714285714286	bʲ bʷ d dʷ dʒ f h j k kʷ m ⁿb ⁿbʷ ⁿp mʲ mʷ n ⁿd ⁿdʷ ⁿs ⁿt ⁿtʷ ⁿdʒ ⁿtʃ ⁿtʃʷ p r rʲ rʷ s sʷ t tʷ tʃ w ⁿk ⁿg ⁿgʷ g gʷ ɲ ʃ ʃʷ β a e i o u ɪ ʊ
+otuh1238-1366	Otuho	otuh1238	Nilotic	Africa	4.16379	32.6641	53	33	20	0	0	4	10	1.65	b d f h j jː k l lː m n nː p r s tʃ t̪ v w wː x ŋ ɟ g ɣ ɦ ɲ ɸ ɺ ɾ ʔ β θ a aː e eː i iː o oː u uː ɔ ɔː ɛ ɛː ɪ ɪː ʊ ʊː ʌ ʌː
+masa1299-1367	Masaaba	masa1299	Atlantic-Congo	Africa	1.05906	34.2829	63	51	12	0	0	0	5	4.25	b d dʒ f fʷ h j k kʲ kʷ l m ⁿb ⁿp mʲ mʷ n ⁿd ⁿs ⁿsʷ ⁿt ⁿz nʲ p pʷ r rʲ rʷ s sʲ sʷ t tʲ tʷ tʃ tʃʲ v vʲ vʷ w z ŋ ⁿk ⁿkʷ ⁿg g gʷ ⁿf ⁿv ɲ ɲʷ a aː ã e eː i iː o oː u uː ɛ̃
+kamw1239-1368	Kamwe	kamw1239	Afro-Asiatic	Africa	10.646	13.5136	33	26	7	0	0	0	0	3.7142857142857144	b d dz f j k l m n p r s t ts v w x z ŋ ɓ ɗ g ɣ ɬ ɮ ʔ a e i o u ɘ ɛ
+many1261-1369	Manya	many1261	Mande	Africa	8.56186	-9.44257	25	18	7	0	0	0	0	2.5714285714285716	b dʒ f j k l m n p s t v w z ɖ g gb ɲ a e i o u ɔ ɛ
+saya1246-1370	Saya	saya1246	Afro-Asiatic	Africa	9.69441	9.71748	51	39	12	0	0	0	6	3.25	b d dz dʒ f j k kʲ l m ⁿb m̩ n ⁿd ⁿdz ⁿdʒ n̩ p r s t ts tʃ v w z ŋ ⁿg ⁿgʲ ŋ̍ ɓ ɗ g gʲ ɬ ɮ ɳ ʃ ʒ a aː e eː i iː o oː u uː ɘː ə
+njeb1242-1371	Njebi	njeb1242	Atlantic-Congo	Africa	-2.18115	12.7063	32	24	8	0	0	0	0	3.0	b d f j k l m ⁿb n ⁿd ⁿz p pf s t ts x ŋ ⁿg ⁿv ɲ ɾ ʃ β a e i o u ɔ ə ɛ
+tada1238-1372	Tadaksahak	tada1238	Songhay	Africa	16.685	2.32653	70	59	11	0	0	25	5	5.363636363636363	b bː d dː dˤ dˤː dʒ dʒː f h hː j jː k kː l lː lˤ lˤː m mː n nː nˤ nˤː q qː r rˤ s sˤ sˤː t tː tˤ tˤː tʃ tʃː w wː x xː z zː zˤ zˤː ħ ŋ ŋː g gː ɣ ɾ ɾˤ ʃ ʃː ʒ ʒː ʕ a aː e eː i iː o oː u uː ə
+kamb1316-1373	Kambaata	kamb1316	Afro-Asiatic	Africa	7.37582	37.9088	59	49	10	0	0	22	5	4.9	b bː d dː dʒ dʒː f fː h j jː k kʼ kʼː kː l lʼ lʼː lː m mː n nː pʼ pʼː r rʼ rʼː rː s sː t tʼ tʼː tː tʃ tʃʼ tʃʼː tʃː w wː z zː g gː ɲ ʃ ʒ ʔ a aː e eː i iː o oː u uː
+otor1240-1374	Otoro	otor1240	Heibanic	Africa	11.1187	30.573	44	30	14	0	5	2	0	2.142857142857143	b c d dʳ d̪ j k kʷ l lː m n p r rː t tʳ t̪ v w ð ŋ ŋʷ ɗ ɟ g gʷ ɲ ɽ β a ai au ei e̝ i o ou u ɔ ɔi ə ɛ ɜ
+tira1254-1375	Tira	tira1254	Heibanic	Africa	11.0963	30.8092	42	26	16	0	6	0	0	1.625	b c d dʳ d̪ j k l m n p r t tʳ t̪ v w ð ŋ ɟ g ɲ ɽ ʂ ʈ θ a ai au e ei e̝ i o oi ou u ɔ ɔi ə ɛ ɜ
+nyam1285-1376	Nyam	nyam1285	Afro-Asiatic	Africa	9.18024	10.83652	53	39	14	0	0	0	7	2.7857142857142856	b d dʲ dʒ f h hʷ j k kp kʲ kʷ l m ⁿb ⁿɓ n ⁿd ⁿz ⁿɗ ⁿdʒ p r t tʃ w x ŋ ⁿg ⁿgʷ ɓ ɗ g gb ɠɓ gʷ ɲ ʃ ʔ a aː e eː i iː o oː u uː ɔ ɔː ɛ ɛː
+mawa1270-1378	Mawa (Chad)	mawa1270	Afro-Asiatic	Africa	11.7461	18.2999	30	24	6	0	0	0	0	4.0	b c d f h j k l m n p s t w z ŋ ɓ ɗ ɟ g ɲ ɾ ʔ ˀw a e i o u ɘ
+huaa1248-1379	East Taa	huaa1248	Tuu	Africa	-24.20022	20.79583	147	119	28	44	3	0	0	4.25	b d dʶ dʱ dʼkxʼ d̪ d̪ʶ d̪ʱ d̪ʼkxʼ f h k kxʼ ǀ ǀh ǀkxʼ ǀx ǀʔ ǀʰ ǁ ǁh ǁkxʼ ǁx ǁʔ ǁʰ ǂ ǂh ǂkxʼ ǂx ǂʔ ǂʰ ǃ ǃh ǃkxʼ ǃx ǃʔ ǃʰ ʘ ʘh ʘkxʼ ʘx ʘʔ ʘʰ kʰ kʼ l m n̪ p pʰ pʼkxʼ q ǀʼ ǂʼ ǃʼ ʘʼ qʰ qʼ s t tʶ tʰ tʼ tʼkxʼ t̪ t̪ʶ t̪ʰ t̪ʼ t̪ʼkxʼ x ŋǀ ŋǁ ŋǂ ŋǃ ŋʘ ŋ̊ǀ ŋ̊ǁ ŋ̊ǂ ŋ̊ǃ ŋ̊ʘ ɟ g gǀ gǀkxʼ gǀkʰ gǀx gǁ gǁkxʼ gǁkʰ gǁx gǂ gǂkxʼ gǂkʰ gǂx gǃ gǃkxʼ gǃkʰ gǃx gʘ gʘkxʼ gʘkʰ gʘx gʱ gʼkxʼ ɢ gǀqʰ gǁqʰ gǃqʰ ɢʱ ɲ ɸ ʔ ˀŋǀ ˀŋǁ ˀŋǂ ˀŋǃ ˀŋʘ ˀm ˀn a aˤ ã a̤ a̰ aɛ e eˤ ẽ e̤ ḛ i iˤ ĩ i̤ ḭ o oˤ õ o̤ o̰ oɛ u uˤ ũ ṳ ṵ uɛ
+koal1240-1380	Koalib-Rere	koal1240	Heibanic	Africa	11.69648	30.47166	45	29	16	0	0	0	8	1.8125	b c d̪ f j k kʷ l̪ m ⁿb n̪ ⁿd̪ p r̪ t̪ w ŋ ⁿg ⁿgʷ ŋʷ ɗ ɟ g ɲ ⁿɟ ⁿɖ ɽ ʃ ʈ a aː e eː i iː o oː u uː ɐ ɐː ɔ ɔː ɛ ɛː
+kagu1239-1381	Kagulu	kagu1239	Atlantic-Congo	Africa	-6.38204	37.0534	31	26	5	0	0	0	0	5.2	b d dʒ f h j k l m ⁿb m̥ n ⁿd ⁿdʒ n̥ p s t tʃ w ŋ ⁿg ŋ̊ g ɲ ʃ a e i o u
+okoo1245-1382	Oko	okoo1245	Atlantic-Congo	Africa	7.53908	6.15725	25	18	7	0	0	0	0	2.5714285714285716	b d dʒ f h j kp l m n p r s t tʃ v w gb a e i o u ɔ ɛ
+ghom1247-1384	Ghomálá'	ghom1247	Atlantic-Congo	Africa	5.39619	10.352	54	36	18	0	0	0	8	2.0	b bv bβ d dz dʒ dð f h j k l m n p pf pɸ s t ts tʃ tθ v w x z ŋ ɕ g ɣ ɥ ɲ ʃ ʒ ʔ χ a aː e i iː o oː u uː ɐ ɐː ɔ ɔː ə ɛ ɛː ʉ ʉː
+teee1242-1386	Tee	teee1242	Atlantic-Congo	Africa	4.73213	7.37553	35	23	12	0	0	0	0	1.9166666666666667	b d j j̊ k kp kʷ l l̥ n n̥ p s t w z ŋʷ g gb gʷ ɲ ɹ ʍ a ã e ẽ i ĩ o õ u ũ ɔ ɛ
+kips1239-1387	Kipsigis	kips1239	Nilotic	Africa	-0.35774	35.258532	33	14	19	0	0	0	9	0.7368421052631579	h kʰ l m n p r s tʰ tʃ w ç ŋ ɲ a aː e eː i o oː u uː ɑ ɑː ɔ ɔː ɛ ɛː ɪ ɪː ʊ ʊː
+pang1287-1388	Pangwa	pang1287	Atlantic-Congo	Africa	-9.96782	34.8039	35	23	12	0	0	0	6	1.9166666666666667	f h j k l m ⁿb n ⁿd ⁿdʒ pʰ s tɕ tʰ tʃ x ŋ ⁿg ɓ ɗ ɲ ʃ β a aː e eː i iː o oː u uː ə əː
+holo1240-1389	Holoholo	holo1240	Atlantic-Congo	Africa	-5.37545	28.3274	24	17	7	0	0	0	0	2.4285714285714284	b d dʒ f j k l̪ m n̪ p t̪ w ŋ g ɲ ɸ ʃ a e i o u ɪ ʊ
+buli1254-1390	Buli (Ghana)	buli1254	Atlantic-Congo	Africa	10.5763	-1.26748	36	23	13	0	0	0	6	1.7692307692307692	b d dʒ f j k kp l m n p r s t tʃ v w z ŋ ŋm g gb ɲ a aː e eː i iː o oː u uː ø øː ɘ
+bala1302-1391	Balanta-Ganja	bala1302	Atlantic-Congo	Africa	12.5382	-15.6658	47	33	14	0	0	0	7	2.357142857142857	b dʒ f j k kp l m ⁿb n ⁿd ⁿs ⁿt ⁿdʒ ⁿθ p r tʰ tʃ w ŋ ⁿgb ⁿg ŋʱ ŋʷ ɗ g gb ⁿf ɲ ʃ ʔ θ a aː e eː i iː o oː u uː ɔ ɔː ɛ ɛː
+nyam1277-1392	Nyambo	nyam1277	Atlantic-Congo	Africa	-1.6096	30.9156	30	20	10	0	0	0	5	2.0	b d dʒ f h j k m n p r s t tʃ w z ŋ g ɱ ɲ a aː e eː i iː o oː u uː
+dann1241-1393	Dan	dann1241	Mande	Africa	7.22812	-8.24535	84	44	40	0	0	0	20	1.1	b bʲ d dʲ f fʲ j k kp kpʲ kʲ kʷ l m mʲ n nʲ nʷ p pʲ s sʲ sʷ t tʲ v vʲ w wʲ z zʲ zʷ ŋ ɓ ɓʲ ɗ ɗʲ g gb gbʲ gʲ gʷ ɲ ᶑ a aː ã ãː e eː i iː ĩ ĩː o oː u uː ũ ũː æ æː æ̃ æ̃ː ɒ ɒː ɒ̃ ɒ̃ː ɔ ɔː ɔ̃ ɔ̃ː ə əː ə̃ ə̃ː ɛ ɛː ɛ̃ ɛ̃ː ɨ ɨː ɵ ɵː
+poko1263-1394	Pökoot	poko1263	Nilotic	Africa	1.57023	35.2318	36	17	19	0	0	0	7	0.8947368421052632	b d j k l m n p r s t tʃ w x ŋ g ɲ a aː a̤ e eː e̤ i iː i̤ o oː o̤ u uː ɔ ɔː ə ɛ ɛː
+afri1274-1395	Afrikaans	afri1274	Indo-European	Africa	-22.0	30.0	39	16	23	0	7	0	8	0.6956521739130435	b d f j k l m n p r s t v x ŋ ɦ a ai aː eɘ i iː oɘ u uː y yː øɘ œ œi œu œː ɔ ɔː ɘi ɛ ɛː ɪ̝ ɪ̝ː
+argo1244-1396	Argobba	argo1244	Afro-Asiatic	Africa	10.6596	39.756	38	30	8	0	0	0	1	3.75	b d dʒ f h hʷ j kʰ kʷ kʼʷ kʼ l m n pʰ pʼ s tʰ tʼ tʃ tʃʼ w z g gʷ ɲ ɽ ʃ ʒ ʔ a aː e i o u ɨ ʌ
+hara1271-1397	Harari	hara1271	Afro-Asiatic	Africa	9.30485	42.1332	34	25	9	0	0	0	4	2.7777777777777777	cç cçʼ d f hʼ j k l m n p q r s t tʼ w x z ɟʝ g ɣ ɲ ʃ ʔ a aː e eː i iː o oː u
+dink1262-1398	Dinka	dink1262	Nilotic	Africa			46	20	26	0	0	0	13	0.7692307692307693	b c d d̪ j k l m n n̪ p t t̪ w ŋ ɟ g ɣ ɲ ɾ a aː a̤ a̤ː e eː e̤ e̤ː i iː i̤ i̤ː o oː o̤ o̤ː u uː ɔ ɔː ɔ̤ ɔ̤ː ɛ ɛː ɛ̤ ɛ̤ː
+nzim1238-1399	Nzima	nzim1238	Atlantic-Congo	Africa	5.1785	-2.81123	38	24	14	0	0	0	0	1.7142857142857142	b cç cçʷ d̪ f h j k kp l m n s t̪ w ŋ ɟʝ ɟʝʷ g gʷ ɲ ɲʷ ʃ ʃʷ a ã e i ĩ o u ũ ɔ ɛ ɪ ɪ̃ ʊ ʊ̃
+ahan1243-1400	Ahanta	ahan1243	Atlantic-Congo	Africa	4.85147	-1.94657	38	24	14	0	0	0	0	1.7142857142857142	b cç cçʷ d̪ f h j k kp l m n s t̪ w ŋ ɟʝ ɟʝʷ g gʷ ɲ ɲʷ ʃ ʃʷ a ã e i ĩ o u ũ ɔ ɛ ɪ ɪ̃ ʊ ʊ̃
+besl1239-1401	Besleri	besl1239	Afro-Asiatic	Africa	10.38053	13.84054	48	39	9	0	0	0	3	4.333333333333333	b bʷ d dz f h j k kʷ l m ⁿb ⁿp n ⁿd ⁿdz ⁿt ⁿts p r s t ts v w z ŋ ⁿk ⁿkʷ ⁿg ⁿgʷ ɓ ɗ g gʷ ɬ ɮ ⁿv ʔ a aː i u uː ɔ ɘ ɛ ɛː
+buwa1243-1402	Buwal	buwa1243	Afro-Asiatic	Africa	10.6151	13.8838	40	38	2	0	0	0	0	19.0	b d dz f j k kp kʷ l m ⁿb n ⁿd ⁿdz p r s t ts v w x xʷ z ŋ ⁿgb ⁿg ⁿgʷ ŋʷ ɓ ɗ g gb gʷ ɣ ɣʷ ɬ ɮ ɑ ə
+hdii1240-1403	Hdi	hdii1240	Afro-Asiatic	Africa	10.942	13.6881	41	37	4	0	0	0	0	9.25	b d dz f fʷ j k l m ⁿb n ⁿd ⁿdz ⁿz p r s sʷ t ts v vʷ w z zʷ ⁿg ⁿgʷ ɓ ɗ g ɬ ɮ ʁ ʁʷ ʔ χ χʷ a i u ə
+lama1288-1404	Lamang	lama1288	Afro-Asiatic	Africa	11.0243	13.7362	41	37	4	0	0	0	0	9.25	b d dz f j k kʷ l m ⁿb n ⁿd ⁿdz ⁿz p r s t ts v w x xʷ z ð ŋ ⁿg ⁿgʷ ŋʷ ɓ ɗ g gʷ ɣ ɣʷ ʔ θ a e i u
+lagw1237-1406	Lagwan	lagw1237	Afro-Asiatic	Africa	11.5592	14.9884	39	34	5	0	0	0	0	6.8	b d dʒ f j k kʷ kʼʷ kʼ l m n p s sʼ t tʃ v w x xʷ z ɓ ɗ g gʷ ɬ ɬʼ ɮ ɾ ʁ ʁʷ ʃ ʔ a e i o u
+gbay1281-1407	Gbaya-Mbodomo	gbay1281	Atlantic-Congo	Africa	4.800365	14.606865	35	28	7	0	0	0	0	4.0	b d f h j k kp l m ⁿb n ⁿd ⁿz p r s t v w z ŋ ⁿgb ⁿg ɓ ɗ g gb ɲ a e i o u ɔ ɛ
+mbuk1243-1408	Mbuko	mbuk1243	Afro-Asiatic	Africa	10.7788	14.1677	42	34	8	0	0	0	0	4.25	b d dz f h hʷ j k kp kʷ l m ⁿb n ⁿd ⁿdz p r s t ts v w z ⁿgb ⁿg ⁿgʷ ɓ ɗ g gʷ ɬ ɮ ʔ a e i o u y œ ə
+molo1266-1409	Moloko	molo1266	Afro-Asiatic	Africa	10.7933	14.2521	41	31	10	0	0	0	0	3.1	b d dz f h hʷ j k kʷ l m ⁿb n ⁿd ⁿz p r s t ts v w z ⁿg ⁿgʷ ɓ ɗ g gʷ ɬ ɮ a i u æ œ ɔ ɘ ɛ ɪ ʊ
+muya1243-1410	Muyang	muya1243	Afro-Asiatic	Africa	10.86047	14.21246	41	27	14	0	0	0	0	1.9285714285714286	b d dz f j k l m ⁿb n ⁿd ⁿdz p r s t ts v w x z ⁿg ɓ ɗ g ɬ ɮ a e i o u y ø œ ɔ ə ɛ ɪ ʊ ʏ
+ngom1272-1411	Ngomba	ngom1272	Atlantic-Congo	Africa	5.63067	10.237	23	17	6	0	0	0	0	2.8333333333333335	f j k l m n p pf s t ts v w z ŋ ɣ ʔ a i u ɔ ɛ ɨ
+keme1240-1412	Kemezung	keme1240	Atlantic-Congo	Africa	6.69577	10.4984	28	20	8	0	0	0	0	2.5	b d dz f h j k kp kpʷ l m n s t ts w ŋ g gb ɲ e i o u ɔ ə ɛ ɜ
+nate1242-1413	Nateni	nate1242	Atlantic-Congo	Africa	10.5191	1.21879	37	13	24	0	0	0	12	0.5416666666666666	b c d f h j k kp p s t w ɟ a aː ã ãː e eː i iː ĩ ĩː o oː u uː ũ ũː ɔ ɔː ɔ̃ ɔ̃ː ɛ ɛː ɛ̃ ɛ̃ː
+silt1240-1414	Silt'e	silt1240	Afro-Asiatic	Africa	7.77004	38.1449	56	46	10	0	0	22	5	4.6	b bː d dː dʒ dʒː f fː h j jː k kʼ kʼː kː l lː m mː n nː r rː s sː t tʼ tʼː tː tʃ tʃʼ tʃʼː tʃː w wː z zː g gː ɲ ɲː ʃ ʃː ʒ ʒː ʔ aː e eː i iː o oː u uː ə
+wehh1238-1415	Weh	wehh1238	Atlantic-Congo	Africa	6.46164	10.121	44	37	7	0	0	0	0	5.285714285714286	b bv d dz dʒ f j k kp kx l m ⁿb ⁿbv n ⁿd ⁿdz ⁿdʒ pf s t ts tʃ v w z ŋ ⁿgb ⁿg g gb gɣ ɲ ɹ ɾ ʃ ʒ a e i o u ɔ ɨ
+tuli1249-1416	Tulishi	tuli1249	Kadugli-Krongo	Africa	11.4507	29.108	56	37	19	0	0	18	9	1.9473684210526316	b bː c f fː h j jː k kː l lː m mː n nː r rː s sː t̪ t̪ː w wː ŋː ɓ ɓː ɗ ɗː ɟ ɟː ɲ ɲː ʄ ʈ ʈː ʔː a aː e eː i iː o oː u ɔ ɔː ə əː ɛ ɛː ɪ ɪː ʊ ʊː
+keig1242-1417	Keiga	keig1242	Kadugli-Krongo	Africa	11.2064	29.3889	57	37	20	0	0	18	10	1.85	b bː c cː f fː j jː k kː l lː m mː n nː p pː r rː s sː t̪ t̪ː w wː ŋ ŋː ɗ ɗː ɟ ɟː ɲ ɲː ʄ ʈ ʈː a aː e eː i iː o oː u uː ɔ ɔː ə əː ɛ ɛː ɪ ɪː ʊ ʊː
+kron1241-1418	Krongo	kron1241	Kadugli-Krongo	Africa	10.514	30.003	60	40	20	0	0	19	10	2.0	b bː c cː f fː j jː k kː l lː m mː n nː p pː r rː s sː t̪ t̪ː w wː ŋ ŋː ɓ ɓː ɗ ɗː ɲ ɲː ʃ ʄ ʈ ʈː ʔ ʔː a aː e eː i iː o oː u uː ɔ ɔː ə əː ɛ ɛː ɪ ɪː ʊ ʊː
+kang1288-1419	Kanga	kang1288	Kadugli-Krongo	Africa	11.0174	29.3463	74	54	20	0	0	26	10	2.7	b bː c cː d̪ d̪ː f fː j k kː l lː m mː n nː p pː r rː s sː t̪ t̪ː v vː w wː z zː ŋ ŋː ɓ ɓː ɖ ɖː ɗ ɗː ɟ ɟː g gː ɲ ɲː ʃ ʃː ʄ ʈ ʈː ʒ ʒː ʔ ʔː a aː e eː i iː o oː u uː ɔ ɔː ə əː ɛ ɛː ɪ ɪː ʊ ʊː
+kang1288-1420	Kanga	kang1288	Kadugli-Krongo	Africa	11.0174	29.3463	73	53	20	0	0	26	10	2.65	b bː d̪ d̪ː f fː j jː k kː l lː m mː n nː p pː r rː s sː t̪ t̪ː v vː w wː z zː ŋ ŋː ɓ ɓː ɖ ɖː ɗ ɗː ɟ ɟː g gː ɲ ɲː ʃ ʃː ʄ ʈ ʈː ʒ ʒː ʔ ʔː a aː e eː i iː o oː u uː ɔ ɔː ə əː ɛ ɛː ɪ ɪː ʊ ʊː
+katc1249-1421	Katcha-Kadugli-Miri	katc1249	Kadugli-Krongo	Africa	10.8423	29.4914	59	39	20	0	0	19	10	1.95	b bː f fː j jː k kː l lː m mː n nː p pː r rː s sː t̪ t̪ː w wː ŋ ŋː ɓ ɓː ɗ ɗː ɟ ɟː ɲ ɲː ʄ ʈ ʈː ʔ ʔː a aː e eː i iː o oː u uː ɔ ɔː ə əː ɛ ɛː ɪ ɪː ʊ ʊː
+katc1249-1422	Katcha-Kadugli-Miri	katc1249	Kadugli-Krongo	Africa	10.8423	29.4914	61	41	20	0	0	20	10	2.05	b bː c cː f fː j jː k kː l lː m mː n nː r rː s sː t̪ t̪ː w wː z zː ŋ ŋː ɓ ɓː ɗ ɗː ɟ ɟː ɲ ɲː ʄ ʈ ʈː ʔ ʔː a aː e eː i iː o oː u uː ɔ ɔː ə əː ɛ ɛː ɪ ɪː ʊ ʊː
+katc1249-1423	Katcha-Kadugli-Miri	katc1249	Kadugli-Krongo	Africa	10.8423	29.4914	59	39	20	0	0	18	10	1.95	b c cː f fː j jː k kː l lː m mː n nː p pː r rː s sː t̪ t̪ː w wː ŋ ŋː ɓ ɓː ɗ ɗː ɟ ɲ ɲː ʄ ʈ ʈː ʔ ʔː a aː e eː i iː o oː u uː ɔ ɔː ə əː ɛ ɛː ɪ ɪː ʊ ʊː
+moro1284-1424	Morokodo	moro1284	Central Sudanic	Africa	5.5103	30.0229	52	42	10	0	0	0	0	4.2	b c d dʳ f h hʷ j k kp pʳ l m ⁿb n ⁿd ⁿdʳ ⁿz p r s t tʳ tʷ v w z ŋ ⁿgb ⁿg ɓ ɗ ɟ g gb bʳ ⁿv ɲ ⁿɟ ɾ ʄ ʔ e i u ɑ ɔ ə ɛ ɪ ɵ ʊ
+arin1244-1425	Aringa	arin1244	Central Sudanic	Africa	3.56143	31.3071	44	35	9	0	0	0	0	3.888888888888889	b dz dʳ d̪ f k kp l m ⁿb n ⁿd ⁿdz ⁿdʳ p s ts tʳ t̪ v z ŋ ŋm ⁿgb ⁿg ɓ ɗ g gb ⁿv ɲ ɾ ʔ ˀj ˀw a e i o u ɔ ɛ ɪ ʊ
+tese1238-1426	Tese	tese1238	Temeinic	Africa	11.3885	29.5803	42	24	18	0	0	5	8	1.3333333333333333	j k kʷ l lː m mː n nː p r s sː t tː w ŋ ŋʷ ɓ ɖ ɗ ɟ ɲ ʈ a aː e i iː o u uː ɔ ɔː ə əː ɛ ɛː ɪ ɪː ʊ ʊː
+lumu1239-1427	Lumun	lumu1239	Narrow Talodi	Africa	10.8308	30.253	33	17	16	0	0	0	8	1.0625	c j k kʷ l m n p r t t̪ w ŋ ŋʷ ɲ ɽ ɾ a aː i iː u uː ɔ ɔː ə əː ɛ ɛː ɪ ɪː ʊ ʊː
+ache1245-1428	Acheron	ache1245	Narrow Talodi	Africa	10.8827	30.3187	38	18	20	0	0	1	10	0.9	c j k kʷ l m n p r s t ts t̪ w ŋ ŋʷ ɲ ɲː a aː e eː i iː o oː u uː ɔ ɔː ə əː ɛ ɛː ɪ ɪː ʊ ʊː
+toch1257-1429	Tocho	toch1257	Narrow Talodi	Africa	10.8828	30.1567	25	15	10	0	0	0	0	1.5	c j k l m n p r t t̪ w ŋ ŋʷ ɲ ɾ a e i o u ɔ ə ɛ ɪ ʊ
+dagi1241-1430	Dagik	dagi1241	Narrow Talodi	Africa	10.583	29.9404	26	16	10	0	0	0	0	1.6	j k l m n p r s t t̪ w x ŋ ɸ ɽ ɾ a e i o u ɔ ə ɛ ɪ ʊ
+didi1258-1431	Didinga	didi1258	Surmic	Africa	4.21489	33.6869	54	36	18	0	0	6	9	2.0	b d dʒ d̪ j k l lː m mː n nː p r tʃ t̪ t̺ v w ð ðː ŋ ŋː ɓ ɗ ɠ g ɣ ɲ ɲː ɾ ʄ ʈ ʒ ʝ β a aː e eː i iː o oː u uː ɔ ɔː ɛ ɛː ɪ ɪː ʊ ʊː
+luwo1239-1432	Luwo	luwo1239	Nilotic	Africa	7.35089	28.1378	29	19	10	0	0	0	2	1.9	b c d d̪ j k l m n n̪ p t t̪ w ŋ ɟ g ɲ ɾ eː i oː u ɑ ɔ ə ɛ ɪ ʊ
+acol1236-1433	Acoli	acol1236	Nilotic	Africa	3.57738	32.5147	26	17	9	0	0	0	0	1.8888888888888888	b c d d̪ j k l m n p t w ŋ ɟ g ɲ ɾ e o u ɑ ɔ ə ɛ ɪ ʊ
+bela1256-1434	Belanda Bor	bela1256	Nilotic	Africa	6.6503	27.8232	35	25	10	0	0	0	0	2.5	b c d d̪ f j k kp l m ⁿb n ⁿd n̪ t w ŋ ⁿgb ɗ ɟ g gb ɲ ⁿɟ ɾ e i o u ɑ ɔ ə ɛ ɪ ʊ
+bela1255-1435	Belanda Viri	bela1255	Atlantic-Congo	Africa	7.41311	27.6956	38	28	10	0	0	0	0	2.8	c d dʒ f j k kp l m n ⁿd ⁿz r s t v w z ŋ ⁿgb ⁿg ɓ ɗ ɟ g gb ⁿv ⁿɟ e i o u ɑ ɔ ɘ ɛ ɪ ʊ
+ndog1248-1436	Ndogo	ndog1248	Atlantic-Congo	Africa	7.73028	27.5588	34	29	5	0	0	0	0	5.8	b c d f j k kp l m ⁿb n ⁿd ⁿg p r s t v w z ⁿgb ɓ ɗ ɟ g gb ⁿɟ ɾ ⱱ a ɔ ɛ ɪ ʊ
+bade1248-1437	Bade	bade1248	Afro-Asiatic	Africa	12.789	10.6557	42	33	9	0	0	0	5	3.6666666666666665	b d dʒ f j k kʷ l m n p r s t tʃ v w z ħ ħʷ ŋ ɓ ɗ ɗʲ g gʷ ɬ ɮ ɲ ʃ ʄ ʕ ʕʷ a aː eː i iː oː u uː ɨ
+fern1234-1438	Pichi	fern1234	Indo-European	Africa	3.74	8.78	28	21	7	0	0	0	0	3.0	b d dʒ f h j k l m n p s t tʃ v w ŋ g ɲ ʁ ʃ a e i o u ɔ ɛ
+jita1239-1439	Jita	jita1239	Atlantic-Congo	Africa	-1.62681	33.9141	27	17	10	0	0	0	5	1.7	d dʒ f k l m ⁿb n ⁿd p s t tʃ ⁿg g ⁿɟ β a aː e eː i iː o oː u uː
+dime1235-1440	Dime	dime1235	South Omotic	Africa	6.20951	36.3329	71	53	18	0	4	21	5	2.9444444444444446	b bː d dː dʒ f fː h j jː k kʼ kʼː kː l lː m mː n nː p pʼ pʼː pː s sː t ts tʼ tʼː tː tʃ tʃʼ tʃʼː tʃː w wː x z zː ŋ ɗ g gː ɣ ɾ ʁ ʃ ʃː ʒ ʒː ʔ χ a ai aː e ei eː i iː o oi oː u ui uː ɔ ə ɛ ɨ
+tsot1241-1441	Tsotso	tsot1241	Atlantic-Congo	Africa	0.2975	34.6961	29	19	10	0	0	0	5	1.9	f h k l m n p r s t ts tʃ x ç ŋ ɲ ɺ ʃ β a aː e eː i iː o oː u uː
+jams1239-1442	Jamsay Dogon	jams1239	Dogon	Africa	14.1794	-2.57999	45	24	21	0	0	0	14	1.1428571428571428	b d dʒ f h j j̃ kʰ l m n pʰ r r̃ s tʰ tʃ w w̃ ŋ g ɲ ʃ ʔ a aː ãː e eː ẽː i iː ĩː o oː õː u uː ũː ɔ ɔː ɔ̃ː ɛ ɛː ɛ̃ː
+kamb1297-1443	Kamba (Kenya)	kamb1297	Atlantic-Congo	Africa	-1.60827	37.9532	27	13	14	0	0	0	7	0.9285714285714286	j k l m n s t w ð ŋ ɥ ɲ β a aː e eː i iː o oː u uː ɔ ɔː ɛ ɛː
+bafi1243-1444	Bafia	bafi1243	Atlantic-Congo	Africa	4.72603	11.0982	47	27	20	0	0	0	10	1.35	b d dʒ f h j k kp l m n p r s t tʃ v w z ŋ ɓ ɗ g gb ɣ ɲ ʔ a aː e eː i iː o oː u uː ɔ ɔː ə əː ɛ ɛː ɜ ɜː ɨ ɨː
+lang1324-1445	Lango (Uganda)	lang1324	Nilotic	Africa	2.13867	33.0553	38	18	20	0	0	0	10	0.9	b d dʒ j k l m n p r s tʃ t̪ w z ŋ g ɲ a aː e eː i iː o oː u uː æ æː ɔ ɔː ɛ ɛː ɪ ɪː ʊ ʊː
+kisa1263-1446	Kisa	kisa1263	Atlantic-Congo	Africa	0.1529	34.5708	34	24	10	0	0	0	5	2.4	f h j k l m ⁿb n ⁿd ⁿz ⁿdʒ p r s t ts tʃ w x ŋ ⁿg ɲ ʃ β a aː e eː i iː o oː u uː
+nyol1238-1447	Nyole	nyol1238	Atlantic-Congo	Africa	0.88072	33.9181	34	24	10	0	0	0	5	2.4	b d dʒ j k l m ⁿb n ⁿd ⁿdʒ p r s t tʃ w x ŋ ⁿg g ɲ ɸ β a aː e eː i iː o oː u uː
+mwan1247-1448	Mwani	mwan1247	Atlantic-Congo	Africa	-12.5821	40.4601	26	21	5	0	0	0	0	4.2	b d dʒ f j k l m n p r s t tʃ v w z ⁿg g ɲ ʃ a e i o u
+kgal1244-1449	Kgalagadi	kgal1244	Atlantic-Congo	Africa	-24.9208	22.72016	51	43	8	0	0	0	0	5.375	b c cʰ cʷ cʷʰ d dʒ h j k ǀ ʘ kʰ l m n p pʰ q qʰ r s t ts tsʰ tsʷ tsʷʰ tʰ tʃ tʃʰ tʃʷ tʃʷʰ w z ŋ ɟ g ɲ ʃ ʃʷ ʒ ʒʷ χ a e i u ɔ ɛ ɪ ʊ
+tiey1235-1450	Tiéyaxo Bozo	tiey1235	Mande	Africa	14.1223	-5.08609	33	19	14	0	0	0	0	1.3571428571428572	b d f h j kʰ l m n pʰ s tʰ w x ŋ ɟ g ɲ ɾ a ã e ẽ i ĩ o õ u ũ ɔ ɔ̃ ɛ ɛ̃
+alab1254-1451	Alaba-K'abeena	alab1254	Afro-Asiatic	Africa	7.39014	38.1732	62	52	10	0	0	26	5	5.2	b bː d dː dʒ dʒː f fː h hː j jː k kʼ kʼː kː l lː m mː n nː p pʼ pʼː pː r rː s sː t tʼ tʼː tː tʃ tʃʼ tʃʼː tʃː wː z zː g gː ɰ ɲ ɲː ʃ ʃː ʒ ʒː ʔ ʔː a aː iː uː ɔ ɔː ɛ ɛː ɪ ʊ
+dege1246-1452	Degema	dege1246	Atlantic-Congo	Africa	4.73373	6.80991	34	24	10	0	0	0	0	2.4	b d dʒ f h j k kp l m n p r s t w ŋ ŋʷ ɓ ɗ g gb ɲ β a e i o u ɔ ə ɛ ɪ ʊ
+ntch1242-1453	Ntcham	ntch1242	Atlantic-Congo	Africa	9.23971	0.599275	27	21	6	0	0	0	0	3.5	b d dʒ f h j kp kʰ l m n pʰ s tʰ tʃʰ w ŋ ŋm g gb ɲ a e i o u ɔ
+prin1242-1454	Principense	prin1242	Indo-European	Africa	1.614	7.392	29	22	7	0	0	0	0	3.142857142857143	f j k kp l m n p r s t tʃ v w z ɓ ɗ g gb ɲ ʎ ʒ a e i o u ɔ ɛ
+nkon1248-1455	Nkonya	nkon1248	Atlantic-Congo	Africa	7.20316	0.3209	34	20	14	0	0	0	0	1.4285714285714286	b f j k kp l m n nʷ p s t ts w ŋ ɖ ɟ ɦ ɲ ʝ e ẽ i ĩ o õ u ũ ɑ ɑ̃ ɔ ɔ̃ ɛ ɛ̃
+sodd1242-1456	Soddo	sodd1242	Afro-Asiatic	Africa	8.33561	38.4763	41	34	7	0	0	0	0	4.857142857142857	b bʷ d f fʷ h hʲ hʷ j k kʲ kʼʲ kʷ kʼʷ kʼ l m mʷ n r s t tʼ tʃ tʃʼ w z g gʲ gʷ ɣ ɲ ʃ ʒ a e i o u œ ʌ
+kist1241-1457	Kistane	kist1241	Afro-Asiatic	Africa	8.33561	38.4763	41	34	7	0	0	0	0	4.857142857142857	b bʷ d f fʷ h hʲ hʷ j k kʲ kʼʲ kʷ kʼʷ kʼ l m mʷ n r s t tʼ tʃ tʃʼ w z g gʲ gʷ ɣ ɲ ʃ ʒ a e i o u œ ʌ
+mesq1240-1458	Mesqan	mesq1240	Afro-Asiatic	Africa	8.10617	38.3386	41	34	7	0	0	0	0	4.857142857142857	b bʷ d f fʷ h hʲ hʷ j k kʲ kʼʲ kʷ kʼʷ kʼ l m mʷ n r s t tʼ tʃ tʃʼ w z g gʲ gʷ ɣ ɲ ʃ ʒ a e i o u œ ʌ
+seba1251-1459	Sebat Bet Gurage	seba1251	Afro-Asiatic	Africa	8.11879	37.9891	42	34	8	0	0	0	0	4.25	b bʷ d f fʷ h hʲ hʷ j k kʲ kʼʲ kʷ kʼʷ kʼ l m mʷ n r s t tʼ tʃ tʃʼ w z g gʲ gʷ ɣ ɲ ʃ ʒ a e i o u œ ɔ ʌ
+ezha1238-1460	Ezha	ezha1238	Afro-Asiatic	Africa	8.11879	37.9891	39	33	6	0	0	0	0	5.5	b bʷ d f fʷ h hʲ hʷ j k kʲ kʼʲ kʷ kʼʷ kʼ l m mʷ n r s t tʼ tʃ tʃʼ w z g gʲ gʷ ɣ ʃ ʒ a e i o u ʌ
+chah1248-1461	Chaha	chah1248	Afro-Asiatic	Africa	8.11879	37.9891	44	36	8	0	0	0	0	4.5	b bʷ d f fʷ h hʲ hʷ j k kʲ kʼʲ kʷ kʼʷ kʼ l m mʷ n p pʷ r s t tʼ tʃ tʃʼ w z g gʲ gʷ ɣ ʃ ʒ β a e i o u œ ɔ ʌ
+gume1239-1462	Gumer	gume1239	Afro-Asiatic	Africa	8.11879	37.9891	42	35	7	0	0	0	0	5.0	b bʷ d f fʷ h hʲ hʷ j k kʲ kʼʲ kʷ kʼʷ kʼ l m mʷ n p pʷ r s t tʼ tʃ tʃʼ w z g gʲ gʷ ɣ ʃ ʒ a e i o u œ ʌ
+seba1251-1463	Sebat Bet Gurage	seba1251	Afro-Asiatic	Africa	8.11879	37.9891	42	36	6	0	0	0	0	6.0	b bʷ d f fʷ h hʲ hʷ j k kʲ kʼʲ kʷ kʼʷ kʼ l m mʷ n p pʷ r s t tʼ tʃ tʃʼ w z g gʲ gʷ ɣ ʃ ʒ β a e i o u ʌ
+seba1251-1464	Sebat Bet Gurage	seba1251	Afro-Asiatic	Africa	8.11879	37.9891	45	39	6	0	0	0	0	6.5	b bʷ d f fʷ h hʲ hʷ j k kʲ kʼʲ kʷ kʼʷ kʼ l m mʷ n p pʷ r r̃ s t tʼ tʃ tʃʼ w w̃ z g gʲ gʷ ɣ ʃ ʒ β β̃ a e i o u ʌ
+inor1238-1465	Inoric	inor1238	Afro-Asiatic	Africa	7.94883	37.7968	47	40	7	0	0	0	0	5.714285714285714	b bʷ d f fʷ h hʲ hʷ j k kʲ kʼʲ kʷ kʼʷ kʼ l m mʷ n r r̃ s t tʼ tʃ tʃʼ w w̃ z g gʲ gʷ ɣ ɲ ʃ ʒ ʔ ʔʷ β β̃ a e i o u œ ʌ
+inor1238-1466	Inoric	inor1238	Afro-Asiatic	Africa	7.94883	37.7968	45	39	6	0	0	0	0	6.5	b bʷ d f fʷ h hʲ hʷ j k kʲ kʼʲ kʷ kʼʷ kʼ l m mʷ n r r̃ s t tʼ tʃ tʃʼ w w̃ z g gʲ gʷ ɣ ɲ ʃ ʒ ʔ ʔʷ β̃ a e i o u ʌ
+inor1238-1467	Inoric	inor1238	Afro-Asiatic	Africa	7.94883	37.7968	45	39	6	0	0	0	0	6.5	b bʷ d f fʷ h hʲ hʷ j k kʲ kʼʲ kʷ kʼʷ kʼ l m mʷ n r r̃ s t tʼ tʃ tʃʼ w w̃ z g gʲ gʷ ɣ ɲ ʃ ʒ ʔ ʔʷ β̃ a e i o u ʌ
+dzuu1241-1468	Dzùùngoo	dzuu1241	Mande	Africa	11.3796	-4.92036	52	26	26	0	0	0	14	1.0	b c d dz f j k kp l m n p s t ts v w x ŋ ŋm ɟ g gb ɲ ʃ ʒ a aː ã ãː e eː ẽː i iː ĩ ĩː o oː õː u uː ũ ũː ɔ ɔː ɔ̃ ɔ̃ː ɛ ɛː ɛ̃ ɛ̃ː
+bagi1246-1469	Bagirmi	bagi1246	Central Sudanic	Africa	11.52392	14.769495	45	29	16	0	0	0	5	1.8125	b c d̪ f h j k l m n̪ p r s t̪ v w z ŋ ɓ ɖ ɟ g ɲ ɸ ʃ ʄ ʈ ʔ ᶑ a aː e eː i iː o oː u uː ɔ ɘ ɛ ɪ ʊ ʌ
+ngit1239-1470	Ngiti	ngit1239	Central Sudanic	Africa	1.30455	30.2242	49	44	5	0	0	0	0	8.8	b bv c d dz f h j k kp l m ⁿb n ⁿd ⁿz p pf r s t ts v w z ⁿgb ⁿg ɓ ɓ̥ ɖʳ ɗ ɗ̥ ɟ g gb ⁿv ɲ ⁿɟ ⁿɖʳ ʄ ʄ̥ ʈʳ ʔ β a e i o u
+ndal1241-1471	Ndali	ndal1241	Atlantic-Congo	Africa	-9.88948	33.6118	27	17	10	0	0	0	5	1.7	f h j k l m n s tʃ w z ŋ g ɣ ɲ ʃ ʋ a aː e eː i iː o oː u uː
+meen1242-1472	Me'en	meen1242	Surmic	Africa	6.63207	35.6255	40	26	14	0	0	0	7	1.8571428571428572	b cç cçʼ d h j k kʼ l m n p r s t tʼ w z ŋ ɓ ɗ ɟʝ g ɲ ʃ ʔ a aː e eː i iː o oː u uː ɔ ɔː ɛ ɛː
+ngas1238-1473	Ngasa	ngas1238	Nilotic	Africa	-2.97716	37.528	31	22	9	0	0	3	0	2.4444444444444446	d̪ h j jː k l̪ m n̪ p r̪ r̪ː s̪ t̪ w wː ŋ ɓ g ɲ ɽ ʃ ʄ a e i o u ɔ ɛ ɪ ʊ
+mbay1241-1474	Mbay	mbay1241	Central Sudanic	Africa	8.23066	15.7328	41	22	19	0	0	0	7	1.1578947368421053	b d dʒ h j k l m ⁿb n ⁿd ⁿdʒ p r s t w ⁿg ɓ ɗ g ɺ a aː ã e eː ẽ i iː ĩ o oː õ u uː ũ ɔ ɔː ə əː
+gumu1244-1475	Northern Gumuz	gumu1244	Gumuz	Africa	11.05	35.93	44	34	10	0	0	0	5	3.4	b cç cçʼ d f h j k kʼ l m n p pʼ r s t ts tsʼ tʼ tʃ tʃʼ w z ŋ ɓ ɟʝ ɠ g ɲ ʃ ʒ ʔ ᶑ a aː e eː i iː o oː u uː
+sooo1256-1476	Soo	sooo1256	Kuliak	Africa	2.58367	34.7595	28	18	10	0	0	0	0	1.8	j k l m n p r s t tʃ w ŋ ɓ ɗ ɠ ɲ ʄ ʔ a e i o u ɔ ɛ ɪ ʊ ʌ
+benc1235-1477	Bench	benc1235	Ta-Ne-Omotic	Africa	7.04682	35.7673	51	46	5	0	0	0	0	9.2	b bʲ bʷ d dʲ h j k kʲ kʼʲ kʼ l m mʲ n nʲ pʰ pʲ pʷ pʼ r s sʲ sʷ t ts tsʼ tʲ tʼʲ tʼ tʃ tʃʼ z zʲ g gʲ gʷ ʂ ʃ ʈʂ ʈʂʼ ʐ ʒ ʔ ʔʲ ʔʷ a e i o u
+benc1235-1478	Bench	benc1235	Ta-Ne-Omotic	Africa	7.04682	35.7673	34	29	5	0	0	0	0	5.8	b cç cçʼ d h j k kʼ l m n p pʼ r s t ts tsʼ tʼ w z g ʂ ʃ ʈʂ ʈʂʼ ʐ ʒ ʔ a e i o u
+yems1235-1479	Yemsa	yems1235	Ta-Ne-Omotic	Africa	7.79821	37.4412	35	25	10	0	0	0	5	2.5	b d dʒ h j k kʼ l m n p pʼ s t tʼ tʃ tʃʼ w z ŋ g ɲ ɾ ʃ ʔ a aː e eː i iː o oː u uː
+zays1236-1480	Zayse	zays1236	Ta-Ne-Omotic	Africa	5.83747	37.3409	32	27	5	0	0	0	0	5.4	b dz dʒ d̪ h j kʰ kʼ l m n pʰ r s tsʰ tsʼ tʃʰ tʃʼ t̪ʰ w z ɓ ɗ g ʃ ʒ ʔ a e i o u
+gamo1243-1481	Gamo	gamo1243	Ta-Ne-Omotic	Africa	6.27645	37.23808	36	26	10	0	0	0	5	2.6	b dʒ d̪ f h j kʰ kʼ l m n pʰ s tsʰ tsʼ tʃʰ tʃʼ t̪ʰ w z ɓ̥ ɗ g ɾ ʃ ʔ a aː i̞ i̞ː u̞ u̞ː ɔ̝ ɔ̝ː ɛ̝ ɛ̝ː
+koor1239-1482	Koorete	koor1239	Ta-Ne-Omotic	Africa	5.80545	37.8679	61	51	10	0	0	21	5	5.1	b bː d dz dzː dː dʒ dʒː h j jː kʰ kʼ kʼː kː l lː m mː n nː pʼ s sː tsʰ tsʼ tsʼː tsː tʰ tʼ tʃʰ tʃʼ tʃʼː tʃː w z zː ŋ ŋː ɓ ɗ g gː ɸʰ ɸː ɾ ʃ ʃː ʒ ʒː ʔ a aː i iː u uː ɔ ɔː ɛ ɛː
+aari1239-1483	Aari	aari1239	South Omotic	Africa	5.95034	36.5721	36	26	10	0	0	0	5	2.6	b dʒ d̪ f j k l m n q r s ts tsʼ tʃ tʃʼ t̪ w z ɓ̥ ɗ g ɦ ʃ ʒ ʔ a aː e̞ː iː i̞ o̞ː u uː ɔ̝ ɛ
+komo1258-1484	Komo (Sudan-Ethiopia)	komo1258	Koman	Africa	8.94162	34.0939	28	23	5	0	0	0	0	4.6	b d h j k kʼ l m n p pʼ r s sʼ t tʼ w ɓ ɗ ɠ g ʃ ʔ a e i o u
+uduk1239-1485	Uduk	uduk1239	Koman	Africa	9.16012	34.2293	28	23	5	0	0	0	0	4.6	b d dʒ h j k kʼ l m n p pʼ r s t tʼ tʃʼ w ɓ ɗ g ʃ ʔ a e i o u
+opuu1239-1486	Opo	opuu1239	Koman	Africa	8.47526	33.853	25	20	5	0	0	0	0	4.0	d dʒ h j k kʼ l m n p r s t tʼ tʃʼ w ɓ g ʃ ʔ a e i o u
+kwam1249-1487	Gwama	kwam1249	Koman	Africa	9.50836	34.2457	25	20	5	0	0	0	0	4.0	b d h j k kʼ l m n p pʼ r s sʼ t tʼ w g ʃ ʔ a e i o u
+mayo1261-1488	Mayogo	mayo1261	Atlantic-Congo	Africa	2.79827	27.8282	43	33	10	0	0	0	0	3.3	b d dʒ f j k kp l m ⁿb n ⁿd ⁿdʒ p r s t tʃ v w x z ⁿgb ⁿg ɓ ɗ ɗʲ g gb ɦ ⁿv ɲ ʔ a e i o u ɔ ɛ ɨ ɪ ʊ
+saam1283-1489	Saamia	saam1283	Atlantic-Congo	Africa	0.3652	34.0335	30	20	10	0	0	0	5	2.0	b d dʒ f h j k l m n r s t tʃ w x ŋ g ɲ β a aː e eː i iː o oː u uː
+sout2795-1490	Southern Nuni	sout2795	Atlantic-Congo	Africa	11.5186	-2.14385	56	38	18	0	0	0	0	2.111111111111111	b bʷ c cʷ d dʷ f fʷ h j jʷ k kʷ l lʷ m mʷ n p pʷ s sʷ t tʷ v vʷ w z zʷ ŋ ŋʷ ɟ ɟʷ g gʷ ɲ ɲʷ ɹ a ã e i ĩ o u ũ ɔ ə ə̃ ɛ ɛ̃ ɪ ɪ̃ ʉ ʊ ʊ̃
+nort2795-1491	Zimbabwean Ndebele	nort2795	Atlantic-Congo	Africa	-20.2513	27.4096	66	61	5	0	0	0	0	12.2	b d dʒ f h j kx ǀ ǀʰ ǁ ǁʰ ǃ ǃʰ kʰ kʼ l m ⁿb ⁿp n ⁿd ⁿs ⁿt ⁿtsʼ ⁿz ⁿɬ ⁿɮ ⁿdʒ ⁿtʃʼ pʰ pʼ s tsʰ tsʼ tʰ tʼ tʃʰ tʃʼ v w z ŋ ⁿk ⁿkx ŋǀ ŋǁ ŋǃ ⁿg g gǀ gǁ gǃ ɣ ɦ ɬ ɮ ⁿf ⁿv ɲ ʒ β e i o u ɑ
+saxw1241-1492	Saxwe Gbe	saxw1241	Atlantic-Congo	Africa	6.58269	1.92015	36	24	12	0	0	0	0	2.0	b dʒ d̪ f j k kp m s tʃ t̪ v w x xʷ z ɖ g gb ɦ ɦʷ ɭ ɲ ɳ a ã e i ĩ o u ũ ɔ ɔ̃ ɛ ɛ̃
+nari1240-1493	Narim	nari1240	Surmic	Africa	4.80331	33.3312	31	22	9	0	0	0	0	2.4444444444444446	b c d̪ h j k kʷ l m n p r t̪ v w ð ŋ ɖ ɟ g gʷ ɲ a e i o u ɔ ɛ ɪ ʊ
+bidy1244-1494	Kanyaki-Kagbaaga-Kajoko Bidyogo	bidy1244	Atlantic-Congo	Africa	11.1097	-16.1497	25	18	7	0	0	0	0	2.5714285714285716	b d j k kp m n p r s t w ŋ ɟ g gb ɲ ʈ a e i o u ɔ ɛ
+domp1238-1495	Dompo	domp1238	Atlantic-Congo	Africa	8.182	-2.295	29	22	7	0	0	0	0	3.142857142857143	b c d f h j k l m n p r s t v w z ŋ ɟ g ʃ ʒ a e i o u ɔ ɛ
+bamb1269-1496	Bambara	bamb1269	Mande	Africa	12.9	-7.65	56	32	24	0	0	0	10	1.3333333333333333	b bʷ c d f fʷ h j k kʷ l m ⁿp ⁿpʲ mʲ ⁿt p r s t v w z ŋ ⁿk ŋʷ ɟ g gʷ ɲ ⁿc ɲʷ a aː ã ãː e eː ẽ i iː ĩ o oː õ u uː ũ ũː ɔ ɔː ɔ̃ ɔ̃ː ɛ ɛː ɛ̃
+heib1243-1497	Ebang	heib1243	Heibanic	Africa	11.2908	30.5282	34	27	7	0	0	0	0	3.857142857142857	b c d d̪ f h j k l m n p r s t t̪ v w x z ŋ ɓ ɗ ɟ g ɲ ɽ a e i o u ɔ ɘ
+koya1253-1498	Koyaga	koya1253	Mande	Africa	8.29177	-6.23255	41	29	12	0	0	0	0	2.4166666666666665	b c d f h j k kp l m n p r s t v w w̃ z ŋ ŋm ɟ g gb ɣ ɦ ɲ ʃ ʒ a ã e i ĩ o u ũ ɔ ɔ̃ ɛ ɛ̃
+shwa1239-1499	Shwai	shwa1239	Heibanic	Africa	11.2708	30.3533	35	25	10	0	0	0	0	2.5	b c d̪ f j k l m n p r s t̪ v w x ð ŋ ɗ ɟ g ɲ ɽ ʃ ʈ a e i o u ɔ ə ɛ ɪ ʊ
+gaaa1245-1500	Gaa	gaaa1245	Atlantic-Congo	Africa	8.4809	11.9603	31	22	9	0	0	0	0	2.4444444444444446	b d dʒ f k kpⁿ kp l m n p s t v w ɓ ɗ ɟ g gb gbⁿ ⱱ a e i o u y œ ɔ ɛ
+kuan1247-1501	Kuanyama	kuan1247	Atlantic-Congo	Africa	-17.7176	16.58	31	26	5	0	0	0	0	5.2	d dʒ f fʲ j k l lʲ m ⁿb m̥ n ⁿd ⁿdʲ ⁿdʒ n̥ p t v w x ⁿg ŋ̊ ɲ ʃ ʒ a i u ɔ ɛ
+mbal1255-1502	Mbalanhu	mbal1255	Atlantic-Congo	Africa	-17.578884	16.027517	29	23	6	0	0	0	0	3.8333333333333335	f h k l lʲ m ⁿb m̥ n ⁿd ⁿdʒ n̥ p s t v w z ⁿg ŋ̊ ɲ ɲ̊ ʃ a i u y ɔ ɛ
+kwam1251-1503	Kwambi	kwam1251	Atlantic-Congo	Africa	-18.0339	15.7294	35	29	6	0	0	0	0	4.833333333333333	h k m ⁿb ⁿp n ⁿd ⁿdʒ n̥ p r rʲ s t ts tʃ v w x z ð ⁿk ⁿg ɣ ⁿv ɲ ⁿʒ ʃ θ a i u y ɔ ɛ
+ngan1300-1504	Ngandyera	ngan1300	Atlantic-Congo	Africa	-16.6359	21.1928	35	30	5	0	0	0	0	6.0	j k l lʲ m ⁿb m̥ n ⁿd ⁿdʲ ⁿdʒ n̥ p s t ts tʃ v w z ð ⁿg ŋ̊ ɣ ɲ ⁿʒ ɲ̊ ʃ ʒ θ a i u ɔ ɛ
+ndon1254-1505	Ndonga	ndon1254	Atlantic-Congo	Africa	-17.22	17.35	34	29	5	0	0	0	0	5.8	j k l lʲ m ⁿb m̥ n ⁿd ⁿdʲ ⁿdʒ n̥ p s t ts tʃ v w z ð ŋ ⁿg ɣ ɲ ɲ̊ ʃ ʒ θ a i u ɔ ɛ
+ndon1254-1506	Ndonga	ndon1254	Atlantic-Congo	Africa	-17.22	17.35	34	29	5	0	0	0	0	5.8	dʲ j k l m ⁿb m̥ n ⁿd ⁿdʲ ⁿdʒ n̥ p s t ts tʃ v w z ð ŋ ⁿg ɣ ɲ ɲ̊ ʃ ʒ θ a i u ɔ ɛ
+ndon1254-1507	Ndonga	ndon1254	Atlantic-Congo	Africa	-17.22	17.35	34	29	5	0	0	0	0	5.8	dʲ j k l m ⁿb m̥ʰ n ⁿd ⁿdʲ ⁿdʒ n̥ p s t ts tʃ v w z ð ŋ ⁿg ɣ ɲ ⁿʒ ɲ̊ ʃ θ a i u ɔ ɛ
+konk1269-1508	Konkomba	konk1269	Atlantic-Congo	Africa	9.82224	0.2783	35	21	14	0	0	0	7	1.5	b c d f j k kp l m n p r s t w ŋ ŋm ɟ g gb ʔ a aː ḁ eː i iː o oː u uː ɔ ɔː ɨ ʌː
+zagh1240-1509	Beria	zagh1240	Saharan	Africa	17.4842	23.4626	30	21	9	0	0	0	0	2.3333333333333335	b c d f h j k l m n p r s t w ŋ ɟ g ɲ ʃ ʔ a e i o u ɔ ɛ ɪ ʊ
+zayy1238-1510	Zay	zayy1238	Afro-Asiatic	Africa	8.01148	38.8258	37	23	14	0	0	0	7	1.6428571428571428	b d dʒ f h j k l m n q r s t tˀ tʃˀ w z g ɲ ʃ ʒ ʔ a aː e eː i iː o oː u uː ə əː ɨ ɨː
+bomi1238-1511	Bomitaba	bomi1238	Atlantic-Congo	Africa	1.70044	17.3733	26	16	10	0	0	0	0	1.6	b d f j k kp m n p s t v w z g gb a ã e i ĩ o õ u ũ ɛ
+nort2819-1512	Northern Bobo Madaré	nort2819	Mande	Africa	12.4182	-4.47538	34	21	13	0	0	0	0	1.6153846153846154	b d̪ f h j k kp l̪ m n̪ p r̪ t̪ w ŋ ŋʷ ɟ g gb ɣ ɲ a ã e ẽ i ĩ o õ u ũ ɔ ə ɛ
+bena1262-1513	Bena (Tanzania)	bena1262	Atlantic-Congo	Africa	-9.26671	35.0364	32	22	10	0	0	0	5	2.2	b d f h j kʰ l m ⁿb n ⁿd ⁿs pʰ s ts tʰ v w ŋ ⁿg g ɲ a aː eː i iː o oː u uː ɛ
+guin1254-1514	Guinea Kpelle	guin1254	Mande	Africa	7.93196	-8.98843	36	24	12	0	0	0	0	2.0	b d dz h hʷ j k kp kʷ l m n p t v w ŋ ŋʷ ɓ g gb gʷ ɣ ɲ a ã e i ĩ o u ũ ɔ ɔ̃ ɛ ɛ̃
+kaka1265-1515	Kakabe	kaka1265	Mande	Africa	10.5962	-11.4418	36	22	14	0	0	0	7	1.5714285714285714	b d dʒ f h j k l m n ⁿd ⁿdʒ p r s t tʃ w ŋ g gb ɲ a aː e eː i iː o oː u uː ɔ ɔː ɛ ɛː
+lele1266-1516	Lele (Guinea)	lele1266	Mande	Africa	8.98043	-10.371	26	19	7	0	0	0	0	2.7142857142857144	dʒ f h j k kp l m n p r s t v w ɓ ɗ g ɲ a e i o u ɔ ɛ
+loma1260-1517	Loma (Liberia)	loma1260	Mande	Africa	7.91585	-9.69906	49	21	28	0	0	0	14	0.75	b d f j kp kʰ l m n pʰ s tʰ v w z ŋ ɓ g gb ɣ ʋ a aː ã ãː e eː ẽ ẽː i iː ĩ ĩː o oː õ õː u uː ũ ũː ɔ ɔː ɔ̃ ɔ̃ː ɛ ɛː ɛ̃ ɛ̃ː
+mann1248-1518	Mann	mann1248	Mande	Africa	7.04616	-8.86405	36	22	14	1	0	0	0	1.5714285714285714	b d f j kp kg kʷ l m n p s t v w z ŋ ŋʷ ɓ gb gʷ ɲ a ã e ẽ i ĩ o õ u ũ ɔ ɔ̃ ɛ ɛ̃
+kyen1242-1519	Kyenga	kyen1242	Mande	Africa	11.5953	3.58651	34	22	12	0	0	0	0	1.8333333333333333	b d f h j k kp l m n p r s t v w z ŋ g gb ɲ ʔ a ã e i ĩ o u ũ ɔ ɔ̃ ɛ ɛ̃
+shan1282-1520	Shanga	shan1282	Mande	Africa	11.2752	4.41464	34	22	12	0	0	0	0	1.8333333333333333	b d f h j k kp l m n p r s t v w z ŋ g gb ɲ ʔ a ã e i ĩ o u ũ ɔ ɔ̃ ɛ ɛ̃
+abur1243-1521	Abure	abur1243	Atlantic-Congo	Africa	5.21534	-3.64123	34	20	14	0	0	0	0	1.4285714285714286	b c d f h j k kp l m n p s t v w ŋ ɟ gb ɲ a ã e i ĩ o u ũ ɔ ɛ ɪ ɪ̃ ʊ ʊ̃
+bank1256-1522	Bankon	bank1256	Atlantic-Congo	Africa	4.3702	9.6403	33	26	7	0	0	0	0	3.7142857142857144	bʷ d dʒ f j k kp kʷ l m ⁿbʷ mʷ n ⁿd ⁿdʒ p r s t tʃ w ŋ ⁿg ⁿgʷ ɓ ɲ a e i o u ɔ ɛ
+efut1241-1523	Efutu	efut1241	Atlantic-Congo	Africa	5.42441	-0.59545	48	30	18	0	0	0	0	1.6666666666666667	b d dʑ dʑᶣ dᶣ f h j k l m n p r s t ts tɕ tɕᶣ w ŋ ŋʷ ɕ g ɥ ɱ ɲ ɲᶣ ʑ ʔ e ẽ i ĩ o õ u ũ ɑ ɑ̃ ɔ ɔ̃ ɛ ɛ̃ ɪ ɪ̃ ʊ ʊ̃
+aghe1239-1524	Aghem	aghe1239	Atlantic-Congo	Africa	6.38956	10.0807	47	28	19	0	0	0	9	1.4736842105263157	b bv d dz dʒ f j kp kʰ l m n pf pʰ ts tʰ tʃ v w ŋ ŋm g gb ɣ ɲ ʃ ʒ ʔ a aː e eː i iː o oː u uː ɒ ɒː ɔ ɔː ɛ ɛː ɪ ɪː ʊ
+arbo1245-1525	Arbore	arbo1245	Afro-Asiatic	Africa	4.92183	36.7986	59	49	10	0	0	22	5	4.9	b bː dʒ dʒː d̪ d̪ː f fː h j jː kʰ kʰː kʼ kʼː l lː m mː n nː pʰ s sː tʃʰ tʃʰː tʃʼ tʃʼː t̪ʰ t̪ʰː t̪ʼ t̪ʼː w wː z zː ŋ ɓ̥ ɓ̥ː ɗ ɗː g gː ɲ ɲː ɾ ɾː ʃ ʔ a aː i̞ i̞ː u̞ u̞ː ɔ̝ ɔ̝ː ɛ̝ ɛ̝ː
+abid1235-1526	Abidji	abid1235	Atlantic-Congo	Africa	5.65656	-4.58421	36	21	15	0	0	0	0	1.4	b cç d f h j k kp l m n p r s t w ɟʝ g gb ɲ ʔ a ã e i ĩ o õ u ũ ɔ ɔ̃ ɪ ɪ̃ ʊ ʊ̃
+adio1239-1527	Adioukrou	adio1239	Atlantic-Congo	Africa	5.38228	-4.52522	28	21	7	0	0	0	0	3.0	b d dʒ f h j k kp l m n p r s t tʃ w ŋ g gb ɲ a e i o u ɔ ɛ
+tiag1235-1528	Tiagbamrin Aizi	tiag1235	Atlantic-Congo	Africa	5.28022	-4.62352	32	24	8	0	0	0	0	3.0	b c d f j k kp l m n p s t v w z ŋ ɓ ɟ g gb ɲ ʃ ʒ a e i o ɔ ɛ ɪ ʊ
+alla1248-1529	Alladian	alla1248	Atlantic-Congo	Africa	5.22371	-4.42647	34	23	11	0	0	0	0	2.090909090909091	b c d f j k kp l m n p s t v w z ɟ g gb ɥ ɲ ʃ ʒ a ã e ẽ i o õ u ɔ ɛ ɪ
+begb1241-1530	Begbere-Ejar	begb1241	Atlantic-Congo	Africa	9.40519	7.59566	33	24	9	0	0	0	0	2.6666666666666665	b c d f h j k kp m n p r s t w z ŋ ɟ g gb ɣ ɲ ɽ ʃ a e i o u ɔ ɛ ɪ ʊ
+ngaz1238-1531	Ngazidja Comorian	ngaz1238	Atlantic-Congo	Africa	-11.6129	43.36	46	41	5	0	0	0	0	8.2	b dz dʒ d̪ f h j k l m ⁿb ⁿɓ n ⁿd ⁿdz ⁿt ⁿts ⁿɗ ⁿdʒ ⁿtʃ p r s ts tʃ t̪ v w z ⁿk ⁿg ɓ ɖ ɗ g ɲ ʃ ʈ ʒ ʔ β a e i o u
+akpe1248-1532	Akpes	akpe1248	Atlantic-Congo	Africa	7.50256	5.95559	31	21	10	0	0	0	0	2.1	b d dz f h j k kp l m n r s t ts w x ŋ g gb ʃ a ã e i o u ɔ ɔ̃ ɛ ɛ̃
+eten1239-1533	Eten	eten1239	Atlantic-Congo	Africa	9.73073	8.61443	69	63	6	0	0	0	0	10.5	b bʲ d dz dzʷ dʷ dʲʷ dʒ dʒʷ f h hʲ hʷ hʲʷ j jʷ k kp kpʲ kʲ l lʲ lʷ lʲʷ m mʷ n nʲ nʷ nʲʷ p pf pʲ s t ts tsʷ tʲ tʷ tʃ tʃʷ v w z ŋ g gb gbʲ gʲ gʷ gʲʷ ɲ ɸ ɸʲ ɾ ɾʲ ɾʷ ɾʲʷ ʃ ʃʷ ʒ β ⱱ a e i o u ɛ
+nuer1246-1534	Nuer	nuer1246	Nilotic	Africa	8.13911	32.3829	48	20	28	0	0	0	14	0.7142857142857143	b c d j k l m n p r t w ð ŋ ɟ g ɦ ɱ ɲ θ a aː a̤ a̤ː e̤ e̤ː i iː i̤ i̤ː o oː o̤ o̤ː ṳ ṳː æ̤ æ̤ː ɔ ɔː ɔ̤ ɔ̤ː ɛ ɛː ɛ̤ ɛ̤ː ʊ̤ ʊ̤ː
+kagf1238-1535	Ut-Main	kagf1238	Atlantic-Congo	Africa	11.5319	4.8387	52	36	16	0	0	0	8	2.25	b bʲ d dʒ dʒʷ f h hʲ j k kʲ kʷ m mʲ n nʲ p pʲ r rʲ rʷ s sʷ t tʃ tʃʷ v vʲ w z zʷ g gʲ gʷ ʃ ʔ a aː e eː i iː o oː u uː ɔ ɔː ɘ ɘː ɛ ɛː
+idom1241-1536	Idoma	idom1241	Atlantic-Congo	Africa	7.19139	7.71261	70	47	23	0	0	0	7	2.0434782608695654	b bv bvʷ c d dz dʒʷ f h hʷ j k kp kʲ l m ⁿpf n ⁿd ⁿdz p pf r s t ts v w wʲ x xʷ z zʲ ŋ ⁿgb ⁿg ŋʷ ɟ g gb gʲʷ ɣ ɣʷ ɥ ɽ ʃ ʒ a aː ã e eː ẽ i iː ĩ o oː õ u uː ũ ɔ ɔː ɔ̃ ɛ ɛː ɛ̃ ɪ ʊ
+irig1241-1537	Irigwe	irig1241	Atlantic-Congo	Africa	9.85197	8.6525	91	79	12	0	0	1	0	6.583333333333333	b bʲ c cʲ cʷ d dʒ dʒʷ f fʲ h hʲ j jʷ j̥ʷ k kp kʷ m mʲ mʷ n p pˢ pʲ r rʲ rʷ s t ts tsʲ tɕ tɕʷ tʃ tʃʷ v vʲ w wʲ z ð ðʲ ŋ ŋm ŋʷ ŋʲʷ ɟ ɟʲ ɟʷ g gb gʷ ɬ ɱ ɲ ɲʷ ɲː ɾ ɾʲ ɾʷ ʃ ʃʷ ʍ ʍʲ ʒ ʒʷ ʙ ˀb ˀc ˀj ˀk ˀkp ˀs ˀgb ˀgʷ ˀʃʷ ˀʍ ˀʍʲ a ã e ẽ i ĩ u ũ ɔ ɔ̃ ɛ ɛ̃
+izer1241-1538	Izere	izer1241	Atlantic-Congo	Africa	9.5	8.7	34	27	7	0	0	0	0	3.857142857142857	b c d f h j k kp l n p r s t ts v w z ŋ ŋm ɟ g gb ɲ ɸ ʃ ʒ a e i o u ɔ ɛ
+jere1244-1539	Jere	jere1244	Atlantic-Congo	Africa	10.1962	8.95834	40	24	16	0	0	0	8	1.5	b d dʒ f h j k l m n p r s t tʃ v w z ŋ g gb ɲ ʃ ʒ a aː e eː i iː o oː u uː ɔ ɔː ə əː ɛ ɛː
+legb1242-1540	Legbo	legb1242	Atlantic-Congo	Africa	6.02645	7.98385	50	38	12	0	0	21	5	3.1666666666666665	b bː d dzː dː dʒː fː j jː k kp kpː kː l lː m mː n nː p pː sː t tː tʃ tʃː v vː w wː z ŋ ŋː g gb gbː gː ɲː a aː e eː i o oː u ɔ ɔː ɛ ɛː
+logb1245-1541	Ikpana	logb1245	Atlantic-Congo	Africa	6.92838	0.43068	32	25	7	0	0	0	0	3.5714285714285716	b d dz f j k kp l m n p r s t ts v w x z ŋ ɖ g gb ɦ ɲ a e i o u ɔ ɛ
+glav1244-1543	Glavda	glav1244	Afro-Asiatic	Africa	11.1334	13.8652	41	34	7	0	0	0	3	4.857142857142857	b c d dz dʒ f j k l m n p r s t ts tʃ v w x z ç ŋ ɓ ɗ ɟ g ɣ ɬ ɮ ɲ ʃ ʒ ʝ a aː e iː u uː ə
+ahan1244-1544	Àhàn	ahan1244	Atlantic-Congo	Africa	7.44139	6.00896	40	26	14	0	0	0	0	1.8571428571428572	b d dʒ f h j jʷ k kp l m n p r s t tʃ v w z ŋ g gb ɲ ʃ ʒ a ã e ẽ i ĩ o õ u ũ ɔ ɔ̃ ɛ ɛ̃
+ayer1245-1545	Ayere	ayer1245	Atlantic-Congo	Africa	7.52206	6.01979	40	26	14	0	0	0	0	1.8571428571428572	b d dʒ f h j jʷ k kp l m n p r s t tʃ v w z ŋ g gb ɲ ʃ ʒ a ã e ẽ i ĩ o õ u ũ ɔ ɔ̃ ɛ ɛ̃
+rong1268-1546	Ronga	rong1268	Atlantic-Congo	Africa	-26.7329	32.6167	69	64	5	0	0	0	0	12.8	b bv bˢʷ d dɮʷ dz dʒ f j k kʰ kʷ kʷʰ l lʷ m mʱ n nʷ nʱ nʷʱ p pf pfʰ pˢʷ pˢʷʰ pʰ r s sʷ t ts tsʰ tʰ tʷ tʃ tʃʰ v vʱ w wʱ z ŋʷ ɓ ɖʐ ɖʐʷ ɗ g gǂ gʷ gʷʱ ɦ ɬ ɬʷ ɲ ɲʷ ʃ ʃʷ ʈʂ ʈʂʰ ʈʂʷ ʐ ʐʷ ʒ a e i o u
+ndzw1235-1547	Ndzwani Comorian	ndzw1235	Atlantic-Congo	Africa	-12.2123	44.3709	37	32	5	0	0	0	0	6.4	b d dz dʒ f h j k l m ⁿb n ⁿdʳ ⁿdz ⁿdʒ p r s t ts tʃ v w z ⁿg ɖ g ɲ ʃ ʈ ʒ ʕ a e i o u
+sout2790-1548	Southern Birifor	sout2790	Atlantic-Congo	Africa	9.2873	-2.72672	52	25	27	0	0	0	9	0.9259259259259259	b bˀ d dʒ f h j jˀ k kp l lˀ m n p s t tʃ v w wˀ ŋm g gb ɲ a aː ã e eː ẽ i iː ĩ o oː õ u uː ũ ɔ ɔː ɔ̃ ɛ ɛː ɛ̃ ɪ ɪː ɪ̃ ʊ ʊː ʊ̃
+kuwa1246-1549	Kuwaataay	kuwa1246	Atlantic-Congo	Africa	12.48255	-16.74835	30	20	10	0	0	0	5	2.0	b f h j k l̪ m n p r s t̪ v w z ŋ ɟ ɲ ʃ ʒ a aː e eː i iː o oː u uː
+atti1239-1550	Attié	atti1239	Atlantic-Congo	Africa	5.9977	-3.8209	39	24	15	0	0	0	0	1.6	b c d dz dʒ f h j k kp l m p r s t ts tʃ v w ɟ g gb ʃ a ã e i ĩ o u ũ ø œ œ̃ ɔ ɔ̃ ɛ ɛ̃
+ango1258-1551	Angolar	ango1258	Indo-European	Africa	0.11438	6.59486	34	22	12	0	0	0	0	1.8333333333333333	d dʒ f j k l m n p r s t tʃ v w z ŋ ɓ g ɲ ʃ ʒ a ã e ẽ i ĩ o õ u ũ ɔ ɛ
+east2652-1552	Eastern Oromo	east2652	Afro-Asiatic	Africa	8.67428	41.4395	58	48	10	0	0	23	5	4.8	b bː d dː dʒ dʒː d̪ d̪ː f fː h j jː kʼ kʼː kː l lː m mː n nː pʼ pʼː r rː s sː tʼ tʼː tʃ tʃʼ tʃʼː tʃː t̪ t̪ː w x xː z zː g gː ɲ ɲː ʃ ʃː ʔ a aː e eː i iː o oː u uː
+uppe1455-1553	Upper Guinea Crioulo	uppe1455	Indo-European	Africa	13.2335066667	-15.33254	28	23	5	0	0	0	0	4.6	b c d f j k l lʲ m n p s t v w z ŋ ɟ g ɲ ɾ ʃ ʒ a e i o u
+akoo1248-1554	Akoose	akoo1248	Atlantic-Congo	Africa	4.9243	9.65522	30	18	12	0	0	0	4	1.5	b c d h j k l m n p s t w z ɟ g ɲ ʔ aː e i iː o uː ø ɑ ɔ ɔː ə ɛ
+baka1273-1555	Bakaka	baka1273	Atlantic-Congo	Africa	4.79991	9.80402	32	19	13	0	0	0	6	1.4615384615384615	b d h j k l m n p s t w z ŋ ɟ g ɲ ʃ ʔ a aː e eː i iː o oː u ɔ ɔː ɛ ɛː
+baka1273-1556	Bakaka	baka1273	Atlantic-Congo	Africa	4.79991	9.80402	29	15	14	0	0	0	7	1.0714285714285714	b d f h j m n p s t w z ŋ ɟ g a aː e eː i iː o oː u uː ɔ ɔː ɛ ɛː
+baka1273-1557	Bakaka	baka1273	Atlantic-Congo	Africa	4.79991	9.80402	30	16	14	0	0	0	7	1.1428571428571428	b d h j k l m n p s t w ŋ ɟ g ɲ a aː e eː i iː o oː u uː ɔ ɔː ɛ ɛː
+mboc1235-1558	Mbo (Cameroon)	mboc1235	Atlantic-Congo	Africa	5.13981	9.92766	33	19	14	0	0	0	4	1.3571428571428572	b d h k l m n p s t w z ŋ ɟ g ɲ ʃ ʒ ʔ a e eː i iː u uː ø ɑ ɔ ə əː ɛ ʊ
+bass1260-1559	Bassossi	bass1260	Atlantic-Congo	Africa	5.23655	9.52275	32	20	12	0	0	0	4	1.6666666666666667	b d h j k kp l m n p s t w z ŋ ɟ g gb ɲ ʔ a i iː o u uː ɑ ɔ ɔː ə əː ɛ
+mboc1235-1560	Mbo (Cameroon)	mboc1235	Atlantic-Congo	Africa	5.13981	9.92766	34	21	13	0	0	0	4	1.6153846153846154	b d f j jˀ k l m n p s t w z ŋ ɟ g ɲ ʃ ʒ ʔ a e i iː o u uː ø ɔ ə əː ɛ ɛː
+libe1240-1561	Kru Pidgin English	libe1240	Pidgin	Africa	6.423	-10.5284	36	24	12	0	0	0	0	2.0	b d dʒ f j k kp l m n p r s t tʃ v w z ŋ g gb ɲ ʃ ʒ a ã e i ĩ o u ũ ɔ ɔ̃ ɛ ɛ̃
+gagu1242-1562	Gban	gagu1242	Mande	Africa	6.40859	-5.51851	32	20	12	0	0	0	0	1.6666666666666667	b c d j k kp kʷ l m n s t w z ɟ g gb gʷ ɸ β a ã e i ĩ o u ũ ɔ ɔ̃ ɛ ɛ̃
+eton1253-1563	Eton-Mengisa	eton1253	Atlantic-Congo	Africa	4.21045	11.3935	36	21	15	0	0	0	7	1.4	b d dʒ j k kp l m n p s t tʃ v w z ŋ ŋm g gb ɲ a aː e eː i iː o oː u uː ɔ ɔː ə ɛ ɛː
+reun1238-1564	Réunion Creole French	reun1238	Indo-European	Africa	-21.1131	55.5321	42	30	12	0	0	12	2	2.5	b bː d̺ d̺ː f fː j j̃ k kː lː l̪ m mː n nː p pː s sː s̺ t̺ t̺ː v vː z z̺ g gː ʁ a ã e ẽ ë i iː ï o õ u uː
+nucl1440-1565	Masalit	nucl1440	Maban	Africa	13.2733	22.1752	41	31	10	0	0	4	0	3.1	b dʒ d f h j k ǀ ǃ kː lː l m mː n p rː r s tʃ t v w x z ŋ g ɥ ɲ ʃ ʔ a e i o u ɔ ə ɛ ɨ ʌ
+saot1239-1566	Sãotomense	saot1239	Indo-European	Africa	0.28332	6.61935	32	19	13	0	0	0	0	1.4615384615384615	dʒ f j k l m n p t tʃ v w z ɓ ɗ g ɲ ʎ ʒ a ã e ẽ i ĩ o õ u ũ ə ɛ ɪ̃
+nucl1696-1567	Tangale	nucl1696	Afro-Asiatic	Africa	9.75444	11.3228	58	40	18	0	0	0	9	2.2222222222222223	b bʷ d dʷ dʒ d̪̚ h j jʷ k kʷ l m ⁿb n ⁿd ⁿdʒ p r rʷ s sʷ t tʷ w z zʷ ŋ ⁿg ɓ ɓʷ ɗ ɗʷ g gʷ ʃ ʃʷ ʒ ʒʷ ʔ a aː e eː i iː o oː u uː ɔ ɔː ɛ ɛː ɪ ɪː ʊ ʊː
+suku1261-1568	Sukuma	suku1261	Atlantic-Congo	Africa	-3.16082	32.8765	52	38	14	0	0	0	7	2.7142857142857144	cʰ d f h j kʰ l m ⁿb ⁿpʱ mʱ n ⁿd ⁿz ⁿʃ ⁿsʱ ⁿtʱ nʱ pʰ s tʰ v w z ŋ ⁿg ⁿkʱ ŋʱ ɟ g ⁿv ⁿfʱ ɲ ⁿɟ ⁿcʰ ɲʱ ʃ β a aː e eː i iː o oː u uː ɔ ɔː ɛ ɛː
+mori1278-1569	Morisyen	mori1278	Indo-European	Africa	-20.2613	57.5517	30	21	9	0	0	0	0	2.3333333333333335	b dʒ d̪ f j j̃ k l m n p r s tʃ t̪ t̰ v w z ŋ g a e i o u æ̃ ɑ ɔ ə
+krio1253-1570	Krio	krio1253	Indo-European	Africa	10.8811	-14.3204	32	25	7	0	0	0	0	3.5714285714285716	b c d̪ f h j k kp l̪ m n̪ p s t̪ v w z ɟ g gb ɲ ʁ ʃ ʒ θ a e i o u ɔ ɛ
+kitu1246-1571	Kituba (Democratic Republic of Congo)	kitu1246	Atlantic-Congo	Africa	-2.29601	17.1548	20	15	5	0	0	0	0	3.0	b d f j k l m n p s t v w z g a e i o u
+akas1242-1572	Akaselem	akas1242	Atlantic-Congo	Africa	8.8858	1.37035	49	20	29	0	0	0	9	0.6896551724137931	b c d f j k kp l m n p s t w ŋ ⁿgb ɟ g gb ɲ a aː ã e eː ẽ i iː ĩ o oː õ u uː ũ æ æ̃ ɔ ɔː ɔ̃ ɛ ɛː ɛ̃ ɪ ɪː ɪ̃ ʊ ʊː ʊ̃
+tuki1240-1573	Tuki	tuki1240	Atlantic-Congo	Africa	4.64348	11.5353	35	25	10	0	0	0	3	2.5	b d dʒ h j k kp m ⁿb n ⁿd ⁿdʒ p r s t tʃ w ŋ ⁿgb ⁿg g gb ɲ β a aː e i o oː u ɔ ɔː ə
+baka1272-1574	Baka (Cameroon)	baka1272	Atlantic-Congo	Africa	2.16013	13.7804	32	25	7	0	0	0	0	3.5714285714285716	b d dʒ h j k kp l m ⁿb n ⁿd ⁿdʒ s t w ⁿgb ⁿg ɓ ɗ g gb ɲ ɸ ʔ a e i o u ɔ ɛ
+bumm1238-1575	Bum	bumm1238	Atlantic-Congo	Africa	6.48655	10.418	44	37	7	0	0	0	0	5.285714285714286	b bʷ d dʲ dʒ dʒʲ dʒʷ f fʷ h j jʷ k kp kʷ l lʷ m mʷ n nʷ s t tʲ tʷ tʃ tʃʲ tʃʷ w g gb gʷ ɣ ɲ ʃ ʃʲ ʃʷ a i u ɔ ə ɛ ɨ
+nucl1683-1576	Daba	nucl1683	Afro-Asiatic	Africa	10.3521	13.6318	42	36	6	0	0	0	0	6.0	b d dʒ f j k kp kʷ l m ⁿb n ⁿd ⁿdʒ p r s t tʃ v w x z ⁿg ⁿgb ⁿgʷ ɓ ɗ g gb gʷ ɬ ɮ ʔ ʔʷ ⱱ a i u ɔ ɛ ɨ
+gava1241-1577	Gavar	gava1241	Afro-Asiatic	Africa	10.5603	13.8188	52	47	5	0	0	0	0	9.4	b d dz dʒ f j k kp kʷ l m ⁿb n ⁿd ⁿdz ⁿdʒ p pt r s t ts tʃ v w x xʷ z ŋ ⁿgb ⁿg ⁿgʷ ŋʷ ɓ ɗ g gb gʷ ɣ ɣʷ ɬ ɮ ʃ ʒ ʔ ʔʷ ⱱ e i u ɑ ə
+gude1246-1578	Gude	gude1246	Afro-Asiatic	Africa	10.2138	13.403	34	30	4	0	0	0	2	7.5	b d dz f k l m ⁿb n ⁿd ⁿdz p s t ts v x z ŋ ⁿg ⁿɣ ɓ ɗ g ɣ ɬ ⁿv ɾ ʔ ⱱ a aː ə əː
+igoo1238-1580	Igo	igoo1238	Atlantic-Congo	Africa	7.25499	0.67846	30	23	7	0	0	0	0	3.2857142857142856	b c d f h j k kp l m n p s t v w z ŋ ɖ ɟ g gb ɲ a e i o u ɔ ɛ
+kako1242-1581	Kako	kako1242	Atlantic-Congo	Africa	3.79989	15.6282	45	33	12	0	0	0	0	2.75	b d dʒ f h j k kp kʷ l m ⁿb n ⁿd ⁿdʒ p r s t tʃ v w ŋ ⁿgb ⁿg ⁿgʷ ɓ ɗ g gb gʷ ɲ ʄ a ã e i ĩ o u ũ ɔ ɔ̃ ɛ ɛ̃
+kwan1276-1582	Kwanja	kwan1276	Atlantic-Congo	Africa	6.30293	11.6931	39	21	18	0	0	0	8	1.1666666666666667	b d dʒ f h j k kp l m n p s t tʃ v w ŋ g gb ɲ a aː e eː i iː o oː u uː y ɔ ɔː ə əː ɛ ɨ ɨː
+came1252-1583	Donga Mambila	came1252	Atlantic-Congo	Africa	6.43829	11.41953	31	20	11	0	0	0	5	1.8181818181818181	b bv d dʒ f h j k l m n p s t tʃ v w ŋ g ɲ a aː e eː i iː o oː u uː ɔ
+mere1246-1584	Merey	mere1246	Afro-Asiatic	Africa	10.7458	14.09	41	33	8	0	0	0	0	4.125	b d dz f h hʷ j k kʷ l m ⁿb n ⁿd ⁿdz p r s t ts v w z ŋ ⁿg ⁿgʷ ɓ ɗ g gʷ ɬ ɮ ʔ a i u y œ ɔ ə ɛ
+wand1278-1585	Wandala	wand1278	Afro-Asiatic	Africa	11.3169	13.8996	50	45	5	0	0	0	3	9.0	b d dz dʒ f h hʷ j k kʲ kʷ l m ⁿb n ⁿd ⁿdz ⁿdʒ p r s t ts tʃ v w z ŋ ⁿg ⁿgʲ ⁿgʷ ŋʷ ɓ ɗ g gʲ gʷ ɬ ɬʲ ɮ ɮʲ ɳ ʃ ʄ ʒ a aː e iː uː
+chon1287-1586	Chonyi-Dzihana-Kauma	chon1287	Atlantic-Congo	Africa	-6.518	38.672	45	40	5	0	0	0	0	8.0	b d dz dʒ d̪ f h j k kp l m ⁿb n ⁿd ⁿdz ⁿdʒ ⁿd̪ p r s t ts tʃ t̪ v w z ð ŋ ŋm ⁿgb ⁿg g gb ɦ ɲ ʃ ʔ β a e i o u
+digo1243-1587	Digo	digo1243	Atlantic-Congo	Africa	-4.62101	39.1752	46	41	5	0	0	0	0	8.2	b d dz dʒ d̪ f h j k kp l m ⁿb n ⁿd ⁿdz ⁿdʒ ⁿd̪ p r s t ts tʃ t̪ v w z ð ŋ ŋm ⁿgb ⁿg g gb ɦ ɲ ʃ ʒ ʔ β a e i o u
+duru1249-1588	Duruma	duru1249	Atlantic-Congo	Africa	-4.09629	39.322	45	40	5	0	0	0	0	8.0	b d dz dʒ d̪ f h j k kp l m ⁿb n ⁿd ⁿdz ⁿdʒ ⁿd̪ p r s t ts tʃ t̪ v w z ð ŋ ŋm ⁿgb ⁿg g gb ɦ ɲ ʃ ʔ β a e i o u
+giry1241-1589	Giryama	giry1241	Atlantic-Congo	Africa	-3.30638	39.6648	45	40	5	0	0	0	0	8.0	b d dz dʒ d̪ f h j k kp l m ⁿb n ⁿd ⁿdz ⁿdʒ ⁿd̪ p r s t ts tʃ t̪ v w z ð ŋ ŋm ⁿgb ⁿg g gb ɦ ɲ ʃ ʔ β a e i o u
+giry1241-1590	Giryama	giry1241	Atlantic-Congo	Africa	-3.30638	39.6648	45	40	5	0	0	0	0	8.0	b d dz dʒ d̪ f h j k kp l m ⁿb n ⁿd ⁿdz ⁿdʒ ⁿd̪ p r s t ts tʃ t̪ v w z ð ŋ ŋm ⁿgb ⁿg g gb ɦ ɲ ʃ ʔ β a e i o u
+kamb1298-1591	Kambe	kamb1298	Atlantic-Congo	Africa	-3.30638	39.6648	45	40	5	0	0	0	0	8.0	b d dz dʒ d̪ f h j k kp l m ⁿb n ⁿd ⁿdz ⁿdʒ ⁿd̪ p r s t ts tʃ t̪ v w z ð ŋ ŋm ⁿgb ⁿg g gb ɦ ɲ ʃ ʔ β a e i o u
+kaum1238-1592	Kauma	kaum1238	Atlantic-Congo	Africa	-3.30638	39.6648	45	40	5	0	0	0	0	8.0	b d dz dʒ d̪ f h j k kp l m ⁿb n ⁿd ⁿdz ⁿdʒ ⁿd̪ p r s t ts tʃ t̪ v w z ð ŋ ŋm ⁿgb ⁿg g gb ɦ ɲ ʃ ʔ β a e i o u
+giry1241-1593	Giryama	giry1241	Atlantic-Congo	Africa	-3.30638	39.6648	45	40	5	0	0	0	0	8.0	b d dz dʒ d̪ f h j k kp l m ⁿb n ⁿd ⁿdz ⁿdʒ ⁿd̪ p r s t ts tʃ t̪ v w z ð ŋ ŋm ⁿgb ⁿg g gb ɦ ɲ ʃ ʔ β a e i o u
+giry1241-1594	Giryama	giry1241	Atlantic-Congo	Africa	-3.30638	39.6648	45	40	5	0	0	0	0	8.0	b d dz dʒ d̪ f h j k kp l m ⁿb n ⁿd ⁿdz ⁿdʒ ⁿd̪ p r s t ts tʃ t̪ v w z ð ŋ ŋm ⁿgb ⁿg g gb ɦ ɲ ʃ ʔ β a e i o u
+vame1236-1595	Vame	vame1236	Afro-Asiatic	Africa	10.9481	14.2131	43	38	5	0	0	0	0	7.6	b d dz dʒ h hʷ j k kʷ l m ⁿb n ⁿd ⁿz ⁿdʒ p r s t ts tʃ w z ŋ ⁿg ⁿgʷ ŋʷ ɓ ɗ g gʷ ɣ ɣʷ ɬ ɮ ʃ ʒ a e i u ə
+mmaa1238-1596	Mmaala	mmaa1238	Atlantic-Congo	Africa	4.52188	11.0599	32	23	9	0	0	0	0	2.5555555555555554	b d f j k l m ⁿb ⁿpʰ n ⁿd ⁿtʰ p s t tʃ w ŋ ⁿkʰ ⁿg g ⁿf ɲ a e i o u ɔ ɛ ɪ ʊ
+mpad1242-1597	Mpade	mpad1242	Afro-Asiatic	Africa	12.561391	14.446893	36	30	6	0	0	0	0	5.0	b d dʒ f h j k kʷ kʼʷ kʼ l m ⁿb n ⁿd p r s t tsʼ tʃ tʃʼ w z ⁿg ɓ ɗ g gʷ ʃ a e i o u ɨ
+mofu1248-1598	Mofu-Gudur	mofu1248	Afro-Asiatic	Africa	10.567	14.0314	40	35	5	0	0	0	2	7.0	b d dʒ f h hʷ j k kp kʷ l ⁿb n ⁿd ⁿdʒ p r s t tʃ v w z ŋ ⁿgb ⁿgʷ ɓ ɗ g gb gʷ ɬ ɮ ʔ ⱱ a aː e eː ə
+mbee1249-1599	Mbe	mbee1249	Atlantic-Congo	Africa	6.57067	8.82998	55	48	7	0	0	0	0	6.857142857142857	b bʲ bʷ d dz dzʷ dʷ dʒ dʒʷ f fʷ j jʷ k kp kʲ kʷ l lʲ lʷ m mʲ mʷ p pʲ pʷ r rʲ rʷ s sʷ t ts tsʷ tʷ tʃ tʃʷ w ŋ ŋʷ g gb gʲ gʷ ɲ ɲʷ ʃ ʃʷ a e i o u ɔ ɛ
+ncan1245-1600	Ncane-Mungong	ncan1245	Atlantic-Congo	Africa	6.50696	10.5312	35	17	18	0	0	0	5	0.9444444444444444	b d dʒ f j k l m n s tʰ tʃ w ŋ g ɲ ʃ a aː ã e i iː ĩ o oː õ u ũ ɔ ɔː ɔ̃ ɛ ɛː ɛ̃
+mfum1238-1601	Southern Mfumte	mfum1238	Atlantic-Congo	Africa	6.6	10.936386	84	74	10	1	0	0	0	7.4	b bʱ bʲ bˠ d dz dʒ f fʷ h hʲ hʷ hᶣ j k kp kʲ kʷ l m ⁿb ⁿbʲ ⁿbˠ ⁿp ⁿpʲ n ⁿd ⁿdz ⁿs ⁿt ⁿts ⁿdʒ ⁿʃ p pʲ pʷ s t ts tʃ v w x z ŋ ŋʰ ŋʲʰ ŋʷʰ ŋᶣʰ ⁿkʲ ⁿkʷ ⁿkp ⁿgb ⁿgʲ ⁿgʷ ⁿɣ ⁿɣʲ ⁿɣʷ ⁿɣᶣ ŋʷ g gb gʲ gʷ ɣ ɥ ⁿf ⁿfʲ ⁿv ɲ ɲʷ ɾ ʃ ʒ a e i o u y ø ɔ ə ɯ
+njye1238-1602	Njyem	njye1238	Atlantic-Congo	Africa	2.30483	14.1175	40	20	20	0	0	0	10	1.0	b d dz f j k kp l m n p s t ts v w g gb ɲ ʃ e eː i iː o oː u uː œ œː ɑ ɑː ɔ ɔː ɛ ɛː ɪ ɪː ʊ ʊː
+buam1238-1603	Buamu	buam1238	Atlantic-Congo	Africa	11.1687	-3.50303	25	17	8	0	0	0	0	2.125	b c d̪ f h k l̪ m n̪ p s̪ t̪ v z̪ ɓ g ɲ a ã e i ĩ o u ũ
+kwam1250-1604	Kwami	kwam1250	Atlantic-Congo	Africa	-1.53712	27.4633	38	28	10	0	0	0	5	2.8	b d dʒ f h j k kʷ l m ⁿb n ⁿd p r s t tʃ w z ⁿg ⁿgʷ ɓ ɗ g gʷ ʃ ʔ a aː e eː i iː u uː ɔ ɔː
+guro1248-1605	Guro	guro1248	Mande	Africa	7.34954	-6.31154	54	26	28	0	0	0	14	0.9285714285714286	b bʷ dʲ d̪ f j k kp kʲ l̪ m nʲ n̪ p pʷ sʲ sʷ s̪ t̪ v w z̪ g gb gʲ ɽ a aː ã ãː e eː i iː ĩ ĩː o oː u uː ũ ũː ɔ ɔː ɔ̃ ɔ̃ː ɛ ɛː ɛ̃ ɛ̃ː ɪ ɪː ʊ ʊː
+kabu1256-1606	Kabuverdianu	kabu1256	Indo-European	Africa	15.0586	-23.6148	28	21	7	0	0	0	0	3.0	b c d f k l m n p r s t v z ŋ̞ ɟ g ɲ ʃ ʎ ʒ a e i o u ɔ ɛ
+boun1243-1607	Bouna Kulango	boun1243	Atlantic-Congo	Africa	8.46011	-2.74627	44	27	17	0	0	0	0	1.588235294117647	b d f h j k kp l m n p r s t v w x z ŋ ŋm ɟ g gb ɲ ʃ ʒ ʔ a ã e ẽ i ĩ o õ u ũ ɔ ɔ̃ ɛ ɛ̃ ɪ ɪ̃ ʊ
+tsam1247-1608	Tsamai	tsam1247	Afro-Asiatic	Africa	5.3097	36.9139	66	56	10	0	0	28	5	5.6	b bː c cʼː cː d dː dʒː h hː j jː k kː l lː m mː n nː p pː qʼ qʼː r rː s sː t tsʼ tsʼː tː w wː x xː z zː ħ ħː ɓ ɓː ɗ ɠ ɠː g gː ɲ ɲː ʃ ʃː ʒ ʔ ʔː ʕ ʕː a aː e eː i iː o oː u uː
+cent2194-1609	Central Moroccan Berber	cent2194	Afro-Asiatic	Africa	32.7415	-2.40872	39	36	3	0	0	0	0	12.0	b d dˀ f h j k kʷ l lˀ m n q qʷ r rˀ s sˀ t tˀ w x xʷ z zˀ ħ g gʷ ɣ ɣʷ ɣˀ ʃ ʃˀ ʒ ʒˀ ʕ a i u
+siwi1239-1610	Siwi	siwi1239	Afro-Asiatic	Africa	29.200415	25.519627	38	26	12	0	0	3	1	2.1666666666666665	b d dʒ f h j k l m n p r rː s sː t tʃ w z ħ ŋ g ʀ ʃ ʕ ʕː a e i o u æ ɔ ɛ ɪ ɪː ʊ ʌ
+ndam1239-1611	Ndamba	ndam1239	Atlantic-Congo	Africa	-8.40485	36.0271	24	19	5	0	0	0	0	3.8	b d dʒ f h j k l m n p s t tʃ v w ŋ g ɣ a e i o u
+bare1279-1612	Barain	bare1279	Afro-Asiatic	Africa	10.970124	17.911727	38	28	10	0	0	12	5	2.8	b bː d dː j k kː l lː m mː n nː p pː r s sː t tː w ŋ ɟ ɟː g gː ɲ ɲː a aː e eː i iː o oː u uː
+bare1279-1613	Barain	bare1279	Afro-Asiatic	Africa	10.970124	17.911727	26	16	10	0	0	0	5	1.6	b d j k l m n p r s t w ŋ ɟ g ɲ a aː e eː i iː o oː u uː
+bare1279-1614	Barain	bare1279	Afro-Asiatic	Africa	10.970124	17.911727	41	31	10	0	0	15	5	3.1	b bː d dː j jː k kː l lː m mː n nː p pː r rː s sː t tː w ŋ ŋː ɟ ɟː g gː ɲ ɲː a aː e eː i iː o oː u uː
+bare1279-1615	Barain	bare1279	Afro-Asiatic	Africa	10.970124	17.911727	42	32	10	0	0	14	5	3.2	b bː d dː h j jː k kː l lː m mː n nː p pː r s sː t tː w ŋ ɗ ɗː ɟ ɟː g gː ɲ ɲː a aː e eː i iː o oː u uː
+gaam1241-1616	Gaam	gaam1241	Eastern Jebel	Africa	11.4674	33.9797	46	34	12	0	0	12	6	2.8333333333333335	b bː c d dː d̞ d̪ d̪ː f fː j k l lː m mː n nː p r s sː t t̪ w ŋ ŋː ɟ ɟː g gː ɲ ɲː ɾ a aː i iː u uː ɔ ɔː ə əː ɛ ɛː
+abar1238-1617	Mungbam	abar1238	Atlantic-Congo	Africa	6.5805	10.2267	32	24	8	0	0	0	0	3.0	b dʑ d̪ dz̪ f h j k kp l̪ m n̪ p s̪ tɕ t̪ ts̪ w ŋ ɕ g gb ɥ ɲ a e i o u ɔ ə ɛ
+mund1328-1618	Mundabli	mund1328	Atlantic-Congo	Africa	6.59969	10.2704	34	22	12	0	0	0	0	1.8333333333333333	b dʒ d̪ dz̪ f j k kp l̪ m n̪ s̪ tʃ t̪ ts̪ w ŋ g gb ɥ ɲ ʃ a e i o u ɒ ɔ ə ɛ ɨ ɪ ʊ
+mbuu1238-1619	Ajumbu	mbuu1238	Atlantic-Congo	Africa	6.53792	10.2556	36	26	10	0	0	0	0	2.6	b dʒ d̪ dz̪ f j k kp l̪ n̪ s̪ tʃ t̪ ts̪ v w z̪ ŋ g gb ɣ ɥ ɲ ʃ ʒ ʔ a e i o u y ɔ ə ɛ ɨ
+kosh1246-1620	Koshin	kosh1246	Atlantic-Congo	Africa	6.5817	10.299	34	23	11	0	0	0	0	2.090909090909091	b dʒ d̪ dz̪ f j k kp l̪ m n̪ s̪ tʃ t̪ ts̪ w z̪ ŋ g gb ɲ ʃ ʒ a e i i̜ u u̜ æ ɔ ə ɛ ɨ̜
+fang1248-1621	Fang (Cameroon)	fang1248	Atlantic-Congo	Africa	6.54384	10.319	33	23	10	0	0	0	0	2.3	b dʒ d̪ f j k kp l̪ m n̪ p s̪ tʃ t̪ ts̪ v w ŋ g gb ɱ ɲ ʒ a e i i̜ o u u̜ ɔ ə ɛ
+kura1250-1622	Kuranko	kura1250	Mande	Africa	9.49325	-10.6122	54	26	28	0	0	0	14	0.9285714285714286	b c d f h j k l m ⁿb ⁿp n ⁿd ⁿt p s t w ŋ ⁿk ⁿgb g gb ⁿf ɲ ɹ a aː ã ãː e eː ẽ ẽː i iː ĩ ĩː o oː õ õː u uː ũ ũː ɔ ɔː ɔ̃ ɔ̃ː ɛ ɛː ɛ̃ ɛ̃ː
+niel1243-1623	Niellim	niel1243	Atlantic-Congo	Africa	9.70362	17.81346	56	25	31	0	8	0	11	0.8064516129032258	b c d h j k l m ⁿb n ⁿd p r s t w ŋm ⁿg ɓ ɗ ɟ g ɲ ⁿɟ ʔ a aː ã ãː e eː ẽ i ia iaː iã iː ĩ ĩː i̯ãː o oː õ õː u ua uaː uã uãː uː ũ ũː ə əː ə̃ ə̃ː
+nort3047-1624	North Giziga	nort3047	Afro-Asiatic	Africa	10.6755	14.219	32	29	3	0	0	0	0	9.666666666666666	b d dʒ f h j k kʷ l ⁿb n ⁿd ⁿdz r s t tʃ v w z ŋ ⁿg ɓ ɗ g gʷ ɬ ɮ ʔ a e o
+mogh1246-1625	Moghamo	mogh1246	Atlantic-Congo	Africa	5.88942	9.87416	47	33	14	0	0	0	0	2.357142857142857	b d dʷ dʒ dʒʷ f fʲ k kʲ kʷ m ⁿb n ⁿd nʷ ⁿdʒ p s sʷ t tʷ tʃ tʃʷ w z zʷ ŋ ⁿg ŋʷ g gʲ gʷ ɣ a ã e ẽ i ĩ o õ u ũ ɔ ɔ̃ ə ə̃
+mokp1239-1626	Mokpwe	mokp1239	Atlantic-Congo	Africa	4.24178	9.23887	29	22	7	0	0	0	0	3.142857142857143	b dʒ hʷ j k kp l m ⁿb n ⁿd ⁿdʒ p t w ⁿgb ⁿg gb ɲ ɸ ʒ β a e i o u ɔ ɛ
+siam1242-1627	Siamou	siam1242		Africa	10.998	-4.92143	36	22	14	0	0	0	0	1.5714285714285714	b c d f h j k kp l m n p r s t v w ŋm ɟ gb ɲ ʃ a ã e i ĩ o u y ɔ ɔ̃ ə ɛ ɛ̃ ɯ
+ngie1241-1628	Ngiemboon	ngie1241	Atlantic-Congo	Africa	5.56777	10.1266	26	19	7	0	0	0	0	2.7142857142857144	b d f j k m n p pf s t ts v w z ŋ g ɥ ɰ a e i o u ɔ ɛ
+nugu1242-1629	Nugunu (Cameroon)	nugu1242	Atlantic-Congo	Africa	4.63103	11.1837	31	24	7	0	0	0	0	3.4285714285714284	b d f h j k l m ⁿb ⁿp n ⁿd ⁿt ⁿtʃ p s t tʃ w ŋ ⁿk ⁿg g ɲ a e i o u ɔ ɛ
+tigo1236-1630	Tigon Mbembe	tigo1236	Atlantic-Congo	Africa	6.983995	10.70849	109	97	12	2	0	0	4	8.083333333333334	b bʳ bʲ bʷ d dʳ dʷ dʒ dʒʳ dʒʷ f fʳ fʲ fʷ h j k kp kpʳ kpʲ kpʷ kʳ kʲ kʷ kʳʷ l m ⁿb ⁿbʳ ⁿbʲ ⁿbʷ ⁿp ⁿpʳ ⁿpʷ ⁿɾ mʲ mʷ n ⁿd ⁿdʳ ⁿdʷ ⁿs ⁿsʳ ⁿt ⁿtʳ ⁿz ⁿzʳ ⁿgʳ nʷ ⁿdʒ ⁿtʃ ⁿtʃʳ ⁿʃ p pʳ pʲ pʷ s sʳ sʷ t tʳ tʷ tʃ tʃʳ tʃʷ v vʳ vʲ vʷ w z zʳ ŋ ⁿk ⁿkʳ ⁿkʷ ⁿkp ⁿkpʳ ⁿgb ⁿg ⁿgʷ ŋʷ g gb gbʳ gʳ gʷ ⁿf ⁿfʳ ⁿv ⁿvʳ ⁿvʲ ɲ ɾ ʃ ʒ a e eː i o u uː ɑ ɔ ɔː ɛ ɛː
+orma1241-1631	Orma	orma1241	Afro-Asiatic	Africa	-1.79489	39.60749	33	23	10	0	0	0	5	2.3	b d dʒ f h j k kʼ l m n nʲ p pʼ s t tʼ tʃ tʃʼ w ɗ g ɾ a aː e eː i iː o oː u uː
+piny1238-1632	Pinyin	piny1238	Atlantic-Congo	Africa	5.7991	10.0682	61	42	19	0	5	0	6	2.210526315789474	b bʲ d dʲ dʷ f j k kʲ kʷ kᶣ m mʲ n nʲ nʷ pʷ s sʷ t ts tsʷ tʲ tʷ tʃ tʃʷ w z zʷ ŋ ŋʷ g gʲ gʷ gᶣ ɥ ɲ ɲʷ ʃ ʃʷ ʒ ʒʷ a aː i iə iɛ iː u uə uː y yə ɔ ɔː ə əː ɛ ɨ ɨə ɨː
+pana1294-1633	Pana	pana1294	Atlantic-Congo	Africa	8.71518	13.6009	62	34	28	0	0	0	14	1.2142857142857142	b d f h hʲ hʷ j k kp l m ⁿb n ⁿd ⁿdz p s sʷ t ts v w z ŋ ⁿgb ⁿg ŋʷ ɓ ɗ g gb ɲ ɾ ⱱ a aː ã ãː e eː ẽ ẽː i iː ĩ ĩː o oː õ õː u uː ũ ũː ɔ ɔː ɔ̃ ɔ̃ː ɛ ɛː ɛ̃ ɛ̃ː
+reel1238-1634	Reel	reel1238	Nilotic	Africa	6.32234	30.49451	60	20	40	0	0	0	26	0.5	b c d d̪ j k lʲ m n n̪ p r t t̪ w ŋ ɟ g ɲ ʔ a aː aˑ a̤ a̤ː a̤ˑ e eː eˑ e̤ e̤ː e̤ˑ i iː iˑ i̤ i̤ː i̤ˑ o oː oˑ o̤ u uː uˑ ṳ ṳː ṳˑ ɔ ɔː ɔˑ ɔ̤ ɔ̤ː ɔ̤ˑ ɛ ɛː ɛˑ ɛ̤ ɛ̤ː ɛ̤ˑ
+wuzl1236-1635	Wuzlam	wuzl1236	Afro-Asiatic	Africa	10.955	14.1378	39	34	5	0	0	0	0	6.8	b d dz f hʷ j k kʷ l m ⁿb n ⁿd ⁿz p r s t ts v w z ŋ ⁿg ⁿgʷ ɓ ɗ g gʷ ɣ ɣʷ ɬ ɮ χ a e i u ə
+lese1243-1636	Lese	lese1243	Central Sudanic	Africa	1.3	29.3	39	29	10	0	0	0	0	2.9	b bv d dʷ dʒ f h j k m n p pf s sʷ t tʃ w ɓ ɠɓ g gb ɭ ɭʷ ɾ ɾʲ ɾʷ ʈ ʔ a e i o u œ ɔ ɛ ɪ ʊ
+tour1242-1637	Toura (Côte d'Ivoire)	tour1242	Mande	Africa	7.76747	-7.33105	35	21	14	0	0	0	2	1.5	b d f j k kp kʷ l m n p s t v w z ŋ ɓ g gb gʷ a ã e i ĩ o u ũ ɔ ɔ̃ ɛ ɛ̃ ɪː ʊː
+gwen1239-1638	Gweno	gwen1239	Atlantic-Congo	Africa	-3.68407	37.6827	29	24	5	0	0	0	0	4.8	b c d f h j k kʲ l m n p pf r t w ŋ ɟ g ɣ ɲ ʃ β θ a e i o u
+sumb1240-1639	Sumbwa	sumb1240	Atlantic-Congo	Africa	-3.47335	31.9457	30	20	10	0	0	0	5	2.0	b d dʒ f h j k l m n p s t tʃ v w z g ʃ β a aː e eː i iː o oː u uː
+zinz1238-1640	Zinza	zinz1238	Atlantic-Congo	Africa	-2.64132	32.1755	30	20	10	0	0	0	5	2.0	b c d f h j k l m n p s t v w z ɟ g ɲ ʃ a aː e eː i iː o oː u uː
+meru1245-1641	Meru	meru1245	Atlantic-Congo	Africa	0.26484	37.7396	27	17	10	0	0	0	5	1.7	b d f j k l m n p r s t w ŋ ɲ ʃ β a aː e eː i iː o oː u uː
+kahe1238-1642	Kahe	kahe1238	Atlantic-Congo	Africa	-3.51412	37.5759	32	22	10	0	0	0	5	2.2	b c d f h j k l m n p r s t v w ŋ ɟ g ɣ ɲ ʃ i iː u uː ɑ ɑː ɔ ɔː ɛ ɛː
+hang1260-1643	Hangaza	hang1260	Atlantic-Congo	Africa	-2.52347	30.7074	33	23	10	0	0	0	5	2.3	c d f h j k m n p pf r s t ts v w z ɟ g ɲ ʃ ʒ β a aː e eː i iː o oː u uː
+moch1256-1644	Mochi	moch1256	Atlantic-Congo	Africa	-3.33743	37.3357	25	20	5	0	0	0	0	4.0	b c d f h j k l m n p pf s t ts w ɟ g ɲ ʃ a e i o u
+suba1252-1645	Suba-Simbiti	suba1252	Atlantic-Congo	Africa	-1.103296	34.268	37	23	14	0	0	0	7	1.6428571428571428	c d f h j k l m n p r s t v w z ŋ ɟ g ɣ ɲ ʃ β a aː e eː i iː o oː u uː ɔ ɔː ɛ ɛː
+kway1241-1646	Kwaya	kway1241	Atlantic-Congo	Africa	-1.80737	33.71	27	17	10	0	0	0	5	1.7	b d f j k l m n p s t tʃ w ɟ g ɲ β a aː e eː i iː o oː u uː
+wawa1246-1647	Wawa	wawa1246	Atlantic-Congo	Africa	6.68974	11.7802	46	30	16	0	0	0	8	1.875	b d dʒ f h j k kp kʷ l m ⁿb n ⁿd ⁿdʒ p s t tʃ w ŋ ŋm ⁿgb ⁿg ⁿgʷ g gb gʷ ⁿv ɲ a aː e eː i iː o oː u uː ɔ ɔː ə əː ɛ ɛː
+tach1250-1648	Tachelhit	tach1250	Afro-Asiatic	Africa	29.7854	-7.77879	37	33	4	0	0	0	0	8.25	b dˤ d̪ f h j k kʷ lˤ l̪ m n̪ q qʷ rˤ sˤ s̪ tˤ t̪ w x xʷ zˤ z̪ ħ g gʷ ɣ ɣʷ ɾ̪ ʃ ʒ ʕ a i u ə
+tuni1251-1649	Tunia	tuni1251	Atlantic-Congo	Africa	9.42506	18.2059	37	24	13	0	0	0	0	1.8461538461538463	b c d h j k l m ⁿb n ⁿd r s t w ⁿg ɓ ɗ ɟ g ɲ ⁿɟ ʔ ˀɲ a ã e i ĩ o u ũ ɔ ɔ̃ ə ɛ ɛ̃
+ceba1235-1650	Senari	ceba1235	Atlantic-Congo	Africa	9.50768	-6.15264	40	24	16	0	0	0	6	1.5	b d dʒ f j k kp l m n p r s t tʃ v w z ŋ g gb ʃ ʒ ʔ a aː ã ãː e i o u ɔ ɔː ɔ̃ ɔ̃ː ɛ ɛː ɛ̃ ɛ̃ː
+fuli1240-1651	Fuliiru	fuli1240	Atlantic-Congo	Africa	-3.04022	28.9865	34	24	10	0	0	0	5	2.4	b d dʒ f h j k l m ⁿb n ⁿd p r s t v w z ⁿg g ɲ ʃ ʒ a aː e eː i iː o oː u uː
+sand1273-1652	Sandawe	sand1273		Africa	-5.26918	35.4808	58	43	15	0	0	0	10	2.8666666666666667	b d dɮ dʒ f h j k ǀ ǀʰ ǀʼ ǁ ǁʰ ǃ ǃʰ ǃʼ kʰ kʼ l m n p pʰ s t tsʼ tɬ tɬʼ tʰ tʃ tʃʰ w x ŋǀ ŋǁ ŋǃ g gǀ gǁ gǃ ɬ ɾ ʔ a aː ãː e eː ẽː i iː ĩː o oː õː u uː ũː
+tsuv1239-1653	Tsuvadi	tsuv1239	Atlantic-Congo	Africa	10.8421	5.22095	52	28	24	0	0	5	12	1.1666666666666667	b d f h j k kː l lː m mː n nː p s t tː v w z ɓ ɗ ɟ g ɲ ʃ ʒ ʔ a aː ã ãː e eː ẽ ẽː i iː ĩ ĩː o oː õ õː u uː ũ ũː ɔ ɔː ɔ̃ ɔ̃ː
+ejag1239-1654	Ejagham	ejag1239	Atlantic-Congo	Africa	5.54442	8.90959	26	19	7	0	0	0	0	2.7142857142857144	b d dʒ f j k kp m n p s t tʃ w ŋ g gb ɲ ɾ a i u y ɔ ə ɛ
+yemb1246-1655	Yemba	yemb1246	Atlantic-Congo	Africa	5.47421	10.0214	24	17	7	0	0	0	0	2.4285714285714284	b d f j k m n pf s t ts v w z ŋ g ʔ a e i o u ɔ ɛ
+bafa1249-1656	Bafanji	bafa1249	Atlantic-Congo	Africa	5.84612	10.4518	56	26	30	0	0	0	10	0.8666666666666667	dʒ f j kʰ kʷ l m ⁿb n ⁿd ⁿdʒ p pʰ s t tʰ tʃ w z ŋ ⁿg ⁿgʷ ŋʷ ɣ ɱ ɲ a aː ã e eː ẽ i iː ĩ o oː õ u uː ũ ɐ ɐː ɐ̃ ɔ ɔː ɔ̃ ə əː ə̃ ɛ ɛː ɛ̃ ɯ ɯː ɯ̃
+burj1242-1657	Burji	burj1242	Afro-Asiatic	Africa	4.44624	38.4646	36	26	10	0	0	0	5	2.6	b c d dʒ f h j kʼ l m n p pʼ r s t tʼ tʃ tʃʼ w z g ɲ ʃ ʔ ᶑ a aː e eː i iː o oː u uː
+anii1245-1658	Anii	anii1245	Atlantic-Congo	Africa	9.11127	1.60169	34	23	11	0	0	0	0	2.090909090909091	b d dʒ f h j k kp l m n p r s t tʃ w ŋ ŋm g gb ɲ ʃ a e i o u ɔ ə ɛ ɨ ɪ ʊ
+fipa1238-1659	Fipa	fipa1238	Atlantic-Congo	Africa	-7.88963	31.3442	34	20	14	0	0	0	7	1.4285714285714286	b d f j k l m n p s t tʃ v w z ŋ g ɲ ʃ ʒ a aː e eː i iː o oː u uː ɪ ɪː ʊ ʊː
+nawu1242-1660	Nawuri	nawu1242	Atlantic-Congo	Africa	8.45116	0.04947	38	29	9	0	0	0	0	3.2222222222222223	b bʷ d dʒ f fʷ h j k kp kʷ l m mʷ n p pʷ r s sʷ t tʃ tʃʷ w ŋ ŋm g gb ɲ a e i o u u̞ ɔ ɛ ɪ
+anfi1235-1661	Anfillo	anfi1235	Ta-Ne-Omotic	Africa	8.568	34.647	48	38	10	0	0	16	5	3.8	b bː d dz dː h j jː k kʼ kʼː kː l lː m mː n nː p pʼ pʼː pː r sʼ sʼː t ts tsʼ tsː tʼ tʼː tː w wː g gː ʃ ʔ a aː e eː i iː o oː u uː
+ntom1248-1662	Ntomba	ntom1248	Atlantic-Congo	Africa	-1.99062	18.265	30	23	7	0	0	0	0	3.2857142857142856	b f h j k l m ⁿb ⁿp n ⁿd ⁿs ⁿt ⁿdʒ p s t ts w ⁿk ⁿg g ɲ a e i o u ɔ ɛ
+tumt1243-1663	Tumtum	tumt1243	Kadugli-Krongo	Africa	10.6378	30.4128	53	39	14	0	0	14	7	2.7857142857142856	d̪ d̪ː f j jː l lː m ⁿb mː n ⁿɗ nː ⁿd̪ pf r rː s sː w wː ŋ ⁿg ŋː ɓ ɓː ɖ ɖː ɗ ɗː ɟ g gː ɲ ⁿɟ ɲː ⁿɖ ʃ ʔ a aː e eː i iː u uː ɔ ɔː ɪ ɪː ʊ ʊː
+iyiv1238-1664	Iyive	iyiv1238	Atlantic-Congo	Africa	6.50437	9.53302	60	53	7	0	0	0	0	7.571428571428571	b bʷ d dz dzʷ dʲ dʒ f fʷ h hʲ hʷ j k kp kʷ lʲ lʷ m ⁿb ⁿbʷ mʷ n ⁿd ⁿdz ⁿdzʷ ⁿz ⁿdʒ p pʷ s sʷ t ts tsʷ tʲ tʷ tʃ tʃʷ v w ŋ ⁿgb ⁿg ⁿgʲ ⁿgʷ g gb gʲ gʷ ɲ ʃ ʃʷ a i o u ɔ ə ɛ
+bata1293-1665	Batak Karo	bata1293	Austronesian	Papunesia	2.12787	98.2517	24	16	8	0	0	0	0	2.0	b d dʒ h k l m n p r s t tʃ w ŋ g a e i o u y ə ɯ
+taga1270-1666	Tagalog	taga1270	Austronesian	Papunesia	14.06	121.747	24	19	5	0	0	0	0	3.8	b c d f h j k l m n p r s t w ŋ ɟ g ʔ a e i o u
+sout2918-1667	Southern Sama	sout2918	Austronesian	Papunesia	4.755836	119.483887	23	17	6	0	0	0	0	2.8333333333333335	b d h j k l m n p s t w ŋ ɟ g ɲ ʔ a e i o u ə
+kima1244-1668	Kimaragang	kima1244	Austronesian	Papunesia	6.61982	116.96	23	18	5	0	0	0	0	3.6	b d dʒ j k l m n p s t w ŋ ɓ ɗ g ɾ ʔ a e i u ɤ
+bela1260-1669	Lemeting	bela1260	Austronesian	Papunesia	4.96207	114.933	25	19	6	0	1	0	0	3.1666666666666665	b c d h j k l m n p s t w ŋ ɟ g ɲ ʁ ʔ a e i iə o u
+ilok1237-1670	Iloko	ilok1237	Austronesian	Papunesia	15.9361	120.993	23	17	6	0	0	0	0	2.8333333333333335	b d h j k l m n p r s t ts w ŋ g ʔ a e i u ɔ ɛ
+east2563-1671	Eastern Cham	east2563	Austronesian	Eurasia	11.2853	108.49	30	21	9	0	0	0	0	2.3333333333333335	c cʰ h j k kʰ l m n p pʰ r s t tʰ w ŋ ɓ ɗ ɲ ʔ a e i o u ɔ ə ɛ ɨ
+mokl1243-1672	Moklen	mokl1243	Austronesian	Eurasia	8.16761	98.3176	46	19	27	0	8	0	9	0.7037037037037037	b d h k kʰ l m n p pʰ t tʰ tʃ tʃʰ w ŋ g ɲ ʔ a au̯ ay aː e eː i ia iː o oː u uy uə uː y ɔ ɔː ə əy əː ɛ ɛo ɛː ɯ ɯə ɯː
+moke1242-1673	Moken	moke1242	Austronesian	Eurasia	10.1474	98.6765	38	20	18	0	2	0	7	1.1111111111111112	b d dʒ h k kʰ l m n p pʰ t tʰ tʃ tʃʰ w ŋ g ɲ ʔ a aː e ea eː i iː o oa oː u uː y ɔ ɔː ə ɛ ɛː
+nias1242-1674	Nias	nias1242	Austronesian	Papunesia	0.90691	97.4961	25	19	6	0	0	0	0	3.1666666666666665	b d dʳ dʒ f h j k m n s t tʃ v w x g ʋ ʔ a e i o u ɤ
+java1254-1675	Javanese	java1254	Austronesian	Papunesia	-7.001	109.287	33	24	9	0	0	0	0	2.6666666666666665	b d dʒ f h k l m n p r s t tʃ w x z ŋ ɖ g ɲ ʃ ʈ ʔ a e i o u y ɔ ə ɛ
+buol1237-1676	Buol	buol1237	Austronesian	Papunesia	0.97727	121.519	23	17	6	0	0	0	0	2.8333333333333335	b d dʒ h k l m n p r s t̪ w ŋ g ʔ β a e i o u y
+maka1311-1677	Makasar	maka1311	Austronesian	Papunesia	-5.65551	119.838	23	18	5	0	0	0	0	3.6	b c d h j k l m n p r s t w ŋ ɟ g ɲ a e i o u
+mori1268-1678	Mori Bawah	mori1268	Austronesian	Papunesia	-2.56016	121.37	27	22	5	0	0	0	0	4.4	b d h k l m ⁿb ⁿp n ⁿd ⁿs ⁿt p r s t ŋ ⁿk ⁿg g ʔ β a e i o u
+kamb1299-1679	Kambera	kamb1299	Austronesian	Papunesia	-9.88447	120.235	29	19	10	0	2	0	3	1.9	dʒ h j k l m ⁿb n ⁿd ⁿdʒ p r t w ŋ ⁿg ɓ ɗ ɲʲ a ai au aː e i iː o u uː
+tetu1245-1680	Tetum	tetu1245	Austronesian	Papunesia	-9.11217	125.528	18	13	5	0	0	0	0	2.6	b d f h k l m n r s t w ʔ a e i o u
+leti1246-1681	Leti (Indonesia)	leti1246	Austronesian	Papunesia	-8.19808	127.674	22	10	12	0	0	0	5	0.8333333333333334	d k l m n p r s t β a aː e eː i iː o oː u uː ɔ ɛ
+east2440-1682	East Makian	east2440	Austronesian	Papunesia	0.07337	127.423	23	18	5	0	0	0	0	3.6	b d dʒ f j k l m n p r s t tʃ w ŋ g ʔ a e i o u
+biak1248-1683	Biak	biak1248	Austronesian	Papunesia	-0.9523	135.879	19	14	5	0	0	0	0	2.8	b d j k m n p r s t w g ɸ β a e i o u
+ambo1250-1684	Ambonese Malay	ambo1250	Austronesian	Papunesia	-3.71342	128.184	23	18	5	0	0	0	0	3.6	b c d f j k l m n p r s t w ŋ ɟ g ɲ a e i o u
+band1353-1685	Banda Malay	band1353	Austronesian	Papunesia	-4.55565	129.905	23	18	5	0	0	0	0	3.6	b c d f j k l m n p r s t w ŋ ɟ g ɲ a e i o u
+mala1481-1686	Manado Malay	mala1481	Austronesian	Papunesia	1.48099	124.843	25	19	6	0	0	0	0	3.1666666666666665	b c d f j k l m n p r s t w ŋ ɟ g ɲ ʔ a e i o u ə
+kupa1239-1687	Kupang Malay	kupa1239	Austronesian	Papunesia	-10.2526	123.63	25	19	6	0	0	0	0	3.1666666666666665	b c d f j k l m n p r s t w ŋ ɟ g ɲ ʔ a e i o u ə
+lara1260-1688	Larantuka Malay	lara1260	Austronesian	Papunesia	-8.4746	122.7619	25	19	6	0	0	0	0	3.1666666666666665	b c d f j k l m n p r s t w ŋ ɟ g ɲ ʔ a e i o u ə
+nort2828-1689	North Moluccan Malay	nort2828	Austronesian	Papunesia	-0.86437	128.323	27	21	6	0	0	0	0	3.5	b c d f j k l m n p r s t w x ŋ ɟ g ɲ ʃ ʔ a e i o u ə
+indo1316-1690	Indonesian	indo1316	Austronesian	Papunesia	-7.33458	109.716	31	23	8	0	0	0	0	2.875	b d dʒ f h k l m n p r s t tʃ v w x z ŋ g ɲ ʃ ʔ a e i o u y ə ɛ
+nucl1460-1691	Madurese	nucl1460	Austronesian	Papunesia	-7.0	113.0	35	27	8	0	0	0	0	3.375	b c cʰ d̪ f h j k kʰ l m n p pʰ r s t̪ t̪ʰ w ŋ ɖ ɟ g ɲ ʈ ʈʰ ʔ a i u ɔ ə ɛ ɤ ɨ
+cebu1242-1692	Cebuano	cebu1242	Austronesian	Papunesia	8.38799	124.367	21	18	3	0	0	0	0	6.0	b d dʒ h j k l m n p r s t tʃ w ŋ g ʔ a i u
+bali1278-1693	Balinese	bali1278	Austronesian	Papunesia	-8.35714	115.075	24	18	6	0	0	0	0	3.0	b d dʒ h j k l m n p r s t tʃ w ŋ g ɲ a e i o u ə
+bugi1244-1694	Buginese	bugi1244	Austronesian	Papunesia	-4.47	119.977	25	19	6	0	0	0	0	3.1666666666666665	b d dʒ h j k l m n p r s t tʃ w ŋ g ɲ ʔ a e i o u ə
+cent2087-1695	Coastal-Naga Bikol	cent2087	Austronesian	Papunesia	13.7574	123.403	28	23	5	0	0	0	0	4.6	b d dz f j k l m n p r s t ts v w z ŋ g ɲ ʃ ʎ ʔ a e i o u
+hili1240-1696	Hiligaynon	hili1240	Austronesian	Papunesia	10.4018	122.974	25	20	5	0	0	0	0	4.0	b d dʒ f h j k l m n p r s t tʃ v w ŋ g ʔ a e i o u
+pamp1243-1697	Pampanga	pamp1243	Austronesian	Papunesia	14.9603	120.502	22	17	5	0	0	0	0	3.4	b d dʒ h k l m n p r s t tʃ w ŋ g ʔ a e i o u
+mina1268-1698	Minangkabau	mina1268	Austronesian	Papunesia	-0.896	100.44	33	23	10	0	5	0	0	2.3	b d dʒ f h j k l m n p r s t tʃ w x z ŋ g ɲ ʃ ʔ a ai̯ au e i iə o u ui̯ uə
+pang1290-1699	Pangasinan	pang1290	Austronesian	Papunesia	15.9377	120.365	21	16	5	0	0	0	0	3.2	b d dʒ j k l m n p s t tʃ w ŋ g ʔ a e i o u
+teng1272-1700	Tengger	teng1272	Austronesian	Papunesia	-7.89069	113.037	42	20	22	0	0	0	0	0.9090909090909091	h j k l m ⁿp n ⁿt ⁿtʃ p r t tʃ w ŋ ⁿk ɲ ⁿʈ ʈ ʔ e e̤ i i̤ o o̤ u ṳ ɑ ɑ̤ ɒ ɒ̤ ɔ ɔ̤ ə ə̤ ɛ ɛ̤ ɪ ɪ̤ ʊ ʊ̤
