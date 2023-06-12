@@ -1,0 +1,392 @@
+ID	Name	Glottocode	Family	Macroarea	Latitude	Longitude	Sounds	Consonants	Vowels	Clusters	Diphthongs	LongConsonants	LongVowels	Ratio	Phonemes
+bura1267-2629	Burarra	bura1267	Maningrida	Australia	-12.3061	134.365	26	21	5	0	0	0	0	4.2	j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ a e i o u
+buna1275-2630	Bunaba	buna1275	Bunaban	Australia	-17.8297	125.631	23	19	4	0	0	0	1	4.75	j k l m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i u
+goon1238-2631	Gooniyandi	goon1238	Bunaban	Australia	-18.4073	126.351	23	19	4	0	0	0	1	4.75	j k l m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i u
+madn1237-2632	Madngele	madn1237	Eastern Daly	Australia	-13.9479	130.6	22	17	5	0	0	0	0	3.4	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i u ʉ
+mull1237-2633	Mullukmulluk	mull1237	Northern Daly	Australia	-13.427	130.664	19	14	5	0	0	0	0	2.8	j k l̺ m n̺ p r̺ t̺ w ŋ ȴ ȵ ȶ ɹ̺ a e i u ə
+murr1259-2634	Murrinhpatha	murr1259	Southern Daly	Australia	-14.74852	129.70152	28	24	4	0	0	0	0	6.0	j k͈ k̚ l m n n̪ p͈ p̚ r t̪͈ t̪̚ t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ a e i u
+nang1259-2635	Nangikurrunggurr	nang1259	Southern Daly	Australia	-14.268	131.237	23	19	4	0	0	0	0	4.75	j k͈ l̺ m n̺ p͈ p̚ r̺ t̺͈ t̺̚ w x z̺ ŋ ȵ ȶ͈ ɕ ɸ ɹ̺ a e i u
+wadj1254-2636	Wadjiginy	wadj1254		Australia	-12.8596	130.737	22	17	5	0	0	0	0	3.4	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i u ø
+mari1417-2637	Marimanindji	mari1417	Western Daly	Australia	-14.1788	130.561	20	16	4	0	0	0	0	4.0	j k l m n p r t w ŋ ȵ ȶ ɭ ɳ ɻ ʈ a e i u
+mari1419-2638	Maringarr	mari1419	Western Daly	Australia	-14.3819	130.25	32	28	4	0	0	0	0	7.0	j k͈ k̚ l l̪ m n n̪ p͈ p̚ r t̪͈ t͈ t̚ w ð ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʐ ʑ β a e i u
+mari1424-2639	Marithiel	mari1424	Western Daly	Australia	-13.8818	130.237	24	20	4	0	0	0	0	5.0	j k͈ k̚ l m n p͈ p̚ r t̪̚ t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɸ ɻ ʈ̚ a e i u
+mart1254-2640	Marti Ke	mart1254	Western Daly	Australia	-14.0058	129.837	31	27	4	0	0	0	0	6.75	j k͈ k̚ l m n n̪ p͈ p̚ r t̪͈ t͈ t̚ w ð ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʐ ʑ β a e i u
+amii1238-2641	Ami	amii1238	Western Daly	Australia	-13.5573	130.04	32	27	5	0	0	0	0	5.4	j k͈ k̚ l l̪ m n n̪ p͈ p̚ r t̪͈ t̪̚ t͈ t̚ w ŋ ȴ ȵ ȶ͈ ȶ̚ ɳ ɻ ʈ͈ ʈ̚ ʐ β a e i u ɵ
+lara1258-2642	Laragia	lara1258		Australia	-12.4111	130.922	24	18	6	0	0	0	0	3.0	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ β a e i o u ə
+nucl1327-2643	Limilngan	nucl1327	Limilngan-Wulna	Australia	-12.4294	131.845	25	22	3	0	0	0	0	7.333333333333333	j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȴ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ a i u
+umbu1235-2644	Umbugarla	umbu1235		Australia	-12.9325	131.825	25	17	8	0	0	0	3	2.125	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː e i iː o u uː
+gara1269-2645	Garrwa	gara1269	Garrwan	Australia	-17.4504	137.72014	17	14	3	0	0	0	0	4.666666666666667	j k l̺ m n̺ p r̺ t̺ w ŋ ȴ ȵ ȶ ɹ̺ a i u
+wany1247-2646	Wanyi	wany1247	Garrwan	Australia	-18.6529	137.608	20	14	6	0	0	0	3	2.3333333333333335	j k l̺ m n̺ p r̺ t̺ w ŋ ȴ ȵ ȶ ɹ̺ a aː i iː u uː
+gara1269-2647	Garrwa	gara1269	Garrwan	Australia	-17.4504	137.72014	17	14	3	0	0	0	0	4.666666666666667	j k l̺ m n̺ p r̺ t̺ w ŋ ȴ ȵ ȶ ɹ̺ a i u
+erre1238-2648	Erre	erre1238	Giimbiyu	Australia	-12.2839	132.868	23	18	5	0	0	0	0	3.6	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɰ ɳ ɻ ʈ a e i u ø
+mang1382-2649	Mangerr	mang1382	Giimbiyu	Australia	-12.2391	132.973	23	18	5	0	0	0	0	3.6	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɰ ɳ ɻ ʈ a e i u ø
+urni1239-2650	Urningangg	urni1239	Giimbiyu	Australia	-13.4766	133.023	23	18	5	0	0	0	0	3.6	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɰ ɳ ɻ ʈ a e i u ø
+anin1240-2651	Anindilyakwa	anin1240	Gunwinyguan	Australia	-13.99904	136.6415	26	22	4	0	0	0	0	5.5	j k kʷ l l̪ m n n̪ p r t t̪ w ŋ ŋʷ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i ə
+ngal1292-2652	Ngalkbun	ngal1292	Gunwinyguan	Australia	-13.9783	133.936	29	23	6	0	0	0	0	3.8333333333333335	h j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a e i o u ɨ
+gaga1251-2653	Gaagudju	gaga1251		Australia	-12.5176	132.643	27	17	10	0	0	0	5	1.7	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː e eː i iː o oː u uː
+ngal1293-2654	Ngalakgan	ngal1293	Gunwinyguan	Australia	-14.4281	134.716	27	22	5	0	0	0	0	4.4	j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a e i o u
+ngan1295-2655	Ngandi	ngan1295	Gunwinyguan	Australia	-12.8448	134.649	35	26	9	0	0	0	4	2.888888888888889	j k͈ k̚ l l̪ m n n̪ p͈ p̚ r t̪͈ t̪̚ t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a aː e i iː o oː u uː
+gund1246-2656	Kundjeyhmi	gund1246	Gunwinyguan	Australia	-12.3398	133.358	27	22	5	0	0	0	0	4.4	j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a e i o u
+gund1246-2657	Kundjeyhmi	gund1246	Gunwinyguan	Australia	-12.3398	133.358	27	22	5	0	0	0	0	4.4	j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a e i o u
+gune1238-2658	Kune	gune1238	Gunwinyguan	Australia	-12.3398	133.358	28	22	6	0	0	0	0	3.6666666666666665	j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a e i o u ɨ
+mura1269-2659	Kuninjku	mura1269	Gunwinyguan	Australia	-12.3398	133.358	27	22	5	0	0	0	0	4.4	j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a e i o u
+guma1252-2660	Kunwinjku	guma1252	Gunwinyguan	Australia	-12.3398	133.358	27	22	5	0	0	0	0	4.4	j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a e i o u
+naia1238-2661	Manyallaluk Mayali	naia1238	Gunwinyguan	Australia	-12.3398	133.358	27	22	5	0	0	0	0	4.4	j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a e i o u
+djau1244-2662	Jawoyn	djau1244	Gunwinyguan	Australia	-14.1361	133.002	27	22	5	0	0	0	0	4.4	j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a e i o u
+remb1249-2663	Rembarrnga	remb1249	Gunwinyguan	Australia	-12.9608	134.308	28	22	6	0	0	0	0	3.6666666666666665	j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a e i o u ə
+wara1290-2664	Warray	wara1290	Gunwinyguan	Australia	-13.0941	131.236	21	16	5	0	0	0	0	3.2	j k͈ k̚ l̺ m n̺ p͈ p̚ r̺ t̺͈ t̺̚ w ŋ ȵ ȶ͈ ȶ̚ a e i o u
+nung1290-2665	Wubuy	nung1290	Gunwinyguan	Australia	-14.2623	135.753	25	19	6	0	0	0	3	3.1666666666666665	j k l l̪ m n n̪ p r t t̪ w ŋ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+amar1271-2666	Amurdak	amar1271	Iwaidjan Proper	Australia	-11.9876	132.878	24	21	3	0	0	0	0	7.0	j k l m n p r t w ŋ ȴ ȵ ȶ ɣ ɭ ɳ ɺ ɺ̠̺ ɻ ɽ ʈ a i u
+marg1251-2667	Margu	marg1251	Marrku-Wurrugu	Australia	-11.1823	132.587	26	23	3	0	0	0	0	7.666666666666667	j k l m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɰ ɳ ɺ ɺ̠̺ ɻ ɽ ʈ a i u
+wurr1238-2668	Wurrugu	wurr1238	Marrku-Wurrugu	Australia	-11.364	132.303	23	20	3	0	0	0	0	6.666666666666667	j k l m n p r t w ŋ ȵ ȶ ɭ ɰ ɳ ɺ ɺ̠̺ ɻ ɽ ʈ a i u
+maun1240-2669	Mawng	maun1240	Iwaidjan Proper	Australia	-11.66	133.376	22	17	5	0	0	0	0	3.4	j k l m n p r t w ŋ ȵ ȶ ɣ ɭ ɳ ɻ ʈ a e i o u
+gari1254-2670	Garig	gari1254	Iwaidjan Proper	Australia	-11.412	132.182	24	21	3	0	0	0	0	7.0	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɰ ɳ ɺ ɺ̠̺ ɻ ɽ ʈ a i u
+ilga1238-2671	Ilgar	ilga1238	Iwaidjan Proper	Australia	-11.412	132.182	24	21	3	0	0	0	0	7.0	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɰ ɳ ɺ ɺ̠̺ ɻ ɽ ʈ a i u
+iwai1244-2672	Iwaidja	iwai1244	Iwaidjan Proper	Australia	-11.3379	132.453	23	20	3	0	0	0	0	6.666666666666667	j k l m n p r t w ŋ ȵ ȶ ɭ ɰ ɳ ɺ ɺ̠̺ ɻ ɽ ʈ a i u
+miri1266-2673	Miriwung	miri1266	Jarrakan	Australia	-16.3596	128.889	20	16	4	0	0	0	0	4.0	j k l m n p r t t̪ w ŋ ȴ ȵ ȶ ɻ ʈ a i u ə
+kitj1240-2674	Kitja	kitj1240	Jarrakan	Australia	-17.5758	127.392	24	19	5	0	0	0	1	3.8	j k l m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i u ɨ
+kung1259-2675	Kungarakany	kung1259		Australia	-12.7	130.881	22	17	5	0	0	0	0	3.4	j k͈ k̚ l̺ m n̺ p͈ p̚ r̺ t̺͈ t̺̚ w ŋ ȵ ȶ͈ ȶ̚ ɹ̺ a e i o u
+djee1236-2676	Djeebbana	djee1236	Maningrida	Australia	-12.0133	134.097	21	16	5	0	0	0	0	3.2	j k l m n p r t w ŋ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+gura1252-2677	Guragone	gura1252	Maningrida	Australia	-12.66855	134.09501	27	22	5	0	0	0	0	4.4	j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a e i o u
+naka1260-2678	Nakara	naka1260	Maningrida	Australia	-12.07653	134.32729	25	20	5	0	0	0	0	4.0	j k͈ k̚ l m n p͈ p̚ r t͈ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ a e i o u
+mara1385-2679	Marra	mara1385	Mangarrayi-Maran	Australia	-14.7927	134.865	23	19	4	0	0	0	0	4.75	j k l l̪ m n n̪ p r t t̪ w ŋ ȵ ȶ ɭ ɳ ɻ ʈ a e i u
+wand1263-2680	Wandarang	wand1263	Mangarrayi-Maran	Australia	-14.2996	135.705	20	17	3	0	0	0	0	5.666666666666667	j k l m n p r t t̪ w ŋ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+alaw1244-2681	Alawa	alaw1244	Mangarrayi-Maran	Australia	-15.5458	134.282	26	22	4	0	0	0	0	5.5	j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȴ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ a e i u
+mang1381-2682	Mangarrayi	mang1381	Mangarrayi-Maran	Australia	-14.8	133.5	22	17	5	0	0	0	0	3.4	j k l m n p r t w ŋ ȵ ȶ ɭ ɳ ɻ ʈ ʔ a e i o u
+djam1255-2683	Jaminjung-Ngaliwurru	djam1255	Mirndi	Australia	-15.0558	130.06	22	18	4	0	0	0	0	4.5	j k l m n p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i u
+ngal1294-2684	Ngaliwurru	ngal1294	Mirndi	Australia	-15.0558	130.06	21	17	4	0	0	0	0	4.25	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i u
+nung1291-2685	Nungali	nung1291	Mirndi	Australia	-14.9109	131.641	17	14	3	0	0	0	0	4.666666666666667	j k l̺ m n̺ p r̺ t̺ w ŋ ȴ ȵ ȶ ɹ̺ a i u
+ngar1283-2686	Ngarnka	ngar1283	Mirndi	Australia	-17.42	134.73	21	17	4	0	0	0	1	4.25	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i u
+djin1251-2687	Jingulu	djin1251	Mirndi	Australia	-17.165	133.659	20	17	3	0	0	0	0	5.666666666666667	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+binb1242-2688	Binbinka	binb1242	Mirndi	Australia	-17.496	135.683	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+guda1243-2689	Gudanji	guda1243	Mirndi	Australia	-17.42	134.73	19	16	3	0	0	0	0	5.333333333333333	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɻ ʈ a i u
+wamb1258-2690	Wambayan	wamb1258	Mirndi	Australia	-17.496	135.683	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+mink1237-2691	Minkin	mink1237		Australia	-17.736653	139.541931	23	20	3	0	0	0	0	6.666666666666667	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+ngum1253-2692	Ngumbarl	ngum1253	Nyulnyulan	Australia	-17.491239	122.230025	20	17	3	0	0	0	0	5.666666666666667	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+nyig1240-2693	Nyigina	nyig1240	Nyulnyulan	Australia	-17.9594	124.348	20	17	3	0	0	0	0	5.666666666666667	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+warr1258-2694	Warrwa	warr1258	Nyulnyulan	Australia	-17.0965	123.971	20	17	3	0	0	0	0	5.666666666666667	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+dyug1238-2695	Dyugun	dyug1238	Nyulnyulan	Australia	-17.906	122.408	28	22	6	0	0	0	3	3.6666666666666665	j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȴ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ a aː i iː u uː
+yawu1244-2696	Yawuru	yawu1244	Nyulnyulan	Australia	-18.004	122.693	28	22	6	0	0	0	3	3.6666666666666665	j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȴ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ a aː i iː u uː
+bard1255-2697	Bardi	bard1255	Nyulnyulan	Australia	-16.6274	122.906	24	17	7	0	0	0	3	2.4285714285714284	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː o u uː
+nima1245-2698	Nimanbur	nima1245	Nyulnyulan	Australia	-17.374	123.228	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+dyab1238-2699	Dyaberdyaber	dyab1238	Nyulnyulan	Australia	-17.18653	122.52306	20	17	3	0	0	0	0	5.666666666666667	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+djaw1238-2700	Djawi	djaw1238	Nyulnyulan	Australia	-16.4163	123.186	20	17	3	0	0	0	0	5.666666666666667	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+nyul1247-2701	Nyulnyul	nyul1247	Nyulnyulan	Australia	-16.9129	122.851	20	17	3	0	0	0	0	5.666666666666667	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+alya1239-2702	Alyawarr	alya1239	Pama-Nyungan	Australia	-21.0427	136.835	43	40	3	0	0	0	0	13.333333333333334	j jʷ k kʷ l lʷ l̪ l̪ʷ m mʷ n nʷ n̪ n̪ʷ p pʷ r rʷ t tʷ t̪ t̪ʷ w ŋ ŋʷ ȴ ȴʷ ȵ ȵʷ ȶ ȶʷ ɭ ɭʷ ɰ ɳ ɳʷ ɻ ɻʷ ʈ ʈʷ a i ə
+east2380-2703	Eastern Anmatyerre	east2380	Pama-Nyungan	Australia	-22.2853	133.286	44	40	4	0	0	0	0	10.0	j jʷ k kʷ l lʷ l̪ l̪ʷ m mʷ n nʷ n̪ n̪ʷ p pʷ r rʷ t tʷ t̪ t̪ʷ w ŋ ŋʷ ȴ ȴʷ ȵ ȵʷ ȶ ȶʷ ɭ ɭʷ ɰ ɳ ɳʷ ɻ ɻʷ ʈ ʈʷ a i u ə
+west2442-2704	Western Anmatyerre	west2442	Pama-Nyungan	Australia	-22.2853	133.286	44	40	4	0	0	0	0	10.0	j jʷ k kʷ l lʷ l̪ l̪ʷ m mʷ n nʷ n̪ n̪ʷ p pʷ r rʷ t tʷ t̪ t̪ʷ w ŋ ŋʷ ȴ ȴʷ ȵ ȵʷ ȶ ȶʷ ɭ ɭʷ ɰ ɳ ɳʷ ɻ ɻʷ ʈ ʈʷ a i u ə
+ande1247-2705	Andegerebinha	ande1247	Pama-Nyungan	Australia	-22.51278	137.3515	44	40	4	0	0	0	0	10.0	j jʷ k kʷ l lʷ l̪ l̪ʷ m mʷ n nʷ n̪ n̪ʷ p pʷ r rʷ t tʷ t̪ t̪ʷ w ŋ ŋʷ ȴ ȴʷ ȵ ȵʷ ȶ ȶʷ ɭ ɭʷ ɰ ɳ ɳʷ ɻ ɻʷ ʈ ʈʷ a i u ə
+mpar1238-2706	Mparntwe Arrernte	mpar1238	Pama-Nyungan	Australia	-23.3583	135.046	44	40	4	0	0	0	0	10.0	j jʷ k kʷ l lʷ l̪ l̪ʷ m mʷ n nʷ n̪ n̪ʷ p pʷ r rʷ t tʷ t̪ t̪ʷ w ŋ ŋʷ ȴ ȴʷ ȵ ȵʷ ȶ ȶʷ ɭ ɭʷ ɰ ɳ ɳʷ ɻ ɻʷ ʈ ʈʷ a i u ə
+ayer1246-2707	Ayerrerenge	ayer1246	Pama-Nyungan	Australia	-22.51278	137.3515	43	39	4	0	0	0	0	9.75	j jʷ k kʷ l lʷ l̪ l̪ʷ m mʷ n nʷ n̪ n̪ʷ p pʷ r rʷ t tʷ t̪ t̪ʷ w ŋ ŋʷ ȴ ȴʷ ȵ ȵʷ ȶ ȶʷ ɭ ɭʷ ɳ ɳʷ ɻ ɻʷ ʈ ʈʷ a i u ə
+east2379-2708	Eastern Arrernte	east2379	Pama-Nyungan	Australia	-23.3583	135.046	44	40	4	0	0	0	0	10.0	j jʷ k kʷ l lʷ l̪ l̪ʷ m mʷ n nʷ n̪ n̪ʷ p pʷ r rʷ t tʷ t̪ t̪ʷ w ŋ ŋʷ ȴ ȴʷ ȵ ȵʷ ȶ ȶʷ ɭ ɭʷ ɰ ɳ ɳʷ ɻ ɻʷ ʈ ʈʷ a i u ə
+lowe1436-2709	Lower Southern Aranda	lowe1436	Pama-Nyungan	Australia	-26.3	135.4	44	40	4	0	0	0	0	10.0	j jʷ k kʷ l lʷ l̪ l̪ʷ m mʷ n nʷ n̪ n̪ʷ p pʷ r rʷ t tʷ t̪ t̪ʷ w ŋ ŋʷ ȴ ȴʷ ȵ ȵʷ ȶ ȶʷ ɭ ɭʷ ɰ ɳ ɳʷ ɻ ɻʷ ʈ ʈʷ a i u ə
+west2441-2710	Western Arrarnta	west2441	Pama-Nyungan	Australia	-24.05052	133.24621	44	40	4	0	0	0	0	10.0	j jʷ k kʷ l lʷ l̪ l̪ʷ m mʷ n nʷ n̪ n̪ʷ p pʷ r rʷ t tʷ t̪ t̪ʷ w ŋ ŋʷ ȴ ȴʷ ȵ ȵʷ ȶ ȶʷ ɭ ɭʷ ɰ ɳ ɳʷ ɻ ɻʷ ʈ ʈʷ a i u ə
+kayt1238-2711	Kaytetye	kayt1238	Pama-Nyungan	Australia	-21.5844	133.602	43	40	3	0	0	0	0	13.333333333333334	j jʷ k kʷ l lʷ l̪ l̪ʷ m mʷ n nʷ n̪ n̪ʷ p pʷ r rʷ t tʷ t̪ t̪ʷ w ŋ ŋʷ ȴ ȴʷ ȵ ȵʷ ȶ ȶʷ ɭ ɭʷ ɰ ɳ ɳʷ ɻ ɻʷ ʈ ʈʷ a i ə
+yugu1249-2712	Yugumbir	yugu1249	Pama-Nyungan	Australia	-28.028726	153.286993	20	12	8	0	0	0	4	1.5	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ a aː e eː i iː u uː
+gida1240-2713	Gidabal	gida1240	Pama-Nyungan	Australia	-28.289642	152.151281	21	13	8	0	0	0	4	1.625	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a aː e eː i iː u uː
+guwa1244-2714	Guwar	guwa1244	Pama-Nyungan	Australia	-27.16698973	153.3998245	19	13	6	0	0	0	3	2.1666666666666665	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a aː i iː u uː
+minj1242-2715	Minjangbal	minj1242	Pama-Nyungan	Australia	-28.028726	153.286993	20	12	8	0	0	0	4	1.5	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ a aː e eː i iː u uː
+waal1238-2716	Waalubal	waal1238	Pama-Nyungan	Australia	-29.042737	152.780249	20	12	8	0	0	0	4	1.5	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ a aː e eː i iː u uː
+bung1264-2717	Bunganditj	bung1264	Pama-Nyungan	Australia	-36.5	140.5	23	20	3	0	0	0	0	6.666666666666667	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+warr1257-2718	Warrnambool	warr1257	Pama-Nyungan	Australia	-38.155612905976	141.53965852318	26	20	6	0	0	0	1	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː e i o u
+gami1243-2719	Yuwaalaraay-Gamilaraay	gami1243	Pama-Nyungan	Australia	-29.9037	149.543	21	15	6	0	0	0	3	2.5	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a aː i iː u uː
+muru1266-2720	Muruwari	muru1266	Pama-Nyungan	Australia	-28.9618	146.546	25	19	6	0	0	0	3	3.1666666666666665	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɭ ɳ ɻ ɾ ʈ a aː i iː u uː
+wang1291-2721	Ngiyambaa	wang1291	Pama-Nyungan	Australia	-30.6481	146.18	21	15	6	0	0	0	3	2.5	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a aː i iː u uː
+wayi1238-2722	Wayilwan	wayi1238	Pama-Nyungan	Australia	-30.6481	146.18	21	15	6	0	0	0	3	2.5	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a aː i iː u uː
+wira1262-2723	Wiradhuri	wira1262	Pama-Nyungan	Australia	-34.0742	145.994	21	15	6	0	0	0	3	2.5	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a aː i iː u uː
+wirr1237-2724	Wirriyaraay	wirr1237	Pama-Nyungan	Australia	-29.9037	149.543	21	15	6	0	0	0	3	2.5	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a aː i iː u uː
+yuwa1242-2725	Yuwaalaraay	yuwa1242	Pama-Nyungan	Australia	-29.758184	147.923684	21	15	6	0	0	0	3	2.5	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a aː i iː u uː
+yuwa1243-2726	Yuwaalayaay	yuwa1243	Pama-Nyungan	Australia	-29.9037	149.543	21	15	6	0	0	0	3	2.5	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a aː i iː u uː
+dhud1236-2727	Dhudhuroa	dhud1236	Pama-Nyungan	Australia	-36.95881441	147.0450379	21	15	6	0	0	0	1	2.5	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a aː e i o u
+jand1248-2728	Jandai	jand1248	Pama-Nyungan	Australia	-27.87647555	152.4602773	19	13	6	0	0	0	3	2.1666666666666665	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a aː i iː u uː
+yaga1262-2730	Yagara	yaga1262	Pama-Nyungan	Australia	-27.87647555	152.4602773	19	13	6	0	0	0	3	2.1666666666666665	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a aː i iː u uː
+yaga1262-2731	Yagara	yaga1262	Pama-Nyungan	Australia	-27.87647555	152.4602773	19	13	6	0	0	0	3	2.1666666666666665	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a aː i iː u uː
+dyir1250-2732	Dyirbal	dyir1250	Pama-Nyungan	Australia	-17.4516	145.544	16	13	3	0	0	0	0	4.333333333333333	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+warr1255-2733	Warrgamay	warr1255	Pama-Nyungan	Australia	-18.5468	146.179	19	13	6	0	0	0	3	2.1666666666666665	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a aː i iː u uː
+kumb1268-2734	Kumbainggar	kumb1268	Pama-Nyungan	Australia	-29.8189	152.913	19	13	6	0	0	0	3	2.1666666666666665	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a aː i iː u uː
+kumb1268-2735	Kumbainggar	kumb1268	Pama-Nyungan	Australia	-29.8189	152.913	19	13	6	0	0	0	3	2.1666666666666665	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a aː i iː u uː
+yayg1236-2736	Yaygir	yayg1236	Pama-Nyungan	Australia	-29.686722970453	153.18784362556	20	14	6	0	0	0	3	2.3333333333333335	j k l̺ m n̺ p r̺ r̺͈ t̺ w ŋ ȵ ȶ ɹ̺ a aː i iː u uː
+guwa1242-2737	Guwa	guwa1242	Pama-Nyungan	Australia	-21.35147706	142.5243782	23	20	3	0	0	0	0	6.666666666666667	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+yand1251-2738	Yanda	yand1251	Pama-Nyungan	Australia	-21.23270508	140.5134756	24	21	3	0	0	0	0	7.0	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ɾ ʈ a i u
+kalk1246-2739	Kalkutung	kalk1246	Pama-Nyungan	Australia	-21.0	139.5	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+yala1262-2740	Yalarnnga	yala1262	Pama-Nyungan	Australia	-21.731	139.511	24	20	4	0	0	0	1	5.0	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i u
+bayu1240-2741	Bayungu	bayu1240	Pama-Nyungan	Australia	-23.3809	114.108	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+burd1238-2742	Burduna	burd1238	Pama-Nyungan	Australia	-22.9646	114.658	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+dhal1245-2743	Dhalandji	dhal1245	Pama-Nyungan	Australia	-22.196	114.937	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+djiw1241-2744	Djiwarli	djiw1241	Pama-Nyungan	Australia	-24.10724	116.98858	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+dhar1247-2745	Dhargari	dhar1247	Pama-Nyungan	Australia	-24.0601	114.847	31	25	6	0	0	0	3	4.166666666666667	j k͈ k̚ l m n n̪ p͈ p̚ r t̪͈ t̪̚ t͈ t̚ w ŋ ȴ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ a aː i iː u uː
+thii1234-2746	Thiin	thii1234	Pama-Nyungan	Australia	-23.71156576435	116.68011572516	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+wari1262-2747	Wariyangga	wari1262	Pama-Nyungan	Australia	-24.353	116.927	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+mith1236-2748	Mithaka	mith1236	Pama-Nyungan	Australia	-25.13606725	139.598447	29	26	3	0	0	0	0	8.666666666666666	j k͈ k̚ l l̪ m n n̪ p͈ p̚ r t̪͈ t̪̚ t͈ t̚ w ŋ ȴ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ a i u
+dier1241-2749	Dieri	dier1241	Pama-Nyungan	Australia	-28.1667	138.0	25	22	3	0	0	0	0	7.333333333333333	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ɽ ɾ ʈ a i u
+dira1238-2750	Dirari	dira1238	Pama-Nyungan	Australia	-28.7992	138.078	25	22	3	0	0	0	0	7.333333333333333	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ɽ ɾ ʈ a i u
+kara1508-2751	Karangura	kara1508	Pama-Nyungan	Australia	-27.1797	138.701	25	22	3	0	0	0	0	7.333333333333333	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ɽ ɾ ʈ a i u
+ngam1284-2752	Ngamini	ngam1284	Pama-Nyungan	Australia	-27.1797	138.701	25	22	3	0	0	0	0	7.333333333333333	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ɽ ɾ ʈ a i u
+pirl1238-2753	Pirlatapa	pirl1238	Pama-Nyungan	Australia	-29.524	139.77	25	22	3	0	0	0	0	7.333333333333333	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ɽ ɾ ʈ a i u
+yand1253-2754	Yandruwandha	yand1253	Pama-Nyungan	Australia	-28.4744	140.583	30	26	4	0	0	0	1	6.5	j k͈ k̚ l l̪ m n n̪ p͈ p̚ r t̪͈ t̪̚ t͈ t̚ w ŋ ȴ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ a aː i u
+nhir1234-2755	Nhirrpi	nhir1234	Pama-Nyungan	Australia	-28.4744	140.583	29	26	3	0	0	0	0	8.666666666666666	j k͈ k̚ l l̪ m n n̪ p͈ p̚ r t̪͈ t̪̚ t͈ t̚ w ŋ ȴ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ a i u
+yawa1258-2756	Yawarawarga	yawa1258	Pama-Nyungan	Australia	-26.7334	140.871	30	26	4	0	0	0	1	6.5	j k͈ k̚ l l̪ m n n̪ p͈ p̚ r t̪͈ t̪̚ t͈ t̚ w ŋ ȴ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ a aː i u
+dier1241-2757	Dieri	dier1241	Pama-Nyungan	Australia	-28.1667	138.0	24	21	3	0	0	0	0	7.0	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ɾ ʈ a i u
+punt1240-2758	Punthamara	punt1240	Pama-Nyungan	Australia	-27.33	143.0	21	18	3	0	0	0	0	6.0	j k l m n p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+wong1246-2759	Wangkumara	wong1246	Pama-Nyungan	Australia	-29.2411	143.216	30	26	4	0	0	0	1	6.5	j k͈ k̚ l l̪ m n n̪ p͈ p̚ r t̪͈ t̪̚ t͈ t̚ w ŋ ȴ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ a aː i u
+wong1246-2760	Wangkumara	wong1246	Pama-Nyungan	Australia	-29.2411	143.216	30	26	4	0	0	0	1	6.5	j k͈ k̚ l l̪ m n n̪ p͈ p̚ r t̪͈ t̪̚ t͈ t̚ w ŋ ȴ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ a aː i u
+arab1267-2761	Arabana	arab1267	Pama-Nyungan	Australia	-28.705	135.449	24	21	3	0	0	0	0	7.0	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ɾ ʈ a i u
+wang1290-2762	Wangganguru	wang1290	Pama-Nyungan	Australia	-25.8148	135.941	24	21	3	0	0	0	0	7.0	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ɾ ʈ a i u
+pitt1247-2763	Pitta Pitta	pitt1247	Pama-Nyungan	Australia	-22.7952	139.983	26	21	5	0	0	0	1	4.2	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ɾ ʈ a aː i o u
+wang1289-2764	Wanggamala	wang1289	Pama-Nyungan	Australia	-24.7022	137.433	26	21	5	0	0	0	1	4.2	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ɾ ʈ a aː i o u
+kuun1236-2765	Kuungkari of Barcoo River	kuun1236	Pama-Nyungan	Australia	-24.75108713	143.5365228	25	19	6	0	0	0	3	3.1666666666666665	j k l m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+pirr1240-2766	Pirriya	pirr1240	Pama-Nyungan	Australia	-25.48006595	142.5485119	24	19	5	0	0	0	2	3.8	j k l m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u
+kala1380-2767	Kalali	kala1380	Pama-Nyungan	Australia	-29.2411	143.216	21	18	3	0	0	0	0	6.0	j k l m n p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+badi1246-2768	Badimaya	badi1246	Pama-Nyungan	Australia	-29.0647	117.246	23	20	3	0	0	0	0	6.666666666666667	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+malg1242-2769	Malgana	malg1242	Pama-Nyungan	Australia	-26.211	114.245	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+nhan1238-2770	Nhanda	nhan1238	Pama-Nyungan	Australia	-27.42523643	114.2680442	32	26	6	0	0	0	3	4.333333333333333	j k͈ k̚ l l̪ m n n̪ p͈ p̚ t̪͈ t̪̚ t͈ t̚ w ŋ ȴ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a aː i iː u uː
+waja1257-2771	Wajarri	waja1257	Pama-Nyungan	Australia	-28.1761	117.153	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+ying1247-2772	Yinggarda	ying1247	Pama-Nyungan	Australia	-25.4446	115.58	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+cola1237-2773	Colac	cola1237	Pama-Nyungan	Australia	-38.471266	143.422444	22	17	5	0	0	0	0	3.4	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+daun1234-2774	Daungwurrung	daun1234	Pama-Nyungan	Australia	-37.64264501	145.5879962	23	20	3	0	0	0	0	6.666666666666667	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+woiw1237-2775	Woiwurrung-Thagungwurrung	woiw1237	Pama-Nyungan	Australia	-37.64264501	145.5879962	23	20	3	0	0	0	0	6.666666666666667	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+wath1238-2776	Wathawurrung	wath1238	Pama-Nyungan	Australia	-37.68777565	144.1013148	23	20	3	0	0	0	0	6.666666666666667	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+woiw1237-2777	Woiwurrung-Thagungwurrung	woiw1237	Pama-Nyungan	Australia	-37.64264501	145.5879962	23	20	3	0	0	0	0	6.666666666666667	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+yari1243-2778	Yari-Yari	yari1243	Pama-Nyungan	Australia	-34.190056	142.273631	23	20	3	0	0	0	0	6.666666666666667	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+ladj1234-2779	Ladji Ladji	ladj1234	Pama-Nyungan	Australia	-34.13829932	143.6694397	21	17	4	0	0	0	0	4.25	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɭ ɳ ʈ a e i u
+madh1244-2780	Madhi Madhi	madh1244	Pama-Nyungan	Australia	-34.5	143.5	20	16	4	0	0	0	0	4.0	j k l l̪ m n n̪ p r t t̪ w ŋ ɭ ɳ ʈ a e i u
+wadi1260-2781	Wadi Wadi	wadi1260	Pama-Nyungan	Australia	-34.13829932	143.6694397	21	17	4	0	0	0	0	4.25	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɭ ɳ ʈ a e i u
+west2443-2782	Western Victoria	west2443	Pama-Nyungan	Australia	-34.13829932	143.6694397	21	17	4	0	0	0	0	4.25	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i u
+djad1246-2783	Djadjawurrungic	djad1246	Pama-Nyungan	Australia	-34.13829932	143.6694397	21	17	4	0	0	0	0	4.25	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i u
+nari1241-2784	Nari Nari	nari1241	Pama-Nyungan	Australia	-34.13829932	143.6694397	23	18	5	0	0	0	0	3.6	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+djab1234-2785	Djabwurrung	djab1234	Pama-Nyungan	Australia	-34.13829932	143.6694397	21	17	4	0	0	0	0	4.25	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i u
+wemb1241-2786	Wemba Wemba	wemb1241	Pama-Nyungan	Australia	-35.445	144.09	22	16	6	0	0	0	0	2.6666666666666665	j k l m n p r t t̪ w ŋ ȵ ȶ ɳ ɻ ʈ a e i o u ə
+wotj1234-2787	Wotjobaluk	wotj1234	Pama-Nyungan	Australia	-34.13829932	143.6694397	19	15	4	0	0	0	0	3.75	j k l m n p r t w ŋ ȵ ȶ ɳ ɻ ʈ a e i u
+gana1268-2788	Birrdhawal	gana1268	Pama-Nyungan	Australia	-37.05	148.93	25	17	8	0	0	0	4	2.125	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɳ ɻ ʈ a aː e eː i iː u uː
+gana1278-2789	Ganai	gana1278	Pama-Nyungan	Australia	-38.58	146.5	22	17	5	0	0	0	0	3.4	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɳ ɻ ʈ a e i o u
+gana1278-2790	Ganai	gana1278	Pama-Nyungan	Australia	-38.58	146.5	22	17	5	0	0	0	0	3.4	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɳ ɻ ʈ a e i o u
+gana1278-2791	Ganai	gana1278	Pama-Nyungan	Australia	-38.58	146.5	22	17	5	0	0	0	0	3.4	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɳ ɻ ʈ a e i o u
+kera1256-2792	Keramin	kera1256	Pama-Nyungan	Australia	-34.190056	142.273631	23	20	3	0	0	0	0	6.666666666666667	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+lowe1402-2793	Lower Riverland	lowe1402	Pama-Nyungan	Australia	-34.6	140.5	23	20	3	0	0	0	0	6.666666666666667	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+ngin1247-2794	Ngindadj	ngin1247	Pama-Nyungan	Australia	-34.098823177692	140.99932761004	23	20	3	0	0	0	0	6.666666666666667	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+narr1259-2795	Narrinyeri	narr1259	Pama-Nyungan	Australia	-36.2301	140.158	25	20	5	0	0	0	0	4.0	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+yith1234-2796	Yitha Yitha	yith1234	Pama-Nyungan	Australia	-33.89	144.22	23	20	3	0	0	0	0	6.666666666666667	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+bidy1243-2797	Bidyara	bidy1243	Pama-Nyungan	Australia	-25.192664	147.273359	20	16	4	0	0	0	1	4.0	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɻ ʈ a aː i u
+gang1268-2798	Gangulu	gang1268	Pama-Nyungan	Australia	-22.7637	149.416	18	15	3	0	0	0	0	5.0	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+biri1256-2799	Biri	biri1256	Pama-Nyungan	Australia	-20.1494	146.67	18	15	3	0	0	0	0	5.0	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+biri1256-2800	Biri	biri1256	Pama-Nyungan	Australia	-20.1494	146.67	18	15	3	0	0	0	0	5.0	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+gang1268-2801	Gangulu	gang1268	Pama-Nyungan	Australia	-22.7637	149.416	18	15	3	0	0	0	0	5.0	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+gang1268-2802	Gangulu	gang1268	Pama-Nyungan	Australia	-22.7637	149.416	22	16	6	0	0	0	2	2.6666666666666665	j k l m n n̻ p r t t̻ w ŋ ɭ ɳ ɻ ʈ a aː i u uː ə
+gang1268-2803	Gangulu	gang1268	Pama-Nyungan	Australia	-22.7637	149.416	18	15	3	0	0	0	0	5.0	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+biri1256-2804	Biri	biri1256	Pama-Nyungan	Australia	-20.1494	146.67	18	15	3	0	0	0	0	5.0	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+biri1256-2805	Biri	biri1256	Pama-Nyungan	Australia	-20.1494	146.67	18	15	3	0	0	0	0	5.0	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+biri1256-2806	Biri	biri1256	Pama-Nyungan	Australia	-20.1494	146.67	18	15	3	0	0	0	0	5.0	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+biri1256-2807	Biri	biri1256	Pama-Nyungan	Australia	-20.1494	146.67	18	15	3	0	0	0	0	5.0	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+biri1256-2808	Biri	biri1256	Pama-Nyungan	Australia	-20.1494	146.67	18	15	3	0	0	0	0	5.0	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+gang1268-2809	Gangulu	gang1268	Pama-Nyungan	Australia	-22.7637	149.416	18	15	3	0	0	0	0	5.0	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+biri1256-2810	Biri	biri1256	Pama-Nyungan	Australia	-20.1494	146.67	18	15	3	0	0	0	0	5.0	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+biri1256-2811	Biri	biri1256	Pama-Nyungan	Australia	-20.1494	146.67	18	15	3	0	0	0	0	5.0	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+bidy1243-2812	Bidyara	bidy1243	Pama-Nyungan	Australia	-25.192664	147.273359	17	14	3	0	0	0	0	4.666666666666667	j k l̺ m n̪ n̺ p t̪ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+dhar1248-2813	Dharumbal	dhar1248	Pama-Nyungan	Australia	-23.307	150.593	21	18	3	0	0	0	0	6.0	j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ r̺͈ t̪͈ t̪̚ t̺͈ t̺̚ w ŋ ɹ̺ a i u
+gung1248-2814	Gungabula	gung1248	Pama-Nyungan	Australia	-25.6896	148.604	20	16	4	0	0	0	1	4.0	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɻ ʈ a aː i u
+kung1258-2815	Kunggari	kung1258	Pama-Nyungan	Australia	-24.2182	143.222	18	15	3	0	0	0	0	5.0	j k l m n p r t t̪ w ŋ ȵ ȶ ɻ ʈ a i u
+guny1241-2816	Gunya	guny1241	Pama-Nyungan	Australia	-27.0642	145.862	31	25	6	0	0	0	3	4.166666666666667	j k͈ k̚ l m n n̪ p͈ p̚ r t̪͈ t̪̚ t͈ t̚ w ŋ ȴ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ a aː i iː u uː
+marg1253-2817	Margany	marg1253	Pama-Nyungan	Australia	-26.789	144.892	31	25	6	0	0	0	3	4.166666666666667	j k͈ k̚ l m n n̪ p͈ p̚ r t̪͈ t̪̚ t͈ t̚ w ŋ ȴ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ a aː i iː u uː
+gudj1237-2818	Gudjal	gudj1237	Pama-Nyungan	Australia	-19.44157406	144.6482584	18	15	3	0	0	0	0	5.0	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+gugu1253-2819	Gugu Badhun	gugu1253	Pama-Nyungan	Australia	-18.4921	144.46	17	14	3	0	0	0	0	4.666666666666667	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȶ ɹ̺ a i u
+waru1264-2820	Warrongo	waru1264	Pama-Nyungan	Australia	-18.2496	144.37	17	13	4	0	0	0	1	3.25	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a aː i u
+bidy1243-2821	Bidyara	bidy1243	Pama-Nyungan	Australia	-25.192664	147.273359	18	15	3	0	0	0	0	5.0	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+biri1256-2822	Biri	biri1256	Pama-Nyungan	Australia	-20.1494	146.67	18	15	3	0	0	0	0	5.0	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+bidy1243-2823	Bidyara	bidy1243	Pama-Nyungan	Australia	-25.192664	147.273359	21	18	3	0	0	0	0	6.0	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+bidy1243-2824	Bidyara	bidy1243	Pama-Nyungan	Australia	-25.192664	147.273359	19	16	3	0	0	0	0	5.333333333333333	j k l m n n̪ p t t̪ w ŋ ȵ ȶ ɳ ɻ ʈ a i u
+kara1476-2825	Karadjeri	kara1476	Pama-Nyungan	Australia	-18.6771	122.334	21	17	4	0	0	0	1	4.25	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i u
+mang1383-2826	Mangala	mang1383	Pama-Nyungan	Australia	-18.6597	123.769	24	17	7	0	0	0	3	2.4285714285714284	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː o oː u
+nyan1301-2827	Nyangumarta	nyan1301	Pama-Nyungan	Australia	-20.6271	121.391	21	17	4	0	0	0	1	4.25	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i u
+guga1239-2828	Gugadj	guga1239	Pama-Nyungan	Australia	-17.8372	141.168	23	16	7	0	0	0	3	2.2857142857142856	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ ɾ̺ a aː i iː u uː ə
+mayi1236-2829	Mayi-Kulan	mayi1236	Pama-Nyungan	Australia	-18.56	141.46	21	18	3	0	0	0	0	6.0	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+maya1280-2830	Mayaguduna	maya1280	Pama-Nyungan	Australia	-18.1147	140.337	21	18	3	0	0	0	0	6.0	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+ngaw1240-2831	Ngawun	ngaw1240	Pama-Nyungan	Australia	-19.4484	141.471	22	19	3	0	0	0	0	6.333333333333333	j k l m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+mayi1235-2832	Mayi-Yapi	mayi1235	Pama-Nyungan	Australia	-19.25	140.61	21	18	3	0	0	0	0	6.0	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+ngaw1240-2833	Ngawun	ngaw1240	Pama-Nyungan	Australia	-19.4484	141.471	21	18	3	0	0	0	0	6.0	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+ngaw1240-2834	Ngawun	ngaw1240	Pama-Nyungan	Australia	-19.4484	141.471	22	19	3	0	0	0	0	6.333333333333333	j k l m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+kala1379-2835	Kalarko	kala1379	Pama-Nyungan	Australia	-31.7154	118.911	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+kala1401-2836	Kalaamaya	kala1401	Pama-Nyungan	Australia	-30.245	120.223	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+ngad1258-2837	Ngadjunmaya	ngad1258	Pama-Nyungan	Australia	-32.02447	124.46601	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+ngad1258-2838	Ngadjunmaya	ngad1258	Pama-Nyungan	Australia	-32.02447	124.46601	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+kari1304-2839	Kariyarra	kari1304	Pama-Nyungan	Australia	-20.445	118.613	23	20	3	0	0	0	0	6.666666666666667	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+kurr1243-2840	Kurrama	kurr1243	Pama-Nyungan	Australia	-22.2134	117.51	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+mart1255-2841	Martuthunira	mart1255	Pama-Nyungan	Australia	-20.9294	116.607	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+yinh1234-2842	Yinhawangka	yinh1234	Pama-Nyungan	Australia	-22.9178	117.5628	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+ngar1287-2843	Ngarluma	ngar1287	Pama-Nyungan	Australia	-20.9235	117.203	23	20	3	0	0	0	0	6.666666666666667	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+nhuw1239-2844	Nhuwala	nhuw1239	Pama-Nyungan	Australia	-21.38154	115.74542	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+nyam1271-2845	Nyamal	nyam1271	Pama-Nyungan	Australia	-21.6092	119.693	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+nija1241-2846	Nyiyaparli	nija1241	Pama-Nyungan	Australia	-22.8558	120.831	25	20	5	0	0	0	2	4.0	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i iː u uː
+nija1241-2847	Nyiyaparli	nija1241	Pama-Nyungan	Australia	-22.8558	120.831	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+pany1241-2848	Panytyima	pany1241	Pama-Nyungan	Australia	-22.7816	118.723	25	20	5	0	0	0	2	4.0	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u
+yind1247-2849	Yindjibarndi	yind1247	Pama-Nyungan	Australia	-21.5379	117.001	24	18	6	0	0	0	3	3.0	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+yind1247-2850	Yindjibarndi	yind1247	Pama-Nyungan	Australia	-21.5379	117.001	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+bili1250-2851	Bilinarra	bili1250	Pama-Nyungan	Australia	-16.868771	130.533991	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+wany1244-2852	Wanyjirra	wany1244	Pama-Nyungan	Australia	-17.0329	130.379	21	17	4	0	0	0	1	4.25	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i u
+guri1247-2853	Gurindji	guri1247	Pama-Nyungan	Australia	-17.0329	130.379	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+jaru1254-2854	Jaru	jaru1254	Pama-Nyungan	Australia	-18.3288	128.262	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+maln1239-2855	Malngin	maln1239	Pama-Nyungan	Australia	-17.0329	130.379	21	17	4	0	0	0	1	4.25	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i u
+mudb1240-2856	Mudburra	mudb1240	Pama-Nyungan	Australia	-16.7694	132.329	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+ngar1288-2857	Ngardi	ngar1288	Pama-Nyungan	Australia	-21.0231	129.0308	24	18	6	0	0	0	3	3.0	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ɽ ʈ a aː i iː u uː
+ngar1235-2858	Ngarinman	ngar1235	Pama-Nyungan	Australia	-15.4661	130.651	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+walm1241-2859	Walmajarri	walm1241	Pama-Nyungan	Australia	-19.7229	126.113	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+warl1255-2860	Warlmanpa	warl1255	Pama-Nyungan	Australia	-18.949	133.862	28	22	6	0	0	0	3	3.6666666666666665	j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȴ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ a aː i iː u uː
+warl1254-2861	Warlpiri	warl1254	Pama-Nyungan	Australia	-20.1008	131.05	24	18	6	0	0	0	3	3.0	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ɽ ʈ a aː i iː u uː
+nyaw1247-2862	Nyawaygi	nyaw1247	Pama-Nyungan	Australia	-18.8743	146.216	18	12	6	0	0	0	3	2.0	j k l̺ m n̪ n̺ p r̺ t̪ w ŋ ɹ̺ a aː i iː u uː
+wulg1239-2863	Wulguru	wulg1239	Pama-Nyungan	Australia	-19.85103121	146.3453957	21	15	6	0	0	0	3	2.5	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a aː i iː u uː
+nyun1247-2864	Nyunga	nyun1247	Pama-Nyungan	Australia	-33.1199	118.151	22	17	5	0	0	0	0	3.4	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+bibb1234-2865	Bibbulman	bibb1234	Pama-Nyungan	Australia	-33.1199	118.151	22	17	5	0	0	0	0	3.4	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+gore1235-2866	Goreng	gore1235	Pama-Nyungan	Australia	-33.1199	118.151	22	17	5	0	0	0	0	3.4	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+kani1276-2867	Kaniyang	kani1276	Pama-Nyungan	Australia	-33.1199	118.151	22	17	5	0	0	0	0	3.4	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+nyun1247-2868	Nyunga	nyun1247	Pama-Nyungan	Australia	-33.1199	118.151	22	17	5	0	0	0	0	3.4	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+pinj1244-2869	Pinjarup	pinj1244	Pama-Nyungan	Australia	-33.1199	118.151	22	17	5	0	0	0	0	3.4	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+ward1248-2870	Wardandi	ward1248	Pama-Nyungan	Australia	-33.1199	118.151	22	17	5	0	0	0	0	3.4	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+waju1234-2871	Wajuk	waju1234	Pama-Nyungan	Australia	-33.1199	118.151	22	17	5	0	0	0	0	3.4	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+nyun1247-2872	Nyunga	nyun1247	Pama-Nyungan	Australia	-33.1199	118.151	22	17	5	0	0	0	0	3.4	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+nyun1247-2873	Nyunga	nyun1247	Pama-Nyungan	Australia	-33.1199	118.151	22	17	5	0	0	0	0	3.4	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+nyun1247-2874	Nyunga	nyun1247	Pama-Nyungan	Australia	-33.1199	118.151	22	17	5	0	0	0	0	3.4	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+band1337-2875	Bandjigali	band1337	Bookkeeping	Australia	-30.0771	143.282	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+darl1243-2876	Paakantyi	darl1243	Pama-Nyungan	Australia	-32.7021	142.695	26	20	6	0	0	0	3	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+pall1243-2877	Pallanganmiddang	pall1243	Pama-Nyungan	Australia	-36.08	146.91	25	20	5	0	0	0	0	4.0	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+ikar1243-2878	Ikaranggal	ikar1243	Pama-Nyungan	Australia	-15.538	143.349	23	18	5	0	0	0	0	3.6	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ð ŋ ȵ ȶ ɣ ɹ̺ β a e i o u
+ikar1243-2879	Ikaranggal	ikar1243	Pama-Nyungan	Australia	-15.538	143.349	27	17	10	0	0	0	5	1.7	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ð ŋ ȵ ȶ ɹ̺ ʑ a aː e eː i iː o oː u uː
+aghu1254-2880	Aghu Tharnggalu	aghu1254	Pama-Nyungan	Australia	-13.735	142.426	27	20	7	0	0	0	0	2.857142857142857	j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ t̪͈ t̪̚ t̺͈ t̺̚ w ŋ ȵ ȶ͈ ȶ̚ ɹ̺ a e i o u ə ɨ
+thay1248-2881	Thaypan	thay1248	Pama-Nyungan	Australia	-14.8292	143.324	31	23	8	0	0	0	0	2.875	j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ t̪͈ t̪̚ t̺͈ t̺̚ w ð ŋ ȵ ȶ͈ ȶ̚ ɣ ɹ̺ β a e i o u æ ɔ ɨ
+kawa1290-2882	Kawarrang-Ogh Undjan	kawa1290	Pama-Nyungan	Australia	-16.1	142.5	28	23	5	0	0	0	0	4.6	j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ t̪͈ t̪̚ t̺͈ t̺̚ w ð ŋ ȵ ȶ͈ ȶ̚ ɣ ɹ̺ β a e i o u
+kawa1290-2883	Kawarrang-Ogh Undjan	kawa1290	Pama-Nyungan	Australia	-16.1	142.5	28	23	5	0	0	0	0	4.6	j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ t̪͈ t̪̚ t̺͈ t̺̚ w ð ŋ ȵ ȶ͈ ȶ̚ ɣ ɹ̺ β a e i o u
+angu1242-2884	Anguthimri	angu1242	Pama-Nyungan	Australia	-12.395	141.755	36	19	17	0	0	0	5	1.1176470588235294	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ð ŋ ȵ ȶ ɣ ɹ̺ ʑ β a aː ã e eː ẽ i iː ĩ o u uː y æ æː æ̃ ø
+kuku1273-2885	Kuku-Yalanji	kuku1273	Pama-Nyungan	Australia	-16.0036	145.188	16	13	3	0	0	0	0	4.333333333333333	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+gugu1255-2886	Guugu Yimidhirr	gugu1255	Pama-Nyungan	Australia	-14.9424	144.831	23	17	6	0	0	0	3	2.8333333333333335	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɳ ɻ ʈ a aː i iː u uː
+kuku1273-2887	Kuku-Yalanji	kuku1273	Pama-Nyungan	Australia	-16.0036	145.188	16	13	3	0	0	0	0	4.333333333333333	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+mulu1243-2888	Muluridyi	mulu1243	Pama-Nyungan	Australia	-17.0601	145.329	16	13	3	0	0	0	0	4.333333333333333	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+kuku1273-2889	Kuku-Yalanji	kuku1273	Pama-Nyungan	Australia	-16.0036	145.188	16	13	3	0	0	0	0	4.333333333333333	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+dyaa1242-2890	Dyaabugay	dyaa1242	Pama-Nyungan	Australia	-16.596	145.388	19	13	6	0	0	0	3	2.1666666666666665	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a aː i iː u uː
+yidi1250-2891	Yidiñ	yidi1250	Pama-Nyungan	Australia	-17.1332	145.876	19	13	6	0	0	0	3	2.1666666666666665	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a aː i iː u uː
+barr1247-2892	Barrow Point	barr1247	Pama-Nyungan	Australia	-14.1219	144.531	25	17	8	0	0	0	4	2.125	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɳ ɻ ʈ a aː e eː i iː u uː
+djan1238-2893	Djangun	djan1238	Pama-Nyungan	Australia	-16.91051	144.93245	16	13	3	0	0	0	0	4.333333333333333	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+lamu1254-2894	Lamalama	lamu1254	Pama-Nyungan	Australia	-14.559	143.977	29	26	3	0	0	0	0	8.666666666666666	h j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ r̺͈ t̪͈ t̪̚ t̺͈ t̺̚ w ŋ ȵ ȶ͈ ȶ̚ ɕ ɸ ɹ̺ ʔ θ a i u
+mbar1253-2895	Rimanggudhinma	mbar1253	Pama-Nyungan	Australia	-14.529	143.789	29	24	5	0	0	0	0	4.8	j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ r̺͈ t̪͈ t̪̚ t̺͈ t̺̚ w ð ŋ ȵ ȶ͈ ȶ̚ ɣ ɹ̺ β a e i o u
+wikm1247-2896	Wik-Mungkan	wikm1247	Pama-Nyungan	Australia	-13.98051	141.81611	26	16	10	0	0	0	5	1.6	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ ʔ a aː e eː i iː o oː u uː
+wikn1245-2897	Wik-Ngathana	wikn1245	Pama-Nyungan	Australia	-13.8691	141.532	28	16	12	0	0	0	6	1.3333333333333333	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ ʔ a aː e eː i iː o oː u uː ø øː
+ayab1239-2898	Yintyinka-Ayabadhu	ayab1239	Pama-Nyungan	Australia	-14.6652	142.893	25	15	10	0	0	0	5	1.5	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ʔ a aː e eː i iː o oː u uː
+wikn1246-2899	Wikngenchera	wikn1246	Pama-Nyungan	Australia	-13.4957	141.599	30	20	10	0	0	0	5	2.0	j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ t̪͈ t̪̚ t̺͈ t̺̚ w ŋ ȵ ȶ͈ ȶ̚ ʔ a aː e eː i iː o oː u uː
+kuuk1238-2900	Kuuku-Ya'u	kuuk1238	Pama-Nyungan	Australia	-12.4947	143.165	21	15	6	0	0	0	3	2.5	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ʔ a aː i iː u uː
+paka1251-2901	Pakanha	paka1251	Pama-Nyungan	Australia	-15.0908	142.74	31	21	10	0	0	0	5	2.1	j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ t̪͈ t̪̚ t̺͈ t̺̚ w ŋ ȵ ȶ͈ ȶ̚ ɹ̺ ʔ a aː e eː i iː o oː u uː
+umpi1239-2902	Umpila	umpi1239	Pama-Nyungan	Australia	-13.1528	143.467	22	16	6	0	0	0	3	2.6666666666666665	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ ʔ a aː i iː u uː
+ayab1239-2903	Yintyinka-Ayabadhu	ayab1239	Pama-Nyungan	Australia	-14.6652	142.893	26	16	10	0	0	0	5	1.6	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ ʔ a aː e eː i iː o oː u uː
+kokn1236-2904	Kok-Nar	kokn1236	Pama-Nyungan	Australia	-16.181	141.608	25	18	7	0	0	0	0	2.5714285714285716	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɣ ɹ̺ ɾ̺ β a e i o u ə ɵ
+gurd1238-2905	Gurdjar	gurd1238	Pama-Nyungan	Australia	-17.1653	141.145	28	19	9	0	0	0	4	2.111111111111111	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ð ŋ ȵ ȶ ɣ ɹ̺ ɾ̺ β a aː i iː u uː ɨ ɵ ɵː
+kuth1240-2906	Kuthant	kuth1240	Pama-Nyungan	Australia	-17.4566	140.958	25	17	8	0	0	0	3	2.125	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɣ ɹ̺ ɾ a aː i iː u uː ø ɨ
+wala1263-2907	Walangama	wala1263	Pama-Nyungan	Australia	-17.60243295	142.4891266	28	19	9	0	0	0	4	2.111111111111111	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ð ŋ ȵ ȶ ɣ ɹ̺ ɾ̺ β a aː i iː u uː ɨ ɵ ɵː
+alng1239-2908	Alngith	alng1239	Pama-Nyungan	Australia	-12.5324	141.938	28	24	4	0	0	0	0	6.0	j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ t̪͈ t̪̚ t̺͈ t̺̚ w ð ŋ ȵ ȶ͈ ȶ̚ ɣ ɹ̺ ʔ β a i u æ
+arit1239-2909	Aritinngitigh	arit1239	Pama-Nyungan	Australia	-12.50839255	142.138748	22	17	5	0	0	0	0	3.4	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ð ŋ ȵ ɣ ɹ̺ β a i u æ ʉ
+ndra1239-2910	Ndra'ngith	ndra1239	Pama-Nyungan	Australia	-12.544	141.984	23	19	4	0	0	0	0	4.75	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ð ŋ ȵ ȶ ɣ ɹ̺ ʔ β a e i u
+tyan1235-2911	Tyanngayt-Mamngayt-Ntrwangayt-Ntrangit	tyan1235	Pama-Nyungan	Australia	-12.544	141.984	29	19	10	0	0	0	5	1.9	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ð ŋ ȵ ȶ ɣ ɹ̺ ʔ β a aː e eː i iː o oː u uː
+leni1238-2912	Linngithigh	leni1238	Pama-Nyungan	Australia	-12.771375	141.962	29	24	5	0	0	0	0	4.8	j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ t̪͈ t̪̚ t̺͈ t̺̚ w ð ŋ ȵ ȶ͈ ȶ̚ ɣ ɹ̺ ʔ β a i o u æ
+luth1234-2913	Luthigh	luth1234	Pama-Nyungan	Australia	-12.16733589	142.4853284	22	18	4	0	0	0	0	4.5	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ð ŋ ȵ ȶ ɣ ʔ β a i u æ
+mbiy1238-2914	Mbiywom	mbiy1238	Pama-Nyungan	Australia	-12.89620501	142.2710997	29	23	6	0	0	0	0	3.8333333333333335	j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ t̪͈ t̪̚ t̺͈ t̺̚ w ð ŋ ȵ ȶ͈ ȶ̚ ɣ ɹ̺ β a e i o u y
+mpal1238-2915	Mpalitjanh	mpal1238	Pama-Nyungan	Australia	-12.16733589	142.4853284	26	22	4	0	0	0	0	5.5	j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ t̪͈ t̪̚ t̺͈ t̺̚ w ð ŋ ȵ ȶ͈ ȶ̚ ɣ β a i u æ
+ngko1236-2916	Ngkoth	ngko1236	Pama-Nyungan	Australia	-12.740575	141.886762	26	19	7	0	0	0	0	2.7142857142857144	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ð ŋ ȵ ȶ ɣ ɹ̺ ʔ β a e i o u æ ø
+atam1239-2917	Atampaya	atam1239	Pama-Nyungan	Australia	-11.0018	142.273	22	18	4	0	0	0	0	4.5	j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ t̪͈ t̪̚ t̺͈ w ŋ ȵ ȶ͈ ɹ̺ a e i u
+angg1238-2918	Angkamuthi	angg1238	Pama-Nyungan	Australia	-11.443	142.242	24	18	6	0	0	0	3	3.0	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ð ŋ ȵ ȶ ɣ ɹ̺ β a aː i iː u uː
+atam1239-2919	Atampaya	atam1239	Pama-Nyungan	Australia	-11.0018	142.273	26	18	8	0	0	0	4	2.25	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ð ŋ ȵ ȶ ɣ ɹ̺ β a aː e eː i iː u uː
+yadh1237-2920	Yadhaykenu	yadh1237	Pama-Nyungan	Australia	-11.314	142.725	26	18	8	0	0	0	4	2.25	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ð ŋ ȵ ȶ ɣ ɹ̺ β a aː e eː i iː u uː
+yinw1236-2921	Yinwum	yinw1236	Pama-Nyungan	Australia	-12.52068956	142.7036225	27	23	4	0	0	0	0	5.75	j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ t̪͈ t̪̚ t̺͈ t̺̚ w ð ŋ ȵ ȶ͈ ȶ̚ ɣ ɹ̺ β a e i u
+gugu1254-2922	Gugubera	gugu1254	Pama-Nyungan	Australia	-15.4296	141.635	21	15	6	0	0	0	0	2.5	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a e i o u ə
+thay1249-2923	Thayore	thay1249	Pama-Nyungan	Australia	-14.8159	142.034	26	16	10	0	0	0	5	1.6	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ ʔ a aː e eː i iː o oː u uː
+ulku1238-2924	Ulkulu	ulku1238	Pama-Nyungan	Australia	-16.6807	143.53	28	23	5	0	0	0	0	4.6	j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ t̪͈ t̪̚ t̺͈ t̺̚ w ð ŋ ȵ ȶ͈ ȶ̚ ɣ ɹ̺ β a e i o u
+yiry1245-2925	Yir-Yoront	yiry1245	Pama-Nyungan	Australia	-15.1117	141.767	26	20	6	0	0	0	0	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȵ ȶ ɭ ɳ ɻ ʈ ʔ a e i o u ə
+wami1239-2926	Wamin	wami1239	Pama-Nyungan	Australia	-18.3727	143.943	21	15	6	0	0	0	0	2.5	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a e i o u ɵ
+mbar1254-2927	Mbara-Yanga	mbar1254	Pama-Nyungan	Australia	-19.29	142.475904	27	17	10	0	0	0	5	1.7	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ð ŋ ȵ ȶ ɹ̺ ʑ a aː e eː i iː o oː u uː
+mbab1239-2928	Mbabaram	mbab1239	Pama-Nyungan	Australia	-20.1389	143.438	27	15	12	0	0	0	5	1.25	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a aː e eː i iː o oː u uː ə ɨ
+umbu1256-2929	Umbuygamu	umbu1256	Pama-Nyungan	Australia	-14.25876	143.6305	31	26	5	0	0	0	0	5.2	h j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ r̺͈ t̪͈ t̪̚ t̺͈ t̺̚ w ŋ ȵ ȶ͈ ȶ̚ ɕ ɸ ɹ̺ ʔ θ a e i o u
+oyka1239-2930	Oykangand	oyka1239	Pama-Nyungan	Australia	-16.6807	143.53	28	23	5	0	0	0	0	4.6	j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ t̪͈ t̪̚ t̺͈ t̺̚ w ð ŋ ȵ ȶ͈ ȶ̚ ɣ ɹ̺ β a e i o u
+adny1235-2931	Adnyamathanha	adny1235	Pama-Nyungan	Australia	-30.1451	138.671	27	24	3	0	0	0	0	8.0	j k l l̪ m n n̪ p r t t̪ w ð ŋ ȴ ȵ ȶ ɭ ɳ ɻ ɽ ɾ ʈ β a i u
+kaur1267-2932	Kaurna	kaur1267	Pama-Nyungan	Australia	-34.34966141	138.4800794	25	20	5	0	0	0	0	4.0	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+nugu1241-2933	Nugunu (Australia)	nugu1241	Pama-Nyungan	Australia	-31.9899	133.908	28	22	6	0	0	0	3	3.6666666666666665	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ɽ ɾ ʈ a aː i iː u uː
+wira1265-2934	Wirangu	wira1265	Pama-Nyungan	Australia	-32.0	134.0	23	19	4	0	0	0	1	4.75	j k l m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i u
+bang1339-2935	Banggarla	bang1339	Pama-Nyungan	Australia	-33.3036	136.079	23	20	3	0	0	0	0	6.666666666666667	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+naru1238-2936	Narungga	naru1238	Pama-Nyungan	Australia	-34.69	137.535	27	21	6	0	0	0	3	3.5	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ɽ ʈ a aː i iː u uː
+koka1244-2937	Kokata	koka1244	Pama-Nyungan	Australia	-29.94	135.55	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+gure1255-2938	Gureng Gureng	gure1255	Pama-Nyungan	Australia	-25.3893	151.175	23	13	10	0	0	0	5	1.3	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a aː e eː i iː o oː u uː
+gure1255-2939	Gureng Gureng	gure1255	Pama-Nyungan	Australia	-25.3893	151.175	23	13	10	0	0	0	5	1.3	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a aː e eː i iː o oː u uː
+kabi1260-2940	Kabikabi	kabi1260	Pama-Nyungan	Australia	-25.44486229	153.1539929	24	16	8	0	0	0	4	2.0	j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ t̪͈ t̪̚ t̺̚ w ŋ ɹ̺ a aː e eː i iː u uː
+gabi1248-2941	Gabigabi	gabi1248	Pama-Nyungan	Australia	-25.44486229	153.1539929	19	13	6	0	0	0	3	2.1666666666666665	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a aː i iː u uː
+kabi1260-2942	Kabikabi	kabi1260	Pama-Nyungan	Australia	-25.44486229	153.1539929	23	13	10	0	0	0	5	1.3	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a aː e eː i iː o oː u uː
+duun1241-2943	Duungidjawu	duun1241	Pama-Nyungan	Australia	-26.248	151.868	23	13	10	0	0	0	5	1.3	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a aː e eː i iː o oː u uː
+waka1274-2944	Wakawaka	waka1274	Pama-Nyungan	Australia	-26.248	151.868	23	13	10	0	0	0	5	1.3	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a aː e eː i iː o oː u uː
+wuli1242-2945	Wuliwuli	wuli1242	Pama-Nyungan	Australia	-24.415	149.843	23	13	10	0	0	0	5	1.3	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a aː e eː i iː o oː u uː
+bula1255-2946	Bularnu	bula1255	Pama-Nyungan	Australia	-21.02656922	138.1566659	32	26	6	0	0	0	3	4.333333333333333	j k͈ k̚ l l̪ m n n̪ p͈ p̚ r t̪͈ t̪̚ t͈ t̚ w ŋ ȴ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ a aː i iː u uː
+waga1260-2947	Wagaya	waga1260	Pama-Nyungan	Australia	-20.329	137.623	25	19	6	0	0	0	2	3.1666666666666665	j k l m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i iː u uː ə
+warl1256-2948	Warluwara	warl1256	Pama-Nyungan	Australia	-22.2909	138.738	33	29	4	0	0	0	1	7.25	j k͈ k̚ l l̪ m n n̪ p͈ p̚ r t̪͈ t̪̚ t͈ t̚ w ŋ ȴ ȵ ȶ͈ ȶ̚ ɭ ɰ ɳ ɻ ʈ͈ ʈ̚ ʐ ʑ a aː i u
+waga1260-2949	Wagaya	waga1260	Pama-Nyungan	Australia	-20.329	137.623	26	20	6	0	0	0	2	3.3333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i iː u uː ə
+yany1243-2950	Yanyuwa	yany1243	Pama-Nyungan	Australia	-15.7621	136.055	24	20	4	0	0	0	1	5.0	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i u
+waru1265-2951	Warumungu	waru1265	Pama-Nyungan	Australia	-20.6479	134.375	28	22	6	0	0	0	3	3.6666666666666665	j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȴ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ a aː i iː u uː
+kart1247-2952	Kartujarra	kart1247	Pama-Nyungan	Australia	-23.350911655789	123.66842240336	24	17	7	0	0	0	3	2.4285714285714284	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː ə
+many1256-2953	Manyjilyjara	many1256	Pama-Nyungan	Australia	-23.350911655789	123.66842240336	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+pudi1238-2954	Puditara	pudi1238	Pama-Nyungan	Australia	-23.350911655789	123.66842240336	23	20	3	0	0	0	0	6.666666666666667	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a i u
+wang1288-2955	Wangkajunga	wang1288	Pama-Nyungan	Australia	-23.350911655789	123.66842240336	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+yulp1239-2956	Yulparija	yulp1239	Pama-Nyungan	Australia	-18.923519	122.370316	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+wanm1242-2957	Wanman	wanm1242	Pama-Nyungan	Australia	-22.7078	122.325	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+anta1253-2958	Antakarinya	anta1253	Pama-Nyungan	Australia	-27.1152	134.838	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+kuka1246-2959	Kukatja	kuka1246	Pama-Nyungan	Australia	-20.3321	127.666	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+pitj1243-2960	Pitjantjatjara	pitj1243	Pama-Nyungan	Australia	-26.9704	131.357	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+ngar1296-2961	Ngarla	ngar1296	Pama-Nyungan	Australia	-20.20748	119.30579	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+ngaa1240-2962	Ngaanyatjarra	ngaa1240	Pama-Nyungan	Australia	-25.7514	127.602	23	17	6	0	0	0	3	2.8333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ɭ ɳ ɻ ʈ a aː i iː u uː
+pint1250-2963	Pintupi-Luritja	pint1250	Pama-Nyungan	Australia	-23.2963	130.643	23	17	6	0	0	0	3	2.8333333333333335	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+pitj1243-2964	Pitjantjatjara	pitj1243	Pama-Nyungan	Australia	-26.9704	131.357	23	17	6	0	0	0	3	2.8333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ɭ ɳ ɻ ʈ a aː i iː u uː
+yank1247-2965	Yankunytjatjara	yank1247	Pama-Nyungan	Australia	-26.4064	133.577	23	17	6	0	0	0	3	2.8333333333333335	j k l l̪ m n n̪ p r t t̪ w ŋ ɭ ɳ ɻ ʈ a aː i iː u uː
+kala1378-2966	Kalaw Kawaw	kala1378	Pama-Nyungan	Australia	-10.6748	142.196	24	18	6	0	0	0	0	3.0	j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ t̪͈ t̪̚ t̺͈ t̺̚ w ŋ ɕ ʑ a e i o u ɨ
+kala1377-2967	Kala Lagaw Ya	kala1377	Pama-Nyungan	Australia	-10.6748	142.196	24	18	6	0	0	0	0	3.0	j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ t̪͈ t̪̚ t̺͈ t̺̚ w ŋ ɕ ʑ a e i o u ɨ
+maly1234-2968	Malyangapa	maly1234	Pama-Nyungan	Australia	-29.43	142.0	27	21	6	0	0	0	3	3.5	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ɾ ʈ a aː i iː u uː
+wadi1261-2969	Wadikali	wadi1261	Pama-Nyungan	Australia	-29.49049805	140.9591946	27	21	6	0	0	0	3	3.5	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ɾ ʈ a aː i iː u uː
+yard1234-2970	Yardliyawarra	yard1234	Pama-Nyungan	Australia	-29.49049805	140.9591946	27	21	6	0	0	0	3	3.5	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ɾ ʈ a aː i iː u uː
+dhan1270-2971	Dhangu	dhan1270	Pama-Nyungan	Australia	-11.9493	135.752	26	20	6	0	0	0	3	3.3333333333333335	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɭ ɳ ɻ ɽ ʈ ʔ a aː i iː u uː
+gupa1247-2972	Gupapuyngu	gupa1247	Pama-Nyungan	Australia	-12.2868	135.337	31	25	6	0	0	0	3	4.166666666666667	j k͈ k̚ l m n n̪ p͈ p̚ r t̪͈ t̪̚ t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a aː i iː u uː
+dhal1246-2973	Dhalwangu	dhal1246	Pama-Nyungan	Australia	-13.1806	136.22	26	20	6	0	0	0	3	3.3333333333333335	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɭ ɳ ɻ ɽ ʈ ʔ a aː i iː u uː
+djam1256-2974	Djambarrpuyngu	djam1256	Pama-Nyungan	Australia	-12.021	135.59	31	25	6	0	0	0	3	4.166666666666667	j k͈ k̚ l m n n̪ p͈ p̚ r t̪͈ t̪̚ t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a aː i iː u uː
+guma1253-2975	Gumatj	guma1253	Pama-Nyungan	Australia	-12.25254	136.83042	31	25	6	0	0	0	3	4.166666666666667	j k͈ k̚ l m n n̪ p͈ p̚ r t̪͈ t̪̚ t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a aː i iː u uː
+djin1253-2976	Djinang	djin1253	Pama-Nyungan	Australia	-12.462	134.82	25	22	3	0	0	0	0	7.333333333333333	j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a i u
+djin1252-2977	Djinba	djin1252	Pama-Nyungan	Australia	-12.93	134.967	25	22	3	0	0	0	0	7.333333333333333	j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a i u
+yann1237-2978	Yan-nhangu	yann1237	Pama-Nyungan	Australia	-12.0853	134.877	31	25	6	0	0	0	3	4.166666666666667	j k͈ k̚ l m n n̪ p͈ p̚ r t̪͈ t̪̚ t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a aː i iː u uː
+rita1239-2979	Ritarungo	rita1239	Pama-Nyungan	Australia	-13.4559	135.259	31	25	6	0	0	0	3	4.166666666666667	j k͈ k̚ l m n n̪ p͈ p̚ r t̪͈ t̪̚ t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a aː i iː u uː
+yort1237-2980	Yorta Yorta	yort1237	Pama-Nyungan	Australia	-35.9	145.01	20	15	5	0	0	0	0	3.0	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a e i o u
+yort1237-2981	Yorta Yorta	yort1237	Pama-Nyungan	Australia	-35.9	145.01	19	14	5	0	0	0	0	2.8	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ a e i o u
+biga1237-2982	Bigambal	biga1237	Pama-Nyungan	Australia	-28.266	149.515	16	13	3	0	0	0	0	4.333333333333333	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+yuga1244-2983	Yugambal	yuga1244	Pama-Nyungan	Australia	-27.803	153.082	16	13	3	0	0	0	0	4.333333333333333	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+hawk1239-2984	Hawkesbury	hawk1239	Pama-Nyungan	Australia	-33.11470744	150.4952383	18	15	3	0	0	0	0	5.0	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+sydn1236-2985	Sydney	sydn1236	Pama-Nyungan	Australia	-33.52925837	150.3490464	19	16	3	0	0	0	0	5.333333333333333	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȴ ȵ ȶ ɹ̺ a i u
+sydn1236-2986	Sydney	sydn1236	Pama-Nyungan	Australia	-33.52925837	150.3490464	19	16	3	0	0	0	0	5.333333333333333	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ȴ ȵ ȶ ɹ̺ a i u
+awab1243-2987	Awabakal	awab1243	Pama-Nyungan	Australia	-33.12847	151.43555	16	13	3	0	0	0	0	4.333333333333333	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a i u
+west2443-2988	Western Victoria	west2443	Pama-Nyungan	Australia	-34.13829932	143.6694397	21	17	4	0	0	0	0	4.25	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i u
+wori1245-2989	Worimi	wori1245	Pama-Nyungan	Australia	-32.4806	152.107	19	13	6	0	0	0	3	2.1666666666666665	j k l̺ m n̺ p r̺ t̺ w ŋ ȵ ȶ ɹ̺ a aː i iː u uː
+ngan1296-2990	Nganyaywana	ngan1296	Pama-Nyungan	Australia	-29.581	151.313	17	14	3	0	0	0	0	4.666666666666667	j k l̺ m n̺ p r̺ t̺ w ŋ ȴ ȵ ȶ ɹ̺ a i u
+dyan1250-2991	Dyangadi	dyan1250	Pama-Nyungan	Australia	-30.8469	152.602	19	13	6	0	0	0	3	2.1666666666666665	j k l̺ m n̪ n̺ p r̺ t̪ t̺ w ŋ ɹ̺ a aː i iː u uː
+djap1238-2992	Djapu	djap1238	Pama-Nyungan	Australia	-12.879764	136.417978	25	19	6	0	0	0	3	3.1666666666666665	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɭ ɳ ɻ ɽ ʈ a aː i iː u uː
+thur1254-2993	Thurawal	thur1254	Pama-Nyungan	Australia	-34.634	150.721	25	19	6	0	0	0	3	3.1666666666666665	j k l m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+thur1254-2994	Thurawal	thur1254	Pama-Nyungan	Australia	-34.634	150.721	25	19	6	0	0	0	3	3.1666666666666665	j k l m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+dhur1239-2995	Dhurga	dhur1239	Pama-Nyungan	Australia	-35.412	150.134	25	19	6	0	0	0	3	3.1666666666666665	j k l m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+sout2771-2996	Southern Coastal Yuin	sout2771	Pama-Nyungan	Australia	-37.06227181	149.7169306	25	19	6	0	0	0	3	3.1666666666666665	j k l m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+gund1248-2997	Gundungurra	gund1248	Pama-Nyungan	Australia	-33.7	150.3	25	19	6	0	0	0	3	3.1666666666666665	j k l m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+ngar1297-2998	Ngarigu	ngar1297	Pama-Nyungan	Australia	-36.23	149.13	18	15	3	0	0	0	0	5.0	j k l m n p r t t̪ w ŋ ȴ ȵ ȶ ʈ a i u
+sout2770-2999	Southern Inland Yuin	sout2770	Pama-Nyungan	Australia	-36.30008261	148.7238073	25	19	6	0	0	0	3	3.1666666666666665	j k l m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+sout2771-3000	Southern Coastal Yuin	sout2771	Pama-Nyungan	Australia	-37.06227181	149.7169306	25	19	6	0	0	0	3	3.1666666666666665	j k l m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+gang1267-3001	Ganggalida	gang1267	Tangkic	Australia	-17.5446	139.426	24	18	6	0	0	0	3	3.0	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+kaya1319-3002	Kayardild	kaya1319	Tangkic	Australia	-17.0695	139.489	23	17	6	0	0	0	3	2.8333333333333335	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɳ ɻ ʈ a aː i iː u uː
+lard1243-3003	Lardil	lard1243	Tangkic	Australia	-16.56152	139.4343	25	17	8	0	0	0	4	2.125	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɳ ɻ ʈ a aː i iː u uː æ æː
+kaya1319-3004	Kayardild	kaya1319	Tangkic	Australia	-17.0695	139.489	24	18	6	0	0	0	3	3.0	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɭ ɳ ɻ ʈ a aː i iː u uː
+tiwi1244-3005	Tiwi	tiwi1244		Australia	-11.6308	130.949	22	18	4	0	0	0	0	4.5	j k l l̪ m n n̪ p r t t̪ w ŋ ɣ ɭ ɳ ɻ ʈ a i o u
+wage1238-3006	Wageman	wage1238		Australia	-13.8627	131.893	27	22	5	0	0	0	0	4.4	j k͈ k̚ l m n p͈ p̚ r t͈ t̚ w ŋ ȵ ȶ͈ ȶ̚ ɭ ɳ ɻ ʈ͈ ʈ̚ ʔ a e i o u
+ngar1284-3007	Ngarinyin	ngar1284	Worrorran	Australia	-16.4006	126.433	22	17	5	0	0	0	0	3.4	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+gamb1251-3008	Gambera	gamb1251	Worrorran	Australia	-14.29546	126.27131	25	20	5	0	0	0	0	4.0	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+kwin1241-3009	Kwini	kwin1241	Worrorran	Australia	-14.2515	126.562	28	17	11	0	0	0	5	1.5454545454545454	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː e eː i iː o oː u uː ɨ
+wuna1249-3010	Wunambal	wuna1249	Worrorran	Australia	-14.8347	125.72	28	17	11	0	0	0	5	1.5454545454545454	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː e eː i iː o oː u uː ɨ
+umii1236-3011	Umiida	umii1236	Worrorran	Australia	-16.615461	124.079216	25	20	5	0	0	0	0	4.0	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+ungg1243-3012	Unggumi	ungg1243	Worrorran	Australia	-15.65	124.67	24	19	5	0	0	0	0	3.8	j k l m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+worr1237-3013	Worrorra	worr1237	Worrorran	Australia	-15.612781	124.881218	25	17	8	0	0	0	3	2.125	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a aː e i iː o u uː
+yawi1239-3014	Yawijibaya	yawi1239	Worrorran	Australia	-15.348087	124.529665	25	20	5	0	0	0	0	4.0	j k l l̪ m n n̪ p r t t̪ w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+ward1246-3015	Wardaman	ward1246	Yangmanic	Australia	-15.4155	132.604	22	17	5	0	0	0	0	3.4	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+yang1288-3016	Yangman	yang1288	Yangmanic	Australia	-14.4964	132.52	22	17	5	0	0	0	0	3.4	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ʈ a e i o u
+guwa1243-3017	Guwamu	guwa1243	Pama-Nyungan	Australia	-27.8289	148.867	21	15	6	0	0	0	3	2.5	j k l m n p r t t̪ w ŋ ȵ ȶ ɻ ʈ a aː i iː u uː
+west2437-3018	Western Warlpiri	west2437	Pama-Nyungan	Australia	-20.1008	131.05	24	18	6	0	0	0	3	3.0	j k l m n p r t w ŋ ȴ ȵ ȶ ɭ ɳ ɻ ɽ ʈ a aː i iː u uː
+werg1234-3019	Wergaia	werg1234	Pama-Nyungan	Australia	-34.13829932	143.6694397	21	17	4	0	0	0	0	4.25	j k l m n n̪ p r t t̪ w ŋ ȵ ȶ ɭ ɳ ʈ a e i u
+lamu1254-3020	Lamalama	lamu1254	Pama-Nyungan	Australia	-14.559	143.977	29	26	3	0	0	0	0	8.666666666666666	h j k͈ k̚ l̺ m n̪ n̺ p͈ p̚ r̺ r̺͈ t̪͈ t̪̚ t̺͈ t̺̚ w ŋ ȵ ȶ͈ ȶ̚ ɕ ɸ ɹ̺ ʔ θ a i u

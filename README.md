@@ -49,6 +49,17 @@ $ python prepare.py
 ```
 
 ### Data analysis (python only, preliminary)
+
 ```
 $ python compare.py
 ```
+
+### Build plots
+
+It might be necessary to manually installed the required R libraries.
+
+```
+$ python plot.py
+$ Rscript plot.R
+```
+

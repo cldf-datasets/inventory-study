@@ -76,16 +76,31 @@ parameters = ["Sounds", "Consonants", "Vowels"]
     (uz_data, uz_codes, uz),
     (ph_data, ph_codes, ph),
     (gm_data, gm_codes, gm),
-) = [to_dict(ds, parameters) for ds in ["jipa", "lapsyd", "UPSID", "UZ", "PH", "GM"]]
+    (aa_data, aa_codes, aa),
+    (ra_data, ra_codes, ra),
+    (sph_data, sph_codes, sph),
+    (spa_data, spa_codes, spa),
+    (ea_data, ea_codes, ea),
+    (er_data, er_codes, er),
+) = [to_dict(ds, parameters) for ds in ["jipa", "lapsyd", "UPSID", "UZ", "PH", "GM",
+"AA", "RA", "SAPHON", "SPA", "EA", "ER"
+
+    ]]
 
 
-jpaD, lpsD, upsD, uzD, phD, gmD = (
+jpaD, lpsD, upsD, uzD, phD, gmD, aaD, raD, sphD, spaD, eaD, erD = (
     inventories("jipa", bipa),
     inventories("lapsyd", bipa),
     inventories("UPSID", bipa),
     inventories("UZ", bipa),
     inventories("PH", bipa),
     inventories("GM", bipa),
+    inventories("AA", bipa),
+    inventories("RA", bipa),
+    inventories("SAPHON", bipa),
+    inventories("SPA", bipa),
+    inventories("EA", bipa),
+    inventories("ER", bipa),
 )
 
 all_gcodes = defaultdict(list)
@@ -96,18 +111,24 @@ for ds, dct in [
     ("uz", uzD),
     ("ph", phD),
     ("gm", gmD),
+    ("aa", aaD),
+    ("ra", raD),
+    ("saphon", sphD),
+    ("spa", spaD),
+    ("ea", eaD),
+    ("er", erD),
 ]:
     for code, invs in dct.items():
         all_gcodes[code] += [(ds, inv) for inv in invs]
 with open("output/comparable-inventories.tsv", "w") as f:
     f.write(
-        "Glottocode\tLAPSyD\tLAPSyD_Var\tJIPA\tJIPA_Var\tUPSID\tUPSID_Var\tUZ\tUZ_Var\tPH\tPHVar\tGM\tGM_Var\n"
+        "Glottocode\tLAPSyD\tLAPSyD_Var\tJIPA\tJIPA_Var\tUPSID\tUPSID_Var\tUZ\tUZ_Var\tPH\tPHVar\tGM\tGM_Var\tAA\tAA_Var\tRA\tRA_Var\tSAPHON\tSAPHON_Var\tSPA\tSPA_Var\tEA\tEA_Var\tER\tER_Var\n"
     )
     for code, invs in all_gcodes.items():
         if len(invs) > 1:
             f.write(code)
             dsets = [x[0] for x in invs]
-            for ds in ["jipa", "lapsyd", "upsid", "uz", "ph", "gm"]:
+            for ds in ["jipa", "lapsyd", "upsid", "uz", "ph", "gm", "aa", "ra", "saphon", "spa", "ea", "er"]:
                 f.write(
                     "\t"
                     + str(dsets.count(ds))
@@ -151,7 +172,7 @@ with open("output/compared-inventories.tsv", "w") as f:
 print("[i] computed basic comparisons of all inventories")
 
 # coverage for four datasets
-coverage = [[0 for x in range(6)] for y in range(6)]
+coverage = [[0 for x in range(12)] for y in range(12)]
 
 # store results for later
 storage = {"raw": [], "summary": [], "table": defaultdict(dict)}
@@ -164,6 +185,12 @@ for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(
             (3, "PH", ph, phD),
             (4, "UZ", uz, uzD),
             (5, "GM", gm, gmD),
+            (6, "AA", aa, aaD),
+            (7, "RA", ra, raD),
+            (8, "SAPHON", sph, sphD),
+            (9, "SPA", spa, spaD),
+            (10, "EA", ea, eaD),
+            (11, "ER", er, erD),
         ],
         r=2,
     )

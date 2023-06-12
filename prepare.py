@@ -141,7 +141,7 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
     if not td:
         td = dataset
 
-    if dataset in ["UZ", "PH", "GM", "UPSID"]:
+    if dataset in ["UZ", "PH", "GM", "UPSID", "AA", "RA", "SAPHON", "SPA", "EA", "ER"]:
         dset_td = clts.transcriptiondata_dict["phoible"]
         languages, params, varieties, sources, bib = get_phoible_varieties(dataset)
     else:
@@ -306,7 +306,7 @@ with open("output/excluded.md", "w") as f:
     f.write("# Excluded Varieties\n\n")
 
 dump = defaultdict(list)
-for ds in ["jipa", "UPSID", "lapsyd", "UZ", "PH", "GM"]:
+for ds in ["jipa", "UPSID", "lapsyd", "UZ", "PH", "GM", "AA", "RA", "SAPHON", "SPA", "EA", "ER"]:
     print("# Importing data for {0}".format(ds))
     dump, (varieties, vars_with_gcode, inventories, distinct_gcodes) = load_dataset(
         ds, dump=dump
