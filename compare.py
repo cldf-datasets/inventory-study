@@ -9,6 +9,7 @@ from pyclts.inventories import Inventory
 from pyclts import CLTS
 from tqdm import tqdm as progressbar
 from sys import argv
+import csv
 
 
 def to_dict(path, parameters):
@@ -197,7 +198,7 @@ with open("output/compared-inventories.tsv", "w") as f:
             )
 print("[i] computed basic comparisons of all inventories")
 
-# coverage for four datasets
+# coverage for the datasets
 coverage = [[0 for x in range(12)] for y in range(12)]
 
 # store results for later
@@ -320,3 +321,28 @@ with UnicodeWriter("output/results.summary.csv") as writer:
     writer.writerow(header)
     for row in storage["summary"]:
         writer.writerow([row[h] for h in header])
+
+# Names of all datasets
+datasets = [
+    "JIPA",
+    "LAPSyD",
+    "UPSID",
+    "PH",
+    "UZ",
+    "GM",
+    "AA",
+    "RA",
+    "SAPHON",
+    "SPA",
+    "EA",
+    "ER",
+]
+
+# Open CSV file
+with open("output/mutual_coverage.csv", "w", newline="") as f:
+    writer = csv.writer(f)
+    writer.writerow([""] + datasets)  # Write header
+
+    # Write rows
+    for dataset, row in zip(datasets, coverage):
+        writer.writerow([dataset] + row)
