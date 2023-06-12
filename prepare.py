@@ -306,7 +306,20 @@ with open("output/excluded.md", "w") as f:
     f.write("# Excluded Varieties\n\n")
 
 dump = defaultdict(list)
-for ds in ["jipa", "UPSID", "lapsyd", "UZ", "PH", "GM", "AA", "RA", "SAPHON", "SPA", "EA", "ER"]:
+for ds in [
+    "jipa",
+    "UPSID",
+    "lapsyd",
+    "UZ",
+    "PH",
+    "GM",
+    "AA",
+    "RA",
+    "SAPHON",
+    "SPA",
+    "EA",
+    "ER",
+]:
     print("# Importing data for {0}".format(ds))
     dump, (varieties, vars_with_gcode, inventories, distinct_gcodes) = load_dataset(
         ds, dump=dump

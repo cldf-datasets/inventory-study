@@ -82,10 +82,23 @@ parameters = ["Sounds", "Consonants", "Vowels"]
     (spa_data, spa_codes, spa),
     (ea_data, ea_codes, ea),
     (er_data, er_codes, er),
-) = [to_dict(ds, parameters) for ds in ["jipa", "lapsyd", "UPSID", "UZ", "PH", "GM",
-"AA", "RA", "SAPHON", "SPA", "EA", "ER"
-
-    ]]
+) = [
+    to_dict(ds, parameters)
+    for ds in [
+        "jipa",
+        "lapsyd",
+        "UPSID",
+        "UZ",
+        "PH",
+        "GM",
+        "AA",
+        "RA",
+        "SAPHON",
+        "SPA",
+        "EA",
+        "ER",
+    ]
+]
 
 
 jpaD, lpsD, upsD, uzD, phD, gmD, aaD, raD, sphD, spaD, eaD, erD = (
@@ -128,7 +141,20 @@ with open("output/comparable-inventories.tsv", "w") as f:
         if len(invs) > 1:
             f.write(code)
             dsets = [x[0] for x in invs]
-            for ds in ["jipa", "lapsyd", "upsid", "uz", "ph", "gm", "aa", "ra", "saphon", "spa", "ea", "er"]:
+            for ds in [
+                "jipa",
+                "lapsyd",
+                "upsid",
+                "uz",
+                "ph",
+                "gm",
+                "aa",
+                "ra",
+                "saphon",
+                "spa",
+                "ea",
+                "er",
+            ]:
                 f.write(
                     "\t"
                     + str(dsets.count(ds))
