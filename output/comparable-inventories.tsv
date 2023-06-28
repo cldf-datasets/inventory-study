@@ -1,112 +1,112 @@
-Glottocode	LAPSyD	LAPSyD_Var	JIPA	JIPA_Var	UPSID	UPSID_Var	UZ	UZ_Var	PH	PHVar	GM	GM_Var	AA	AA_Var	RA	RA_Var	SAPHON	SAPHON_Var	SPA	SPA_Var	EA	EA_Var	ER	ER_Var
+Glottocode	JIPA	JIPA_Var	LAPSyD	LAPSyD_Var	UPSID	UPSID_Var	UZ	UZ_Var	PH	PHVar	GM	GM_Var	AA	AA_Var	RA	RA_Var	SAPHON	SAPHON_Var	SPA	SPA_Var	EA	EA_Var	ER	ER_Var
 amha1245	1	amharic	1	amharic_amha1245	1	amha1245-219	1	amha1245-2156	0		0		0		0		0		1	amha1245-131	0		0	
 stan1318	1	arabic	0		0		1	stan1318-2157	0		0		0		0		0		0		0		0	
 assa1263	1	assamese	1	assamese_assa1263	0		1	assa1263-2159	0		0		0		1	assa1263-1706	0		0		1	assa1263-2598	0	
 nort2697	1	azerbaijani	1	azerbaijaninorthern_nort2697	1	nort2697-236	0		0		0		0		0		0		1	nort2697-187	1	nort2697-2296	0	
 bard1255	1	bardi	1	bardi_bard1255	1	bard1255-245	1	bard1255-2160	0		0		0		0		0		0		0		1	bard1255-2697
 basa1284	1	basaa	0		0		0		0		0		1	basa1284-670	0		0		0		0		0	
-bemb1257	1	bemba	0		0		0		1	bemb1257-1188	0		0		0		1	bemb1257-1188	0		0		0	
+bemb1257	1	bemba	0		0		0		1	bemb1257-1188	0		0		0		0		0		0		0	
 beng1280	1	bengalibangladeshistandard	1	bengali_beng1280	1	beng1280-250	1	beng1280-2162	0		0		0		1	beng1280-1711	0		1	beng1280-177	1	beng1280-2624	0	
 bret1244	1	bretonoftheisleofgroix	0		1	bret1244-260	0		0		0		0		0		0		0		1	bret1244-2584	0	
 stan1293	2	britishenglishreceivedpronunciation liverpoolenglish	1	englishstandardsouthernbritish_stan1293	0		6	stan1293-2175 stan1293-2176 stan1293-2177 stan1293-2178 stan1293-2179 stan1293-2180	0		0		0		0		0		1	stan1293-160	2	stan1293-2252 stan1293-2515	0	
 taji1245	1	bukharantajik	0		0		1	taji1245-2219	0		0		0		0		0		0		1	taji1245-2266	0	
 bulg1262	1	bulgarian	1	bulgarian_bulg1262	1	bulg1262-265	1	bulg1262-2163	0		0		0		0		0		1	bulg1262-167	1	bulg1262-2368	0	
 nucl1310	1	burmese	1	burmese_nucl1310	1	nucl1310-476	0		0		0		0		0		0		0		1	nucl1310-2338	0	
-stan1289	1	catalan	1	catalaneastern_stan1289	0		0		1	stan1289-1138	0		0		0		1	stan1289-1138	0		3	stan1289-2425 stan1289-2555 stan1289-2594	0	
+stan1289	1	catalan	1	catalaneastern_stan1289	0		0		1	stan1289-1138	0		0		0		0		0		3	stan1289-2425 stan1289-2555 stan1289-2594	0	
 east2379	1	centralarrernte	0		1	east2379-201	1	east2379-2158	0		0		0		0		0		0		0		1	east2379-2708
 cent2092	1	centralsama	0		0		1	cent2092-2208	0		0		0		0		0		0		0		0	
-chic1270	1	chikasaw	0		0		0		1	chic1270-1230	0		0		0		1	chic1270-1230	0		0		0	
+chic1270	1	chikasaw	0		0		0		1	chic1270-1230	0		0		0		0		0		0		0	
 yuec1235	1	chinesehongkongcantonese	0		1	yuec1235-642	1	yuec1235-2166	0		0		0		0		0		0		1	yuec1235-2309	0	
 coco1260	1	cocosmalay	0		0		1	coco1260-2222	0		0		0		0		0		0		0		0	
-croa1245	1	croatian	0		0		0		1	croa1245-1139	0		0		0		1	croa1245-1139	0		0		0	
-czec1258	1	czech	1	czech_czec1258	0		0		1	czec1258-1140	0		0		0		1	czec1258-1140	0		2	czec1258-2274 czec1258-2480	0	
+croa1245	1	croatian	0		0		0		1	croa1245-1139	0		0		0		0		0		0		0	
+czec1258	1	czech	1	czech_czec1258	0		0		1	czec1258-1140	0		0		0		0		0		2	czec1258-2274 czec1258-2480	0	
 dani1285	1	danish	0		0		1	dani1285-2167	0		0		0		0		0		0		1	dani1285-2265	0	
 dari1249	2	dariafghanpersianformal dariafghanpersianinformal	0		0		0		0		0		0		0		0		0		0		0	
-dutc1256	1	dutch	1	dutch_dutc1256	0		4	dutc1256-2169 dutc1256-2170 dutc1256-2173 dutc1256-2174	1	dutc1256-1050	0		0		0		1	dutc1256-1050	0		1	dutc1256-2405	0	
-egaa1242	1	ega	0		0		0		1	egaa1242-1233	0		0		0		1	egaa1242-1233	0		0		0	
+dutc1256	1	dutch	1	dutch_dutc1256	0		4	dutc1256-2169 dutc1256-2170 dutc1256-2173 dutc1256-2174	1	dutc1256-1050	0		0		0		0		0		1	dutc1256-2405	0	
+egaa1242	1	ega	0		0		0		1	egaa1242-1233	0		0		0		0		0		0		0	
 ersu1241	1	ersu	0		0		1	ersu1241-2199	0		0		0		0		0		0		0		0	
 esto1258	1	standardestonian	0		0		1	esto1258-2181	0		0		0		0		0		0		1	esto1258-2248	0	
 port1283	1	europeanportuguese	0		0		1	port1283-2206	0		0		0		0		0		1	port1283-163	0		0	
 stan1290	1	french	1	french_stan1290	1	stan1290-331	1	stan1290-2182	0		0		0		0		0		1	stan1290-162	1	stan1290-2269	0	
-gali1258	1	galician	0		0		0		1	gali1258-1141	0		0		0		1	gali1258-1141	0		1	gali1258-2619	0	
-gayo1244	1	gayo	0		0		0		1	gayo1244-1052	0		0		0		1	gayo1244-1052	0		0		0	
+gali1258	1	galician	0		0		0		1	gali1258-1141	0		0		0		0		0		1	gali1258-2619	0	
+gayo1244	1	gayo	0		0		0		1	gayo1244-1052	0		0		0		0		0		0		0	
 stan1295	1	northgerman	1	german_stan1295	1	stan1295-304	1	stan1295-2184	0		0		0		0		0		1	stan1295-161	1	stan1295-2398	0	
 viet1252	1	hanoivietnamese	1	vietnamese_viet1252	1	viet1252-605	0		0		0		0		0		0		0		1	viet1252-2462	0	
 haus1257	1	hausa	1	hausa_haus1257	1	haus1257-351	1	haus1257-2188	0		0		2	haus1257-729 haus1257-730	0		0		1	haus1257-124	0		0	
 hebr1245	1	hebrew	1	hebrewmodernashkenazic_hebr1245	0		1	hebr1245-2189	0		0		0		0		0		1	hebr1245-135	1	hebr1245-2449	0	
 hind1269	1	hindi	1	hindi_hind1269	1	hind1269-354	1	hind1269-2190	0		0		0		1	hind1269-1728	0		1	hind1269-176	1	hind1269-2542	0	
 hung1274	1	hungarian	1	hungarian_hung1274	1	hung1274-358	0		0		0		0		0		0		1	hung1274-183	1	hung1274-2557	0	
-ibib1240	1	ibibio	0		0		0		1	ibib1240-1057	0		0		0		1	ibib1240-1057	0		0		0	
+ibib1240	1	ibibio	0		0		0		1	ibib1240-1057	0		0		0		0		0		0		0	
 nucl1417	1	igbo	1	igbo_nucl1417	1	nucl1417-365	0		0		0		1	nucl1417-732	0		0		1	nucl1417-143	0		0	
-indo1316	1	indonesian	1	indonesian_indo1316	0		0		1	indo1316-1144	1	indo1316-1690	0		0		1	indo1316-1144	0		0		0	
+indo1316	1	indonesian	1	indonesian_indo1316	0		0		1	indo1316-1144	1	indo1316-1690	0		0		0		0		0		0	
 iris1253	1	irish	1	irishdonegaldialect_iris1253	1	iris1253-342	1	iris1253-2193	0		0		0		0		0		1	iris1253-156	2	iris1253-2262 iris1253-2521	0	
 ladi1251	1	istanbuljudeospanish	0		0		1	ladi1251-2194	0		0		0		0		0		0		1	ladi1251-2285	0	
 isth1244	1	isthmusjuchitanzapotec	0		0		1	isth1244-2218	0		0		0		0		0		0		0		0	
-ital1282	1	italian	1	italian_ital1282	0		0		1	ital1282-1145	0		0		0		1	ital1282-1145	0		1	ital1282-2427	0	
+ital1282	1	italian	1	italian_ital1282	0		0		1	ital1282-1145	0		0		0		0		0		1	ital1282-2427	0	
 lish1246	1	itunyosotrique	0		1	lish1246-591	0		0		0		0		0		0		0		0		0	
-jama1262	1	jamaicancreole	0		0		0		1	jama1262-1053	0		0		0		1	jama1262-1053	0		0		0	
+jama1262	1	jamaicancreole	0		0		0		1	jama1262-1053	0		0		0		0		0		0		0	
 nucl1643	1	japanese	1	japanese_nucl1643	1	nucl1643-384	1	nucl1643-2196	0		0		0		0		0		1	nucl1643-197	0		0	
-jica1244	1	jicarillaapache	1	jicarillaapache_jica1244	0		0		1	jica1244-1232	0		0		0		1	jica1244-1232	0		0		0	
-kabi1261	1	kabiye	0		0		0		1	kabi1261-1142	0		1	kabi1261-739	0		1	kabi1261-1142	0		0		0	
+jica1244	1	jicarillaapache	1	jicarillaapache_jica1244	0		0		1	jica1244-1232	0		0		0		0		0		0		0	
+kabi1261	1	kabiye	0		0		0		1	kabi1261-1142	0		1	kabi1261-739	0		0		0		0		0	
 keda1250	1	kedayan	0		0		1	keda1250-2225	0		0		0		0		0		0		0		0	
-keoo1238	1	keo	0		0		0		1	keoo1238-1215	0		0		0		1	keoo1238-1215	0		0		0	
+keoo1238	1	keo	0		0		0		1	keoo1238-1215	0		0		0		0		0		0		0	
 kera1255	1	kera	1	kera_kera1255	1	kera1255-398	1	kera1255-2220	0		0		0		0		0		0		0		0	
 kore1280	1	korean	1	korean_kore1280	1	kore1280-423	1	kore1280-2197	0		0		0		0		0		1	kore1280-1	1	kore1280-2287	0	
 kumz1235	1	kumzari	0		0		1	kumz1235-2221	0		0		0		0		0		0		0		0	
 kuna1268	1	kunama	1	kunama_kuna1268	1	kuna1268-433	1	kuna1268-2198	0		0		0		0		0		0		0		0	
-lisu1250	1	lizu	0		0		0		1	lisu1250-1121	0		0		0		1	lisu1250-1121	0		1	lisu1250-2578	0	
+lisu1250	1	lizu	0		0		0		1	lisu1250-1121	0		0		0		0		0		1	lisu1250-2578	0	
 shix1238	2	lowerxumi upperxumi	0		0		2	shix1238-2230 shix1238-2231	0		0		0		0		0		0		1	shix1238-2539	0	
 sout2832	1	luanyjangdinka	0		0		1	sout2832-2168	0		0		0		0		0		0		0		0	
 luxe1241	1	luxembourgish	0		0		1	luxe1241-2200	0		0		0		0		0		0		1	luxe1241-2337	0	
 besi1244	1	mahmeri	0		0		1	besi1244-2201	0		0		0		0		0		0		1	besi1244-2347	0	
 maka1311	1	makasar	1	makassarese_maka1311	0		0		0		1	maka1311-1677	0		0		0		0		0		0	
 mala1464	1	malayalamnamboodiridialect	0		0		0		0		0		0		0		0		0		1	mala1464-2559	0	
-mamb1294	1	mambay	0		0		0		1	mamb1294-1054	0		0		0		1	mamb1294-1054	0		0		0	
+mamb1294	1	mambay	0		0		0		1	mamb1294-1054	0		0		0		0		0		0		0	
 mapu1245	1	mapudungun	1	mapudungun_mapu1245	1	mapu1245-230	0		0		0		0		0		1	mapu1245-1802	1	mapu1245-106	0		0	
-mono1270	1	mono	0		0		0		1	mono1270-1143	0		0		0		1	mono1270-1143	0		0		0	
+mono1270	1	mono	0		0		0		1	mono1270-1143	0		0		0		0		0		0		0	
 munj1244	1	munji	0		0		0		0		0		0		0		0		0		1	munj1244-2289	0	
 nara1262	1	nara	1	nara_nara1262	1	nara1262-501	1	nara1262-2203	0		0		0		0		0		0		0		0	
 nepa1254	1	nepali	1	nepalikathmandudialect_nepa1254	1	nepa1254-488	1	nepa1254-2204	0		0		0		1	nepa1254-1772	0		0		1	nepa1254-2342	0	
 niva1238	1	nivacleschichaamlhavos	0		0		0		0		0		0		0		1	niva1238-1983	0		0		0	
 sich1238	1	nuosoyi	0		0		0		0		0		0		0		0		0		1	sich1238-2483	0	
-nuuc1236	1	nuuchahnulth	0		1	nuuc1236-500	0		1	nuuc1236-964	0		0		0		1	nuuc1236-964	1	nuuc1236-70	0		0	
-phal1254	1	palula	0		0		0		1	phal1254-1036	0		0		0		1	phal1254-1036	0		0		0	
+nuuc1236	1	nuuchahnulth	0		1	nuuc1236-500	0		1	nuuc1236-964	0		0		0		0		1	nuuc1236-70	0		0	
+phal1254	1	palula	0		0		0		1	phal1254-1036	0		0		0		0		0		0		0	
 west2369	1	persianfarsi	1	farsiwestern_west2369	1	west2369-516	1	west2369-2205	0		0		0		0		0		1	west2369-172	1	west2369-2520	0	
 pitj1243	1	pitjantjatjara	1	pitjantjatjara_pitj1243	0		1	pitj1243-2226	0		0		0		0		0		0		0		2	pitj1243-2960 pitj1243-2964
 poli1260	1	polish	1	polish_poli1260	0		0		0		0		0		0		0		0		1	poli1260-2604	0	
 russ1263	1	russian	1	russian_russ1263	1	russ1263-530	0		0		0		0		0		0		1	russ1263-166	1	russ1263-2261	0	
-sala1272	1	salasacaquichua	0		0		0		1	sala1272-1146	0		0		0		2	sala1272-1146 sala1272-2040	0		0		0	
+sala1272	1	salasacaquichua	0		0		0		1	sala1272-1146	0		0		0		1	sala1272-2040	0		0		0	
 sand1273	1	sandawe	1	sandawe_sand1273	1	sand1273-532	0		0		1	sand1273-1652	0		0		0		0		0		0	
-seri1257	1	seri	1	seri_seri1257	0		0		1	seri1257-1147	0		0		0		1	seri1257-1147	0		0		0	
+seri1257	1	seri	1	seri_seri1257	0		0		1	seri1257-1147	0		0		0		0		0		0		0	
 wuch1236	1	shanghaichinese	0		1	wuch1236-622	0		0		0		0		0		0		1	wuch1236-17	0		0	
 shil1265	1	shilluk	0		0		0		0		1	shil1265-1359	0		0		0		0		0		0	
 ship1254	1	shipibo	1	shipibokonibo_ship1254	0		0		0		0		0		0		0		0		0		0	
 jebe1250	1	shiwilujebero	1	jebero_jebe1250	1	jebe1250-381	0		0		0		0		0		1	jebe1250-1860	0		0		0	
-sind1272	1	sindhi	1	sindhi_sind1272	0		0		1	sind1272-1148	0		0		1	sind1272-1786	1	sind1272-1148	0		2	sind1272-2437 sind1272-2508	0	
+sind1272	1	sindhi	1	sindhi_sind1272	0		0		1	sind1272-1148	0		0		1	sind1272-1786	0		0		2	sind1272-2437 sind1272-2508	0	
 slov1269	1	slovak	0		0		1	slov1269-2209	0		0		0		0		0		0		1	slov1269-2447	0	
-slov1268	1	slovene	1	slovene_slov1268	0		0		1	slov1268-1149	0		0		0		1	slov1268-1149	0		1	slov1268-2455	0	
+slov1268	1	slovene	1	slovene_slov1268	0		0		1	slov1268-1149	0		0		0		0		0		1	slov1268-2455	0	
 sout2672	1	southeasternpashayi	0		0		1	sout2672-2227	0		0		0		0		0		0		0		0	
-spok1245	1	spokane	0		0		0		1	spok1245-1016	0		0		0		1	spok1245-1016	0		0		0	
+spok1245	1	spokane	0		0		0		1	spok1245-1016	0		0		0		0		0		0		0	
 nucl1302	1	standardgeorgian	1	georgian_nucl1302	1	nucl1302-390	1	nucl1302-2183	0		0		0		0		0		1	nucl1302-5	1	nucl1302-2428	0	
 stan1306	1	standardmalaybrunei	0		0		1	stan1306-2223	0		0		0		0		0		1	stan1306-32	0		0	
 mode1248	1	standardmoderngreek	1	greek_mode1248	1	mode1248-318	2	mode1248-2186 mode1248-2187	0		0		0		0		0		1	mode1248-170	1	mode1248-2458	0	
-east2295	1	standardyiddish	0		0		0		1	east2295-1049	0		0		0		1	east2295-1049	0		1	east2295-2399	0	
+east2295	1	standardyiddish	0		0		0		1	east2295-1049	0		0		0		0		0		1	east2295-2399	0	
 sumi1235	1	sumisema	0		0		1	sumi1235-2211	0		0		0		1	sumi1235-1784	0		0		0		0	
-swed1254	1	swedish	1	swedish_swed1254	0		0		1	swed1254-1150	0		0		0		1	swed1254-1150	0		1	swed1254-2554	0	
-east2440	1	taba	1	tabawaikyondialect_east2440	0		0		2	east2440-1037 east2440-1151	1	east2440-1682	0		0		2	east2440-1037 east2440-1151	0		0		0	
-malo1243	1	tamambo	1	tamambowestern_malo1243	0		0		1	malo1243-1051	0		0		0		1	malo1243-1051	0		0		0	
-tami1289	1	tamil	1	tamil_tami1289	0		0		1	tami1289-1058	0		0		0		1	tami1289-1058	0		1	tami1289-2611	0	
+swed1254	1	swedish	1	swedish_swed1254	0		0		1	swed1254-1150	0		0		0		0		0		1	swed1254-2554	0	
+east2440	1	taba	1	tabawaikyondialect_east2440	0		0		2	east2440-1037 east2440-1151	1	east2440-1682	0		0		0		0		0		0	
+malo1243	1	tamambo	1	tamambowestern_malo1243	0		0		1	malo1243-1051	0		0		0		0		0		0		0	
+tami1289	1	tamil	1	tamil_tami1289	0		0		1	tami1289-1058	0		0		0		0		0		1	tami1289-2611	0	
 tach1250	1	tashlhiytberber	1	tashlhiyt_tach1250	1	tach1250-542	1	tach1250-2229	0		1	tach1250-1648	0		0		0		1	tach1250-123	0		0	
 taus1251	1	tausugsuluk	1	tausug_taus1251	0		1	taus1251-2212	0		0		0		0		0		0		1	taus1251-2365	0	
 timn1235	1	temne	1	themne_timn1235	1	timn1235-569	1	timn1235-2213	0		0		1	timn1235-831	0		0		0		0		0	
 tena1240	1	tenaquichua	0		0		0		0		0		0		0		1	tena1240-2041	0		0		0	
 tera1251	1	tera	1	tera_tera1251	1	tera1251-595	1	tera1251-2214	0		0		0		0		0		0		0		0	
 thai1261	1	thai	1	thaistandard_thai1261	1	thai1261-574	1	thai1261-2215	0		0		0		0		0		0		0		0	
-tuka1248	1	tukangbesi	1	tukangbesiwancinortherndialect_tuka1248	0		0		1	tuka1248-1152	0		0		0		1	tuka1248-1152	0		0		0	
+tuka1248	1	tukangbesi	1	tukangbesiwancinortherndialect_tuka1248	0		0		1	tuka1248-1152	0		0		0		0		0		0		0	
 nucl1301	1	turkish	1	turkish_nucl1301	1	nucl1301-597	1	nucl1301-2217	0		0		0		0		0		1	nucl1301-186	0		0	
-ukra1253	1	ukrainian	0		0		0		1	ukra1253-1035	0		0		0		1	ukra1253-1035	0		1	ukra1253-2503	0	
+ukra1253	1	ukrainian	0		0		0		1	ukra1253-1035	0		0		0		0		0		1	ukra1253-2503	0	
 uppe1395	1	uppersorbian	1	sorbianupperdialect_uppe1395	0		0		0		0		0		0		0		0		1	uppe1395-2541	0	
-yine1238	1	yine	1	yine_yine1238	0		0		1	yine1238-1153	0		0		0		2	yine1238-1153 yine1238-1841	0		0		0	
+yine1238	1	yine	1	yine_yine1238	0		0		1	yine1238-1153	0		0		0		1	yine1238-1841	0		0		0	
 swis1247	1	zurichgerman	0		0		1	swis1247-2185	0		0		0		0		0		0		1	swis1247-2272	0	
 amii1238	0		1	emmi_amii1238	0		0		0		0		0		0		0		0		0		1	amii1238-2641
 ngas1240	0		1	angas_ngas1240	1	ngas1240-223	0		0		0		1	ngas1240-657	0		0		1	ngas1240-125	0		0	
@@ -118,7 +118,7 @@ seda1262	0		1	sedang_seda1262	1	seda1262-535	0		0		0		0		0		0		1	seda1262-13	0		
 suen1241	0		1	suena_suen1241	1	suen1241-558	0		0		0		0		0		0		0		0		0	
 wara1290	0		1	warayaustralia_wara1290	1	wara1290-620	0		0		0		0		0		0		0		0		1	wara1290-2664
 mand1415	0		1	mandarin_mand1415	1	mand1415-286	0		0		0		0		0		0		0		0		0	
-mani1292	0		1	meithei_mani1292	0		0		1	mani1292-1125	0		0		1	mani1292-1764	1	mani1292-1125	0		0		0	
+mani1292	0		1	meithei_mani1292	0		0		1	mani1292-1125	0		0		1	mani1292-1764	0		0		0		0	
 paco1243	0		1	pacoh_paco1243	1	paco1243-511	0		0		0		0		0		0		0		0		0	
 nung1283	0		1	nung_nung1283	1	nung1283-502	0		0		0		0		0		0		0		0		0	
 basq1248	0		1	basquecentral_basq1248	1	basq1248-321	1	basq1248-2161	0		0		0		0		0		1	basq1248-179	4	basq1248-2340 basq1248-2419 basq1248-2583 basq1248-2615	0	
@@ -126,19 +126,19 @@ cofa1242	0		1	cofan_cofa1242	1	cofa1242-289	0		0		0		0		0		1	cofa1242-1895	0		0	
 bats1242	0		1	bats_bats1242	1	bats1242-242	0		0		0		0		0		0		0		1	bats1242-2390	0	
 mait1250	0		1	maithili_mait1250	0		0		0		0		0		1	mait1250-1761	0		0		1	mait1250-2302	0	
 hupa1239	0		1	hupa_hupa1239	1	hupa1239-359	0		0		0		0		0		0		1	hupa1239-65	0		0	
-gunw1252	0		1	kunwinjku_gunw1252	0		0		1	gunw1252-883	0		0		0		1	gunw1252-883	0		0		0	
+gunw1252	0		1	kunwinjku_gunw1252	0		0		1	gunw1252-883	0		0		0		0		0		0		0	
 toar1246	0		1	toaripi_toar1246	1	toar1246-589	0		0		0		0		0		0		0		0		0	
 ayor1240	0		1	ayoreo_ayor1240	0		0		0		0		0		0		1	ayor1240-2137	0		0		0	
 chim1309	0		1	chimila_chim1309	0		0		0		0		0		0		1	chim1309-1894	0		0		0	
 ngit1239	0		1	ngiti_ngit1239	0		0		0		1	ngit1239-1470	0		0		0		0		0		0	
-tuvi1240	0		1	tuva_tuvi1240	1	tuvi1240-599	0		1	tuvi1240-1225	0		0		0		1	tuvi1240-1225	0		1	tuvi1240-2579	0	
+tuvi1240	0		1	tuva_tuvi1240	1	tuvi1240-599	0		1	tuvi1240-1225	0		0		0		0		0		1	tuvi1240-2579	0	
 nugu1241	0		1	nukunu_nugu1241	0		0		0		0		0		0		0		0		0		1	nugu1241-2933
 mala1522	0		1	damana_mala1522	0		0		0		0		0		0		1	mala1522-1898	0		0		0	
 mbab1239	0		1	mbabaram_mbab1239	1	mbab1239-606	0		0		0		0		0		0		0		0		1	mbab1239-2928
 adio1239	0		1	adjukru_adio1239	0		0		0		1	adio1239-1527	1	adio1239-650	0		0		0		0		0	
 wira1265	0		1	wirangu_wira1265	0		0		0		0		0		0		0		0		0		1	wira1265-2934
 gumu1244	0		1	gumuzsouthern_gumu1244	0		0		0		1	gumu1244-1475	0		0		0		0		0		0	
-kris1246	0		1	isaka_kris1246	0		0		1	kris1246-894	0		0		0		1	kris1246-894	0		0		0	
+kris1246	0		1	isaka_kris1246	0		0		1	kris1246-894	0		0		0		0		0		0		0	
 awng1244	0		1	awngi_awng1244	1	awng1244-234	0		0		0		0		0		0		1	awng1244-128	0		0	
 dyir1250	0		1	dyirbal_dyir1250	1	dyir1250-303	0		0		0		0		0		0		0		0		1	dyir1250-2732
 ndut1239	0		1	ndut_ndut1239	1	ndut1239-487	0		0		0		0		0		0		0		0		0	
@@ -148,8 +148,8 @@ achu1247	0		1	achumawi_achu1247	1	achu1247-199	0		0		0		0		0		0		0		0		0
 warr1258	0		1	warrwa_warr1258	0		0		0		0		0		0		0		0		0		1	warr1258-2694
 bero1242	0		1	birom_bero1242	1	bero1242-257	0		0		0		1	bero1242-675	0		0		0		0		0	
 puin1248	0		1	wanshohot_puin1248	0		0		0		0		0		0		1	puin1248-1935	0		0		0	
-sanu1240	0		1	sanuma_sanu1240	0		0		1	sanu1240-1236	0		0		0		3	sanu1240-1236 sanu1240-2133 sanu1240-2148	0		0		0	
-seme1247	0		1	semelai_seme1247	0		0		1	seme1247-1003	0		0		0		1	seme1247-1003	0		0		0	
+sanu1240	0		1	sanuma_sanu1240	0		0		1	sanu1240-1236	0		0		0		2	sanu1240-2133 sanu1240-2148	0		0		0	
+seme1247	0		1	semelai_seme1247	0		0		1	seme1247-1003	0		0		0		0		0		0		0	
 yagu1244	0		1	yagua_yagu1244	1	yagu1244-628	0		0		0		0		0		1	yagu1244-2019	0		0		0	
 onei1249	0		1	oneida_onei1249	0		0		0		0		0		0		0		1	onei1249-77	0		0	
 koho1244	0		1	sre_koho1244	1	koho1244-425	0		0		0		0		0		0		0		0		0	
@@ -191,16 +191,16 @@ yuhu1238	0		1	yuhup_yuhu1238	0		0		0		0		0		0		1	yuhu1238-1993	0		0		0
 halh1238	0		1	khalkha_halh1238	1	halh1238-405	0		0		0		0		0		0		1	halh1238-191	0		0	
 cent2050	0		1	kanuri_cent2050	1	cent2050-421	0		0		0		1	cent2050-742	0		0		1	cent2050-150	0		0	
 yany1243	0		1	yanyuwa_yany1243	1	yany1243-379	0		0		0		0		0		0		0		0		1	yany1243-2950
-sout2750	0		1	kolymayukaghir_sout2750	0		0		1	sout2750-1027	0		0		0		1	sout2750-1027	0		1	sout2750-2625	0	
-arhu1242	0		1	ikacolombia_arhu1242	0		0		1	arhu1242-1096	0		0		0		2	arhu1242-1096 arhu1242-1891	0		0		0	
+sout2750	0		1	kolymayukaghir_sout2750	0		0		1	sout2750-1027	0		0		0		0		0		1	sout2750-2625	0	
+arhu1242	0		1	ikacolombia_arhu1242	0		0		1	arhu1242-1096	0		0		0		1	arhu1242-1891	0		0		0	
 iaai1238	0		1	iaai_iaai1238	1	iaai1238-363	0		0		0		0		0		0		1	iaai1238-39	0		0	
-koas1236	0		1	koasati_koas1236	0		0		1	koas1236-1106	0		0		0		1	koas1236-1106	0		0		0	
+koas1236	0		1	koasati_koas1236	0		0		1	koas1236-1106	0		0		0		0		0		0		0	
 sout2949	0		1	southernkiwaiislanddialect_sout2949	1	sout2949-411	0		0		0		0		0		0		0		0		0	
-maib1239	0		1	maybratmayhapehdialectofayawasivillage_maib1239	0		0		1	maib1239-938	0		0		0		1	maib1239-938	0		0		0	
+maib1239	0		1	maybratmayhapehdialectofayawasivillage_maib1239	0		0		1	maib1239-938	0		0		0		0		0		0		0	
 mans1258	0		1	mansinorthern_mans1258	0		0		0		0		0		0		0		0		1	mans1258-2475	0	
 tari1256	0		1	tariana_tari1256	0		0		0		0		0		0		1	tari1256-1831	0		0		0	
-nand1266	0		1	nandi_nand1266	0		0		1	nand1266-954	0		0		0		1	nand1266-954	0		0		0	
-ingu1240	0		1	ingush_ingu1240	0		0		1	ingu1240-893	0		0		0		1	ingu1240-893	0		1	ingu1240-2251	0	
+nand1266	0		1	nandi_nand1266	0		0		1	nand1266-954	0		0		0		0		0		0		0	
+ingu1240	0		1	ingush_ingu1240	0		0		1	ingu1240-893	0		0		0		0		0		1	ingu1240-2251	0	
 iban1264	0		1	iban_iban1264	1	iban1264-364	0		0		0		0		0		0		0		0		0	
 mara1386	0		1	maranungku_mara1386	0		0		0		0		0		0		0		1	mara1386-47	0		0	
 pech1241	0		1	pechculmidialect_pech1241	1	pech1241-512	0		0		0		0		0		0		0		0		0	
@@ -216,7 +216,7 @@ ache1246	0		1	ache_ache1246	1	ache1246-348	0		0		0		0		0		1	ache1246-2068	0		0		
 aghe1239	0		1	aghem_aghe1239	1	aghe1239-204	0		0		1	aghe1239-1524	0		0		0		0		0		0	
 tamp1252	0		1	tampulma_tamp1252	1	tamp1252-586	0		0		0		0		0		0		0		0		0	
 karo1304	0		1	karuk_karo1304	1	karo1304-438	0		0		0		0		0		0		0		0		0	
-madi1260	0		1	madisouthernlokaidialect_madi1260	0		0		1	madi1260-932	0		0		0		1	madi1260-932	0		0		0	
+madi1260	0		1	madisouthernlokaidialect_madi1260	0		0		1	madi1260-932	0		0		0		0		0		0		0	
 movi1243	0		1	movima_movi1243	1	movi1243-479	0		0		0		0		0		1	movi1243-1932	0		0		0	
 djee1236	0		1	ndjebbana_djee1236	0		0		0		0		0		0		0		0		0		1	djee1236-2676
 egyp1253	0		1	egyptianarabic_egyp1253	1	egyp1253-231	0		0		0		0		0		0		1	egyp1253-132	0		0	
@@ -225,7 +225,7 @@ nung1290	0		1	nunggubuyu_nung1290	1	nung1290-503	0		0		0		0		0		0		1	nung1290-49
 sang1328	0		1	sango_sang1328	1	sang1328-533	0		0		0		2	sang1328-813 sang1328-814	0		0		0		0		0	
 brib1243	0		1	bribri_brib1243	1	brib1243-268	0		0		0		0		0		0		0		0		0	
 isok1239	0		1	isokouzeredialect_isok1239	1	isok1239-372	0		0		0		0		0		0		0		0		0	
-koko1269	0		1	kokota_koko1269	0		0		1	koko1269-913	0		0		0		1	koko1269-913	0		0		0	
+koko1269	0		1	kokota_koko1269	0		0		1	koko1269-913	0		0		0		0		0		0		0	
 lako1247	0		1	lakotateton_lako1247	1	lako1247-445	0		0		0		0		0		0		1	lako1247-75	0		0	
 muin1242	0		1	muinane_muin1242	1	muin1242-256	0		0		0		0		0		1	muin1242-1859	0		0		0	
 west2644	0		1	chatinowesternhighland_west2644	1	west2644-294	0		0		0		0		0		0		0		0		0	
@@ -238,7 +238,7 @@ selk1253	0		1	selkuptaznortherndialect_selk1253	1	selk1253-538	0		0		0		0		0		0	
 embe1262	0		1	embera_embe1262	0		0		0		0		0		0		1	embe1262-1903	0		0		0	
 mbaa1245	0		1	mbane_mbaa1245	1	mbaa1245-458	0		0		0		0		0		0		0		0		0	
 bagi1246	0		1	bagirmi_bagi1246	0		0		0		1	bagi1246-1469	0		0		0		0		0		0	
-coma1245	0		1	comanche_coma1245	0		0		1	coma1245-864	0		0		0		1	coma1245-864	0		0		0	
+coma1245	0		1	comanche_coma1245	0		0		1	coma1245-864	0		0		0		0		0		0		0	
 amah1246	0		1	amahuaca_amah1246	1	amah1246-216	0		0		0		0		0		1	amah1246-1998	1	amah1246-120	0		0	
 urub1250	0		1	urubukaapor_urub1250	0		0		0		0		0		0		1	urub1250-2088	0		0		0	
 toll1241	0		1	tol_toll1241	1	toll1241-382	0		0		0		0		0		0		0		0		0	
@@ -264,7 +264,7 @@ cent2144	0		1	mazahuacentral_cent2144	1	cent2144-452	0		0		0		0		0		0		1	cent214
 kirg1245	0		1	kyrgyz_kirg1245	1	kirg1245-410	0		0		0		0		0		0		1	kirg1245-188	1	kirg1245-2382	0	
 east2652	0		1	oromoharar_east2652	0		0		0		1	east2652-1552	0		0		0		0		0		0	
 nucl1632	0		1	sentani_nucl1632	1	nucl1632-540	0		0		0		0		0		0		1	nucl1632-52	0		0	
-bilu1245	0		1	bilua_bilu1245	0		0		1	bilu1245-1210	0		0		0		1	bilu1245-1210	0		0		0	
+bilu1245	0		1	bilua_bilu1245	0		0		1	bilu1245-1210	0		0		0		0		0		0		0	
 malt1254	0		1	maltesestandard_malt1254	0		0		0		0		0		0		0		1	malt1254-134	1	malt1254-2275	0	
 tuni1252	0		1	tunica_tuni1252	1	tuni1252-596	0		0		0		0		0		0		1	tuni1252-80	0		0	
 yare1248	0		1	yareba_yare1248	1	yare1248-637	0		0		0		0		0		0		0		0		0	
@@ -309,18 +309,18 @@ qaua1234	0		1	quagelao_qaua1234	1	qaua1234-340	0		0		0		0		0		0		0		0		0
 hunz1247	0		1	hunzib_hunz1247	0		1	hunz1247-2237	0		0		0		0		0		0		0		0	
 umbu1257	0		1	umbundu_umbu1257	0		0		0		1	umbu1257-1268	0		0		0		0		0		0	
 tonk1249	0		1	tonkawa_tonk1249	1	tonk1249-590	0		0		0		0		0		0		0		0		0	
-imon1245	0		1	imonda_imon1245	0		0		1	imon1245-892	0		0		0		1	imon1245-892	0		0		0	
-tzut1248	0		1	tzutujileasternsanjuanlalagunadialect_tzut1248	0		0		1	tzut1248-1223	0		0		0		1	tzut1248-1223	0		0		0	
+imon1245	0		1	imonda_imon1245	0		0		1	imon1245-892	0		0		0		0		0		0		0	
+tzut1248	0		1	tzutujileasternsanjuanlalagunadialect_tzut1248	0		0		1	tzut1248-1223	0		0		0		0		0		0		0	
 epen1239	0		1	epena_epen1239	1	epen1239-546	0		0		0		0		0		1	epen1239-1905	0		0		0	
 finn1318	0		1	finnish_finn1318	1	finn1318-329	0		0		0		0		0		0		1	finn1318-180	1	finn1318-2535	0	
 guam1248	0		1	guambiano_guam1248	1	guam1248-347	0		0		0		0		0		1	guam1248-1855	0		0		0	
 nucl1696	0		1	tangaleshongomdialect_nucl1696	0		0		0		1	nucl1696-1567	0		0		0		0		0		0	
 nava1243	0		1	navajo_nava1243	1	nava1243-484	0		0		0		0		0		0		1	nava1243-66	0		0	
-jama1261	0		1	madibrazilbanawadialect_jama1261	0		0		1	jama1261-897	0		0		0		3	jama1261-897 jama1261-1846 jama1261-1847	0		0		0	
+jama1261	0		1	madibrazilbanawadialect_jama1261	0		0		1	jama1261-897	0		0		0		2	jama1261-1846 jama1261-1847	0		0		0	
 carn1240	0		1	carnicobarese_carn1240	1	carn1240-271	0		0		0		0		0		0		0		0		0	
-pwon1235	0		1	phlong_pwon1235	1	pwon1235-523	0		1	pwon1235-1224	0		0		0		1	pwon1235-1224	0		0		0	
-lada1244	0		1	ladakhidialectofleh_lada1244	0		0		1	lada1244-922	0		0		1	lada1244-1756	1	lada1244-922	0		1	lada1244-2366	0	
-mund1330	0		1	munduruku_mund1330	0		0		1	mund1330-1129	0		0		0		2	mund1330-1129 mund1330-2096	0		0		0	
+pwon1235	0		1	phlong_pwon1235	1	pwon1235-523	0		1	pwon1235-1224	0		0		0		0		0		0		0	
+lada1244	0		1	ladakhidialectofleh_lada1244	0		0		1	lada1244-922	0		0		1	lada1244-1756	0		0		1	lada1244-2366	0	
+mund1330	0		1	munduruku_mund1330	0		0		1	mund1330-1129	0		0		0		1	mund1330-2096	0		0		0	
 lepc1244	0		1	lepcha_lepc1244	0		0		0		0		0		1	lepc1244-1758	0		0		0		0	
 aleu1260	0		1	aleuteastern_aleu1260	1	aleu1260-213	0		0		0		0		0		0		1	aleu1260-61	0		0	
 nucl1620	0		1	midwahgi_nucl1620	1	nucl1620-610	0		0		0		0		0		0		0		0		0	
@@ -333,7 +333,7 @@ tzel1254	0		1	tzeltalaguacatenangodialect_tzel1254	1	tzel1254-600	0		0		0		0		0	
 nhan1238	0		1	nhanda_nhan1238	0		0		0		0		0		0		0		0		0		1	nhan1238-2770
 sout2982	0		1	southeasternpomo_sout2982	1	sout2982-518	0		0		0		0		0		0		1	sout2982-89	0		0	
 copa1236	0		1	zoquecopainala_copa1236	1	copa1236-646	0		0		0		0		0		0		1	copa1236-83	0		0	
-wari1268	0		1	wari_wari1268	0		0		1	wari1268-1237	0		0		0		2	wari1268-1237 wari1268-1890	0		0		0	
+wari1268	0		1	wari_wari1268	0		0		1	wari1268-1237	0		0		0		1	wari1268-1890	0		0		0	
 gara1269	0		1	garrwa_gara1269	1	gara1269-337	0		0		0		0		0		0		0		0		2	gara1269-2645 gara1269-2647
 yulu1243	0		1	yulu_yulu1243	1	yulu1243-643	0		0		0		0		0		0		0		0		0	
 inap1243	0		1	inapari_inap1243	0		0		0		0		0		0		1	inap1243-1819	0		0		0	
@@ -351,7 +351,7 @@ mbum1254	0		1	mbum_mbum1254	1	mbum1254-455	0		0		0		0		0		0		0		0		0
 cayu1262	0		1	cayuvava_cayu1262	1	cayu1262-296	0		0		0		0		0		1	cayu1262-1926	0		0		0	
 kwom1262	0		1	kwoma_kwom1262	1	kwom1262-418	0		0		0		0		0		0		1	kwom1262-53	0		0	
 maor1246	0		1	maori_maor1246	0		0		0		0		0		0		0		1	maor1246-42	0		0	
-tiwi1244	0		1	tiwi_tiwi1244	1	tiwi1244-577	0		1	tiwi1244-1218	0		0		0		1	tiwi1244-1218	0		0		1	tiwi1244-3005
+tiwi1244	0		1	tiwi_tiwi1244	1	tiwi1244-577	0		1	tiwi1244-1218	0		0		0		0		0		0		1	tiwi1244-3005
 kala1377	0		1	kalalagauya_kala1377	1	kala1377-475	0		0		0		0		0		0		0		0		1	kala1377-2967
 yaga1260	0		1	yagariamovedialect_yaga1260	1	yaga1260-632	0		0		0		0		0		0		0		0		0	
 boro1282	0		1	bororo_boro1282	1	boro1282-258	0		0		0		0		0		1	boro1282-1955	0		0		0	
@@ -369,7 +369,7 @@ enap1235	0		1	panare_enap1235	1	enap1235-514	0		0		0		0		0		1	enap1235-1880	0		0
 lele1264	0		1	lelemi_lele1264	1	lele1264-441	0		0		0		0		0		0		0		0		0	
 kuni1267	0		1	kunimaipa_kuni1267	1	kuni1267-434	0		0		0		0		0		0		1	kuni1267-58	0		0	
 wayu1243	0		1	wayuu_wayu1243	1	wayu1243-344	0		0		0		0		0		1	wayu1243-1836	1	wayu1243-109	0		0	
-colo1256	0		1	tsafiki_colo1256	0		0		1	colo1256-1222	0		0		0		2	colo1256-1222 colo1256-1856	0		0		0	
+colo1256	0		1	tsafiki_colo1256	0		0		1	colo1256-1222	0		0		0		1	colo1256-1856	0		0		0	
 ward1246	0		1	wardaman_ward1246	0		0		0		0		0		0		0		0		0		1	ward1246-3015
 dadi1250	0		1	dadibi_dadi1250	1	dadi1250-468	0		0		0		0		0		0		0		0		0	
 bata1293	0		1	batakkaro_bata1293	0		0		0		1	bata1293-1665	0		0		0		0		0		0	
@@ -382,18 +382,18 @@ wang1291	0		1	ngiyambaa_wang1291	1	wang1291-623	0		0		0		0		0		0		0		0		1	wang12
 nort2745	0		1	tundrayukaghir_nort2745	1	nort2745-634	0		0		0		0		0		0		1	nort2745-193	1	nort2745-2286	0	
 lele1276	0		1	lelechad_lele1276	0		0		0		1	lele1276-1275	1	lele1276-761	0		0		0		0		0	
 amas1236	0		1	ama_amas1236	1	amas1236-504	0		0		0		0		0		0		0		0		0	
-khar1287	0		1	khariadudh_khar1287	1	khar1287-408	0		1	khar1287-909	0		0		1	khar1287-1740	1	khar1287-909	1	khar1287-11	1	khar1287-2511	0	
+khar1287	0		1	khariadudh_khar1287	1	khar1287-408	0		1	khar1287-909	0		0		1	khar1287-1740	0		1	khar1287-11	1	khar1287-2511	0	
 kuku1273	0		1	kukuyalanji_kuku1273	1	kuku1273-349	0		0		0		0		0		0		0		0		3	kuku1273-2885 kuku1273-2887 kuku1273-2889
 cube1242	0		1	cubeo_cube1242	1	cube1242-295	0		0		0		0		0		1	cube1242-2051	0		0		0	
 ajyi1238	0		1	ajyininka_ajyi1238	0		0		0		0		0		0		1	ajyi1238-1807	0		0		0	
 scot1245	0		1	scottishgaelic_scot1245	0		0		0		0		0		0		0		0		1	scot1245-2601	0	
-apur1254	0		1	apurina_apur1254	0		0		1	apur1254-1092	0		0		0		2	apur1254-1092 apur1254-1804	0		0		0	
+apur1254	0		1	apurina_apur1254	0		0		1	apur1254-1092	0		0		0		1	apur1254-1804	0		0		0	
 kohu1244	0		1	kohumono_kohu1244	1	kohu1244-246	0		0		0		0		0		0		0		0		0	
 dera1245	0		1	dlamenggwadialect_dera1245	1	dera1245-395	0		0		0		0		0		0		0		0		0	
 chua1250	0		1	chuave_chua1250	1	chua1250-284	0		0		0		0		0		0		0		0		0	
 zuni1245	0		1	zuni_zuni1245	1	zuni1245-648	0		0		0		0		0		0		1	zuni1245-91	0		0	
 dagb1246	0		1	dagbani_dagb1246	1	dagb1246-299	0		0		0		1	dagb1246-690	0		0		1	dagb1246-139	0		0	
-jeme1245	0		1	towa_jeme1245	0		0		1	jeme1245-898	0		0		0		1	jeme1245-898	0		0		0	
+jeme1245	0		1	towa_jeme1245	0		0		1	jeme1245-898	0		0		0		0		0		0		0	
 kafa1242	0		1	kafa_kafa1242	1	kafa1242-394	0		0		0		0		0		0		0		0		0	
 wari1266	0		1	waris_wari1266	1	wari1266-619	0		0		0		0		0		0		0		0		0	
 klam1254	0		1	klamath_klam1254	1	klam1254-416	0		0		0		0		0		0		0		0		0	
@@ -402,7 +402,7 @@ hixk1239	0		1	hixkaryana_hixk1239	1	hixk1239-355	0		0		0		0		0		1	hixk1239-1871	
 kaya1319	0		1	kayardild_kaya1319	0		0		0		0		0		0		0		0		0		2	kaya1319-3002 kaya1319-3004
 ticu1245	0		1	ticuna_ticu1245	1	ticu1245-565	0		0		0		0		0		1	ticu1245-1937	1	ticu1245-115	0		0	
 tetu1245	0		1	tetunwesterndialect_tetu1245	1	tetu1245-571	0		0		1	tetu1245-1680	0		0		0		0		0		0	
-rama1270	0		1	rama_rama1270	0		0		1	rama1270-987	0		0		0		1	rama1270-987	0		0		0	
+rama1270	0		1	rama_rama1270	0		0		1	rama1270-987	0		0		0		0		0		0		0	
 mull1237	0		1	malakmalak_mull1237	1	mull1237-466	0		0		0		0		0		0		0		0		1	mull1237-2633
 chac1249	0		1	chachi_chac1249	1	chac1249-273	0		0		0		0		0		1	chac1249-1854	1	chac1249-101	0		0	
 lith1251	0		1	lithuanian_lith1251	1	lith1251-444	0		0		0		0		0		0		1	lith1251-168	4	lith1251-2244 lith1251-2282 lith1251-2316 lith1251-2488	0	
@@ -410,7 +410,7 @@ lena1238	0		1	lenakel_lena1238	1	lena1238-584	0		0		0		0		0		0		0		0		0
 sooo1256	0		1	so_sooo1256	0		0		0		1	sooo1256-1476	0		0		0		0		0		0	
 sele1250	0		1	selepet_sele1250	1	sele1250-554	0		0		0		0		0		0		1	sele1250-59	0		0	
 sant1410	0		1	santali_sant1410	0		0		0		0		0		1	sant1410-1783	0		0		1	sant1410-2550	0	
-yuro1248	0		1	yurok_yuro1248	0		0		1	yuro1248-1025	0		0		0		1	yuro1248-1025	0		0		0	
+yuro1248	0		1	yurok_yuro1248	0		0		1	yuro1248-1025	0		0		0		0		0		0		0	
 maxa1247	0		1	maxakali_maxa1247	1	maxa1247-453	0		0		0		0		0		1	maxa1247-1967	0		0		0	
 beja1238	0		1	beja_beja1238	1	beja1238-249	0		0		0		0		0		0		0		0		0	
 minn1241	0		1	hainanese_minn1241	1	minn1241-481	0		0		0		0		0		0		0		0		0	
@@ -421,23 +421,23 @@ ekar1243	0		1	ekari_ekar1243	1	ekar1243-317	0		0		0		0		0		0		0		0		0
 abip1241	0		1	abipon_abip1241	1	abip1241-235	0		0		0		0		0		1	abip1241-1914	0		0		0	
 dhiv1236	0		1	dhivehi_dhiv1236	0		0		0		0		0		0		0		0		1	dhiv1236-2315	0	
 sout2994	0		1	southernnambiquara_sout2994	1	sout2994-480	0		0		0		0		0		0		0		0		0	
-cham1318	0		1	chamicuro_cham1318	0		0		1	cham1318-855	0		0		0		2	cham1318-855 cham1318-1816	0		0		0	
+cham1318	0		1	chamicuro_cham1318	0		0		1	cham1318-855	0		0		0		1	cham1318-1816	0		0		0	
 yana1271	0		1	yananortherndialect_yana1271	1	yana1271-635	0		0		0		0		0		0		0		0		0	
 sene1264	0		1	seneca_sene1264	1	sene1264-536	0		0		0		0		0		0		1	sene1264-76	0		0	
 bura1267	0		1	burarra_bura1267	1	bura1267-266	0		0		0		0		0		0		0		0		1	bura1267-2629
-khan1273	0		1	khantynorthern_khan1273	1	khan1273-396	0		1	khan1273-1137	0		0		0		1	khan1273-1137	1	khan1273-184	3	khan1273-2271 khan1273-2279 khan1273-2376	0	
+khan1273	0		1	khantynorthern_khan1273	1	khan1273-396	0		1	khan1273-1137	0		0		0		0		1	khan1273-184	3	khan1273-2271 khan1273-2279 khan1273-2376	0	
 nyis1236	0		1	nyishi_nyis1236	1	nyis1236-302	0		0		0		0		0		0		1	nyis1236-21	0		0	
 jola1263	0		1	diolafogny_jola1263	1	jola1263-315	0		0		0		1	jola1263-737	0		0		0		0		0	
-awac1239	0		1	awapit_awac1239	0		0		1	awac1239-1120	0		0		0		2	awac1239-1120 awac1239-1853	0		0		0	
+awac1239	0		1	awapit_awac1239	0		0		1	awac1239-1120	0		0		0		1	awac1239-1853	0		0		0	
 esee1248	0		1	eseejja_esee1248	0		0		0		0		0		0		2	esee1248-2046 esee1248-2047	0		0		0	
 para1311	0		1	guaraniparaguayan_para1311	1	para1311-345	0		0		0		0		0		1	para1311-2084	1	para1311-119	0		0	
-kwaz1243	0		1	kwaza_kwaz1243	0		0		1	kwaz1243-921	0		0		0		2	kwaz1243-921 kwaz1243-2124	0		0		0	
-mada1293	0		1	madacameroun_mada1293	0		0		1	mada1293-931	0		0		0		1	mada1293-931	0		0		0	
+kwaz1243	0		1	kwaza_kwaz1243	0		0		1	kwaz1243-921	0		0		0		1	kwaz1243-2124	0		0		0	
+mada1293	0		1	madacameroun_mada1293	0		0		1	mada1293-931	0		0		0		0		0		0		0	
 murr1258	0		1	murrinhpatha_murr1258	1	murr1258-474	0		0		0		0		0		0		0		0		0	
 adze1240	0		1	adzera_adze1240	1	adze1240-200	0		0		0		0		0		0		1	adze1240-41	0		0	
 natu1246	0		1	natugu_natu1246	1	natu1246-557	0		0		0		0		0		0		0		0		0	
 buna1275	0		1	bunuba_buna1275	0		0		0		0		0		0		0		0		0		1	buna1275-2630
-yuch1247	0		1	yuchi_yuch1247	1	yuch1247-641	0		1	yuch1247-1074	0		0		0		1	yuch1247-1074	1	yuch1247-78	0		0	
+yuch1247	0		1	yuchi_yuch1247	1	yuch1247-641	0		1	yuch1247-1074	0		0		0		0		1	yuch1247-78	0		0	
 chuk1273	0		1	chukchi_chuk1273	1	chuk1273-285	0		0		0		0		0		0		1	chuk1273-195	1	chuk1273-2362	0	
 inga1252	0		1	inga_inga1252	0		0		0		0		0		0		1	inga1252-2027	0		0		0	
 koya1251	0		1	koya_koya1251	1	koya1251-401	0		0		0		0		1	koya1251-1751	0		0		0		0	
@@ -458,14 +458,14 @@ kaur1267	0		1	kaurna_kaur1267	0		0		0		0		0		0		0		0		0		1	kaur1267-2932
 kiow1266	0		1	kiowa_kiow1266	1	kiow1266-409	0		0		0		0		0		0		0		0		0	
 cham1312	0		1	chamorro_cham1312	1	cham1312-277	0		0		0		0		0		0		1	cham1312-38	0		0	
 nana1257	0		1	nanai_nana1257	1	nana1257-341	0		0		0		0		0		0		0		0		0	
-samr1245	0		1	samre_samr1245	0		0		1	samr1245-994	0		0		0		1	samr1245-994	0		0		0	
+samr1245	0		1	samre_samr1245	0		0		1	samr1245-994	0		0		0		0		0		0		0	
 chuv1255	0		1	chuvash_chuv1255	1	chuv1255-281	0		0		0		0		0		0		1	chuv1255-189	0		0	
 tuuu1240	0		1	mangghuerminxedialect_tuuu1240	1	tuuu1240-462	0		0		0		0		0		0		0		2	tuuu1240-2501 tuuu1240-2556	0	
 mang1381	0		1	mangarrayi_mang1381	0		0		0		0		0		0		0		0		0		1	mang1381-2682
-tolo1259	0		1	tolowa_tolo1259	0		0		1	tolo1259-1069	0		0		0		1	tolo1259-1069	1	tolo1259-64	0		0	
+tolo1259	0		1	tolowa_tolo1259	0		0		1	tolo1259-1069	0		0		0		0		1	tolo1259-64	0		0	
 tsam1247	0		1	tsamakko_tsam1247	0		0		0		1	tsam1247-1608	0		0		0		0		0		0	
 wara1303	0		1	warao_wara1303	1	wara1303-609	0		0		0		0		0		1	wara1303-1943	0		0		0	
-kuot1243	0		1	kuotsouth_kuot1243	0		0		1	kuot1243-918	0		0		0		1	kuot1243-918	0		0		0	
+kuot1243	0		1	kuotsouth_kuot1243	0		0		1	kuot1243-918	0		0		0		0		0		0		0	
 trum1247	0		1	trumai_trum1247	1	trum1247-588	0		0		0		0		0		1	trum1247-1939	0		0		0	
 pare1272	0		1	paresi_pare1272	0		0		0		0		0		0		1	pare1272-1828	0		0		0	
 yeru1240	0		1	yerukala_yeru1240	0		0		0		0		0		1	yeru1240-1800	0		0		0		0	
@@ -479,11 +479,11 @@ sali1298	0		1	salibacolombia_sali1298	1	sali1298-548	0		0		0		0		0		1	sali1298-2
 ruka1240	0		1	rukaitanandialect_ruka1240	1	ruka1240-311	0		0		0		0		0		0		0		0		0	
 kuru1302	0		1	kurukh_kuru1302	1	kuru1302-429	0		0		0		0		1	kuru1302-1754	0		1	kuru1302-7	0		0	
 wamb1258	0		1	wambaya_wamb1258	0		0		0		0		0		0		0		0		0		1	wamb1258-2690
-cavi1250	0		1	cavinena_cavi1250	0		0		1	cavi1250-854	0		0		0		2	cavi1250-854 cavi1250-2045	0		0		0	
+cavi1250	0		1	cavinena_cavi1250	0		0		1	cavi1250-854	0		0		0		1	cavi1250-2045	0		0		0	
 cacu1241	0		1	kakwacolombia_cacu1241	1	cacu1241-275	0		0		0		0		0		1	cacu1241-1950	0		0		0	
 tada1238	0		1	tadaksahak_tada1238	0		0		0		1	tada1238-1372	0		0		0		0		0		0	
 yuca1254	0		1	yucatec_yuca1254	1	yuca1254-640	0		0		0		0		0		0		0		0		0	
-bata1289	0		1	bataktoba_bata1289	1	bata1289-241	0		1	bata1289-1099	0		0		0		1	bata1289-1099	1	bata1289-33	0		0	
+bata1289	0		1	bataktoba_bata1289	1	bata1289-241	0		1	bata1289-1099	0		0		0		0		1	bata1289-33	0		0	
 furr1244	0		1	fur_furr1244	1	furr1244-333	0		0		0		0		0		0		0		0		0	
 gras1249	0		1	koiari_gras1249	1	gras1249-393	0		0		0		0		0		0		0		0		0	
 bare1276	0		1	bare_bare1276	0		0		0		0		0		0		1	bare1276-1813	0		0		0	
@@ -491,9 +491,9 @@ yaqu1251	0		1	yaqui_yaqu1251	1	yaqu1251-629	0		0		0		0		0		0		0		0		0
 wich1260	0		1	wichita_wich1260	1	wich1260-611	0		0		0		0		0		0		1	wich1260-74	0		0	
 alam1246	0		1	alamblak_alam1246	1	alam1246-221	0		0		0		0		0		0		0		0		0	
 lusi1240	0		1	kaliai_lusi1240	1	lusi1240-406	0		0		0		0		0		0		0		0		0	
-sora1254	0		1	sora_sora1254	0		0		1	sora1254-998	0		0		1	sora1254-1787	1	sora1254-998	0		1	sora1254-2526	0	
+sora1254	0		1	sora_sora1254	0		0		1	sora1254-998	0		0		1	sora1254-1787	0		0		1	sora1254-2526	0	
 luis1253	0		1	luiseno_luis1253	1	luis1253-447	0		0		0		0		0		0		1	luis1253-94	0		0	
-huas1242	0		1	huastec_huas1242	1	huas1242-360	0		1	huas1242-1116	0		0		0		1	huas1242-1116	0		0		0	
+huas1242	0		1	huastec_huas1242	1	huas1242-360	0		1	huas1242-1116	0		0		0		0		0		0		0	
 resi1247	0		1	resigaro_resi1247	1	resi1247-526	0		0		0		0		0		1	resi1247-1830	0		0		0	
 want1252	0		1	wantoat_want1252	1	want1252-615	0		0		0		0		0		0		0		0		0	
 djin1251	0		1	jingulu_djin1251	0		0		0		0		0		0		0		0		0		1	djin1251-2687
@@ -525,11 +525,11 @@ khak1248	0		1	khakas_khak1248	0		0		0		0		0		0		0		0		1	khak1248-2433	0
 anga1290	0		1	angaatiha_anga1290	1	anga1290-203	0		0		0		0		0		0		0		0		0	
 tani1257	0		1	tanimucaretuara_tani1257	0		0		0		0		0		0		1	tani1257-2062	0		0		0	
 biri1256	0		1	biri_biri1256	0		0		0		0		0		0		0		0		0		10	biri1256-2799 biri1256-2800 biri1256-2804 biri1256-2805 biri1256-2806 biri1256-2807 biri1256-2808 biri1256-2810 biri1256-2811 biri1256-2822
-toba1269	0		1	toba_toba1269	0		0		1	toba1269-1045	0		0		0		3	toba1269-1045 toba1269-1918 toba1269-1919	0		0		0	
+toba1269	0		1	toba_toba1269	0		0		1	toba1269-1045	0		0		0		2	toba1269-1918 toba1269-1919	0		0		0	
 roto1249	0		1	rotokas_roto1249	1	roto1249-528	0		0		0		0		0		0		0		0		0	
 mart1255	0		1	martuthunira_mart1255	0		0		0		0		0		0		0		0		0		1	mart1255-2841
 tiga1245	0		1	tigak_tiga1245	1	tiga1245-572	0		0		0		0		0		0		0		0		0	
-lavu1241	0		1	lavukaleve_lavu1241	0		0		1	lavu1241-925	0		0		0		1	lavu1241-925	0		0		0	
+lavu1241	0		1	lavukaleve_lavu1241	0		0		1	lavu1241-925	0		0		0		0		0		0		0	
 akan1250	0		0		1	akan1250-208	0		0		1	akan1250-1245	1	akan1250-655	0		0		1	akan1250-140	0		0	
 akaw1239	0		0		1	akaw1239-209	0		0		0		0		0		1	akaw1239-1873	0		0		0	
 alla1248	0		0		1	alla1248-212	0		0		1	alla1248-1529	0		0		0		0		0		0	
@@ -558,7 +558,7 @@ gbay1287	0		0		1	gbay1287-338	0		0		0		1	gbay1287-720	0		0		1	gbay1287-148	0		0
 guah1255	0		0		1	guah1255-346	0		0		0		0		0		1	guah1255-1911	0		0		0	
 hakk1236	0		0		1	hakk1236-350	0		0		0		0		0		0		1	hakk1236-18	0		0	
 sout2956	0		0		1	sout2956-353	0		0		0		0		0		0		1	sout2956-67	0		0	
-sanm1287	0		0		1	sanm1287-361	0		1	sanm1287-888	0		0		0		1	sanm1287-888	0		0		0	
+sanm1287	0		0		1	sanm1287-361	0		1	sanm1287-888	0		0		0		0		0		0		0	
 iraq1241	0		0		1	iraq1241-370	0		0		0		0		0		0		1	iraq1241-129	0		0	
 itel1242	0		0		1	itel1242-373	0		0		0		0		0		0		0		1	itel1242-2297	0	
 java1254	0		0		1	java1254-380	0		0		1	java1254-1675	0		0		0		1	java1254-36	0		0	
@@ -578,7 +578,7 @@ sout2965	0		0		1	sout2965-449	0		0		0		0		0		0		1	sout2965-69	0		0
 chiq1250	0		0		1	chiq1250-450	0		0		0		0		0		0		1	chiq1250-99	0		0	
 masa1300	0		0		1	masa1300-451	0		0		0		0		0		0		1	masa1300-154	0		0	
 came1252	0		0		1	came1252-454	0		0		1	came1252-1583	1	came1252-773	0		0		0		0		0	
-east2328	0		0		1	east2328-460	0		1	east2328-858	0		0		0		1	east2328-858	1	east2328-181	4	east2328-2241 east2328-2413 east2328-2506 east2328-2532	0	
+east2328	0		0		1	east2328-460	0		1	east2328-858	0		0		0		0		1	east2328-181	4	east2328-2241 east2328-2413 east2328-2506 east2328-2532	0	
 marg1265	0		0		1	marg1265-470	0		0		0		0		0		0		1	marg1265-126	0		0	
 niel1243	0		0		1	niel1243-493	0		0		1	niel1243-1623	0		0		0		0		0		0	
 norw1259	0		0		1	norw1259-499	0		0		0		0		0		0		1	norw1259-159	0		0	
@@ -608,302 +608,66 @@ zulu1248	0		0		1	zulu1248-647	0		0		0		0		0		0		1	zulu1248-147	0		0
 vlax1238	0		0		0		1	vlax1238-2228	0		0		0		0		0		0		1	vlax1238-2569	0	
 uppe1400	0		0		0		1	uppe1400-2232	0		0		0		0		0		0		1	uppe1400-2564	0	
 pite1240	0		0		0		1	pite1240-2234	0		0		0		0		0		0		1	pite1240-2497	0	
-fwee1238	0		0		0		0		1	fwee1238-852	0		0		0		1	fwee1238-852	0		0		0	
-yeyi1239	0		0		0		0		1	yeyi1239-853	0		0		0		1	yeyi1239-853	0		0		0	
-chec1245	0		0		0		0		1	chec1245-856	0		0		0		1	chec1245-856	0		0		0	
-chep1245	0		0		0		0		1	chep1245-857	0		0		0		1	chep1245-857	0		0		0	
-leal1235	0		0		0		0		1	leal1235-859	0		0		0		1	leal1235-859	0		0		0	
-chol1282	0		0		0		0		1	chol1282-860	0		0		0		1	chol1282-860	0		0		0	
-chra1242	0		0		0		0		1	chra1242-861	0		0		0		1	chra1242-861	0		0		0	
-barb1263	0		0		0		0		2	barb1263-862 barb1263-1239	0		0		0		2	barb1263-862 barb1263-1239	0		0		0	
-coeu1236	0		0		0		0		1	coeu1236-863	0		0		0		1	coeu1236-863	0		0		0	
-cupe1243	0		0		0		0		1	cupe1243-865	0		0		0		1	cupe1243-865	0		0		0	
-cuvo1236	0		0		0		0		1	cuvo1236-866	0		0		0		1	cuvo1236-866	0		0		0	
-deny1238	0		0		0		0		1	deny1238-867	0		0		0		1	deny1238-867	0		0		0	
-nepa1253	0		0		0		0		1	nepa1253-868	0		0		0		1	nepa1253-868	0		0		0	
-mufi1238	0		0		0		0		1	mufi1238-869	0		0		0		1	mufi1238-869	0		0		0	
-usar1243	0		0		0		0		1	usar1243-870	0		0		0		1	usar1243-870	0		0		0	
-kora1295	0		0		0		0		1	kora1295-871	0		0		0		1	kora1295-871	0		0		0	
-binu1245	0		0		0		0		1	binu1245-872	0		0		0		1	binu1245-872	0		0		0	
-eggo1239	0		0		0		0		1	eggo1239-873	0		0		0		1	eggo1239-873	0		0		0	
-endo1242	0		0		0		0		1	endo1242-875	0		0		0		1	endo1242-875	0		0		0	
-esim1238	0		0		0		0		1	esim1238-876	0		0		0		1	esim1238-876	0		0		0	
-fang1246	0		0		0		0		1	fang1246-877	0		0		0		1	fang1246-877	0		0		0	
-furu1242	0		0		0		0		1	furu1242-878	0		0		0		1	furu1242-878	0		0		0	
-kara1476	0		0		0		0		1	kara1476-879	0		0		0		1	kara1476-879	0		0		1	kara1476-2825
-gbar1246	0		0		0		0		1	gbar1246-880	0		0		0		1	gbar1246-880	0		0		0	
-goli1247	0		0		0		0		1	goli1247-881	0		0		0		1	goli1247-881	0		0		0	
-guaj1255	0		0		0		0		1	guaj1255-882	0		0		0		2	guaj1255-882 guaj1255-2082	0		0		0	
-haya1250	0		0		0		0		1	haya1250-884	0		0		0		1	haya1250-884	0		0		0	
-huro1249	0		0		0		0		1	huro1249-885	0		0		0		1	huro1249-885	0		0		0	
-huic1243	0		0		0		0		1	huic1243-886	0		0		0		1	huic1243-886	0		0		0	
-huay1240	0		0		0		0		1	huay1240-887	0		0		0		1	huay1240-887	0		0		0	
-jauj1238	0		0		0		0		1	jauj1238-889	0		0		0		2	jauj1238-889 jauj1238-2029	0		0		0	
-luya1241	0		0		0		0		1	luya1241-890	0		0		0		1	luya1241-890	0		0		0	
-yalu1240	0		0		0		0		1	yalu1240-895	0		0		0		1	yalu1240-895	0		0		0	
-izer1241	0		0		0		0		1	izer1241-896	1	izer1241-1538	0		0		1	izer1241-896	0		0		0	
-liji1238	0		0		0		0		1	liji1238-899	0		0		0		1	liji1238-899	0		0		0	
-kaby1243	0		0		0		0		1	kaby1243-900	0		0		0		1	kaby1243-900	0		0		0	
-gida1247	0		0		0		0		1	gida1247-901	0		0		0		1	gida1247-901	0		0		0	
-kaya1329	0		0		0		0		1	kaya1329-902	0		0		0		2	kaya1329-902 kaya1329-2093	0		0		0	
-kama1367	0		0		0		0		1	kama1367-903	0		0		0		1	kama1367-903	0		0		0	
-kano1245	0		0		0		0		1	kano1245-904	0		0		0		2	kano1245-904 kano1245-2121	0		0		0	
-kens1251	0		0		0		0		1	kens1251-905	0		0		0		1	kens1251-905	0		0		0	
-east2398	0		0		0		0		1	east2398-906	0		0		0		1	east2398-906	0		0		0	
-kari1301	0		0		0		0		1	kari1301-907	0		0		0		1	kari1301-907	0		0		0	
-keny1279	0		0		0		0		1	keny1279-908	0		0		0		1	keny1279-908	0		0		0	
-chon1284	0		0		0		0		1	chon1284-910	0		0		0		1	chon1284-910	0		0		0	
-kiny1244	0		0		0		0		1	kiny1244-911	0		0		0		1	kiny1244-911	0		0		0	
-kiri1254	0		0		0		0		1	kiri1254-912	0		0		0		1	kiri1254-912	0		0		0	
-bako1250	0		0		0		0		1	bako1250-914	0		0		0		1	bako1250-914	0		0		0	
-konn1242	0		0		0		0		1	konn1242-915	0		0		0		1	konn1242-915	0		0		0	
-kuay1244	0		0		0		0		1	kuay1244-916	0		0		0		1	kuay1244-916	0		0		0	
-kulu1253	0		0		0		0		1	kulu1253-917	0		0		0		1	kulu1253-917	0		0		0	
-kusu1250	0		0		0		0		1	kusu1250-919	0		0		0		1	kusu1250-919	0		0		0	
-kuvi1243	0		0		0		0		1	kuvi1243-920	0		0		1	kuvi1243-1755	1	kuvi1243-920	0		1	kuvi1243-2293	0	
-lang1320	0		0		0		0		1	lang1320-923	0		0		0		1	lang1320-923	0		0		0	
-laoo1244	0		0		0		0		1	laoo1244-924	0		0		0		1	laoo1244-924	0		3	laoo1244-2246 laoo1244-2320 laoo1244-2385	0	
-bafa1247	0		0		0		0		1	bafa1247-926	0		0		0		1	bafa1247-926	0		0		0	
-lund1266	0		0		0		0		1	lund1266-927	0		0		0		1	lund1266-927	0		0		0	
-luch1239	0		0		0		0		1	luch1239-928	0		0		0		1	luch1239-928	0		0		0	
-orok1266	0		0		0		0		1	orok1266-929	0		0		0		1	orok1266-929	0		0		0	
-mace1250	0		0		0		0		1	mace1250-930	0		0		0		1	mace1250-930	0		1	mace1250-2363	0	
-mana1295	0		0		0		0		1	mana1295-933	0		0		0		1	mana1295-933	0		0		0	
-bame1260	0		0		0		0		1	bame1260-934	0		0		0		1	bame1260-934	0		0		0	
-mana1288	0		0		0		0		1	mana1288-935	0		0		0		1	mana1288-935	0		1	mana1288-2620	0	
-ngem1255	0		0		0		0		1	ngem1255-936	0		0		0		1	ngem1255-936	0		0		0	
-mara1385	0		0		0		0		1	mara1385-937	0		0		0		1	mara1385-937	0		0		1	mara1385-2679
-gbay1281	0		0		0		0		1	gbay1281-939	1	gbay1281-1407	0		0		1	gbay1281-939	0		0		0	
-medu1238	0		0		0		0		1	medu1238-940	0		0		0		1	medu1238-940	0		0		0	
-ming1252	0		0		0		0		1	ming1252-941	0		0		0		1	ming1252-941	0		3	ming1252-2409 ming1252-2417 ming1252-2436	0	
-mmen1238	0		0		0		0		1	mmen1238-942	0		0		0		1	mmen1238-942	0		0		0	
-moke1242	0		0		0		0		1	moke1242-943	1	moke1242-1673	0		0		1	moke1242-943	0		0		0	
-mose1249	0		0		0		0		1	mose1249-944	0		0		0		4	mose1249-944 mose1249-1986 mose1249-1987 mose1249-1988	0		0		0	
-mpon1254	0		0		0		0		1	mpon1254-945	0		0		0		1	mpon1254-945	0		0		0	
-mung1266	0		0		0		0		1	mung1266-946	0		0		0		1	mung1266-946	0		0		0	
-mvum1238	0		0		0		0		1	mvum1238-947	0		0		0		1	mvum1238-947	0		0		0	
-motl1237	0		0		0		0		1	motl1237-948	0		0		0		1	motl1237-948	0		0		0	
-nami1256	0		0		0		0		1	nami1256-949	0		0		0		1	nami1256-949	0		0		0	
-ndem1249	0		0		0		0		1	ndem1249-950	0		0		0		1	ndem1249-950	0		0		0	
-mesc1238	0		0		0		0		1	mesc1238-951	0		0		0		1	mesc1238-951	0		0		0	
-quec1382	0		0		0		0		1	quec1382-952	0		0		0		1	quec1382-952	0		0		0	
-nank1250	0		0		0		0		1	nank1250-953	0		0		0		1	nank1250-953	0		0		0	
-kima1246	0		0		0		0		1	kima1246-955	0		0		0		1	kima1246-955	0		0		0	
-naki1238	0		0		0		0		1	naki1238-956	0		0		0		1	naki1238-956	0		0		0	
-mich1245	0		0		0		0		1	mich1245-957	0		0		0		1	mich1245-957	0		0		0	
-naga1394	0		0		0		0		1	naga1394-958	0		0		0		1	naga1394-958	0		0		0	
-ngos1238	0		0		0		0		1	ngos1238-959	0		0		0		1	ngos1238-959	0		0		0	
-ngal1293	0		0		0		0		1	ngal1293-960	0		0		0		1	ngal1293-960	0		0		1	ngal1293-2654
-nang1259	0		0		0		0		1	nang1259-961	0		0		0		1	nang1259-961	0		0		1	nang1259-2635
-ngom1272	0		0		0		0		1	ngom1272-962	1	ngom1272-1411	0		0		1	ngom1272-962	0		0		0	
-ngom1271	0		0		0		0		1	ngom1271-963	0		0		0		1	ngom1271-963	0		0		0	
-nort2684	0		0		0		0		1	nort2684-965	0		0		0		1	nort2684-965	0		0		0	
-nort2954	0		0		0		0		1	nort2954-966	0		0		0		1	nort2954-966	0		0		0	
-nubi1253	0		0		0		0		1	nubi1253-967	0		0		0		1	nubi1253-967	0		0		0	
-nuer1246	0		0		0		0		1	nuer1246-968	1	nuer1246-1534	0		0		1	nuer1246-968	0		0		0	
-elip1238	0		0		0		0		1	elip1238-969	0		0		0		1	elip1238-969	0		0		0	
-nyam1276	0		0		0		0		1	nyam1276-970	0		0		0		1	nyam1276-970	0		0		0	
-nyeu1238	0		0		0		0		1	nyeu1238-971	0		0		0		1	nyeu1238-971	0		0		0	
-obol1243	0		0		0		0		1	obol1243-972	0		0		0		1	obol1243-972	0		0		0	
-mian1257	0		0		0		0		1	mian1257-973	0		0		0		1	mian1257-973	0		0		0	
-faiw1243	0		0		0		0		1	faiw1243-974	0		0		0		1	faiw1243-974	0		0		0	
-okuu1243	0		0		0		0		1	okuu1243-975	0		0		0		1	okuu1243-975	0		0		0	
-osse1243	0		0		0		0		1	osse1243-976	0		0		0		1	osse1243-976	0		10	osse1243-2283 osse1243-2324 osse1243-2351 osse1243-2389 osse1243-2408 osse1243-2424 osse1243-2432 osse1243-2476 osse1243-2509 osse1243-2626	0	
-pala1344	0		0		0		0		1	pala1344-977	0		0		0		1	pala1344-977	0		0		0	
-orok1269	0		0		0		0		1	orok1269-978	0		0		0		1	orok1269-978	0		0		0	
-yill1241	0		0		0		0		1	yill1241-979	0		0		0		1	yill1241-979	0		0		0	
-ning1273	0		0		0		0		1	ning1273-980	0		0		0		1	ning1273-980	0		0		0	
-dobu1241	0		0		0		0		1	dobu1241-981	0		0		0		1	dobu1241-981	0		0		0	
-samo1303	0		0		0		0		1	samo1303-982	0		0		0		1	samo1303-982	0		0		0	
-urii1240	0		0		0		0		1	urii1240-983	0		0		0		1	urii1240-983	0		0		0	
-boik1241	0		0		0		0		1	boik1241-984	0		0		0		1	boik1241-984	0		0		0	
-phai1238	0		0		0		0		1	phai1238-985	0		0		0		1	phai1238-985	0		0		0	
-mall1246	0		0		0		0		1	mall1246-986	0		0		0		1	mall1246-986	0		0		0	
-matb1237	0		0		0		0		1	matb1237-988	0		0		0		1	matb1237-988	0		0		0	
-rund1242	0		0		0		0		1	rund1242-989	0		0		0		1	rund1242-989	0		0		0	
-nyan1307	0		0		0		0		1	nyan1307-990	0		0		0		1	nyan1307-990	0		0		0	
-marw1260	0		0		0		0		1	marw1260-991	0		0		0		1	marw1260-991	0		0		0	
-samb1305	0		0		0		0		1	samb1305-992	0		0		0		1	samb1305-992	0		0		0	
-sout2844	0		0		0		0		1	sout2844-993	0		0		0		1	sout2844-993	0		0		0	
-saba1268	0		0		0		0		1	saba1268-995	0		0		0		2	saba1268-995 saba1268-1997	0		0		0	
-saan1246	0		0		0		0		1	saan1246-996	0		0		0		1	saan1246-996	0		0		0	
-sasa1249	0		0		0		0		1	sasa1249-997	0		0		0		1	sasa1249-997	0		0		0	
-sayu1241	0		0		0		0		1	sayu1241-999	0		0		0		1	sayu1241-999	0		0		0	
-seco1241	0		0		0		0		1	seco1241-1000	0		0		0		2	seco1241-1000 seco1241-2059	0		0		0	
-taro1264	0		0		0		0		1	taro1264-1001	0		0		0		1	taro1264-1001	0		0		0	
-seim1238	0		0		0		0		1	seim1238-1002	0		0		0		1	seim1238-1002	0		0		0	
-serr1255	0		0		0		0		1	serr1255-1004	0		0		0		1	serr1255-1004	0		0		0	
-shab1252	0		0		0		0		1	shab1252-1005	0		0		0		1	shab1252-1005	0		0		0	
-yawa1260	0		0		0		0		1	yawa1260-1006	0		0		0		2	yawa1260-1006 yawa1260-2017	0		0		0	
-mako1251	0		0		0		0		1	mako1251-1007	0		0		0		1	mako1251-1007	0		0		0	
-shon1251	0		0		0		0		1	shon1251-1008	0		0		0		1	shon1251-1008	0		0		0	
-bamu1253	0		0		0		0		1	bamu1253-1009	0		0		0		1	bamu1253-1009	0		0		0	
-siar1238	0		0		0		0		1	siar1238-1010	0		0		0		1	siar1238-1010	0		0		0	
-sera1259	0		0		0		0		1	sera1259-1011	0		0		0		1	sera1259-1011	0		0		0	
-shaw1249	0		0		0		0		1	shaw1249-1012	0		0		0		1	shaw1249-1012	0		0		0	
-nucl1634	0		0		0		0		1	nucl1634-1013	0		0		0		1	nucl1634-1013	0		0		0	
-aheu1239	0		0		0		0		1	aheu1239-1014	0		0		0		1	aheu1239-1014	0		0		0	
-sout2856	0		0		0		0		1	sout2856-1015	0		0		0		1	sout2856-1015	0		0		0	
-sata1237	0		0		0		0		1	sata1237-1018	0		0		0		1	sata1237-1018	0		0		0	
-ulwa1239	0		0		0		0		1	ulwa1239-1019	0		0		0		1	ulwa1239-1019	0		0		0	
-hupd1244	0		0		0		0		1	hupd1244-1020	0		0		0		2	hupd1244-1020 hupd1244-1991	0		0		0	
-chim1300	0		0		0		0		1	chim1300-1021	0		0		0		1	chim1300-1021	0		0		0	
-loxi1235	0		0		0		0		1	loxi1235-1022	0		0		0		1	loxi1235-1022	0		0		0	
-yuki1243	0		0		0		0		1	yuki1243-1023	0		0		0		1	yuki1243-1023	0		0		0	
-yape1248	0		0		0		0		1	yape1248-1024	0		0		0		1	yape1248-1024	0		0		0	
-yura1255	0		0		0		0		1	yura1255-1026	0		0		0		2	yura1255-1026 yura1255-1945	0		0		0	
-wamb1259	0		0		0		0		1	wamb1259-1029	0		0		0		1	wamb1259-1029	0		0		0	
-wash1253	0		0		0		0		1	wash1253-1030	0		0		0		1	wash1253-1030	0		0		0	
-waya1269	0		0		0		0		1	waya1269-1031	0		0		0		2	waya1269-1031 waya1269-1887	0		0		0	
-woge1237	0		0		0		0		1	woge1237-1032	0		0		0		1	woge1237-1032	0		0		0	
-huar1255	0		0		0		0		1	huar1255-1033	0		0		0		1	huar1255-1033	0		0		0	
-vaii1241	0		0		0		0		1	vaii1241-1034	0		0		0		1	vaii1241-1034	0		0		0	
-tapi1253	0		0		0		0		1	tapi1253-1038	0		0		0		2	tapi1253-1038 tapi1253-2104	0		0		0	
-baru1269	0		0		0		0		1	baru1269-1039	0		0		0		1	baru1269-1039	0		0		0	
-tatu1247	0		0		0		0		1	tatu1247-1040	0		0		0		2	tatu1247-1040 tatu1247-2063	0		0		0	
-tagw1240	0		0		0		0		1	tagw1240-1041	0		0		0		1	tagw1240-1041	0		0		0	
-maza1291	0		0		0		0		1	maza1291-1042	0		0		0		1	maza1291-1042	0		0		0	
-paok1235	0		0		0		0		1	paok1235-1043	0		0		0		1	paok1235-1043	0		0		0	
-tern1247	0		0		0		0		1	tern1247-1044	0		0		0		1	tern1247-1044	0		0		0	
-zoog1238	0		0		0		0		1	zoog1238-1059	0		0		0		1	zoog1238-1059	0		0		0	
-baga1273	0		0		0		0		1	baga1273-1060	0		0		0		1	baga1273-1060	0		0		0	
-sout2895	0		0		0		0		1	sout2895-1061	0		0		0		1	sout2895-1061	0		0		0	
-sela1259	0		0		0		0		1	sela1259-1062	0		0		0		1	sela1259-1062	0		0		0	
-tsuv1239	0		0		0		0		1	tsuv1239-1063	1	tsuv1239-1653	0		0		1	tsuv1239-1063	0		0		0	
-hang1263	0		0		0		0		1	hang1263-1064	0		0		0		1	hang1263-1064	0		0		0	
-blan1242	0		0		0		0		1	blan1242-1065	0		0		0		1	blan1242-1065	0		0		0	
-tata1257	0		0		0		0		1	tata1257-1066	0		0		0		1	tata1257-1066	0		0		0	
-tibe1272	0		0		0		0		1	tibe1272-1067	0		0		0		1	tibe1272-1067	0		4	tibe1272-2380 tibe1272-2411 tibe1272-2421 tibe1272-2558	0	
-chee1238	0		0		0		0		1	chee1238-1068	0		0		0		1	chee1238-1068	0		0		0	
-pagi1243	0		0		0		0		1	pagi1243-1070	0		0		0		1	pagi1243-1070	0		0		0	
-choc1276	0		0		0		0		1	choc1276-1071	0		0		0		1	choc1276-1071	0		0		0	
-mich1243	0		0		0		0		1	mich1243-1072	0		0		0		1	mich1243-1072	0		0		0	
-pila1245	0		0		0		0		1	pila1245-1073	0		0		0		2	pila1245-1073 pila1245-1917	0		0		0	
-bani1255	0		0		0		0		1	bani1255-1075	0		0		0		3	bani1255-1075 bani1255-1811 bani1255-1812	0		0		0	
-kari1311	0		0		0		0		1	kari1311-1076	0		0		0		2	kari1311-1076 kari1311-2091	0		0		0	
-nort2943	0		0		0		0		1	nort2943-1077	0		0		0		1	nort2943-1077	0		0		0	
-sanj1284	0		0		0		0		1	sanj1284-1078	0		0		0		1	sanj1284-1078	0		0		0	
-tzot1259	0		0		0		0		1	tzot1259-1079	0		0		0		1	tzot1259-1079	0		0		0	
-sida1246	0		0		0		0		1	sida1246-1080	0		0		0		1	sida1246-1080	0		0		0	
-west2560	0		0		0		0		1	west2560-1081	0		0		0		1	west2560-1081	0		0		0	
-chim1301	0		0		0		0		1	chim1301-1082	0		0		0		1	chim1301-1082	0		0		0	
-hueh1236	0		0		0		0		1	hueh1236-1083	0		0		0		1	hueh1236-1083	0		0		0	
-utes1238	0		0		0		0		1	utes1238-1084	0		0		0		1	utes1238-1084	0		0		0	
-dupa1235	0		0		0		0		1	dupa1235-1085	0		0		0		1	dupa1235-1085	0		1	dupa1235-2253	0	
-tong1325	0		0		0		0		1	tong1325-1086	0		0		0		1	tong1325-1086	0		0		0	
-lake1258	0		0		0		0		1	lake1258-1087	0		0		0		1	lake1258-1087	0		0		0	
-lazz1240	0		0		0		0		1	lazz1240-1088	0		0		0		1	lazz1240-1088	0		5	lazz1240-2254 lazz1240-2300 lazz1240-2341 lazz1240-2371 lazz1240-2410	0	
-juan1238	0		0		0		0		1	juan1238-1089	0		0		1	juan1238-1732	1	juan1238-1089	0		1	juan1238-2258	0	
-adan1251	0		0		0		0		1	adan1251-1090	0		0		0		1	adan1251-1090	0		0		0	
-ambe1247	0		0		0		0		1	ambe1247-1091	0		0		0		1	ambe1247-1091	0		0		0	
-achi1257	0		0		0		0		1	achi1257-1093	0		0		0		1	achi1257-1093	0		0		0	
-anti1245	0		0		0		0		1	anti1245-1094	0		0		0		1	anti1245-1094	0		0		0	
-akla1241	0		0		0		0		1	akla1241-1095	0		0		0		1	akla1241-1095	0		0		0	
-karo1306	0		0		0		0		1	karo1306-1097	0		0		0		2	karo1306-1097 karo1306-2092	0		0		0	
-liby1240	0		0		0		0		1	liby1240-1098	0		0		0		1	liby1240-1098	0		0		0	
-baou1238	0		0		0		0		1	baou1238-1100	0		1	baou1238-668	0		1	baou1238-1100	0		0		0	
-bond1245	0		0		0		0		1	bond1245-1101	0		0		1	bond1245-1781	1	bond1245-1101	0		1	bond1245-2305	0	
-bike1242	0		0		0		0		1	bike1242-1102	0		0		0		1	bike1242-1102	0		0		0	
-siks1238	0		0		0		0		1	siks1238-1103	0		0		0		1	siks1238-1103	0		0		0	
-bilo1248	0		0		0		0		1	bilo1248-1104	0		0		0		1	bilo1248-1104	0		0		0	
-beli1260	0		0		0		0		1	beli1260-1105	0		0		0		1	beli1260-1105	0		0		0	
-como1259	0		0		0		0		1	como1259-1107	0		0		0		1	como1259-1107	0		0		0	
-soch1239	0		0		0		0		1	soch1239-1108	0		0		0		1	soch1239-1108	0		0		0	
-diml1238	0		0		0		0		1	diml1238-1109	0		0		0		1	diml1238-1109	0		0		0	
-yekh1238	0		0		0		0		1	yekh1238-1110	0		0		0		1	yekh1238-1110	0		0		0	
-nort2626	0		0		0		0		1	nort2626-1111	0		0		0		1	nort2626-1111	0		0		0	
-guja1253	0		0		0		0		1	guja1253-1112	0		0		1	guja1253-1724	1	guja1253-1112	0		0		0	
-guan1269	0		0		0		0		1	guan1269-1113	0		0		0		2	guan1269-1113 guan1269-2053	0		0		0	
-hung1278	0		0		0		0		1	hung1278-1114	0		0		0		1	hung1278-1114	0		0		0	
-halk1245	0		0		0		0		1	halk1245-1115	0		0		0		1	halk1245-1115	0		0		0	
-ilok1237	0		0		0		0		1	ilok1237-1117	1	ilok1237-1670	0		0		1	ilok1237-1117	0		1	ilok1237-2606	0	
-kadi1248	0		0		0		0		1	kadi1248-1118	0		0		0		2	kadi1248-1118 kadi1248-1915	0		0		0	
-kute1248	0		0		0		0		1	kute1248-1119	0		0		0		1	kute1248-1119	0		0		0	
-loni1238	0		0		0		0		1	loni1238-1122	0		0		0		1	loni1238-1122	0		0		0	
-mola1238	0		0		0		0		1	mola1238-1123	0		0		0		1	mola1238-1123	0		0		0	
-mats1244	0		0		0		0		1	mats1244-1124	0		0		0		2	mats1244-1124 mats1244-2008	0		0		0	
-mand1436	0		0		0		0		1	mand1436-1126	0		0		0		1	mand1436-1126	0		0		0	
-moco1246	0		0		0		0		1	moco1246-1127	0		0		0		2	moco1246-1127 moco1246-1916	0		0		0	
-mamm1241	0		0		0		0		1	mamm1241-1128	0		0		0		1	mamm1241-1128	0		0		0	
-nisg1240	0		0		0		0		1	nisg1240-1130	0		0		0		1	nisg1240-1130	0		0		0	
-nort2627	0		0		0		0		1	nort2627-1131	0		0		0		1	nort2627-1131	0		0		0	
-nort2984	0		0		0		0		1	nort2984-1132	0		0		0		1	nort2984-1132	0		0		0	
-pana1305	0		0		0		0		1	pana1305-1133	0		0		0		1	pana1305-1133	0		0		0	
-nige1257	0		0		0		0		1	nige1257-1134	0		0		0		1	nige1257-1134	0		0		0	
-nort2966	0		0		0		0		1	nort2966-1135	0		0		0		1	nort2966-1135	0		0		0	
-texi1237	0		0		0		0		1	texi1237-1136	0		0		0		1	texi1237-1136	0		0		0	
-kich1262	0		0		0		0		1	kich1262-1154	0		0		0		1	kich1262-1154	0		0		0	
-huam1248	0		0		0		0		1	huam1248-1155	0		0		0		1	huam1248-1155	0		0		0	
-sipa1247	0		0		0		0		1	sipa1247-1156	0		0		0		1	sipa1247-1156	0		0		0	
-chim1302	0		0		0		0		1	chim1302-1157	0		0		0		1	chim1302-1157	0		0		0	
-tlac1235	0		0		0		0		1	tlac1235-1158	0		0		0		1	tlac1235-1158	0		0		0	
-ambu1247	0		0		0		0		1	ambu1247-1159	0		0		0		1	ambu1247-1159	0		0		0	
-abau1245	0		0		0		0		1	abau1245-1160	0		0		0		1	abau1245-1160	0		0		0	
-qima1242	0		0		0		0		1	qima1242-1161	0		0		0		1	qima1242-1161	0		0		0	
-akha1245	0		0		0		0		1	akha1245-1162	0		0		0		1	akha1245-1162	0		1	akha1245-2608	0	
-alya1239	0		0		0		0		1	alya1239-1163	0		0		0		1	alya1239-1163	0		0		1	alya1239-2702
-aman1265	0		0		0		0		1	aman1265-1164	0		0		0		1	aman1265-1164	0		0		0	
-anua1242	0		0		0		0		1	anua1242-1165	0		0		0		1	anua1242-1165	0		0		0	
-aran1237	0		0		0		0		1	aran1237-1166	0		0		0		1	aran1237-1166	0		0		0	
-bumb1241	0		0		0		0		1	bumb1241-1167	0		0		0		1	bumb1241-1167	0		0		0	
-tana1290	0		0		0		0		1	tana1290-1168	0		0		0		1	tana1290-1168	0		0		0	
-auuu1241	0		0		0		0		1	auuu1241-1169	0		0		0		1	auuu1241-1169	0		0		0	
-tinp1237	0		0		0		0		1	tinp1237-1170	0		0		0		1	tinp1237-1170	0		0		0	
-peta1245	0		0		0		0		1	peta1245-1171	0		0		0		1	peta1245-1171	0		0		0	
-pate1247	0		0		0		0		1	pate1247-1172	0		0		0		1	pate1247-1172	0		0		0	
-kela1255	0		0		0		0		1	kela1255-1173	0		0		0		1	kela1255-1173	0		0		0	
-surs1246	0		0		0		0		1	surs1246-1174	0		0		0		1	surs1246-1174	0		0		0	
-awar1248	0		0		0		0		1	awar1248-1175	0		0		0		1	awar1248-1175	0		0		0	
-awin1248	0		0		0		0		1	awin1248-1176	0		0		0		1	awin1248-1176	0		0		0	
-awtu1239	0		0		0		0		1	awtu1239-1177	0		0		0		1	awtu1239-1177	0		0		0	
-baba1264	0		0		0		0		1	baba1264-1178	0		0		0		1	baba1264-1178	0		0		0	
-baba1266	0		0		0		0		1	baba1266-1179	0		0		0		1	baba1266-1179	0		0		0	
-bako1249	0		0		0		0		1	bako1249-1180	0		0		0		1	bako1249-1180	0		0		0	
-nyon1241	0		0		0		0		1	nyon1241-1181	0		0		0		1	nyon1241-1181	0		0		0	
-bamu1256	0		0		0		0		1	bamu1256-1182	0		0		0		1	bamu1256-1182	0		0		0	
-bang1356	0		0		0		0		1	bang1356-1183	0		0		0		1	bang1356-1183	0		0		0	
-bata1285	0		0		0		0		1	bata1285-1184	0		0		0		1	bata1285-1184	0		0		0	
-bari1286	0		0		0		0		1	bari1286-1185	0		0		0		1	bari1286-1185	0		0		0	
-befa1241	0		0		0		0		1	befa1241-1186	0		0		0		1	befa1241-1186	0		0		0	
-idaa1241	0		0		0		0		1	idaa1241-1187	0		0		0		1	idaa1241-1187	0		0		0	
-berb1259	0		0		0		0		1	berb1259-1189	0		0		0		1	berb1259-1189	0		0		0	
-bett1235	0		0		0		0		1	bett1235-1190	0		0		0		1	bett1235-1190	0		1	bett1235-2354	0	
-biak1248	0		0		0		0		1	biak1248-1191	1	biak1248-1683	0		0		1	biak1248-1191	0		0		0	
-bili1250	0		0		0		0		1	bili1250-1192	0		0		0		1	bili1250-1192	0		0		1	bili1250-2851
-bina1277	0		0		0		0		1	bina1277-1193	0		0		0		1	bina1277-1193	0		0		0	
-sout2840	0		0		0		0		1	sout2840-1194	0		0		0		1	sout2840-1194	0		0		0	
-nucl1695	0		0		0		0		1	nucl1695-1195	0		0		0		1	nucl1695-1195	0		0		0	
-bong1285	0		0		0		0		1	bong1285-1196	0		0		0		1	bong1285-1196	0		0		0	
-boro1277	0		0		0		0		1	boro1277-1197	0		0		1	boro1277-1714	1	boro1277-1197	0		0		0	
-brok1247	0		0		0		0		1	brok1247-1198	0		0		1	brok1247-1715	1	brok1247-1198	0		0		0	
-baga1272	0		0		0		0		1	baga1272-1199	0		0		0		1	baga1272-1199	0		0		0	
-bubi1249	0		0		0		0		1	bubi1249-1200	0		0		0		1	bubi1249-1200	0		0		0	
-buku1249	0		0		0		0		1	buku1249-1201	0		0		0		1	buku1249-1201	0		0		0	
-subi1246	0		0		0		0		1	subi1246-1202	0		0		0		1	subi1246-1202	0		0		0	
-tote1238	0		0		0		0		1	tote1238-1203	0		0		0		1	tote1238-1203	0		0		0	
-bamb1265	0		0		0		0		1	bamb1265-1204	0		0		0		1	bamb1265-1204	0		0		0	
-nort2845	0		0		0		0		1	nort2845-1205	0		0		0		1	nort2845-1205	0		0		0	
-onge1236	0		0		0		0		1	onge1236-1206	0		0		0		1	onge1236-1206	0		0		0	
-olut1240	0		0		0		0		1	olut1240-1207	0		0		0		1	olut1240-1207	0		0		0	
-jiar1240	0		0		0		0		1	jiar1240-1208	0		0		0		1	jiar1240-1208	0		1	jiar1240-2257	0	
-suri1267	0		0		0		0		1	suri1267-1209	0		0		0		1	suri1267-1209	0		0		0	
-hoav1238	0		0		0		0		1	hoav1238-1211	0		0		0		1	hoav1238-1211	0		0		0	
-fili1244	0		0		0		0		1	fili1244-1212	0		0		0		1	fili1244-1212	0		0		0	
-ngad1261	0		0		0		0		1	ngad1261-1213	0		0		0		1	ngad1261-1213	0		0		0	
-muna1247	0		0		0		0		1	muna1247-1214	0		0		0		1	muna1247-1214	0		0		0	
-saki1248	0		0		0		0		1	saki1248-1217	0		0		0		2	saki1248-1217 saki1248-2101	0		0		0	
-torw1241	0		0		0		0		1	torw1241-1219	0		0		0		1	torw1241-1219	0		0		0	
-thul1246	0		0		0		0		1	thul1246-1220	0		0		0		1	thul1246-1220	0		0		0	
-tsha1245	0		0		0		0		1	tsha1245-1221	0		0		0		1	tsha1245-1221	0		1	tsha1245-2280	0	
-kinn1249	0		0		0		0		1	kinn1249-1226	0		0		0		1	kinn1249-1226	0		0		0	
-mewa1250	0		0		0		0		1	mewa1250-1227	0		0		0		1	mewa1250-1227	0		0		0	
-anei1239	0		0		0		0		1	anei1239-1228	0		0		0		1	anei1239-1228	0		0		0	
-zaiw1241	0		0		0		0		1	zaiw1241-1229	0		0		0		1	zaiw1241-1229	0		0		0	
-friu1240	0		0		0		0		1	friu1240-1231	0		0		0		1	friu1240-1231	0		1	friu1240-2334	0	
-adam1253	0		0		0		0		1	adam1253-1234	2	adam1253-1241 adam1253-1253	1	adam1253-712	0		1	adam1253-1234	0		0		0	
-west2441	0		0		0		0		1	west2441-1235	0		0		0		1	west2441-1235	0		0		1	west2441-2710
-crow1244	0		0		0		0		1	crow1244-1238	0		0		0		1	crow1244-1238	0		0		0	
-lyel1241	0		0		0		0		1	lyel1241-1240	0		1	lyel1241-772	0		1	lyel1241-1240	0		0		0	
+barb1263	0		0		0		0		2	barb1263-862 barb1263-1239	0		0		0		0		0		0		0	
+kara1476	0		0		0		0		1	kara1476-879	0		0		0		0		0		0		1	kara1476-2825
+guaj1255	0		0		0		0		1	guaj1255-882	0		0		0		1	guaj1255-2082	0		0		0	
+jauj1238	0		0		0		0		1	jauj1238-889	0		0		0		1	jauj1238-2029	0		0		0	
+izer1241	0		0		0		0		1	izer1241-896	1	izer1241-1538	0		0		0		0		0		0	
+kaya1329	0		0		0		0		1	kaya1329-902	0		0		0		1	kaya1329-2093	0		0		0	
+kano1245	0		0		0		0		1	kano1245-904	0		0		0		1	kano1245-2121	0		0		0	
+kuvi1243	0		0		0		0		1	kuvi1243-920	0		0		1	kuvi1243-1755	0		0		1	kuvi1243-2293	0	
+laoo1244	0		0		0		0		1	laoo1244-924	0		0		0		0		0		3	laoo1244-2246 laoo1244-2320 laoo1244-2385	0	
+mace1250	0		0		0		0		1	mace1250-930	0		0		0		0		0		1	mace1250-2363	0	
+mana1288	0		0		0		0		1	mana1288-935	0		0		0		0		0		1	mana1288-2620	0	
+mara1385	0		0		0		0		1	mara1385-937	0		0		0		0		0		0		1	mara1385-2679
+gbay1281	0		0		0		0		1	gbay1281-939	1	gbay1281-1407	0		0		0		0		0		0	
+ming1252	0		0		0		0		1	ming1252-941	0		0		0		0		0		3	ming1252-2409 ming1252-2417 ming1252-2436	0	
+moke1242	0		0		0		0		1	moke1242-943	1	moke1242-1673	0		0		0		0		0		0	
+mose1249	0		0		0		0		1	mose1249-944	0		0		0		3	mose1249-1986 mose1249-1987 mose1249-1988	0		0		0	
+ngal1293	0		0		0		0		1	ngal1293-960	0		0		0		0		0		0		1	ngal1293-2654
+nang1259	0		0		0		0		1	nang1259-961	0		0		0		0		0		0		1	nang1259-2635
+ngom1272	0		0		0		0		1	ngom1272-962	1	ngom1272-1411	0		0		0		0		0		0	
+nuer1246	0		0		0		0		1	nuer1246-968	1	nuer1246-1534	0		0		0		0		0		0	
+osse1243	0		0		0		0		1	osse1243-976	0		0		0		0		0		10	osse1243-2283 osse1243-2324 osse1243-2351 osse1243-2389 osse1243-2408 osse1243-2424 osse1243-2432 osse1243-2476 osse1243-2509 osse1243-2626	0	
+saba1268	0		0		0		0		1	saba1268-995	0		0		0		1	saba1268-1997	0		0		0	
+seco1241	0		0		0		0		1	seco1241-1000	0		0		0		1	seco1241-2059	0		0		0	
+yawa1260	0		0		0		0		1	yawa1260-1006	0		0		0		1	yawa1260-2017	0		0		0	
+hupd1244	0		0		0		0		1	hupd1244-1020	0		0		0		1	hupd1244-1991	0		0		0	
+yura1255	0		0		0		0		1	yura1255-1026	0		0		0		1	yura1255-1945	0		0		0	
+waya1269	0		0		0		0		1	waya1269-1031	0		0		0		1	waya1269-1887	0		0		0	
+tapi1253	0		0		0		0		1	tapi1253-1038	0		0		0		1	tapi1253-2104	0		0		0	
+tatu1247	0		0		0		0		1	tatu1247-1040	0		0		0		1	tatu1247-2063	0		0		0	
+tsuv1239	0		0		0		0		1	tsuv1239-1063	1	tsuv1239-1653	0		0		0		0		0		0	
+tibe1272	0		0		0		0		1	tibe1272-1067	0		0		0		0		0		4	tibe1272-2380 tibe1272-2411 tibe1272-2421 tibe1272-2558	0	
+pila1245	0		0		0		0		1	pila1245-1073	0		0		0		1	pila1245-1917	0		0		0	
+bani1255	0		0		0		0		1	bani1255-1075	0		0		0		2	bani1255-1811 bani1255-1812	0		0		0	
+kari1311	0		0		0		0		1	kari1311-1076	0		0		0		1	kari1311-2091	0		0		0	
+dupa1235	0		0		0		0		1	dupa1235-1085	0		0		0		0		0		1	dupa1235-2253	0	
+lazz1240	0		0		0		0		1	lazz1240-1088	0		0		0		0		0		5	lazz1240-2254 lazz1240-2300 lazz1240-2341 lazz1240-2371 lazz1240-2410	0	
+juan1238	0		0		0		0		1	juan1238-1089	0		0		1	juan1238-1732	0		0		1	juan1238-2258	0	
+karo1306	0		0		0		0		1	karo1306-1097	0		0		0		1	karo1306-2092	0		0		0	
+baou1238	0		0		0		0		1	baou1238-1100	0		1	baou1238-668	0		0		0		0		0	
+bond1245	0		0		0		0		1	bond1245-1101	0		0		1	bond1245-1781	0		0		1	bond1245-2305	0	
+guja1253	0		0		0		0		1	guja1253-1112	0		0		1	guja1253-1724	0		0		0		0	
+guan1269	0		0		0		0		1	guan1269-1113	0		0		0		1	guan1269-2053	0		0		0	
+ilok1237	0		0		0		0		1	ilok1237-1117	1	ilok1237-1670	0		0		0		0		1	ilok1237-2606	0	
+kadi1248	0		0		0		0		1	kadi1248-1118	0		0		0		1	kadi1248-1915	0		0		0	
+mats1244	0		0		0		0		1	mats1244-1124	0		0		0		1	mats1244-2008	0		0		0	
+moco1246	0		0		0		0		1	moco1246-1127	0		0		0		1	moco1246-1916	0		0		0	
+akha1245	0		0		0		0		1	akha1245-1162	0		0		0		0		0		1	akha1245-2608	0	
+alya1239	0		0		0		0		1	alya1239-1163	0		0		0		0		0		0		1	alya1239-2702
+bett1235	0		0		0		0		1	bett1235-1190	0		0		0		0		0		1	bett1235-2354	0	
+biak1248	0		0		0		0		1	biak1248-1191	1	biak1248-1683	0		0		0		0		0		0	
+bili1250	0		0		0		0		1	bili1250-1192	0		0		0		0		0		0		1	bili1250-2851
+boro1277	0		0		0		0		1	boro1277-1197	0		0		1	boro1277-1714	0		0		0		0	
+brok1247	0		0		0		0		1	brok1247-1198	0		0		1	brok1247-1715	0		0		0		0	
+jiar1240	0		0		0		0		1	jiar1240-1208	0		0		0		0		0		1	jiar1240-2257	0	
+saki1248	0		0		0		0		1	saki1248-1217	0		0		0		1	saki1248-2101	0		0		0	
+tsha1245	0		0		0		0		1	tsha1245-1221	0		0		0		0		0		1	tsha1245-2280	0	
+friu1240	0		0		0		0		1	friu1240-1231	0		0		0		0		0		1	friu1240-2334	0	
+adam1253	0		0		0		0		1	adam1253-1234	2	adam1253-1241 adam1253-1253	1	adam1253-712	0		0		0		0		0	
+west2441	0		0		0		0		1	west2441-1235	0		0		0		0		0		0		1	west2441-2710
+lyel1241	0		0		0		0		1	lyel1241-1240	0		1	lyel1241-772	0		0		0		0		0	
 anyi1245	0		0		0		0		0		3	anyi1245-1242 anyi1245-1243 anyi1245-1298	0		0		0		0		0		0	
 anyi1244	0		0		0		0		0		1	anyi1244-1244	1	anyi1244-653	0		0		0		0		0	
 anuf1239	0		0		0		0		0		1	anuf1239-1246	1	anuf1239-658	0		0		0		0		0	

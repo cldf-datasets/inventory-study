@@ -86,7 +86,7 @@ def get_cldf_varieties(dataset):
 
 
 def get_phoible_varieties(
-    subsets,
+    dataset,
     path=Path(__file__).parent / "phoible" / "cldf",
 ):
     """
@@ -111,7 +111,7 @@ def get_phoible_varieties(
     varieties = defaultdict(list)
     sources = defaultdict(set)
     for row in progressbar(phoible.iter_rows("ValueTable"), desc="load values"):
-        if contributions[row["Inventory_ID"]] in subsets:
+        if contributions[row["Inventory_ID"]] == dataset:
             lid = row["Language_ID"] + "-" + row["Inventory_ID"]
             varieties[lid] += [nfd(row["Value"])]
             languages[lid] = gcodes[row["Language_ID"]]
@@ -320,6 +320,7 @@ for ds in [
     "EA",
     "ER",
 ]:
+    print("################################")
     print("# Importing data for {0}".format(ds))
     dump, (varieties, vars_with_gcode, inventories, distinct_gcodes) = load_dataset(
         ds, dump=dump

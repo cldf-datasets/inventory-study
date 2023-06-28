@@ -12,6 +12,7 @@ $ source venv/bin/activate
 ### Install Code Requirements and obtain catalogs
 
 ```
+$ pip install -U pip setuptools wheel
 $ pip install -r requirements.txt
 $ cldfbench catconfig -q
 ```

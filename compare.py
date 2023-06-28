@@ -69,18 +69,18 @@ bipa = CLTS("./clts").bipa
 parameters = ["Sounds", "Consonants", "Vowels"]
 
 (
-    (jpa_data, jpa_codes, jpa),
-    (lps_data, lps_codes, lps),
-    (ups_data, ups_codes, ups),
-    (uz_data, uz_codes, uz),
-    (ph_data, ph_codes, ph),
-    (gm_data, gm_codes, gm),
-    (aa_data, aa_codes, aa),
-    (ra_data, ra_codes, ra),
-    (sph_data, sph_codes, sph),
-    (spa_data, spa_codes, spa),
-    (ea_data, ea_codes, ea),
-    (er_data, er_codes, er),
+    (jipa_data, jipa_codes, jipa_values),
+    (lapsyd_data, lapsyd_codes, lapsyd_values),
+    (upsid_data, upsid_codes, upsid_values),
+    (uz_data, uz_codes, uz_values),
+    (ph_data, ph_codes, ph_values),
+    (gm_data, gm_codes, gm_values),
+    (aa_data, aa_codes, aa_values),
+    (ra_data, ra_codes, ra_values),
+    (saphon_data, saphon_codes, saphon_values),
+    (spa_data, spa_codes, spa_values),
+    (ea_data, ea_codes, ea_values),
+    (er_data, er_codes, er_values),
 ) = [
     to_dict(ds, parameters)
     for ds in [
@@ -100,7 +100,20 @@ parameters = ["Sounds", "Consonants", "Vowels"]
 ]
 
 
-jpaD, lpsD, upsD, uzD, phD, gmD, aaD, raD, sphD, spaD, eaD, erD = (
+(
+    jipa_gcodes,
+    lapsyd_gcodes,
+    upsid_gcodes,
+    uz_gcodes,
+    ph_gcodes,
+    gm_gcodes,
+    aa_gcodes,
+    ra_gcodes,
+    saphon_gcodes,
+    spa_gcodes,
+    ea_gcodes,
+    er_gcodes,
+) = (
     inventories("jipa", bipa),
     inventories("lapsyd", bipa),
     inventories("UPSID", bipa),
@@ -117,18 +130,18 @@ jpaD, lpsD, upsD, uzD, phD, gmD, aaD, raD, sphD, spaD, eaD, erD = (
 
 all_gcodes = defaultdict(list)
 for ds, dct in [
-    ("jipa", jpaD),
-    ("lapsyd", lpsD),
-    ("upsid", upsD),
-    ("uz", uzD),
-    ("ph", phD),
-    ("gm", gmD),
-    ("aa", aaD),
-    ("ra", raD),
-    ("saphon", sphD),
-    ("spa", spaD),
-    ("ea", eaD),
-    ("er", erD),
+    ("jipa", jipa_gcodes),
+    ("lapsyd", lapsyd_gcodes),
+    ("upsid", upsid_gcodes),
+    ("uz", uz_gcodes),
+    ("ph", ph_gcodes),
+    ("gm", gm_gcodes),
+    ("aa", aa_gcodes),
+    ("ra", ra_gcodes),
+    ("saphon", saphon_gcodes),
+    ("spa", spa_gcodes),
+    ("ea", ea_gcodes),
+    ("er", er_gcodes),
 ]:
     for code, invs in dct.items():
         all_gcodes[code] += [(ds, inv) for inv in invs]
@@ -204,22 +217,33 @@ storage = {"raw": [], "summary": [], "table": defaultdict(dict)}
 for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(
     combinations(
         [
-            (0, "JIPA", jpa, jpaD),
-            (1, "LAPSyD", lps, lpsD),
-            (2, "UPSID", ups, upsD),
-            (3, "PH", ph, phD),
-            (4, "UZ", uz, uzD),
-            (5, "GM", gm, gmD),
-            (6, "AA", aa, aaD),
-            (7, "RA", ra, raD),
-            (8, "SAPHON", sph, sphD),
-            (9, "SPA", spa, spaD),
-            (10, "EA", ea, eaD),
-            (11, "ER", er, erD),
+            (0, "JIPA", jipa_values, jipa_gcodes),
+            (1, "LAPSyD", lapsyd_values, lapsyd_gcodes),
+            (2, "UPSID", upsid_values, upsid_gcodes),
+            (3, "PH", ph_values, ph_gcodes),
+            (4, "UZ", uz_values, uz_gcodes),
+            (5, "GM", gm_values, gm_gcodes),
+            (6, "AA", aa_values, aa_gcodes),
+            (7, "RA", ra_values, ra_gcodes),
+            (8, "SAPHON", saphon_values, saphon_gcodes),
+            (9, "SPA", spa_values, spa_gcodes),
+            (10, "EA", ea_values, ea_gcodes),
+            (11, "ER", er_values, er_gcodes),
         ],
         r=2,
     )
 ):
+    # Print debugging information
+    print("\n**************************************")
+    print("[i] comparing", nameA, "and", nameB)
+    print("[i] number of inventories in", nameA, ":", len(dataA))
+    print("[i] number of inventories in", nameB, ":", len(dataB))
+    print("[i] number of inventories in both:", len([k for k in dataA if k in dataB]))
+    print(
+        "[i] number of inventories in both (strict):",
+        len([k for k in dataA if k in dataB and dataA[k] == dataB[k]]),
+    )
+
     # fig, axs = plt.subplots(2, 3)
     table = []
     matches = [k for k in dataA if k in dataB]
