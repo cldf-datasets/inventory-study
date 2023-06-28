@@ -1,3 +1,9 @@
+# CLDF datasets that should be cloned
+jipa/
+lapsyd/
+phoible/
+clts/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

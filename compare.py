@@ -1,14 +1,12 @@
 from csvw import UnicodeDictReader, UnicodeWriter
 from scipy.stats import spearmanr
 from collections import defaultdict
-from matplotlib import pyplot as plt
 from tabulate import tabulate
 from statistics import median, mean
 from itertools import combinations, product
 from pyclts.inventories import Inventory
 from pyclts import CLTS
 from tqdm import tqdm as progressbar
-from sys import argv
 import csv
 
 
@@ -136,7 +134,7 @@ for ds, dct in [
         all_gcodes[code] += [(ds, inv) for inv in invs]
 with open("output/comparable-inventories.tsv", "w") as f:
     f.write(
-        "Glottocode\tLAPSyD\tLAPSyD_Var\tJIPA\tJIPA_Var\tUPSID\tUPSID_Var\tUZ\tUZ_Var\tPH\tPHVar\tGM\tGM_Var\tAA\tAA_Var\tRA\tRA_Var\tSAPHON\tSAPHON_Var\tSPA\tSPA_Var\tEA\tEA_Var\tER\tER_Var\n"
+        "Glottocode\tJIPA\tJIPA_Var\tLAPSyD\tLAPSyD_Var\tUPSID\tUPSID_Var\tUZ\tUZ_Var\tPH\tPHVar\tGM\tGM_Var\tAA\tAA_Var\tRA\tRA_Var\tSAPHON\tSAPHON_Var\tSPA\tSPA_Var\tEA\tEA_Var\tER\tER_Var\n"
     )
     for code, invs in all_gcodes.items():
         if len(invs) > 1:
