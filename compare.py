@@ -72,13 +72,10 @@ parameters = ["Sounds", "Consonants", "Vowels"]
     (jipa_data, jipa_codes, jipa_values),
     (lapsyd_data, lapsyd_codes, lapsyd_values),
     (upsid_data, upsid_codes, upsid_values),
-    (uz_data, uz_codes, uz_values),
-    (ph_data, ph_codes, ph_values),
-    (gm_data, gm_codes, gm_values),
+    (phoible_data, phoible_codes, phoible_values),
     (aa_data, aa_codes, aa_values),
     (ra_data, ra_codes, ra_values),
     (saphon_data, saphon_codes, saphon_values),
-    (spa_data, spa_codes, spa_values),
     (ea_data, ea_codes, ea_values),
     (er_data, er_codes, er_values),
 ) = [
@@ -87,13 +84,10 @@ parameters = ["Sounds", "Consonants", "Vowels"]
         "jipa",
         "lapsyd",
         "UPSID",
-        "UZ",
-        "PH",
-        "GM",
+        "PHOIBLE",
         "AA",
         "RA",
         "SAPHON",
-        "SPA",
         "EA",
         "ER",
     ]
@@ -104,26 +98,20 @@ parameters = ["Sounds", "Consonants", "Vowels"]
     jipa_gcodes,
     lapsyd_gcodes,
     upsid_gcodes,
-    uz_gcodes,
-    ph_gcodes,
-    gm_gcodes,
+    phoible_gcodes,
     aa_gcodes,
     ra_gcodes,
     saphon_gcodes,
-    spa_gcodes,
     ea_gcodes,
     er_gcodes,
 ) = (
     inventories("jipa", bipa),
     inventories("lapsyd", bipa),
     inventories("UPSID", bipa),
-    inventories("UZ", bipa),
-    inventories("PH", bipa),
-    inventories("GM", bipa),
+    inventories("PHOIBLE", bipa),
     inventories("AA", bipa),
     inventories("RA", bipa),
     inventories("SAPHON", bipa),
-    inventories("SPA", bipa),
     inventories("EA", bipa),
     inventories("ER", bipa),
 )
@@ -133,13 +121,10 @@ for ds, dct in [
     ("jipa", jipa_gcodes),
     ("lapsyd", lapsyd_gcodes),
     ("upsid", upsid_gcodes),
-    ("uz", uz_gcodes),
-    ("ph", ph_gcodes),
-    ("gm", gm_gcodes),
+    ("phoible", phoible_gcodes),
     ("aa", aa_gcodes),
     ("ra", ra_gcodes),
     ("saphon", saphon_gcodes),
-    ("spa", spa_gcodes),
     ("ea", ea_gcodes),
     ("er", er_gcodes),
 ]:
@@ -147,7 +132,7 @@ for ds, dct in [
         all_gcodes[code] += [(ds, inv) for inv in invs]
 with open("output/comparable-inventories.tsv", "w") as f:
     f.write(
-        "Glottocode\tJIPA\tJIPA_Var\tLAPSyD\tLAPSyD_Var\tUPSID\tUPSID_Var\tUZ\tUZ_Var\tPH\tPHVar\tGM\tGM_Var\tAA\tAA_Var\tRA\tRA_Var\tSAPHON\tSAPHON_Var\tSPA\tSPA_Var\tEA\tEA_Var\tER\tER_Var\n"
+        "Glottocode\tJIPA\tJIPA_Var\tLAPSyD\tLAPSyD_Var\tUPSID\tUPSID_Var\tPHOIBLE\tPHOIBLE_Var\tAA\tAA_Var\tRA\tRA_Var\tSAPHON\tSAPHON_Var\tEA\tEA_Var\tER\tER_Var\n"
     )
     for code, invs in all_gcodes.items():
         if len(invs) > 1:
@@ -157,13 +142,10 @@ with open("output/comparable-inventories.tsv", "w") as f:
                 "jipa",
                 "lapsyd",
                 "upsid",
-                "uz",
-                "ph",
-                "gm",
+                "phoible",
                 "aa",
                 "ra",
                 "saphon",
-                "spa",
                 "ea",
                 "er",
             ]:
@@ -210,7 +192,7 @@ with open("output/compared-inventories.tsv", "w") as f:
 print("[i] computed basic comparisons of all inventories")
 
 # coverage for the datasets
-coverage = [[0 for x in range(12)] for y in range(12)]
+coverage = [[0 for x in range(9)] for y in range(9)]
 
 # store results for later
 storage = {"raw": [], "summary": [], "table": defaultdict(dict)}
@@ -220,15 +202,12 @@ for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(
             (0, "JIPA", jipa_values, jipa_gcodes),
             (1, "LAPSyD", lapsyd_values, lapsyd_gcodes),
             (2, "UPSID", upsid_values, upsid_gcodes),
-            (3, "PH", ph_values, ph_gcodes),
-            (4, "UZ", uz_values, uz_gcodes),
-            (5, "GM", gm_values, gm_gcodes),
-            (6, "AA", aa_values, aa_gcodes),
-            (7, "RA", ra_values, ra_gcodes),
-            (8, "SAPHON", saphon_values, saphon_gcodes),
-            (9, "SPA", spa_values, spa_gcodes),
-            (10, "EA", ea_values, ea_gcodes),
-            (11, "ER", er_values, er_gcodes),
+            (3, "PHOIBLE", phoible_values, phoible_gcodes),
+            (4, "AA", aa_values, aa_gcodes),
+            (5, "RA", ra_values, ra_gcodes),
+            (6, "SAPHON", saphon_values, saphon_gcodes),
+            (7, "EA", ea_values, ea_gcodes),
+            (8, "ER", er_values, er_gcodes),
         ],
         r=2,
     )
@@ -349,13 +328,10 @@ datasets = [
     "JIPA",
     "LAPSyD",
     "UPSID",
-    "PH",
-    "UZ",
-    "GM",
+    "PHOIBLE",
     "AA",
     "RA",
     "SAPHON",
-    "SPA",
     "EA",
     "ER",
 ]

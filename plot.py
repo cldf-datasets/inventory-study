@@ -67,22 +67,41 @@ bipa = CLTS().bipa
 parameters = ["Sounds", "Consonants", "Vowels", "Consonantal", "Vocalic", "Ratio"]
 
 (
-    (jpa_data, jpa_codes, jpa),
-    (lps_data, lps_codes, lps),
-    (ups_data, ups_codes, ups),
-    (uz_data, uz_codes, uz),
-    (ph_data, ph_codes, ph),
-    (gm_data, gm_codes, gm),
-) = [to_dict(ds, parameters) for ds in ["jipa", "lapsyd", "UPSID", "UZ", "PH", "GM"]]
+    (jipa_data, jipa_codes, jipa),
+    (lapsyd_data, lapsyd_codes, lapsyd),
+    (upsid_data, upsid_codes, upsid),
+    (phoible_data, phoible_codes, phoible),
+    (aa_data, aa_codes, aa),
+    (ra_data, ra_codes, ra),
+    (saphon_data, saphon_codes, saphon),
+    (ea_data, ea_codes, ea),
+    (er_data, er_codes, er),
+) = [
+    to_dict(ds, parameters)
+    for ds in ["jipa", "lapsyd", "UPSID", "PHOIBLE", "AA", "RA", "SAPHON", "EA", "ER"]
+]
 
 
-(jpaD, jpaC), (lpsD, lpsC), (upsD, upsC), (uzD, uzC), (phD, phC), (gmD, gmC) = (
+(
+    (jpaD, jpaC),
+    (lpsD, lpsC),
+    (upsD, upsC),
+    (phoibleD, phoibleC),
+    (aaD, aaC),
+    (raD, raC),
+    (saphonD, saphonC),
+    (eaD, eaC),
+    (erD, erC),
+) = (
     inventories("jipa", bipa),
     inventories("lapsyd", bipa),
     inventories("UPSID", bipa),
-    inventories("UZ", bipa),
-    inventories("PH", bipa),
-    inventories("GM", bipa),
+    inventories("PHOIBLE", bipa),
+    inventories("AA", bipa),
+    inventories("RA", bipa),
+    inventories("SAPHON", bipa),
+    inventories("EA", bipa),
+    inventories("ER", bipa),
 )
 
 
@@ -96,12 +115,15 @@ for (idx, nameA, dataA, dictA, coordsA), (
 ) in progressbar(
     combinations(
         [
-            (0, "JIPA", jpa, jpaD, jpaC),
-            (1, "LAPSYD", lps, lpsD, lpsC),
-            (2, "UPSID", ups, upsD, upsC),
-            (3, "UZ", uz, uzD, uzC),
-            (4, "PH", ph, phD, phC),
-            (5, "GM", gm, gmD, gmC),
+            (0, "JIPA", jipa, jpaD, jpaC),
+            (1, "LAPSYD", lapsyd, lpsD, lpsC),
+            (2, "UPSID", upsid, upsD, upsC),
+            (3, "PHOIBLE", phoible, phoibleD, phoibleC),
+            (4, "AA", aa, aaD, aaC),
+            (5, "RA", ra, raD, raC),
+            (6, "SAPHON", saphon, saphonD, saphonC),
+            (7, "EA", ea, eaD, eaC),
+            (8, "ER", er, erD, erC),
         ],
         r=2,
     )

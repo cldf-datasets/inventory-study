@@ -111,7 +111,14 @@ def get_phoible_varieties(
     varieties = defaultdict(list)
     sources = defaultdict(set)
     for row in progressbar(phoible.iter_rows("ValueTable"), desc="load values"):
+        accept = False
         if contributions[row["Inventory_ID"]] == dataset:
+            accept = True
+        elif dataset == "PHOIBLE":
+            if contributions[row["Inventory_ID"]] in ["PH", "UZ", "GM"]:
+                accept = True
+
+        if accept:
             lid = row["Language_ID"] + "-" + row["Inventory_ID"]
             varieties[lid] += [nfd(row["Value"])]
             languages[lid] = gcodes[row["Language_ID"]]
@@ -141,7 +148,7 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
     if not td:
         td = dataset
 
-    if dataset in ["UZ", "PH", "GM", "UPSID", "AA", "RA", "SAPHON", "SPA", "EA", "ER"]:
+    if dataset in ["UPSID", "AA", "RA", "SAPHON", "EA", "ER", "PHOIBLE"]:
         dset_td = clts.transcriptiondata_dict["phoible"]
         languages, params, varieties, sources, bib = get_phoible_varieties(dataset)
     else:
@@ -310,13 +317,10 @@ for ds in [
     "jipa",
     "UPSID",
     "lapsyd",
-    "UZ",
-    "PH",
-    "GM",
+    "PHOIBLE",
     "AA",
     "RA",
     "SAPHON",
-    "SPA",
     "EA",
     "ER",
 ]:
