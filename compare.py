@@ -385,17 +385,17 @@ def process_data(file_path):
     with open(file_path, "r") as tsvfile:
         reader = csv.DictReader(tsvfile, delimiter="\t")
         for row in reader:
-            dataset_pair_A = (row["DatasetA"], row["DatasetB"])
-            dataset_pair_B = (row["DatasetB"], row["DatasetA"])
+            dataset_pair_AB = (row["DatasetA"], row["DatasetB"])
+            dataset_pair_BA = (row["DatasetB"], row["DatasetA"])
 
             inventory_A = row["InventoryA"].split()
             inventory_B = row["InventoryB"].split()
 
-            phoneme_counts[dataset_pair_A]["DatasetA"].update(inventory_A)
-            phoneme_counts[dataset_pair_B]["DatasetB"].update(inventory_B)
+            phoneme_counts[dataset_pair_AB]["DatasetA"].update(inventory_A)
+            phoneme_counts[dataset_pair_BA]["DatasetB"].update(inventory_B)
 
-            dataset_pair_counts[dataset_pair_A] += 1
-            dataset_pair_counts[dataset_pair_B] += 1
+            dataset_pair_counts[dataset_pair_AB] += 1
+            dataset_pair_counts[dataset_pair_BA] += 1
 
     # Build results
     entries = []
@@ -504,6 +504,7 @@ with open(BASE_PATH / "output" / "compared-inventories.tsv") as csvfile:
     reader = csv.DictReader(csvfile, delimiter="\t")
     rows = list(reader)
 
+new_rows = []
 for row in rows:
     inv_a = row["InventoryA"].split()
     inv_b = row["InventoryB"].split()
@@ -513,11 +514,49 @@ for row in rows:
     inv_a.sort(key=lambda x: (classify_grapheme(x), x))
     inv_b.sort(key=lambda x: (classify_grapheme(x), x))
 
+    # Join the sorted lists back into strings
     row["InventoryA"] = " ".join(inv_a)
     row["InventoryB"] = " ".join(inv_b)
 
+    # Run `classify_grapheme` again, this time collecting graphemes by their
+    # classification
+    by_cat_a = defaultdict(list)
+    by_cat_b = defaultdict(list)
+    for grapheme in inv_a:
+        by_cat_a[classify_grapheme(grapheme)].append(grapheme)
+    for grapheme in inv_b:
+        by_cat_b[classify_grapheme(grapheme)].append(grapheme)
+
+    # Build a string for each classification, using the mapping in `cat_map`
+    # to convert the classification number to a string
+    cat_map = {
+        0: "normal vowels",
+        1: "long vowels",
+        2: "odd-length vowels",
+        3: "diphthongs",
+        4: "normal consonants",
+        5: "long consonants",
+        6: "odd-length consonants",
+        999: "unknowns",
+    }
+    for cat_idx in cat_map.keys():
+        if cat_idx not in by_cat_a:
+            row["%s A" % cat_map[cat_idx]] = ""
+        else:
+            row["%s A" % cat_map[cat_idx]] = " ".join(by_cat_a[cat_idx])
+        if cat_idx not in by_cat_b:
+            row["%s B" % cat_map[cat_idx]] = ""
+        else:
+            row["%s B" % cat_map[cat_idx]] = " ".join(by_cat_b[cat_idx])
+
+    new_rows.append(row)
+
 # Output the updated rows to a new file
 with open(BASE_PATH / "output" / "compared-inventories.sorted.tsv", "w") as csvfile:
-    writer = csv.DictWriter(csvfile, fieldnames=reader.fieldnames, delimiter="\t")
+    writer = csv.DictWriter(
+        csvfile,
+        fieldnames=list(new_rows[0].keys()),
+        delimiter="\t",
+    )
     writer.writeheader()
     writer.writerows(rows)
