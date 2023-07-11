@@ -471,3 +471,53 @@ def process_data(file_path):
 
 # Call the function with your file path
 process_data(BASE_PATH / "output" / "compared-inventories.tsv")
+
+###############
+
+
+def classify_grapheme(grapheme):
+    # Convert the grapheme to a phoneme
+    phoneme = bipa[grapheme]
+
+    # Classify the phoneme based on its sound class and length
+    if phoneme.type == "vowel":
+        if phoneme.duration == "long":
+            return 1  # 'long vowel'
+        elif phoneme.duration is None:
+            return 0  # 'normal vowel'
+        else:
+            return 2  # 'non-normal vowel with a length that is not long'
+    elif phoneme.type == "consonant":
+        if phoneme.duration == "long":
+            return 5  # 'long consonant'
+        elif phoneme.duration is None:
+            return 4  # 'normal consonant'
+        else:
+            return 6  # 'non-normal consonant with a length that is not long'
+    elif phoneme.type == "diphthong":
+        return 3  #'diphthong'
+    else:
+        return 999  # 'unknown'
+
+
+with open(BASE_PATH / "output" / "compared-inventories.tsv") as csvfile:
+    reader = csv.DictReader(csvfile, delimiter="\t")
+    rows = list(reader)
+
+for row in rows:
+    inv_a = row["InventoryA"].split()
+    inv_b = row["InventoryB"].split()
+
+    # Sort the items in inv_a and inv_b by the value returned by classify_grapheme
+    # first, and then by the grapheme itself
+    inv_a.sort(key=lambda x: (classify_grapheme(x), x))
+    inv_b.sort(key=lambda x: (classify_grapheme(x), x))
+
+    row["InventoryA"] = " ".join(inv_a)
+    row["InventoryB"] = " ".join(inv_b)
+
+# Output the updated rows to a new file
+with open(BASE_PATH / "output" / "compared-inventories.sorted.tsv", "w") as csvfile:
+    writer = csv.DictWriter(csvfile, fieldnames=reader.fieldnames, delimiter="\t")
+    writer.writeheader()
+    writer.writerows(rows)
