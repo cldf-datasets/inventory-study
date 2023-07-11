@@ -3,7 +3,6 @@ from collections import defaultdict
 from csvw import UnicodeDictReader, UnicodeWriter
 from itertools import combinations, product
 from pathlib import Path
-from pathlib import Path
 from pyclts import CLTS
 from pyclts.inventories import Inventory
 from scipy.stats import spearmanr
@@ -375,3 +374,100 @@ with open(
         total = sum(graphemes.values())
         for grapheme, count in graphemes.most_common():
             f.write(f"{grapheme}\t{dataset}\t{count}\t{count / total:.4f}\n")
+
+###############
+
+
+def process_data(file_path):
+    phoneme_counts = defaultdict(lambda: defaultdict(Counter))
+    dataset_pair_counts = defaultdict(int)
+
+    with open(file_path, "r") as tsvfile:
+        reader = csv.DictReader(tsvfile, delimiter="\t")
+        for row in reader:
+            dataset_pair_A = (row["DatasetA"], row["DatasetB"])
+            dataset_pair_B = (row["DatasetB"], row["DatasetA"])
+
+            inventory_A = row["InventoryA"].split()
+            inventory_B = row["InventoryB"].split()
+
+            phoneme_counts[dataset_pair_A]["DatasetA"].update(inventory_A)
+            phoneme_counts[dataset_pair_B]["DatasetB"].update(inventory_B)
+
+            dataset_pair_counts[dataset_pair_A] += 1
+            dataset_pair_counts[dataset_pair_B] += 1
+
+    # Build results
+    entries = []
+    for pair, pair_counts in phoneme_counts.items():
+        if pair[0] == pair[1]:
+            continue
+
+        total_A = sum(pair_counts["DatasetA"].values())
+        total_B = sum(pair_counts["DatasetB"].values())
+
+        for phoneme in set(
+            list(pair_counts["DatasetA"].keys()) + list(pair_counts["DatasetB"].keys())
+        ):
+            count_A = pair_counts["DatasetA"][phoneme]
+            count_B = pair_counts["DatasetB"][phoneme]
+
+            rel_a = count_A / total_A if total_A > 0 else 0
+            rel_b = count_B / total_B if total_B > 0 else 0
+
+            percent_A = count_A / dataset_pair_counts[pair]
+            percent_b = count_B / dataset_pair_counts[pair]
+
+            entries.append(
+                {
+                    "Phoneme": phoneme,
+                    "Dataset": pair[0],
+                    "Dataset Pair": "-".join(pair),
+                    "Absolute Count (DatasetA)": count_A,
+                    "Absolute Count (DatasetB)": count_B,
+                    "Relative Count (DatasetA)": "%.4f" % rel_a,
+                    "Relative Count (DatasetB)": "%.4f" % rel_b,
+                    "Total Inventories": dataset_pair_counts[pair],
+                    "Percent (DatasetA)": "%.4f" % percent_A,
+                    "Percent (DatasetB)": "%.4f" % percent_b,
+                }
+            )
+
+    # Sort entries
+    entries = sorted(
+        entries,
+        key=lambda x: (
+            x["Phoneme"],
+            x["Dataset"],
+            x["Dataset Pair"],
+            x["Absolute Count (DatasetA)"],
+        ),
+    )
+
+    # Output results
+    with open(
+        BASE_PATH / "output" / "grapheme_frequencies.pairs.tsv",
+        "w",
+        newline="",
+        encoding="utf-8",
+    ) as csvfile:
+        fieldnames = [
+            "Phoneme",
+            "Dataset",
+            "Dataset Pair",
+            "Absolute Count (DatasetA)",
+            "Absolute Count (DatasetB)",
+            "Relative Count (DatasetA)",
+            "Relative Count (DatasetB)",
+            "Total Inventories",
+            "Percent (DatasetA)",
+            "Percent (DatasetB)",
+        ]
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+        writer.writeheader()
+        writer.writerows(entries)
+
+
+# Call the function with your file path
+process_data(BASE_PATH / "output" / "compared-inventories.tsv")
