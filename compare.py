@@ -1,11 +1,14 @@
-from csvw import UnicodeDictReader, UnicodeWriter
-from scipy.stats import spearmanr
+from collections import Counter
 from collections import defaultdict
-from tabulate import tabulate
-from statistics import median, mean
+from csvw import UnicodeDictReader, UnicodeWriter
 from itertools import combinations, product
-from pyclts.inventories import Inventory
+from pathlib import Path
+from pathlib import Path
 from pyclts import CLTS
+from pyclts.inventories import Inventory
+from scipy.stats import spearmanr
+from statistics import median, mean
+from tabulate import tabulate
 from tqdm import tqdm as progressbar
 import csv
 
@@ -344,3 +347,31 @@ with open("output/mutual_coverage.csv", "w", newline="") as f:
     # Write rows
     for dataset, row in zip(datasets, coverage):
         writer.writerow([dataset] + row)
+
+# Collect frequency stats for the graphemes used in each dataset
+BASE_PATH = Path(__file__).parent
+dataset_graphemes = {}
+for dataset in BASE_PATH.glob("*-data.tsv"):
+    # Extract the name of the dataset (e.g., "ER" from "ER-data.tsv")
+    dataset_name = dataset.stem.split("-")[0]
+
+    # Read the dataset and collect all grapheme occurrences
+    with open(dataset, "r", encoding="utf-8") as f:
+        tsv_reader = csv.DictReader(f, delimiter="\t")
+        graphemes = Counter()
+        for row in tsv_reader:
+            graphemes.update(row["Phonemes"].split())
+
+    # Store the counter
+    dataset_graphemes[dataset_name] = graphemes
+
+# Using the counters in `dataset_graphemes`, output a table with the
+# absolute and relative frequencies of each grapheme in each dataset
+with open(
+    BASE_PATH / "output" / "grapheme_frequencies.tsv", "w", encoding="utf-8"
+) as f:
+    f.write("Grapheme\tDataset\tAbsolute\tRelative\n")
+    for dataset, graphemes in dataset_graphemes.items():
+        total = sum(graphemes.values())
+        for grapheme, count in graphemes.most_common():
+            f.write(f"{grapheme}\t{dataset}\t{count}\t{count / total:.4f}\n")
