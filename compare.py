@@ -243,7 +243,7 @@ for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(
                 lstB += [vB]
                 values += [gcode]
         if values:
-            p, r = spearmanr(lstA, lstB)
+            r, p = spearmanr(lstA, lstB)
             d = deltas(lstA, lstB)
             if param in ["Sounds"]:
                 strict = compare_inventories(dictA, dictB, aspects=[param.lower()])
@@ -323,7 +323,15 @@ with UnicodeWriter("output/results.summary.csv") as writer:
     header = storage["summary"][0].keys()
     writer.writerow(header)
     for row in storage["summary"]:
+        # Make a temporary copy of row, using 6 decimal places for floats
+        row = dict(row)
+        for k, v in row.items():
+            if isinstance(v, float):
+                row[k] = round(v, 8)
+
+        # Write the row to disk
         writer.writerow([row[h] for h in header])
+
 
 # Names of all datasets
 datasets = [
