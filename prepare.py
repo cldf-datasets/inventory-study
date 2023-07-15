@@ -2,19 +2,19 @@
 Prepare the data for the sound inventories experiment.
 """
 from cldfbench import get_dataset
-import pycldf
+from collections import defaultdict
+from pathlib import Path
+from pycldf.sources import Source
 from pyclts import CLTS
 from pyclts.inventories import Inventory, Phoneme
-from pathlib import Path
-from collections import defaultdict
-from tqdm import tqdm as progressbar
-from pyclts.util import nfd
 from pyclts.transcriptionsystem import is_valid_sound
+from pyclts.util import nfd
+from pylatexenc.latex2text import LatexNodes2Text
+from tqdm import tqdm as progressbar
+import attr
 import json
 import pybtex
-from pycldf.sources import Source
-from pylatexenc.latex2text import LatexNodes2Text
-import attr
+import pycldf
 
 
 @attr.s
@@ -40,6 +40,9 @@ class Language:
 
 
 def long_vowels(inventory):
+    """
+    Count the number of long vowels in an inventory.
+    """
     long_vowels = 0
     for sound in inventory.vowels.values():
         if "long" in sound.name or "ultra-long" in sound.name:
@@ -48,6 +51,9 @@ def long_vowels(inventory):
 
 
 def long_consonants(inventory):
+    """
+    Count the number of long consonants in an inventory.
+    """
     long_consonants = 0
     for sound in inventory.consonants.values():
         if "long" in sound.name:
@@ -56,8 +62,11 @@ def long_consonants(inventory):
 
 
 def normalize(grapheme):
-    for s, t in [("\u2019", "\u02bc")]:
-        grapheme = grapheme.replace(s, t)
+    """
+    Normalize graphemes.
+    """
+    for source, target in [("\u2019", "\u02bc")]:
+        grapheme = grapheme.replace(source, target)
     return grapheme
 
 
@@ -65,23 +74,28 @@ def get_cldf_varieties(dataset):
     """
     Load a generic CLDF dataset.
     """
-    bipa = CLTS().bipa
+
+    # load the dataset
     dset_ = get_dataset(dataset)
-    dset = dset_.cldf_reader()
     try:
         bib = {source.id: source for source in dset_.cldf_dir.read_bib()}
     except:
         bib = {}
+
+    # load the data
     dset = get_dataset(dataset).cldf_reader()
+
     languages = {row["ID"]: row for row in dset.iter_rows("LanguageTable")}
     params = {row["Name"]: row for row in dset.iter_rows("ParameterTable")}
     varieties = defaultdict(list)
     sources = defaultdict(set)
+
     for row in progressbar(dset.iter_rows("ValueTable"), desc="load values"):
         lid = row["Language_ID"]
         source = row["Source"][0] if row["Source"] else ""
         varieties[lid] += [nfd(row["Value"])]
         sources[lid].add(source)
+
     return languages, params, varieties, sources, bib
 
 
@@ -92,7 +106,7 @@ def get_phoible_varieties(
     """
     Load phoible data (currently not in generic CLDF).
     """
-    bipa = CLTS().bipa
+
     phoible = pycldf.Dataset.from_metadata(
         path.joinpath("StructureDataset-metadata.json")
     )
@@ -124,6 +138,7 @@ def get_phoible_varieties(
             languages[lid] = gcodes[row["Language_ID"]]
             source = row["Source"][0] if row["Source"] else ""
             sources[lid].add(source)
+
     return languages, params, varieties, sources, bib
 
 
@@ -174,7 +189,7 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
 
         if len(vals) == len(
             [v for v in vals if dset_td.grapheme_map.get(v, "<NA>") != "<NA>"]
-        ):
+        ): # all sounds in the inventory are in CLTS
             lang = Language(
                 var,
                 gcode["Name"],
@@ -218,7 +233,7 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
             else:
                 missing_gcodes += 1
 
-        else:
+        else: # exclude
             for sound in vals:
                 if (
                     sound not in dset_td.grapheme_map
@@ -337,3 +352,11 @@ for ds in [
 
 with open("app/data.js", "w") as f:
     f.write("var DATA = " + json.dumps(dump, indent=2) + ";\n")
+
+#####
+
+# Prepare the full data for Tiago's output, reading directly from the current output
+
+BASE_PATH = Path(__file__).parent
+sources = {filename.stem.split("-")[0]: filename for filename in BASE_PATH.glob("*-data.tsv")}
+print(sources)
