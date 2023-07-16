@@ -178,12 +178,102 @@ def build_phoneme_stats(data):
     return stats
 
 
-def main():
+def get_data():
     # Read the TSV file
     data = pd.read_csv("fulldata.tsv", delimiter="\t")
 
     # Split the "Phonemes" field into individual phonemes
     data["Phonemes_split"] = data["Phonemes"].str.split()
+
+    # Copy data and add a "GLOBAL" macroarea
+    data_global = data.copy()
+    data_global["Macroarea"] = "GLOBAL"
+    data_extended_macroarea = pd.concat([data, data_global])
+
+    # Copy data and add an 'ALL' dataset
+    data_all = data_extended_macroarea.copy()
+    data_all["Dataset"] = "ALL"
+    data_extended = pd.concat([data_extended_macroarea, data_all])
+
+    return data_extended
+
+
+def collect_results(data):
+    # List of the columns that we want to compute statistics for
+    column_names = [
+        "Num_Phonemes",
+        "Num_Consonants",
+        "Num_Vowels",
+        "Num_Long_Consonants",
+        "Num_Long_Vowels",
+        "Num_Diphthongs",
+    ]
+
+    # Function to compute statistics
+    def compute_statistics(group):
+        statistics = pd.Series(dtype="float64")
+        for col in column_names:
+            statistics[col + "_Number"] = group[col].sum()
+            statistics[col + "_Mean"] = group[col].mean()
+        return statistics
+
+    # Compute statistics
+    statistics_df = (
+        data.groupby(["Dataset", "Macroarea"]).apply(compute_statistics).reset_index()
+    )
+
+    # Compute proportions
+    global_statistics = statistics_df[statistics_df["Dataset"] == "ALL"]
+    for _, row in statistics_df.iterrows():
+        dataset = row["Dataset"]
+        area = row["Macroarea"]
+        for col in column_names:
+            statistics_df.loc[
+                (statistics_df["Dataset"] == dataset)
+                & (statistics_df["Macroarea"] == area),
+                col + "_Proportion",
+            ] = (
+                row[col + "_Mean"]
+                / global_statistics.loc[
+                    global_statistics["Macroarea"] == area, col + "_Mean"
+                ].values[0]
+            )
+
+    # Compute Number_Inventories and Global_Proportion
+    inventories_df = (
+        data.groupby(["Dataset", "Macroarea"])
+        .size()
+        .reset_index(name="Number_Inventories")
+    )
+    statistics_df = pd.merge(statistics_df, inventories_df, on=["Dataset", "Macroarea"])
+    total_inventories = statistics_df.loc[
+        (statistics_df["Dataset"] == "ALL") & (statistics_df["Macroarea"] == "GLOBAL"),
+        "Number_Inventories",
+    ].values[0]
+    statistics_df["Global_Proportion"] = (
+        statistics_df["Number_Inventories"] / total_inventories
+    )
+
+    # Convert Number_* fields to integer and round float fields to 4 decimal places
+    for col in column_names:
+        statistics_df[col + "_Number"] = statistics_df[col + "_Number"].astype(int)
+        statistics_df[col + "_Mean"] = statistics_df[col + "_Mean"].round(4)
+        statistics_df[col + "_Proportion"] = statistics_df[col + "_Proportion"].round(4)
+    statistics_df["Global_Proportion"] = statistics_df["Global_Proportion"].round(4)
+
+    # Sort DataFrame
+    statistics_df.sort_values(
+        ["Dataset", "Macroarea"],
+        key=lambda col: col == "GLOBAL" if isinstance(col, str) else col,
+        inplace=True,
+    )
+
+    return statistics_df
+
+
+def main():
+    # Get data
+    data = get_data()
 
     # Get summary statistics
     summary_df = build_summary(data)
@@ -192,6 +282,10 @@ def main():
     # Get frequency statistics
     phoneme_stats_df = build_phoneme_stats(data)
     phoneme_stats_df.to_csv("tiago.phoneme_stats.tsv", sep="\t", index=False)
+
+    # Get results
+    results_df = collect_results(data)
+    results_df.to_csv("tiago.results_datasets.tsv", sep="\t", index=False)
 
 
 if __name__ == "__main__":
