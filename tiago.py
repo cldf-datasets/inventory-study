@@ -7,9 +7,11 @@ import itertools
 import multiprocessing
 import numpy as np
 import pandas as pd
+import pickle
+import os.path
 
 from pyclts import CLTS
-from pyclts.inventories import Inventory
+from pyclts.inventories import Inventory, Phoneme
 
 BIPA = CLTS("./clts").bipa
 
@@ -335,22 +337,44 @@ def collect_results(data):
 
 def collect_comparisons(data):
     datasets = data["Dataset"].unique()
-    dataset_pairs = list(itertools.permutations(datasets, 2))
+    dataset_pairs = list(itertools.combinations(datasets, 2))
 
-    # For each dataset, compute mean of all inventories and collect phonemes
+    # Initialize the distance and similarity caches
+    if os.path.exists("sounds.distances"):
+        with open("sounds.distances", "rb") as f:
+            distance_cache = pickle.load(f)
+    else:
+        all_phonemes = set(
+            phoneme for phonemes in data["Phonemes_split"] for phoneme in phonemes
+        )
+        distance_cache = {}
+        for phoneme_a, phoneme_b in tqdm(itertools.combinations(all_phonemes, 2)):
+            sound_a = BIPA[phoneme_a]
+            sound_b = BIPA[phoneme_b]
+            distance_cache[(phoneme_a, phoneme_b)] = sound_a.similarity(sound_b)
+        with open("sounds.distances", "wb") as f:
+            pickle.dump(distance_cache, f)
+
+    strict_similarity_cache = {}
+    approx_similarity_cache = {}
+    js_divergence_cache = {}
+
     mean_global = data.groupby("Dataset")["Num_Phonemes"].mean()
+    std_global = data.groupby("Dataset")["Num_Phonemes"].std()
     phoneme_counts = defaultdict(lambda: defaultdict(int))
     phoneme_sets = defaultdict(set)
-    clts_inventory_cache = {}  # Initialize cache for CLTS inventories
+    clts_inventory_cache = {}
+
     for idx, row in data.iterrows():
         for phoneme in row["Phonemes_split"]:
             phoneme_counts[row["Dataset"]][phoneme] += 1
             phoneme_sets[row["Dataset"]].add(phoneme)
-        # Cache CLTS inventory for each inventory
         clts_inventory_cache[row["ID"]] = get_clts_inventory(row["Phonemes_split"])
 
     results = []
-    for dataset_a, dataset_b in tqdm(dataset_pairs, desc="Comparing datasets"):
+    for dataset_a, dataset_b in dataset_pairs:
+        print(f"Comparing {dataset_a} and {dataset_b}")
+
         shared_glottocodes = set(
             data[data["Dataset"] == dataset_a]["Glottocode"]
         ).intersection(set(data[data["Dataset"] == dataset_b]["Glottocode"]))
@@ -364,41 +388,69 @@ def collect_comparisons(data):
             & (data["Glottocode"].isin(shared_glottocodes))
         ]
 
-        # Calculate means
         mean_compared_a = data_a["Num_Phonemes"].mean()
+        std_compared_a = data_a["Num_Phonemes"].std()
         mean_compared_b = data_b["Num_Phonemes"].mean()
+        std_compared_b = data_b["Num_Phonemes"].std()
 
-        # Calculate Jensen-Shannon divergence, if applicable
-        if len(data_a) > 0 and len(data_b) > 0:
-            all_phonemes = sorted(
-                phoneme_sets[dataset_a].union(phoneme_sets[dataset_b])
-            )
-            counts_a = np.array(
-                [phoneme_counts[dataset_a].get(phoneme, 0) for phoneme in all_phonemes]
-            )
-            counts_b = np.array(
-                [phoneme_counts[dataset_b].get(phoneme, 0) for phoneme in all_phonemes]
-            )
-            freq_a = counts_a / np.sum(counts_a)
-            freq_b = counts_b / np.sum(counts_b)
-            js_divergence = jensenshannon(freq_a, freq_b)
+        js_key = frozenset([dataset_a, dataset_b])
+        if js_key in js_divergence_cache:
+            js_divergence = js_divergence_cache[js_key]
         else:
-            js_divergence = np.nan
+            if len(data_a) > 0 and len(data_b) > 0:
+                all_phonemes = sorted(
+                    phoneme_sets[dataset_a].union(phoneme_sets[dataset_b])
+                )
+                counts_a = np.array(
+                    [
+                        phoneme_counts[dataset_a].get(phoneme, 0)
+                        for phoneme in all_phonemes
+                    ]
+                )
+                counts_b = np.array(
+                    [
+                        phoneme_counts[dataset_b].get(phoneme, 0)
+                        for phoneme in all_phonemes
+                    ]
+                )
+                freq_a = counts_a / np.sum(counts_a)
+                freq_b = counts_b / np.sum(counts_b)
+                js_divergence = jensenshannon(freq_a, freq_b)
+                js_divergence_cache[js_key] = js_divergence
+            else:
+                js_divergence = np.nan
 
-        # Calculate similarities
         strict_similarities = []
         approx_similarities = []
-        for id_a in data_a["ID"]:
-            for id_b in data_b["ID"]:
-                inv_a = clts_inventory_cache[id_a]  # Retrieve from cache
-                inv_b = clts_inventory_cache[id_b]  # Retrieve from cache
-                strict_similarities.append(inv_a.strict_similarity(inv_b))
-                # approx_similarities.append(inv_a.approximate_similarity(inv_b))
-                approx_similarities.append(0.5)
-        mean_strict_sim = np.mean(strict_similarities)
-        mean_approx_sim = np.mean(approx_similarities)
+        for id_a, id_b in tqdm(itertools.product(data_a["ID"], data_b["ID"])):
+            strict_sim_key = frozenset([id_a, id_b])
+            approx_sim_key = frozenset([id_a, id_b])
 
-        # Prepare result and round floats to 4 decimal places
+            inv_a = clts_inventory_cache[id_a]
+            inv_b = clts_inventory_cache[id_b]
+
+            if strict_sim_key in strict_similarity_cache:
+                strict_sim = strict_similarity_cache[strict_sim_key]
+            else:
+                strict_sim = inv_a.strict_similarity(inv_b)
+                strict_similarity_cache[strict_sim_key] = strict_sim
+
+            if approx_sim_key in approx_similarity_cache:
+                approx_sim = approx_similarity_cache[approx_sim_key]
+            else:
+                approx_sim = inv_a.tiago_approximate_similarity(
+                    inv_b, distance_cache=distance_cache
+                )
+                approx_similarity_cache[approx_sim_key] = approx_sim
+
+            strict_similarities.append(strict_sim)
+            approx_similarities.append(approx_sim)
+
+        mean_strict_sim = np.mean(strict_similarities)
+        std_strict_sim = np.std(strict_similarities)
+        mean_approx_sim = np.mean(approx_similarities)
+        std_approx_sim = np.std(approx_similarities)
+
         result = {
             "Dataset_A": dataset_a,
             "Dataset_B": dataset_b,
@@ -407,16 +459,22 @@ def collect_comparisons(data):
             "Comparable_Inventories_B": len(data_b),
             "Comparable_Inventories_Total": len(data_a) + len(data_b),
             "Mean_Global_A": round(mean_global[dataset_a], 4),
+            "Std_Global_A": round(std_global[dataset_a], 4),
             "Mean_Global_B": round(mean_global[dataset_b], 4),
+            "Std_Global_B": round(std_global[dataset_b], 4),
             "Mean_Compared_A": round(mean_compared_a, 4),
+            "Std_Compared_A": round(std_compared_a, 4),
             "Mean_Compared_B": round(mean_compared_b, 4),
+            "Std_Compared_B": round(std_compared_b, 4),
             "Mean_Global_Diff": round(
                 mean_global[dataset_a] - mean_global[dataset_b], 4
             ),
             "Mean_Compared_Diff": round(mean_compared_a - mean_compared_b, 4),
             "Jensen-Shannon": round(js_divergence, 4),
-            "Strict_Similarity": round(mean_strict_sim, 4),
-            "Approximate_Similarity": round(mean_approx_sim, 4),
+            "Mean_Strict_Similarity": round(mean_strict_sim, 4),
+            "Std_Strict_Similarity": round(std_strict_sim, 4),
+            "Mean_Approximate_Similarity": round(mean_approx_sim, 4),
+            "Std_Approximate_Similarity": round(std_approx_sim, 4),
         }
 
         results.append(result)
