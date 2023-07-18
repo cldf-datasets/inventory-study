@@ -222,7 +222,7 @@ def collect_results(data):
         data.groupby(["Dataset", "Macroarea"]).apply(compute_statistics).reset_index()
     )
 
-    # Compute proportions
+    # Compute proportions for each dataset in relation to "ALL"
     global_statistics = statistics_df[statistics_df["Dataset"] == "ALL"]
     for _, row in statistics_df.iterrows():
         dataset = row["Dataset"]
@@ -231,13 +231,31 @@ def collect_results(data):
             statistics_df.loc[
                 (statistics_df["Dataset"] == dataset)
                 & (statistics_df["Macroarea"] == area),
-                col + "_Proportion",
+                col + "_All_Proportion",
             ] = (
                 row[col + "_Mean"]
                 / global_statistics.loc[
                     global_statistics["Macroarea"] == area, col + "_Mean"
                 ].values[0]
             )
+
+    # Compute proportions for each dataset in relation to the global values of the dataset
+    dataset_global_statistics = statistics_df[statistics_df["Macroarea"] == "GLOBAL"]
+    for _, row in statistics_df.iterrows():
+        dataset = row["Dataset"]
+        area = row["Macroarea"]
+        for col in column_names:
+            dataset_global_statistic = dataset_global_statistics.loc[
+                dataset_global_statistics["Dataset"] == dataset, col + "_Mean"
+            ].values[0]
+            if dataset_global_statistic:
+                statistics_df.loc[
+                    (statistics_df["Dataset"] == dataset)
+                    & (statistics_df["Macroarea"] == area),
+                    col + "_Dataset_Proportion",
+                ] = (
+                    row[col + "_Mean"] / dataset_global_statistic
+                )
 
     # Compute Number_Inventories and Global_Proportion
     inventories_df = (
@@ -250,16 +268,43 @@ def collect_results(data):
         (statistics_df["Dataset"] == "ALL") & (statistics_df["Macroarea"] == "GLOBAL"),
         "Number_Inventories",
     ].values[0]
-    statistics_df["Global_Proportion"] = (
+    statistics_df["Global_All_Proportion"] = (
         statistics_df["Number_Inventories"] / total_inventories
     )
+
+    # Compute dataset proportion in relation to the global values of the dataset
+    dataset_global_inventories = statistics_df[statistics_df["Macroarea"] == "GLOBAL"]
+    for _, row in statistics_df.iterrows():
+        dataset = row["Dataset"]
+        area = row["Macroarea"]
+        dataset_global_inventory = dataset_global_inventories.loc[
+            dataset_global_inventories["Dataset"] == dataset, "Number_Inventories"
+        ].values[0]
+        if dataset_global_inventory:
+            statistics_df.loc[
+                (statistics_df["Dataset"] == dataset)
+                & (statistics_df["Macroarea"] == area),
+                "Global_Dataset_Proportion",
+            ] = (
+                row["Number_Inventories"] / dataset_global_inventory
+            )
 
     # Convert Number_* fields to integer and round float fields to 4 decimal places
     for col in column_names:
         statistics_df[col + "_Number"] = statistics_df[col + "_Number"].astype(int)
         statistics_df[col + "_Mean"] = statistics_df[col + "_Mean"].round(4)
-        statistics_df[col + "_Proportion"] = statistics_df[col + "_Proportion"].round(4)
-    statistics_df["Global_Proportion"] = statistics_df["Global_Proportion"].round(4)
+        statistics_df[col + "_All_Proportion"] = statistics_df[
+            col + "_All_Proportion"
+        ].round(4)
+        statistics_df[col + "_Dataset_Proportion"] = statistics_df[
+            col + "_Dataset_Proportion"
+        ].round(4)
+    statistics_df["Global_All_Proportion"] = statistics_df[
+        "Global_All_Proportion"
+    ].round(4)
+    statistics_df["Global_Dataset_Proportion"] = statistics_df[
+        "Global_Dataset_Proportion"
+    ].round(4)
 
     # Sort DataFrame
     statistics_df.sort_values(
