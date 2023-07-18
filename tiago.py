@@ -1,14 +1,13 @@
 from collections import defaultdict
-from concurrent.futures import ProcessPoolExecutor
 from itertools import combinations, product
 from scipy.spatial.distance import jensenshannon
 from tqdm import tqdm
 import itertools
-import multiprocessing
 import numpy as np
 import pandas as pd
 import pickle
 import os.path
+from scipy.stats import spearmanr
 
 from pyclts import CLTS
 from pyclts.inventories import Inventory, Phoneme
@@ -355,8 +354,6 @@ def collect_comparisons(data):
         with open("sounds.distances", "wb") as f:
             pickle.dump(distance_cache, f)
 
-    strict_similarity_cache = {}
-    approx_similarity_cache = {}
     js_divergence_cache = {}
 
     mean_global = data.groupby("Dataset")["Num_Phonemes"].mean()
@@ -422,34 +419,39 @@ def collect_comparisons(data):
 
         strict_similarities = []
         approx_similarities = []
+        combined_phonemes_a = []
+        combined_phonemes_b = []
         for id_a, id_b in tqdm(itertools.product(data_a["ID"], data_b["ID"])):
-            strict_sim_key = frozenset([id_a, id_b])
-            approx_sim_key = frozenset([id_a, id_b])
-
             inv_a = clts_inventory_cache[id_a]
             inv_b = clts_inventory_cache[id_b]
 
-            if strict_sim_key in strict_similarity_cache:
-                strict_sim = strict_similarity_cache[strict_sim_key]
-            else:
-                strict_sim = inv_a.strict_similarity(inv_b)
-                strict_similarity_cache[strict_sim_key] = strict_sim
-
-            if approx_sim_key in approx_similarity_cache:
-                approx_sim = approx_similarity_cache[approx_sim_key]
-            else:
-                approx_sim = inv_a.tiago_approximate_similarity(
-                    inv_b, distance_cache=distance_cache
-                )
-                approx_similarity_cache[approx_sim_key] = approx_sim
+            strict_sim = inv_a.strict_similarity(inv_b)
+            approx_sim = inv_a.tiago_approximate_similarity(
+                inv_b, distance_cache=distance_cache
+            )
 
             strict_similarities.append(strict_sim)
             approx_similarities.append(approx_sim)
 
-        mean_strict_sim = np.mean(strict_similarities)
-        std_strict_sim = np.std(strict_similarities)
-        mean_approx_sim = np.mean(approx_similarities)
-        std_approx_sim = np.std(approx_similarities)
+            combined_phonemes_a.extend(list(inv_a.sounds.keys()))
+            combined_phonemes_b.extend(list(inv_b.sounds.keys()))
+
+        # Compute strict and approximate similarity for combined inventories
+        combined_inv_a = get_clts_inventory(combined_phonemes_a)
+        combined_inv_b = get_clts_inventory(combined_phonemes_b)
+        combined_strict_sim = combined_inv_a.strict_similarity(combined_inv_b)
+        combined_approx_sim = combined_inv_a.tiago_approximate_similarity(
+            combined_inv_b, distance_cache=distance_cache
+        )
+
+        # Average phoneme counts for each glottocode in each dataset
+        data_a_phonemes = data_a.groupby("Glottocode")["Num_Phonemes"].mean().values
+        data_b_phonemes = data_b.groupby("Glottocode")["Num_Phonemes"].mean().values
+
+        if len(data_a_phonemes) > 0 and len(data_b_phonemes) > 0:
+            r, p = spearmanr(data_a_phonemes, data_b_phonemes)
+        else:
+            r, p = np.nan, np.nan
 
         result = {
             "Dataset_A": dataset_a,
@@ -471,10 +473,14 @@ def collect_comparisons(data):
             ),
             "Mean_Compared_Diff": round(mean_compared_a - mean_compared_b, 4),
             "Jensen-Shannon": round(js_divergence, 4),
-            "Mean_Strict_Similarity": round(mean_strict_sim, 4),
-            "Std_Strict_Similarity": round(std_strict_sim, 4),
-            "Mean_Approximate_Similarity": round(mean_approx_sim, 4),
-            "Std_Approximate_Similarity": round(std_approx_sim, 4),
+            "Mean_Strict_Similarity": round(np.mean(strict_similarities), 4),
+            "Std_Strict_Similarity": round(np.std(strict_similarities), 4),
+            "Mean_Approximate_Similarity": round(np.mean(approx_similarities), 4),
+            "Std_Approximate_Similarity": round(np.std(approx_similarities), 4),
+            "Combined_Strict_Similarity": round(combined_strict_sim, 4),
+            "Combined_Approximate_Similarity": round(combined_approx_sim, 4),
+            "R": round(r, 4),
+            "P": round(p, 4),
         }
 
         results.append(result)
