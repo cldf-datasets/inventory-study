@@ -370,7 +370,7 @@ def collect_comparisons(data):
         for index, row in data.iterrows()
     }
 
-    for dataset_a, dataset_b in tqdm(list(itertools.combinations(datasets, 2))):
+    for dataset_a, dataset_b in tqdm(list(itertools.permutations(datasets, 2))):
         data_a = data[data["Dataset"] == dataset_a]
         data_b = data[data["Dataset"] == dataset_b]
 
@@ -386,14 +386,10 @@ def collect_comparisons(data):
         num_comparable_inventories_a = len(comparable_inventories_a)
         num_comparable_inventories_b = len(comparable_inventories_b)
 
-        mean_global_a = round(np.mean(len(data_a["Phonemes_split"])), 4)
-        mean_global_b = round(np.mean(len(data_b["Phonemes_split"])), 4)
-        mean_comparable_a = round(
-            np.mean(len(comparable_inventories_a["Phonemes_split"])), 4
-        )
-        mean_comparable_b = round(
-            np.mean(len(comparable_inventories_b["Phonemes_split"])), 4
-        )
+        mean_global_a = round(np.mean(data_a["Num_Phonemes"]), 4)
+        mean_global_b = round(np.mean(data_b["Num_Phonemes"]), 4)
+        mean_comparable_a = round(np.mean(comparable_inventories_a["Num_Phonemes"]), 4)
+        mean_comparable_b = round(np.mean(comparable_inventories_b["Num_Phonemes"]), 4)
 
         list_of_phonemes_a = [
             phoneme
@@ -441,14 +437,16 @@ def collect_comparisons(data):
         # Compute the Spearman correlation
         r, p = spearmanr(vec_a, vec_b)
 
-        r = round(r, 4)
-        p = round(p, 8)
+        r = format(r, ".4f")
+        p = format(p, ".8f")
 
         aggregated_js = []
         aggregated_strict = []
         aggregated_approx = []
+        aggregated_size_diff = []
 
         for glottocode in shared_glottocodes:
+            # Get the subset of the data for the current glottocode
             subset_a = comparable_inventories_a[
                 comparable_inventories_a["Glottocode"] == glottocode
             ]
@@ -456,12 +454,17 @@ def collect_comparisons(data):
                 comparable_inventories_b["Glottocode"] == glottocode
             ]
 
+            # Get the phoneme lists for the current glottocode, and compute the
+            # Jensen-Shannon divergence, the strict similarity, the approximate
+            # similarity, and the size difference
             for row_a, row_b in product(subset_a.iterrows(), subset_b.iterrows()):
                 phonemes_a = row_a[1]["Phonemes_split"]
                 phonemes_b = row_b[1]["Phonemes_split"]
 
+                # Get the ID frozenset for the cache
                 id_frozenset = frozenset([row_a[1]["ID"], row_b[1]["ID"]])
 
+                # Compute the size difference
                 if id_frozenset in cache_js:
                     js_divergence = cache_js[id_frozenset]
                 else:
@@ -477,6 +480,7 @@ def collect_comparisons(data):
                     cache_js[id_frozenset] = js_divergence
                 aggregated_js.append(js_divergence)
 
+                # Compute the strict similarity
                 if id_frozenset in cache_strict:
                     strict_sim = cache_strict[id_frozenset]
                 else:
@@ -489,6 +493,7 @@ def collect_comparisons(data):
                     cache_strict[id_frozenset] = strict_sim
                 aggregated_strict.append(strict_sim)
 
+                # Compute the approximate similarity
                 if id_frozenset in cache_approx:
                     approx_sim = cache_approx[id_frozenset]
                 else:
@@ -502,6 +507,10 @@ def collect_comparisons(data):
                     cache_approx[id_frozenset] = approx_sim
                 aggregated_approx.append(approx_sim)
 
+                # Using the number of phonemes, compute the size difference
+                size_diff = len(phonemes_a) - len(phonemes_b)
+                aggregated_size_diff.append(size_diff)
+
         result.append(
             [
                 dataset_a,
@@ -511,19 +520,25 @@ def collect_comparisons(data):
                 num_comparable_inventories_b,
                 mean_global_a,
                 mean_global_b,
+                format(mean_global_a - mean_global_b, ".4f"),
                 mean_comparable_a,
                 mean_comparable_b,
+                format(mean_comparable_a - mean_comparable_b, ".4f"),
+                format(mean_comparable_a / mean_global_a, ".4f"),
+                format(mean_comparable_b / mean_global_b, ".4f"),
                 comparable_jensenshannon,
                 comparable_strict,
                 comparable_approx,
                 r,
                 p,
-                round(np.mean(aggregated_js), 4),
-                round(np.std(aggregated_js), 4),
-                round(np.mean(aggregated_strict), 4),
-                round(np.std(aggregated_strict), 4),
-                round(np.mean(aggregated_approx), 4),
-                round(np.std(aggregated_approx), 4),
+                format(np.mean(aggregated_js), ".4f"),
+                format(np.std(aggregated_js), ".4f"),
+                format(np.mean(aggregated_strict), ".4f"),
+                format(np.std(aggregated_strict), ".4f"),
+                format(np.mean(aggregated_approx), ".4f"),
+                format(np.std(aggregated_approx), ".4f"),
+                format(np.mean(aggregated_size_diff), ".4f"),
+                format(np.std(aggregated_size_diff), ".4f"),
             ]
         )
 
@@ -537,8 +552,12 @@ def collect_comparisons(data):
             "Num_Comparable_Inventories_B",
             "Mean_Global_A",
             "Mean_Global_B",
+            "Mean_Global_Diff",
             "Mean_Comparable_A",
             "Mean_Comparable_B",
+            "Mean_Comparable_Diff",
+            "Mean_Comparable_A/Global_A",
+            "Mean_Comparable_B/Global_B",
             "Comparable_JensenShannon",
             "Comparable_Strict",
             "Comparable_Approximate",
@@ -550,6 +569,8 @@ def collect_comparisons(data):
             "Aggregated_Strict_SD",
             "Aggregated_Approx_Mean",
             "Aggregated_Approx_SD",
+            "Aggregated_Size_Diff_Mean",
+            "Aggregated_Size_Diff_SD",
         ],
     )
     return df
