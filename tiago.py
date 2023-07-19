@@ -613,9 +613,11 @@ def collect_results_comparisons(data):
 
 
 def collect_phoneme_frequency(df):
-    df_all = df[
-        df["Dataset"] != "ALL"
-    ]  # filter out "ALL" dataset for global statistics
+    # Filter out Macroarea "GLOBAL" from the entire dataset
+    df = df[df["Macroarea"] != "GLOBAL"]
+
+    # filter out "ALL" dataset for global statistics
+    df_all = df[df["Dataset"] != "ALL"]
 
     phoneme_data = []
     for dataset in df["Dataset"].unique():
