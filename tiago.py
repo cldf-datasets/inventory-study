@@ -1,7 +1,6 @@
-from collections import defaultdict, Counter
+from collections import Counter
 from itertools import combinations, product
 from scipy.spatial.distance import jensenshannon
-from scipy.special import rel_entr
 from tqdm import tqdm
 import itertools
 import numpy as np
@@ -9,6 +8,7 @@ import pandas as pd
 import pickle
 import os.path
 from scipy.stats import spearmanr
+import copy
 
 from pyclts import CLTS
 from pyclts.inventories import Inventory, Phoneme
@@ -612,25 +612,107 @@ def collect_results_comparisons(data):
     return df
 
 
+def collect_phoneme_frequency(df):
+    df_all = df[
+        df["Dataset"] != "ALL"
+    ]  # filter out "ALL" dataset for global statistics
+
+    phoneme_data = []
+    for dataset in df["Dataset"].unique():
+        print(dataset)
+        df_dataset = df[df["Dataset"] == dataset]
+        dataset_phoneme_counts = df_dataset["Phonemes_split"].explode().value_counts()
+
+        for phoneme in tqdm(dataset_phoneme_counts.index):
+            dataset_count = dataset_phoneme_counts[phoneme]
+            global_count = (
+                df_all["Phonemes_split"].explode().value_counts().get(phoneme, 0)
+            )
+
+            dataset_ratio = round(dataset_count / dataset_phoneme_counts.sum(), 4)
+            global_ratio = round(
+                global_count / df_all["Phonemes_split"].explode().value_counts().sum(),
+                4,
+            )
+
+            dataset_inv_ratio = round(
+                (df_dataset["Phonemes_split"].apply(lambda x: phoneme in x).mean()), 4
+            )
+            global_inv_ratio = round(
+                (df_all["Phonemes_split"].apply(lambda x: phoneme in x).mean()), 4
+            )
+
+            phoneme_dataset_ratio = round(
+                (
+                    df_all[df_all["Phonemes_split"].apply(lambda x: phoneme in x)][
+                        "Dataset"
+                    ].nunique()
+                    / df_all["Dataset"].nunique()
+                ),
+                4,
+            )
+
+            phoneme_data.append(
+                [
+                    phoneme,
+                    dataset,
+                    dataset_count,
+                    global_count,
+                    dataset_ratio,
+                    global_ratio,
+                    dataset_inv_ratio,
+                    global_inv_ratio,
+                    phoneme_dataset_ratio,
+                ]
+            )
+
+    result = pd.DataFrame(
+        phoneme_data,
+        columns=[
+            "Phoneme",
+            "Dataset",
+            "Dataset_Count",
+            "Global_Count",
+            "Dataset_Ratio",
+            "Global_Ratio",
+            "Dataset_InvRatio",
+            "Global_InvRatio",
+            "Phoneme_Dataset_Ratio",
+        ],
+    )
+
+    # Sort the DataFrame
+    result = result.sort_values(by=["Phoneme", "Dataset"]).reset_index(drop=True)
+
+    return result
+
+
 def main():
     # Get data
     data = get_data()
 
     # Get summary statistics
-    summary_df = build_summary(data)
-    summary_df.to_csv("tiago.summary.tsv", sep="\t", index=False)
+    # summary_df = build_summary(data)
+    # summary_df.to_csv("tiago.summary.tsv", sep="\t", index=False)
 
     # Get frequency statistics
-    phoneme_stats_df = build_phoneme_stats(data)
-    phoneme_stats_df.to_csv("tiago.phoneme_stats.tsv", sep="\t", index=False)
+    # phoneme_stats_df = build_phoneme_stats(data)
+    # phoneme_stats_df.to_csv("tiago.phoneme_stats.tsv", sep="\t", index=False)
 
-    # Get results
-    results_df = collect_results_datasets(data)
+    # Make a copy of the data and get the "results_datasets" dataframe
+    data_copy = copy.deepcopy(data)
+    results_df = collect_results_datasets(data_copy)
     results_df.to_csv("tiago.results_datasets.tsv", sep="\t", index=False)
 
-    # Get comparisons
-    comparisons_df = collect_results_comparisons(data)
+    # Make a copy of the data and get the "results_comparisons" dataframe
+    data_copy = copy.deepcopy(data)
+    comparisons_df = collect_results_comparisons(data_copy)
     comparisons_df.to_csv("tiago.results_comparisons.tsv", sep="\t", index=False)
+
+    # Make a copy of the data and get the "phoneme_frequency" dataframe
+    data_copy = copy.deepcopy(data)
+    phoneme_frequency_df = collect_phoneme_frequency(data_copy)
+    phoneme_frequency_df.to_csv("tiago.phoneme_frequency.tsv", sep="\t", index=False)
 
 
 if __name__ == "__main__":
