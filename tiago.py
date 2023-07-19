@@ -217,7 +217,7 @@ def get_data():
     return data_extended
 
 
-def collect_results(data):
+def collect_results_datasets(data):
     # List of the columns that we want to compute statistics for
     column_names = [
         "Num_Phonemes",
@@ -234,6 +234,7 @@ def collect_results(data):
         for col in column_names:
             statistics[col + "_Number"] = group[col].sum()
             statistics[col + "_Mean"] = group[col].mean()
+            statistics[col + "_Proportion_NonZero"] = (group[col] > 0).mean()
         return statistics
 
     # Compute statistics
@@ -311,25 +312,33 @@ def collect_results(data):
     # Convert Number_* fields to integer and round float fields to 4 decimal places
     for col in column_names:
         statistics_df[col + "_Number"] = statistics_df[col + "_Number"].astype(int)
-        statistics_df[col + "_Mean"] = statistics_df[col + "_Mean"].round(4)
+        statistics_df[col + "_Mean"] = statistics_df[col + "_Mean"].map("{:.4f}".format)
         statistics_df[col + "_All_Proportion"] = statistics_df[
             col + "_All_Proportion"
-        ].round(4)
+        ].map("{:.4f}".format)
         statistics_df[col + "_Dataset_Proportion"] = statistics_df[
             col + "_Dataset_Proportion"
-        ].round(4)
-    statistics_df["Global_All_Proportion"] = statistics_df[
-        "Global_All_Proportion"
-    ].round(4)
+        ].map("{:.4f}".format)
+        statistics_df[col + "_Proportion_NonZero"] = statistics_df[
+            col + "_Proportion_NonZero"
+        ].map("{:.4f}".format)
+    statistics_df["Global_All_Proportion"] = statistics_df["Global_All_Proportion"].map(
+        "{:.4f}".format
+    )
     statistics_df["Global_Dataset_Proportion"] = statistics_df[
         "Global_Dataset_Proportion"
-    ].round(4)
+    ].map("{:.4f}".format)
 
     # Sort DataFrame
     statistics_df.sort_values(
         ["Dataset", "Macroarea"],
         key=lambda col: col == "GLOBAL" if isinstance(col, str) else col,
         inplace=True,
+    )
+
+    # Drop unnecessary columns
+    statistics_df.drop(
+        ["Num_Phonemes_Proportion_NonZero"], axis=1, inplace=True
     )
 
     return statistics_df
@@ -354,7 +363,7 @@ def _get_distance_cache(data):
     return distance_cache
 
 
-def collect_comparisons(data):
+def collect_results_comparisons(data):
     distance_cache = _get_distance_cache(data)
     datasets = sorted(data["Dataset"].unique())
     result = []
@@ -589,11 +598,11 @@ def main():
     phoneme_stats_df.to_csv("tiago.phoneme_stats.tsv", sep="\t", index=False)
 
     # Get results
-    results_df = collect_results(data)
+    results_df = collect_results_datasets(data)
     results_df.to_csv("tiago.results_datasets.tsv", sep="\t", index=False)
 
     # Get comparisons
-    comparisons_df = collect_comparisons(data)
+    comparisons_df = collect_results_comparisons(data)
     comparisons_df.to_csv("tiago.results_comparisons.tsv", sep="\t", index=False)
 
 
