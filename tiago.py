@@ -337,9 +337,7 @@ def collect_results_datasets(data):
     )
 
     # Drop unnecessary columns
-    statistics_df.drop(
-        ["Num_Phonemes_Proportion_NonZero"], axis=1, inplace=True
-    )
+    statistics_df.drop(["Num_Phonemes_Proportion_NonZero"], axis=1, inplace=True)
 
     return statistics_df
 
@@ -443,18 +441,33 @@ def collect_results_comparisons(data):
         vec_a = np.array([counter_a[phoneme] for phoneme in all_phonemes])
         vec_b = np.array([counter_b[phoneme] for phoneme in all_phonemes])
 
-        # Compute the Spearman correlation
-        r, p = spearmanr(vec_a, vec_b)
-
-        r = format(r, ".4f")
-        p = format(p, ".8f")
+        # Compute the Spearman correlation for the counts of phonemes in the two lists
+        r_counts, p_counts = spearmanr(vec_a, vec_b)
+        r_counts = format(r_counts, ".4f")
+        p_counts = format(p_counts, ".8f")
 
         aggregated_js = []
         aggregated_strict = []
         aggregated_approx = []
         aggregated_size_diff = []
+        aggregated_median_size_a = []
+        aggregated_median_size_b = []
 
         for glottocode in shared_glottocodes:
+            # Obtain the mean inventory size for the current glottocode in both datasets
+            median_size_a = np.median(
+                comparable_inventories_a[
+                    comparable_inventories_a["Glottocode"] == glottocode
+                ]["Num_Phonemes"]
+            )
+            median_size_b = np.median(
+                comparable_inventories_b[
+                    comparable_inventories_b["Glottocode"] == glottocode
+                ]["Num_Phonemes"]
+            )
+            aggregated_median_size_a.append(median_size_a)
+            aggregated_median_size_b.append(median_size_b)
+
             # Get the subset of the data for the current glottocode
             subset_a = comparable_inventories_a[
                 comparable_inventories_a["Glottocode"] == glottocode
@@ -520,6 +533,13 @@ def collect_results_comparisons(data):
                 size_diff = len(phonemes_a) - len(phonemes_b)
                 aggregated_size_diff.append(size_diff)
 
+        # Compute the spearman correlation for the median inventory sizes
+        r_median, p_median = spearmanr(
+            aggregated_median_size_a, aggregated_median_size_b
+        )
+        r_median = format(r_median, ".4f")
+        p_median = format(p_median, ".8f")
+
         result.append(
             [
                 dataset_a,
@@ -538,8 +558,10 @@ def collect_results_comparisons(data):
                 comparable_jensenshannon,
                 comparable_strict,
                 comparable_approx,
-                r,
-                p,
+                r_median,
+                p_median,
+                r_counts,
+                p_counts,
                 format(np.mean(aggregated_js), ".4f"),
                 format(np.std(aggregated_js), ".4f"),
                 format(np.mean(aggregated_strict), ".4f"),
@@ -570,8 +592,10 @@ def collect_results_comparisons(data):
             "Comparable_JensenShannon",
             "Comparable_Strict",
             "Comparable_Approximate",
-            "R",
-            "P",
+            "Spearman_R_InvSize",
+            "Spearman_p_InvSize",
+            "Spearman_R_Counts",
+            "Spearman_p_Counts",
             "Aggregated_JensenShannon_Mean",
             "Aggregated_JensenShannon_SD",
             "Aggregated_Strict_Mean",
