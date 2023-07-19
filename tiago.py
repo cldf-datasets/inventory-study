@@ -362,6 +362,9 @@ def _get_distance_cache(data):
 
 
 def collect_results_comparisons(data):
+    # Drop all rows with "GLOBAL" macroarea
+    data = data[data["Macroarea"] != "GLOBAL"]
+
     distance_cache = _get_distance_cache(data)
     datasets = sorted(data["Dataset"].unique())
     result = []
