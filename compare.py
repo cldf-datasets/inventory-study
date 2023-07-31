@@ -1,570 +1,748 @@
 from collections import Counter
-from collections import defaultdict
-from csvw import UnicodeDictReader, UnicodeWriter
 from itertools import combinations, product
-from pathlib import Path
-from pyclts import CLTS
-from pyclts.inventories import Inventory
+from scipy.spatial.distance import jensenshannon
+from tqdm import tqdm
+import itertools
+import numpy as np
+import pandas as pd
+import pickle
+import os.path
 from scipy.stats import spearmanr
-from statistics import median, mean
-from tabulate import tabulate
-from tqdm import tqdm as progressbar
-import csv
+import copy
+
+from pyclts import CLTS
+from pyclts.inventories import Inventory, Phoneme
+
+BIPA = CLTS("./clts").bipa
 
 
-def to_dict(path, parameters):
-    with UnicodeDictReader(path + "-data.tsv", delimiter="\t") as reader:
-        data = {row["ID"]: row for row in reader}
-    gcodes = defaultdict(list)
-    for row in data.values():
-        gcodes[row["Glottocode"]] += [row["ID"]]
-
-    # get the median per feature per glottocode
-    values = {k: {p: "" for p in parameters} for k in gcodes}
-    for gcode, varieties in gcodes.items():
-        for p in parameters:
-            param = []
-            for variety in varieties:
-                if data[variety].get(p, ""):
-                    param += [float(data[variety][p])]
-            if param:
-                values[gcode][p] = median(param)
-    return data, gcodes, values
+def get_clts_inventory(phoneme_list):
+    inv = Inventory.from_list(*phoneme_list, ts=BIPA)
+    return inv
 
 
-def inventories(path, ts):
-    with UnicodeDictReader(path + "-data.tsv", delimiter="\t") as reader:
-        data = {row["ID"]: row for row in reader}
-    gcodes = defaultdict(list)
-    for row in data.values():
-        gcodes[row["Glottocode"]] += [
-            Inventory.from_list(*row["Phonemes"].split(" "), language=row["ID"], ts=ts)
-        ]
-    return gcodes
+def build_summary(data):
+    # Get unique dataset names
+    dataset_names = data["Dataset"].unique()
 
+    # Initialize list to hold the results
+    results = []
 
-def deltas(lstA, lstB):
-    score = 0
-    for a, b in zip(lstA, lstB):
-        score += abs(a - b)
-    return score / len(lstA)
+    # Iterate over all combinations of datasets
+    for dataset_a, dataset_b in combinations(dataset_names, 2):
+        # Filter data for each dataset
+        data_a = data[data["Dataset"] == dataset_a]
+        data_b = data[data["Dataset"] == dataset_b]
 
-
-def compare_inventories(dctA, dctB, aspects, similarity="strict"):
-    scores = []
-    for code in dctB:
-        if code in dctA:
-            invsA, invsB = dctA[code], dctB[code]
-            score = []
-            for invA, invB in product(invsA, invsB):
-                if similarity == "strict":
-                    score += [invA.strict_similarity(invB, aspects=aspects)]
-                else:
-                    score += [invA.approximate_similarity(invB, aspects=aspects)]
-            score = mean(score)
-            scores += [score]
-    return mean(scores)
-
-
-bipa = CLTS("./clts").bipa
-
-parameters = ["Sounds", "Consonants", "Vowels"]
-
-(
-    (jipa_data, jipa_codes, jipa_values),
-    (lapsyd_data, lapsyd_codes, lapsyd_values),
-    (upsid_data, upsid_codes, upsid_values),
-    (phoible_data, phoible_codes, phoible_values),
-    (aa_data, aa_codes, aa_values),
-    (ra_data, ra_codes, ra_values),
-    (saphon_data, saphon_codes, saphon_values),
-    (ea_data, ea_codes, ea_values),
-    (er_data, er_codes, er_values),
-) = [
-    to_dict(ds, parameters)
-    for ds in [
-        "jipa",
-        "lapsyd",
-        "UPSID",
-        "PHOIBLE",
-        "AA",
-        "RA",
-        "SAPHON",
-        "EA",
-        "ER",
-    ]
-]
-
-
-(
-    jipa_gcodes,
-    lapsyd_gcodes,
-    upsid_gcodes,
-    phoible_gcodes,
-    aa_gcodes,
-    ra_gcodes,
-    saphon_gcodes,
-    ea_gcodes,
-    er_gcodes,
-) = (
-    inventories("jipa", bipa),
-    inventories("lapsyd", bipa),
-    inventories("UPSID", bipa),
-    inventories("PHOIBLE", bipa),
-    inventories("AA", bipa),
-    inventories("RA", bipa),
-    inventories("SAPHON", bipa),
-    inventories("EA", bipa),
-    inventories("ER", bipa),
-)
-
-all_gcodes = defaultdict(list)
-for ds, dct in [
-    ("jipa", jipa_gcodes),
-    ("lapsyd", lapsyd_gcodes),
-    ("upsid", upsid_gcodes),
-    ("phoible", phoible_gcodes),
-    ("aa", aa_gcodes),
-    ("ra", ra_gcodes),
-    ("saphon", saphon_gcodes),
-    ("ea", ea_gcodes),
-    ("er", er_gcodes),
-]:
-    for code, invs in dct.items():
-        all_gcodes[code] += [(ds, inv) for inv in invs]
-with open("output/comparable-inventories.tsv", "w") as f:
-    f.write(
-        "Glottocode\tJIPA\tJIPA_Var\tLAPSyD\tLAPSyD_Var\tUPSID\tUPSID_Var\tPHOIBLE\tPHOIBLE_Var\tAA\tAA_Var\tRA\tRA_Var\tSAPHON\tSAPHON_Var\tEA\tEA_Var\tER\tER_Var\n"
-    )
-    for code, invs in all_gcodes.items():
-        if len(invs) > 1:
-            f.write(code)
-            dsets = [x[0] for x in invs]
-            for ds in [
-                "jipa",
-                "lapsyd",
-                "upsid",
-                "phoible",
-                "aa",
-                "ra",
-                "saphon",
-                "ea",
-                "er",
-            ]:
-                f.write(
-                    "\t"
-                    + str(dsets.count(ds))
-                    + "\t"
-                    + " ".join([inv.language for ds_, inv in invs if ds_ == ds])
-                )
-            f.write("\n")
-
-with open("output/compared-inventories.tsv", "w") as f:
-    f.write(
-        "Glottocode\tDatasetA\tVarietyA\tSoundsA\tConsonantsA\tVowelsA\tDatasetB\tVarietyB\tSoundsB\tConsonantsB\tVowelsB\tStrictSimilarity\tAverageSimilarity\tInventoryA\tInventoryB\n"
-    )
-    for code, invs in [(x, y) for x, y in all_gcodes.items() if len(y) > 1]:
-        for (dsA, invA), (dsB, invB) in combinations(invs, r=2):
-            f.write(
-                "\t".join(
-                    [
-                        code,
-                        dsA,
-                        invA.language,
-                        str(len(invA.sounds)),
-                        str(len(invA.consonant_sounds)),
-                        str(len(invA.vowel_sounds)),
-                        dsB,
-                        invB.language,
-                        str(len(invB.sounds)),
-                        str(len(invB.consonant_sounds)),
-                        str(len(invB.vowel_sounds)),
-                        "{0:.2f}".format(
-                            invA.strict_similarity(invB, aspects=["sounds"])
-                        ),
-                        "{0:.2f}".format(
-                            invA.approximate_similarity(invB, aspects=["sounds"])
-                        ),
-                        " ".join(invA.sounds),
-                        " ".join(invB.sounds),
-                    ]
-                )
-                + "\n"
-            )
-print("[i] computed basic comparisons of all inventories")
-
-# coverage for the datasets
-coverage = [[0 for x in range(9)] for y in range(9)]
-
-# store results for later
-storage = {"raw": [], "summary": [], "table": defaultdict(dict)}
-for (idx, nameA, dataA, dictA), (jdx, nameB, dataB, dictB) in progressbar(
-    combinations(
-        [
-            (0, "JIPA", jipa_values, jipa_gcodes),
-            (1, "LAPSyD", lapsyd_values, lapsyd_gcodes),
-            (2, "UPSID", upsid_values, upsid_gcodes),
-            (3, "PHOIBLE", phoible_values, phoible_gcodes),
-            (4, "AA", aa_values, aa_gcodes),
-            (5, "RA", ra_values, ra_gcodes),
-            (6, "SAPHON", saphon_values, saphon_gcodes),
-            (7, "EA", ea_values, ea_gcodes),
-            (8, "ER", er_values, er_gcodes),
-        ],
-        r=2,
-    )
-):
-    # Print debugging information
-    print("\n**************************************")
-    print("[i] comparing", nameA, "and", nameB)
-    print("[i] number of inventories in", nameA, ":", len(dataA))
-    print("[i] number of inventories in", nameB, ":", len(dataB))
-    print("[i] number of inventories in both:", len([k for k in dataA if k in dataB]))
-    print(
-        "[i] number of inventories in both (strict):",
-        len([k for k in dataA if k in dataB and dataA[k] == dataB[k]]),
-    )
-
-    # fig, axs = plt.subplots(2, 3)
-    table = []
-    matches = [k for k in dataA if k in dataB]
-    coverage[idx][idx] = len(dataA)
-    coverage[jdx][jdx] = len(dataB)
-    coverage[idx][jdx] = len(matches)
-    coverage[jdx][idx] = len(matches) / min([len(dataA), len(dataB)])
-    compared = []
-
-    for i, param in enumerate(parameters):
-        lstA, lstB, values = [], [], []
-        for gcode in matches:
-            vA, vB = dataA[gcode][param], dataB[gcode][param]
-            if isinstance(vA, (int, float)) and isinstance(vB, (int, float)):
-                lstA += [vA]
-                lstB += [vB]
-                values += [gcode]
-        if values:
-            r, p = spearmanr(lstA, lstB)
-            d = deltas(lstA, lstB)
-            if param in ["Sounds"]:
-                strict = compare_inventories(dictA, dictB, aspects=[param.lower()])
-                approx = compare_inventories(
-                    dictA, dictB, aspects=[param.lower()], similarity="approximate"
-                )
-            elif param == "Consonants":
-                strict = compare_inventories(dictA, dictB, aspects=["consonant_sounds"])
-                approx = compare_inventories(
-                    dictA,
-                    dictB,
-                    aspects=["consonant_sounds"],
-                    similarity="approximate",
-                )
-            elif param == "Vowels":
-                strict = compare_inventories(dictA, dictB, aspects=["vowel_sounds"])
-                approx = compare_inventories(
-                    dictA,
-                    dictB,
-                    aspects=["vowel_sounds"],
-                    similarity="approximate",
-                )
-            else:
-                strict = 0
-                approx = 0
-
-            # save data for later
-            raw = [
-                dict(zip(["SizeA", "SizeB", "Glottocode"], z))
-                for z in zip(lstA, lstB, values)
-            ]
-            [
-                raw[i].update({"Parameter": param, "DataA": nameA, "DataB": nameB})
-                for i, r in enumerate(raw)
-            ]
-            storage["raw"].extend(raw)
-
-            storage["summary"].append(
-                {
-                    "Parameter": param,
-                    "Dataset1": nameA,
-                    "Dataset2": nameB,
-                    "P": p,
-                    "R": r,
-                    "Delta": d,
-                    "Strict": strict,
-                    "Approx": approx,
-                }
-            )
-
-            table += [[param, p, r, d, strict, approx, len(values)]]
-
-    print("\n# {0} / {1}".format(nameA, nameB))
-    print(
-        tabulate(
-            table,
-            floatfmt=".4f",
-            headers=[
-                "Correlation",
-                "P-Value",
-                "Deltas",
-                "StrictSim",
-                "ApproxSim",
-                "Sample",
-            ],
+        # Get glottocodes common to both datasets
+        common_glottocodes = pd.Series(
+            list(set(data_a["Glottocode"]).intersection(set(data_b["Glottocode"])))
         )
-    )
+        num_common_glottocodes = len(common_glottocodes)
 
-with UnicodeWriter("output/results.raw.csv") as writer:
-    header = storage["raw"][0].keys()
-    writer.writerow(header)
-    for row in storage["raw"]:
-        writer.writerow([row[h] for h in header])
+        # Get the number of inventories in each dataset with a common glottocode
+        num_inventories_a = len(data_a[data_a["Glottocode"].isin(common_glottocodes)])
+        num_inventories_b = len(data_b[data_b["Glottocode"].isin(common_glottocodes)])
 
+        # Calculate mean size of the inventories in each dataset
+        mean_size_a = data_a[data_a["Glottocode"].isin(common_glottocodes)][
+            "Num_Phonemes"
+        ].mean()
+        mean_size_b = data_b[data_b["Glottocode"].isin(common_glottocodes)][
+            "Num_Phonemes"
+        ].mean()
 
-with UnicodeWriter("output/results.summary.csv") as writer:
-    header = storage["summary"][0].keys()
-    writer.writerow(header)
-    for row in storage["summary"]:
-        # Make a temporary copy of row, using 6 decimal places for floats
-        row = dict(row)
-        for k, v in row.items():
-            if isinstance(v, float):
-                row[k] = round(v, 8)
-
-        # Write the row to disk
-        writer.writerow([row[h] for h in header])
-
-
-# Names of all datasets
-datasets = [
-    "JIPA",
-    "LAPSyD",
-    "UPSID",
-    "PHOIBLE",
-    "AA",
-    "RA",
-    "SAPHON",
-    "EA",
-    "ER",
-]
-
-# Open CSV file
-with open("output/mutual_coverage.csv", "w", newline="") as f:
-    writer = csv.writer(f)
-    writer.writerow([""] + datasets)  # Write header
-
-    # Write rows
-    for dataset, row in zip(datasets, coverage):
-        writer.writerow([dataset] + row)
-
-# Collect frequency stats for the graphemes used in each dataset
-BASE_PATH = Path(__file__).parent
-dataset_graphemes = {}
-for dataset in BASE_PATH.glob("*-data.tsv"):
-    # Extract the name of the dataset (e.g., "ER" from "ER-data.tsv")
-    dataset_name = dataset.stem.split("-")[0]
-
-    # Read the dataset and collect all grapheme occurrences
-    with open(dataset, "r", encoding="utf-8") as f:
-        tsv_reader = csv.DictReader(f, delimiter="\t")
-        graphemes = Counter()
-        for row in tsv_reader:
-            graphemes.update(row["Phonemes"].split())
-
-    # Store the counter
-    dataset_graphemes[dataset_name] = graphemes
-
-# Using the counters in `dataset_graphemes`, output a table with the
-# absolute and relative frequencies of each grapheme in each dataset
-with open(
-    BASE_PATH / "output" / "grapheme_frequencies.tsv", "w", encoding="utf-8"
-) as f:
-    f.write("Grapheme\tDataset\tAbsolute\tRelative\n")
-    for dataset, graphemes in dataset_graphemes.items():
-        total = sum(graphemes.values())
-        for grapheme, count in graphemes.most_common():
-            f.write(f"{grapheme}\t{dataset}\t{count}\t{count / total:.4f}\n")
-
-###############
-
-
-def process_data(file_path):
-    phoneme_counts = defaultdict(lambda: defaultdict(Counter))
-    dataset_pair_counts = defaultdict(int)
-
-    with open(file_path, "r") as tsvfile:
-        reader = csv.DictReader(tsvfile, delimiter="\t")
-        for row in reader:
-            dataset_pair_AB = (row["DatasetA"], row["DatasetB"])
-            dataset_pair_BA = (row["DatasetB"], row["DatasetA"])
-
-            inventory_A = row["InventoryA"].split()
-            inventory_B = row["InventoryB"].split()
-
-            phoneme_counts[dataset_pair_AB]["DatasetA"].update(inventory_A)
-            phoneme_counts[dataset_pair_BA]["DatasetB"].update(inventory_B)
-
-            dataset_pair_counts[dataset_pair_AB] += 1
-            dataset_pair_counts[dataset_pair_BA] += 1
-
-    # Build results
-    entries = []
-    for pair, pair_counts in phoneme_counts.items():
-        if pair[0] == pair[1]:
-            continue
-
-        total_A = sum(pair_counts["DatasetA"].values())
-        total_B = sum(pair_counts["DatasetB"].values())
-
-        for phoneme in set(
-            list(pair_counts["DatasetA"].keys()) + list(pair_counts["DatasetB"].keys())
-        ):
-            count_A = pair_counts["DatasetA"][phoneme]
-            count_B = pair_counts["DatasetB"][phoneme]
-
-            rel_a = count_A / total_A if total_A > 0 else 0
-            rel_b = count_B / total_B if total_B > 0 else 0
-
-            percent_A = count_A / dataset_pair_counts[pair]
-            percent_b = count_B / dataset_pair_counts[pair]
-
-            entries.append(
-                {
-                    "Phoneme": phoneme,
-                    "Dataset": pair[0],
-                    "Dataset Pair": "-".join(pair),
-                    "Absolute Count (DatasetA)": count_A,
-                    "Absolute Count (DatasetB)": count_B,
-                    "Relative Count (DatasetA)": "%.4f" % rel_a,
-                    "Relative Count (DatasetB)": "%.4f" % rel_b,
-                    "Total Inventories": dataset_pair_counts[pair],
-                    "Percent (DatasetA)": "%.4f" % percent_A,
-                    "Percent (DatasetB)": "%.4f" % percent_b,
-                }
+        # Compute average intersection ratio for each common glottocode
+        avg_intersection_ratios = []
+        for glottocode in common_glottocodes:
+            inventory_pairs = list(
+                product(
+                    data_a[data_a["Glottocode"] == glottocode]["Phonemes_split"],
+                    data_b[data_b["Glottocode"] == glottocode]["Phonemes_split"],
+                )
+            )
+            intersection_ratios = [
+                len(set(a).intersection(b)) / len(set(a).union(b))
+                for a, b in inventory_pairs
+            ]
+            avg_intersection_ratios.append(
+                sum(intersection_ratios) / len(intersection_ratios)
             )
 
-    # Sort entries
-    entries = sorted(
-        entries,
-        key=lambda x: (
-            x["Phoneme"],
-            x["Dataset"],
-            x["Dataset Pair"],
-            x["Absolute Count (DatasetA)"],
-        ),
+        avg_intersection_ratio = (
+            sum(avg_intersection_ratios) / len(avg_intersection_ratios)
+            if avg_intersection_ratios
+            else None
+        )
+
+        # Append results
+        results.append(
+            [
+                dataset_a,
+                dataset_b,
+                num_common_glottocodes,
+                num_inventories_a,
+                num_inventories_b,
+                round(mean_size_a, 4) if mean_size_a is not None else None,
+                round(mean_size_b, 4) if mean_size_b is not None else None,
+                round(avg_intersection_ratio, 4)
+                if avg_intersection_ratio is not None
+                else None,
+            ]
+        )
+
+    # Create a DataFrame from the results
+    results_df = pd.DataFrame(
+        results,
+        columns=[
+            "Dataset_A",
+            "Dataset_B",
+            "Glottocodes",
+            "Inventories A",
+            "Inventories B",
+            "Mean size A",
+            "Mean size B",
+            "Average_Intersection_Ratio",
+        ],
     )
 
-    # Output results
-    with open(
-        BASE_PATH / "output" / "grapheme_frequencies.pairs.tsv",
-        "w",
-        newline="",
-        encoding="utf-8",
-    ) as csvfile:
-        fieldnames = [
+    # Sort the DataFrame
+    results_df = results_df.sort_values(by=["Dataset_A", "Dataset_B"]).reset_index(
+        drop=True
+    )
+
+    return results_df
+
+
+def build_phoneme_stats(data):
+    # Flatten the lists of phonemes and calculate global statistics
+    all_phonemes = pd.Series(
+        [phoneme for sublist in data["Phonemes_split"] for phoneme in sublist]
+    )
+    global_counts = all_phonemes.value_counts()
+    global_occurrences = global_counts
+    global_total = global_counts.sum()
+    global_ratio = global_counts / global_total
+    global_inventory_counts = pd.Series(
+        [
+            phoneme
+            for sublist in data["Phonemes_split"].apply(set).tolist()
+            for phoneme in sublist
+        ]
+    ).value_counts()
+    global_inventory_ratio = global_inventory_counts / len(data)
+
+    # Initialize a list to store the results
+    results = []
+
+    # Iterate over all datasets
+    for dataset in data["Dataset"].unique():
+        data_subset = data[data["Dataset"] == dataset]
+
+        # Flatten the lists of phonemes and calculate dataset-specific statistics
+        dataset_phonemes = pd.Series(
+            [
+                phoneme
+                for sublist in data_subset["Phonemes_split"]
+                for phoneme in sublist
+            ]
+        )
+        dataset_counts = dataset_phonemes.value_counts()
+        dataset_occurrences = dataset_counts
+        dataset_total = dataset_counts.sum()
+        dataset_ratio = dataset_counts / dataset_total
+        dataset_inventory_counts = pd.Series(
+            [
+                phoneme
+                for sublist in data_subset["Phonemes_split"].apply(set).tolist()
+                for phoneme in sublist
+            ]
+        ).value_counts()
+        dataset_inventory_ratio = dataset_inventory_counts / len(data_subset)
+
+        # Iterate over all phonemes
+        for phoneme in all_phonemes.unique():
+            # Get global and dataset-specific statistics
+            results.append(
+                [
+                    phoneme,
+                    dataset,
+                    dataset_occurrences.get(phoneme, 0),
+                    round(dataset_inventory_ratio.get(phoneme, 0), 4),
+                    round(dataset_ratio.get(phoneme, 0), 4),
+                    global_occurrences.get(phoneme),
+                    round(global_inventory_ratio.get(phoneme), 4),
+                    round(global_ratio.get(phoneme), 4),
+                ]
+            )
+
+    # Create a DataFrame from the results
+    stats = pd.DataFrame(
+        results,
+        columns=[
             "Phoneme",
             "Dataset",
-            "Dataset Pair",
-            "Absolute Count (DatasetA)",
-            "Absolute Count (DatasetB)",
-            "Relative Count (DatasetA)",
-            "Relative Count (DatasetB)",
-            "Total Inventories",
-            "Percent (DatasetA)",
-            "Percent (DatasetB)",
-        ]
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-
-        writer.writeheader()
-        writer.writerows(entries)
-
-
-# Call the function with your file path
-process_data(BASE_PATH / "output" / "compared-inventories.tsv")
-
-###############
-
-
-def classify_grapheme(grapheme):
-    # Convert the grapheme to a phoneme
-    phoneme = bipa[grapheme]
-
-    # Classify the phoneme based on its sound class and length
-    if phoneme.type == "vowel":
-        if phoneme.duration == "long":
-            return 1  # 'long vowel'
-        elif phoneme.duration is None:
-            return 0  # 'normal vowel'
-        else:
-            return 2  # 'non-normal vowel with a length that is not long'
-    elif phoneme.type == "consonant":
-        if phoneme.duration == "long":
-            return 5  # 'long consonant'
-        elif phoneme.duration is None:
-            return 4  # 'normal consonant'
-        else:
-            return 6  # 'non-normal consonant with a length that is not long'
-    elif phoneme.type == "diphthong":
-        return 3  #'diphthong'
-    else:
-        return 999  # 'unknown'
-
-
-with open(BASE_PATH / "output" / "compared-inventories.tsv") as csvfile:
-    reader = csv.DictReader(csvfile, delimiter="\t")
-    rows = list(reader)
-
-new_rows = []
-for row in rows:
-    inv_a = row["InventoryA"].split()
-    inv_b = row["InventoryB"].split()
-
-    # Sort the items in inv_a and inv_b by the value returned by classify_grapheme
-    # first, and then by the grapheme itself
-    inv_a.sort(key=lambda x: (classify_grapheme(x), x))
-    inv_b.sort(key=lambda x: (classify_grapheme(x), x))
-
-    # Join the sorted lists back into strings
-    row["InventoryA"] = " ".join(inv_a)
-    row["InventoryB"] = " ".join(inv_b)
-
-    # Run `classify_grapheme` again, this time collecting graphemes by their
-    # classification
-    by_cat_a = defaultdict(list)
-    by_cat_b = defaultdict(list)
-    for grapheme in inv_a:
-        by_cat_a[classify_grapheme(grapheme)].append(grapheme)
-    for grapheme in inv_b:
-        by_cat_b[classify_grapheme(grapheme)].append(grapheme)
-
-    # Build a string for each classification, using the mapping in `cat_map`
-    # to convert the classification number to a string
-    cat_map = {
-        0: "normal vowels",
-        1: "long vowels",
-        2: "odd-length vowels",
-        3: "diphthongs",
-        4: "normal consonants",
-        5: "long consonants",
-        6: "odd-length consonants",
-        999: "unknowns",
-    }
-    for cat_idx in cat_map.keys():
-        if cat_idx not in by_cat_a:
-            row["%s A" % cat_map[cat_idx]] = ""
-        else:
-            row["%s A" % cat_map[cat_idx]] = " ".join(by_cat_a[cat_idx])
-        if cat_idx not in by_cat_b:
-            row["%s B" % cat_map[cat_idx]] = ""
-        else:
-            row["%s B" % cat_map[cat_idx]] = " ".join(by_cat_b[cat_idx])
-
-    new_rows.append(row)
-
-# Output the updated rows to a new file
-with open(BASE_PATH / "output" / "compared-inventories.sorted.tsv", "w") as csvfile:
-    writer = csv.DictWriter(
-        csvfile,
-        fieldnames=list(new_rows[0].keys()),
-        delimiter="\t",
+            "Dataset_Occurrences",
+            "Dataset_Inventory_Ratio",
+            "Dataset_Ratio",
+            "Global_Occurrences",
+            "Global_Inventory_Ratio",
+            "Global_Ratio",
+        ],
     )
-    writer.writeheader()
-    writer.writerows(rows)
+
+    # Sort the DataFrame
+    stats = stats.sort_values(by=["Phoneme", "Dataset"]).reset_index(drop=True)
+
+    return stats
+
+
+def get_data():
+    # Read the TSV file
+    data = pd.read_csv("fulldata.tsv", delimiter="\t")
+
+    # Split the "Phonemes" field into individual phonemes
+    data["Phonemes_split"] = data["Phonemes"].str.split()
+
+    # Copy data and add a "GLOBAL" macroarea
+    data_global = data.copy()
+    data_global["Macroarea"] = "GLOBAL"
+    data_extended_macroarea = pd.concat([data, data_global])
+
+    # Copy data and add an 'ALL' dataset
+    data_all = data_extended_macroarea.copy()
+    data_all["Dataset"] = "ALL"
+    data_extended = pd.concat([data_extended_macroarea, data_all])
+
+    return data_extended
+
+
+def collect_results_datasets(data):
+    # List of the columns that we want to compute statistics for
+    column_names = [
+        "Num_Phonemes",
+        "Num_Consonants",
+        "Num_Vowels",
+        "Num_Long_Consonants",
+        "Num_Long_Vowels",
+        "Num_Diphthongs",
+    ]
+
+    # Function to compute statistics
+    def compute_statistics(group):
+        statistics = pd.Series(dtype="float64")
+        for col in column_names:
+            statistics[col + "_Number"] = group[col].sum()
+            statistics[col + "_Mean"] = group[col].mean()
+            statistics[col + "_Proportion_NonZero"] = (group[col] > 0).mean()
+        return statistics
+
+    # Compute statistics
+    statistics_df = (
+        data.groupby(["Dataset", "Macroarea"]).apply(compute_statistics).reset_index()
+    )
+
+    # Compute proportions for each dataset in relation to "ALL"
+    global_statistics = statistics_df[statistics_df["Dataset"] == "ALL"]
+    for _, row in statistics_df.iterrows():
+        dataset = row["Dataset"]
+        area = row["Macroarea"]
+        for col in column_names:
+            statistics_df.loc[
+                (statistics_df["Dataset"] == dataset)
+                & (statistics_df["Macroarea"] == area),
+                col + "_All_Proportion",
+            ] = (
+                row[col + "_Mean"]
+                / global_statistics.loc[
+                    global_statistics["Macroarea"] == area, col + "_Mean"
+                ].values[0]
+            )
+
+    # Compute proportions for each dataset in relation to the global values of the dataset
+    dataset_global_statistics = statistics_df[statistics_df["Macroarea"] == "GLOBAL"]
+    for _, row in statistics_df.iterrows():
+        dataset = row["Dataset"]
+        area = row["Macroarea"]
+        for col in column_names:
+            dataset_global_statistic = dataset_global_statistics.loc[
+                dataset_global_statistics["Dataset"] == dataset, col + "_Mean"
+            ].values[0]
+            if dataset_global_statistic:
+                statistics_df.loc[
+                    (statistics_df["Dataset"] == dataset)
+                    & (statistics_df["Macroarea"] == area),
+                    col + "_Dataset_Proportion",
+                ] = (
+                    row[col + "_Mean"] / dataset_global_statistic
+                )
+
+    # Compute Number_Inventories and Global_Proportion
+    inventories_df = (
+        data.groupby(["Dataset", "Macroarea"])
+        .size()
+        .reset_index(name="Number_Inventories")
+    )
+    statistics_df = pd.merge(statistics_df, inventories_df, on=["Dataset", "Macroarea"])
+    total_inventories = statistics_df.loc[
+        (statistics_df["Dataset"] == "ALL") & (statistics_df["Macroarea"] == "GLOBAL"),
+        "Number_Inventories",
+    ].values[0]
+    statistics_df["Global_All_Proportion"] = (
+        statistics_df["Number_Inventories"] / total_inventories
+    )
+
+    # Compute dataset proportion in relation to the global values of the dataset
+    dataset_global_inventories = statistics_df[statistics_df["Macroarea"] == "GLOBAL"]
+    for _, row in statistics_df.iterrows():
+        dataset = row["Dataset"]
+        area = row["Macroarea"]
+        dataset_global_inventory = dataset_global_inventories.loc[
+            dataset_global_inventories["Dataset"] == dataset, "Number_Inventories"
+        ].values[0]
+        if dataset_global_inventory:
+            statistics_df.loc[
+                (statistics_df["Dataset"] == dataset)
+                & (statistics_df["Macroarea"] == area),
+                "Global_Dataset_Proportion",
+            ] = (
+                row["Number_Inventories"] / dataset_global_inventory
+            )
+
+    # Convert Number_* fields to integer and round float fields to 4 decimal places
+    for col in column_names:
+        statistics_df[col + "_Number"] = statistics_df[col + "_Number"].astype(int)
+        statistics_df[col + "_Mean"] = statistics_df[col + "_Mean"].map("{:.4f}".format)
+        statistics_df[col + "_All_Proportion"] = statistics_df[
+            col + "_All_Proportion"
+        ].map("{:.4f}".format)
+        statistics_df[col + "_Dataset_Proportion"] = statistics_df[
+            col + "_Dataset_Proportion"
+        ].map("{:.4f}".format)
+        statistics_df[col + "_Proportion_NonZero"] = statistics_df[
+            col + "_Proportion_NonZero"
+        ].map("{:.4f}".format)
+    statistics_df["Global_All_Proportion"] = statistics_df["Global_All_Proportion"].map(
+        "{:.4f}".format
+    )
+    statistics_df["Global_Dataset_Proportion"] = statistics_df[
+        "Global_Dataset_Proportion"
+    ].map("{:.4f}".format)
+
+    # Sort DataFrame
+    statistics_df.sort_values(
+        ["Dataset", "Macroarea"],
+        key=lambda col: col == "GLOBAL" if isinstance(col, str) else col,
+        inplace=True,
+    )
+
+    # Drop unnecessary columns
+    statistics_df.drop(["Num_Phonemes_Proportion_NonZero"], axis=1, inplace=True)
+
+    return statistics_df
+
+
+def _get_distance_cache(data):
+    if os.path.exists("sounds.distances"):
+        with open("sounds.distances", "rb") as f:
+            distance_cache = pickle.load(f)
+    else:
+        all_phonemes = set(
+            phoneme for phonemes in data["Phonemes_split"] for phoneme in phonemes
+        )
+        distance_cache = {}
+        for phoneme_a, phoneme_b in tqdm(itertools.combinations(all_phonemes, 2)):
+            sound_a = BIPA[phoneme_a]
+            sound_b = BIPA[phoneme_b]
+            distance_cache[(phoneme_a, phoneme_b)] = sound_a.similarity(sound_b)
+        with open("sounds.distances", "wb") as f:
+            pickle.dump(distance_cache, f)
+
+    return distance_cache
+
+
+def collect_results_comparisons(data):
+    # Drop all rows with "GLOBAL" macroarea
+    data = data[data["Macroarea"] != "GLOBAL"]
+
+    distance_cache = _get_distance_cache(data)
+    datasets = sorted(data["Dataset"].unique())
+    result = []
+
+    # Setup caching dictionaries
+    cache_js = {}
+    cache_strict = {}
+    cache_approx = {}
+
+    # Setup inventory cache
+    inventory_cache = {
+        row["ID"]: get_clts_inventory(row["Phonemes_split"])
+        for index, row in data.iterrows()
+    }
+
+    for dataset_a, dataset_b in tqdm(list(itertools.permutations(datasets, 2))):
+        data_a = data[data["Dataset"] == dataset_a]
+        data_b = data[data["Dataset"] == dataset_b]
+
+        glottocodes_a = set(data_a["Glottocode"])
+        glottocodes_b = set(data_b["Glottocode"])
+        shared_glottocodes = glottocodes_a.intersection(glottocodes_b)
+
+        num_comparable_glottocodes = len(shared_glottocodes)
+
+        comparable_inventories_a = data_a[data_a["Glottocode"].isin(shared_glottocodes)]
+        comparable_inventories_b = data_b[data_b["Glottocode"].isin(shared_glottocodes)]
+
+        num_comparable_inventories_a = len(comparable_inventories_a)
+        num_comparable_inventories_b = len(comparable_inventories_b)
+
+        mean_global_a = round(np.mean(data_a["Num_Phonemes"]), 4)
+        mean_global_b = round(np.mean(data_b["Num_Phonemes"]), 4)
+        mean_comparable_a = round(np.mean(comparable_inventories_a["Num_Phonemes"]), 4)
+        mean_comparable_b = round(np.mean(comparable_inventories_b["Num_Phonemes"]), 4)
+
+        list_of_phonemes_a = [
+            phoneme
+            for inventory in comparable_inventories_a["Phonemes_split"]
+            for phoneme in inventory
+        ]
+        list_of_phonemes_b = [
+            phoneme
+            for inventory in comparable_inventories_b["Phonemes_split"]
+            for phoneme in inventory
+        ]
+
+        # Convert to frequency distribution and compute the Jensen-Shannon divergence
+        counts_a = Counter(list_of_phonemes_a)
+        counts_b = Counter(list_of_phonemes_b)
+        all_phonemes = set(list_of_phonemes_a).union(set(list_of_phonemes_b))
+        vec_a = np.array([counts_a[phoneme] for phoneme in all_phonemes])
+        vec_b = np.array([counts_b[phoneme] for phoneme in all_phonemes])
+        p_a = vec_a / np.sum(vec_a)
+        p_b = vec_b / np.sum(vec_b)
+        comparable_jensenshannon = round(jensenshannon(p_a, p_b), 4)
+
+        dummy_inv_a = get_clts_inventory(list_of_phonemes_a)
+        dummy_inv_b = get_clts_inventory(list_of_phonemes_b)
+
+        comparable_strict = round(dummy_inv_a.strict_similarity(dummy_inv_b), 4)
+        comparable_approx = round(
+            dummy_inv_a.approximate_similarity(
+                dummy_inv_b,  # distance_cache=distance_cache
+            ),
+            4,
+        )
+
+        # Convert the lists of phonemes into Counter objects
+        counter_a = Counter(list_of_phonemes_a)
+        counter_b = Counter(list_of_phonemes_b)
+
+        # Identify the set of all unique phonemes in either of the lists
+        all_phonemes = set(list_of_phonemes_a).union(set(list_of_phonemes_b))
+
+        # Map the frequency of phonemes in each Counter object to the reference set
+        vec_a = np.array([counter_a[phoneme] for phoneme in all_phonemes])
+        vec_b = np.array([counter_b[phoneme] for phoneme in all_phonemes])
+
+        # Compute the Spearman correlation for the counts of phonemes in the two lists
+        r_counts, p_counts = spearmanr(vec_a, vec_b)
+        r_counts = format(r_counts, ".4f")
+        p_counts = format(p_counts, ".8f")
+
+        aggregated_js = []
+        aggregated_strict = []
+        aggregated_approx = []
+        aggregated_size_diff = []
+        aggregated_median_size_a = []
+        aggregated_median_size_b = []
+
+        for glottocode in shared_glottocodes:
+            # Obtain the mean inventory size for the current glottocode in both datasets
+            median_size_a = np.median(
+                comparable_inventories_a[
+                    comparable_inventories_a["Glottocode"] == glottocode
+                ]["Num_Phonemes"]
+            )
+            median_size_b = np.median(
+                comparable_inventories_b[
+                    comparable_inventories_b["Glottocode"] == glottocode
+                ]["Num_Phonemes"]
+            )
+            aggregated_median_size_a.append(median_size_a)
+            aggregated_median_size_b.append(median_size_b)
+
+            # Get the subset of the data for the current glottocode
+            subset_a = comparable_inventories_a[
+                comparable_inventories_a["Glottocode"] == glottocode
+            ]
+            subset_b = comparable_inventories_b[
+                comparable_inventories_b["Glottocode"] == glottocode
+            ]
+
+            # Get the phoneme lists for the current glottocode, and compute the
+            # Jensen-Shannon divergence, the strict similarity, the approximate
+            # similarity, and the size difference
+            for row_a, row_b in product(subset_a.iterrows(), subset_b.iterrows()):
+                phonemes_a = row_a[1]["Phonemes_split"]
+                phonemes_b = row_b[1]["Phonemes_split"]
+
+                # Get the ID frozenset for the cache
+                id_frozenset = frozenset([row_a[1]["ID"], row_b[1]["ID"]])
+
+                # Compute the size difference
+                if id_frozenset in cache_js:
+                    js_divergence = cache_js[id_frozenset]
+                else:
+                    # Convert to frequency distribution and compute the Jensen-Shannon divergence
+                    counts_a = Counter(phonemes_a)
+                    counts_b = Counter(phonemes_b)
+                    all_phonemes = set(phonemes_a).union(set(phonemes_b))
+                    vec_a = np.array([counts_a[phoneme] for phoneme in all_phonemes])
+                    vec_b = np.array([counts_b[phoneme] for phoneme in all_phonemes])
+                    p_a = vec_a / np.sum(vec_a)
+                    p_b = vec_b / np.sum(vec_b)
+                    js_divergence = round(jensenshannon(p_a, p_b), 4)
+                    cache_js[id_frozenset] = js_divergence
+                aggregated_js.append(js_divergence)
+
+                # Compute the strict similarity
+                if id_frozenset in cache_strict:
+                    strict_sim = cache_strict[id_frozenset]
+                else:
+                    strict_sim = round(
+                        inventory_cache[row_a[1]["ID"]].strict_similarity(
+                            inventory_cache[row_b[1]["ID"]]
+                        ),
+                        4,
+                    )
+                    cache_strict[id_frozenset] = strict_sim
+                aggregated_strict.append(strict_sim)
+
+                # Compute the approximate similarity
+                if id_frozenset in cache_approx:
+                    approx_sim = cache_approx[id_frozenset]
+                else:
+                    approx_sim = round(
+                        inventory_cache[row_a[1]["ID"]].approximate_similarity(
+                            inventory_cache[row_b[1]["ID"]],
+                            # distance_cache=distance_cache,
+                        ),
+                        4,
+                    )
+                    cache_approx[id_frozenset] = approx_sim
+                aggregated_approx.append(approx_sim)
+
+                # Using the number of phonemes, compute the size difference
+                size_diff = len(phonemes_a) - len(phonemes_b)
+                aggregated_size_diff.append(size_diff)
+
+        # Compute the spearman correlation for the median inventory sizes
+        r_median, p_median = spearmanr(
+            aggregated_median_size_a, aggregated_median_size_b
+        )
+        r_median = format(r_median, ".4f")
+        p_median = format(p_median, ".8f")
+
+        result.append(
+            [
+                dataset_a,
+                dataset_b,
+                num_comparable_glottocodes,
+                num_comparable_inventories_a,
+                num_comparable_inventories_b,
+                mean_global_a,
+                mean_global_b,
+                format(mean_global_a - mean_global_b, ".4f"),
+                mean_comparable_a,
+                mean_comparable_b,
+                format(mean_comparable_a - mean_comparable_b, ".4f"),
+                format(mean_comparable_a / mean_global_a, ".4f"),
+                format(mean_comparable_b / mean_global_b, ".4f"),
+                comparable_jensenshannon,
+                comparable_strict,
+                comparable_approx,
+                r_median,
+                p_median,
+                r_counts,
+                p_counts,
+                format(np.mean(aggregated_js), ".4f"),
+                format(np.std(aggregated_js), ".4f"),
+                format(np.mean(aggregated_strict), ".4f"),
+                format(np.std(aggregated_strict), ".4f"),
+                format(np.mean(aggregated_approx), ".4f"),
+                format(np.std(aggregated_approx), ".4f"),
+                format(np.mean(aggregated_size_diff), ".4f"),
+                format(np.std(aggregated_size_diff), ".4f"),
+            ]
+        )
+
+    df = pd.DataFrame(
+        result,
+        columns=[
+            "Dataset_A",
+            "Dataset_B",
+            "Num_Comparable_Glottocodes",
+            "Num_Comparable_Inventories_A",
+            "Num_Comparable_Inventories_B",
+            "Mean_Global_A",
+            "Mean_Global_B",
+            "Mean_Global_Diff",
+            "Mean_Comparable_A",
+            "Mean_Comparable_B",
+            "Mean_Comparable_Diff",
+            "Mean_Comparable_A/Global_A",
+            "Mean_Comparable_B/Global_B",
+            "Comparable_JensenShannon",
+            "Comparable_Strict",
+            "Comparable_Approximate",
+            "Spearman_R_InvSize",
+            "Spearman_p_InvSize",
+            "Spearman_R_Counts",
+            "Spearman_p_Counts",
+            "Aggregated_JensenShannon_Mean",
+            "Aggregated_JensenShannon_SD",
+            "Aggregated_Strict_Mean",
+            "Aggregated_Strict_SD",
+            "Aggregated_Approx_Mean",
+            "Aggregated_Approx_SD",
+            "Aggregated_Size_Diff_Mean",
+            "Aggregated_Size_Diff_SD",
+        ],
+    )
+    return df
+
+
+def collect_phoneme_frequency(df):
+    # Filter out Macroarea "GLOBAL" from the entire dataset
+    df = df[df["Macroarea"] != "GLOBAL"]
+
+    # filter out "ALL" dataset for global statistics
+    df_all = df[df["Dataset"] != "ALL"]
+
+    phoneme_data = []
+    for dataset in df["Dataset"].unique():
+        print(dataset)
+        df_dataset = df[df["Dataset"] == dataset]
+        dataset_phoneme_counts = df_dataset["Phonemes_split"].explode().value_counts()
+
+        for phoneme in tqdm(dataset_phoneme_counts.index):
+            dataset_count = dataset_phoneme_counts[phoneme]
+            global_count = (
+                df_all["Phonemes_split"].explode().value_counts().get(phoneme, 0)
+            )
+
+            dataset_ratio = round(dataset_count / dataset_phoneme_counts.sum(), 4)
+            global_ratio = round(
+                global_count / df_all["Phonemes_split"].explode().value_counts().sum(),
+                4,
+            )
+
+            dataset_inv_ratio = round(
+                (df_dataset["Phonemes_split"].apply(lambda x: phoneme in x).mean()), 4
+            )
+            global_inv_ratio = round(
+                (df_all["Phonemes_split"].apply(lambda x: phoneme in x).mean()), 4
+            )
+
+            phoneme_dataset_ratio = round(
+                (
+                    df_all[df_all["Phonemes_split"].apply(lambda x: phoneme in x)][
+                        "Dataset"
+                    ].nunique()
+                    / df_all["Dataset"].nunique()
+                ),
+                4,
+            )
+
+            phoneme_data.append(
+                [
+                    phoneme,
+                    dataset,
+                    dataset_count,
+                    global_count,
+                    dataset_ratio,
+                    global_ratio,
+                    dataset_inv_ratio,
+                    global_inv_ratio,
+                    phoneme_dataset_ratio,
+                ]
+            )
+
+    result = pd.DataFrame(
+        phoneme_data,
+        columns=[
+            "Phoneme",
+            "Dataset",
+            "Dataset_Count",
+            "Global_Count",
+            "Dataset_Ratio",
+            "Global_Ratio",
+            "Dataset_InvRatio",
+            "Global_InvRatio",
+            "Phoneme_Dataset_Ratio",
+        ],
+    )
+
+    # Sort the DataFrame
+    result = result.sort_values(by=["Phoneme", "Dataset"]).reset_index(drop=True)
+
+    return result
+
+
+def main():
+    # Get data
+    data = get_data()
+
+    # Get summary statistics
+    summary_df = build_summary(data)
+    summary_df.to_csv("output/results.summary.tsv", sep="\t", index=False)
+
+    # Get frequency statistics
+    phoneme_stats_df = build_phoneme_stats(data)
+    phoneme_stats_df.to_csv("output/results.phoneme_stats.tsv", sep="\t", index=False)
+
+    # Make a copy of the data and get the "results_datasets" dataframe
+    data_copy = copy.deepcopy(data)
+    results_df = collect_results_datasets(data_copy)
+    results_df.to_csv("output/results.results_datasets.tsv", sep="\t", index=False)
+
+    # Make a copy of the data and get the "results_comparisons" dataframe
+    data_copy = copy.deepcopy(data)
+    comparisons_df = collect_results_comparisons(data_copy)
+    comparisons_df.to_csv(
+        "output/results.results_comparisons.tsv", sep="\t", index=False
+    )
+
+    # Make a copy of the data and get the "phoneme_frequency" dataframe
+    data_copy = copy.deepcopy(data)
+    phoneme_frequency_df = collect_phoneme_frequency(data_copy)
+    phoneme_frequency_df.to_csv(
+        "output/results.phoneme_frequency.tsv", sep="\t", index=False
+    )
+
+
+def table4():
+    # Read the tsv file
+    df = pd.read_csv("fulldata.tsv", sep="\t")
+
+    # Drop duplicates
+    df = df[["Glottocode", "Dataset"]].drop_duplicates()
+
+    # Create a pivot table
+    pivot_table = df.pivot_table(
+        index="Glottocode", columns="Dataset", aggfunc=len, fill_value=0
+    )
+
+    # Create a matrix with mutual coverage
+    absolute_matrix = pivot_table.T.dot(pivot_table)
+
+    # Calculate the relative matrix
+    relative_matrix = absolute_matrix.div(absolute_matrix.sum(axis=1), axis=0)
+    # Write both matrices to CSV files
+    absolute_matrix.to_csv("output/absolute_coverage.csv")
+    relative_matrix.to_csv("output/relative_coverage.csv")
+
+
+if __name__ == "__main__":
+    main()
+    table4()

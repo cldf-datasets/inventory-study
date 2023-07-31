@@ -1,8 +1,8 @@
-pycldf
-pyglottolog
-pyconcepticon
-pyclts
-cldfbench
-scipy
-matplotlib
 cartopy
+cldfbench
+matplotlib
+pycldf
+pyclts
+pyconcepticon
+pyglottolog
+scipy

@@ -191,7 +191,7 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
 
         if len(vals) == len(
             [v for v in vals if dset_td.grapheme_map.get(v, "<NA>") != "<NA>"]
-        ): # all sounds in the inventory are in CLTS
+        ):  # all sounds in the inventory are in CLTS
             lang = Language(
                 var,
                 gcode["Name"],
@@ -235,7 +235,7 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
             else:
                 missing_gcodes += 1
 
-        else: # exclude
+        else:  # exclude
             for sound in vals:
                 if (
                     sound not in dset_td.grapheme_map
@@ -269,7 +269,6 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
     print("all sounds: {0}".format(len(all_sounds)))
     print("mapped sounds: {0}".format(len(mapped_sounds)))
     print("CLTS sounds: {0}".format(len(set(clts_sounds))))
-
 
     print("Problematic sounds: {0}".format(len(soundsD)))
     for s, count in sorted(soundsD.items(), key=lambda x: x[1]):
@@ -367,4 +366,3 @@ for ds in [
 
 with open("app/data.js", "w") as f:
     f.write("var DATA = " + json.dumps(dump, indent=2) + ";\n")
-
