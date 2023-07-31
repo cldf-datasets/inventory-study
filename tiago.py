@@ -716,6 +716,25 @@ def main():
     phoneme_frequency_df = collect_phoneme_frequency(data_copy)
     phoneme_frequency_df.to_csv("tiago.phoneme_frequency.tsv", sep="\t", index=False)
 
+def table4():
+    # Read the tsv file
+    df = pd.read_csv("fulldata.tsv", sep='\t')
+
+    # Drop duplicates
+    df = df[['Glottocode', 'Dataset']].drop_duplicates()
+
+    # Create a pivot table
+    pivot_table = df.pivot_table(index='Glottocode', columns='Dataset', aggfunc=len, fill_value=0)
+
+    # Create a matrix with mutual coverage
+    absolute_matrix = pivot_table.T.dot(pivot_table)
+
+    # Calculate the relative matrix
+    relative_matrix = absolute_matrix.div(absolute_matrix.sum(axis=1), axis=0)
+    # Write both matrices to CSV files
+    absolute_matrix.to_csv("absolute_coverage.csv")
+    relative_matrix.to_csv("relative_coverage.csv")
 
 if __name__ == "__main__":
     main()
+    table4()

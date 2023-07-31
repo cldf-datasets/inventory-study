@@ -179,8 +179,10 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
     soundsD = defaultdict(int)
     exc_file = open("output/excluded.md", "a")
     exc_file.write("## Dataset {0}\n\n".format(dataset))
+    all_sounds = set()
     for var, vals in progressbar(varieties.items(), desc="identify inventories"):
         for sound in vals:
+            all_sounds.add(sound)
             if sound not in dset_td.grapheme_map:
                 bsound = bipa[sound]
                 if bsound.type != "unknownsound" and is_valid_sound(bsound, bipa):
@@ -254,8 +256,21 @@ def load_dataset(dataset, td=None, clts=None, dump=defaultdict(list)):
             count += 1
     exc_file.write("\n\n")
     exc_file.close()
+
+    mapped_sounds = [dset_td.grapheme_map.get(sound, "<NA>") for sound in all_sounds]
+    mapped_sounds = [sound for sound in mapped_sounds if sound != "<NA>"]
+
+    clts_sounds = []
+    for inv_name, inv in inventories.items():
+        clts_sounds += list(inv.sounds.keys())
+
     print("[i] excluded {0} inventories for {1}".format(count, dataset))
     print("missing gcodes: {0}".format(missing_gcodes))
+    print("all sounds: {0}".format(len(all_sounds)))
+    print("mapped sounds: {0}".format(len(mapped_sounds)))
+    print("CLTS sounds: {0}".format(len(set(clts_sounds))))
+
+
     print("Problematic sounds: {0}".format(len(soundsD)))
     for s, count in sorted(soundsD.items(), key=lambda x: x[1]):
         print("{0:8} \t| {1}".format(s, count))
@@ -353,10 +368,3 @@ for ds in [
 with open("app/data.js", "w") as f:
     f.write("var DATA = " + json.dumps(dump, indent=2) + ";\n")
 
-#####
-
-# Prepare the full data for Tiago's output, reading directly from the current output
-
-BASE_PATH = Path(__file__).parent
-sources = {filename.stem.split("-")[0]: filename for filename in BASE_PATH.glob("*-data.tsv")}
-print(sources)
