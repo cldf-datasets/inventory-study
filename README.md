@@ -2,7 +2,7 @@
 
 ## Installation Requirements
 
-We assume that you use a freshly created virtual environment in Python (version 3.5 or higher).
+We assume that you use a freshly created virtual environment in Python (version 3.8 or higher).
 
 ```bash
 python3 -m venv venv
@@ -16,6 +16,10 @@ pip install -U pip setuptools wheel
 pip install -r requirements.txt
 cldfbench catconfig -q
 ```
+
+See `pinned-requirements.txt` for a full list of required packages with specific
+versions that is known to work for Python 3.10.
+
 
 ### CLDF Datasets
 

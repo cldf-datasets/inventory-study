@@ -6,3 +6,4 @@ pyclts
 pyconcepticon
 pyglottolog
 scipy
+pandas
